@@ -1,3 +1,3 @@
-# yarfullstack.github.io
+# YarFullStack.GitHub.io
 
-Yaroslavl FullStack Meetup
+YarFullStack Site
