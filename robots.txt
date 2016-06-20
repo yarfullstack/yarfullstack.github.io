@@ -1,2 +1,2 @@
 User-agent: *
-Sitemap: http://yarfullstack.com//sitemap.xml
+Sitemap: https://yarfullstack.com//sitemap.xml
