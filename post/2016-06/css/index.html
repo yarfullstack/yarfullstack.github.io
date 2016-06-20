@@ -4,9 +4,9 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-	      content="Интересное для разработчиков. Из Ярославля. И не только.">
+	      content="">
 
-	<title>Общее</title>
+	<title>Подборка интересного о CSS</title>
 
 	
 	<script>
@@ -131,16 +131,12 @@
 
 	<div id="mb-content">
 
-	<h1>Общее</h1>
+	<h1>Подборка интересного о CSS</h1>
 	
-	<article>
-	<header>
-		<h2><a href="http://yarfullstack.com/post/about/">О проекте YarFullStack</a></h2>
-
-		<div>
+	<div>
     <small>
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time>15.06.2016, 20:13
+        <time>20.06.2016, 22:28
         </time>
     </small>
 
@@ -152,7 +148,7 @@
     <small>
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
         
-        <a href="http://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5">Общее</a>
+        <a href="http://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
         
     </small>
     
@@ -164,39 +160,56 @@
     <div class="mb-small">
         <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
 	    
-        <a href="http://yarfullstack.com/tags/yarfullstack">YarFullStack</a>
+        <a href="http://yarfullstack.com/tags/css">CSS</a>
         
     </div>
     
     
 </div>
+	
 
-	</header>
+<p>Сегодня немного интересностей про CSS. В фокусе &laquo;!important&raquo;, &laquo;PostCSS&raquo; и &laquo;UnCss&raquo;.</p>
 
-	<p>
-		<p>Проект YarFullStack прежде всего, про технологии, связанные с разработкой программного обеспечения.
-Темы могут быть совершенно разными &mdash; UX, CSS, JavaScript, Go, C#, SQL…</p>
+<h3 id="так-ли-страшен-important-как-его-малюют">Так ли страшен important, как его малюют?</h3>
 
-<h3 id="кто-эти-люди">Кто эти люди?</h3>
+<p><a href='http://csswizardry.com/2016/05/the-importance-of-important/' rel="nofollow" target="_blank">The Importance of !important: Forcing Immutability in CSS</a>.</p>
 
-<p>Пока наполнением сайта занимаюсь я &mdash; <a href='https://twitter.com/OlegAxenow' rel="nofollow" target="_blank">@OlegAxenow</a>.
-Возможно, кто-то знает меня по сайту (уже почившему) gotdotnet.ru.
-Возможно, кто-то читал <a href='http://www.olegaxenow.com/' rel="nofollow" target="_blank">мой блог</a>, судьбу которого я ещё не решил :)</p>
+<p>Если вкратце &mdash; не так бесполезен и вреден !important, как его малюют. Есть вполне жизненные и правильные варианты использования &mdash;
+например, для утилитных классов с &laquo;text-align: center;&laquo;.
+Похоже, это теперь такая же &laquo;потому что так нельзя&raquo; страшилка среди верстальщиков, как GOTO среди программистов :)</p>
 
-<h3 id="для-чего-всё-это">Для чего всё это?</h3>
+<h3 id="рекомендуемые-инструменты-для-css">Рекомендуемые инструменты для CSS</h3>
 
-	</p>
+<h4 id="postcss">PostCSS</h4>
+
+<p>Мой любимый процессор CSS. Важно: пусть вас не путает название, это не пост-процессор :)
+Подробнее об этом есть неплохая статья
+<a href='https://www.sitepoint.com/postcss-mythbusting/' rel="nofollow" target="_blank">PostCSS Mythbusting: Four PostCSS Myths Busted</a>
+(перевод: <a href='https://habrahabr.ru/post/280988/' rel="nofollow" target="_blank">4 мифа о PostCSS</a>).</p>
+
+<p>Думаю, что позже поделюсь подробными впечатлениями об его использовании, пока скажу что весьма понравилась идея
+использовать следующую версию CSS прямо сейчас с помощью <a href='http://cssnext.io/' rel="nofollow" target="_blank">postcss-cssnext</a>.</p>
+
+<h4 id="uncss">UnCSS</h4>
+
+<p><a href='https://github.com/giakki/uncss' rel="nofollow" target="_blank">UnCSS</a> &mdash; утилита для уничтожения неиспользуемого CSS.</p>
+
+<p>Использует <a href='https://github.com/Obvious/phantomjs' rel="nofollow" target="_blank">PhantomJS</a> для рендеринга и выполнения JavaScript,
+ищет используемые классы и удаляет неиспользуемые. Можно прицепить к Node.js, использовать командую строку или плагин к PostCSS.</p>
 
 	
-	<footer>
-		<a href="/post/about/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
+	<div class="mb-content-nav">
 	
-</article>
+	<a href="http://yarfullstack.com/post/about/">
+		<svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+		<use xlink:href="#chevron-left-icon"></use>
+	</svg></a>
+	<nav class="mb-prev-next">
+		<a href="http://yarfullstack.com/post/about/">О проекте YarFullStack</a>
+	</nav>&nbsp;
+	
+	</div>
 
-	
 
 	
 	<a href="https://twitter.com/YarFS" class="mb-fl" target="_blank">
@@ -220,6 +233,25 @@
 </a>
 <div><small class="mb-copyright">© 2016 OlegAxenow. <a href="http://creativecommons.org/licenses/by-sa/4.0/" target="_blank">Some rights reserved</a>.</small></div>
 
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		if (window.location.hostname == "localhost") {
+			return;
+		}
+
+		var dsq = document.createElement('script');
+		dsq.type = 'text/javascript';
+		dsq.async = true;
+		var disqus_shortname = 'yarfullstackcom';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
+
 </div> 
 </div> 
 
@@ -230,3 +262,4 @@
 
 </body>
 </html>
+

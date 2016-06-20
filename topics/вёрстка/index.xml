@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on YarFullStack</title>
-    <link>http://yarfullstack.com/post/</link>
-    <description>Recent content in Posts on YarFullStack</description>
+    <title>Вёрстка on YarFullStack</title>
+    <link>http://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0/</link>
+    <description>Recent content in Вёрстка on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; target=&#34;_blank&#34;&gt;Some rights reserved&lt;/a&gt;.</copyright>
     <lastBuildDate>Mon, 20 Jun 2016 22:28:06 +0300</lastBuildDate>
-    <atom:link href="http://yarfullstack.com/post/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Подборка интересного о CSS</title>
@@ -46,30 +46,6 @@
 
 &lt;p&gt;Использует &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; для рендеринга и выполнения JavaScript,
 ищет используемые классы и удаляет неиспользуемые. Можно прицепить к Node.js, использовать командую строку или плагин к PostCSS.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>О проекте YarFullStack</title>
-      <link>http://yarfullstack.com/post/about/</link>
-      <pubDate>Wed, 15 Jun 2016 20:13:07 +0300</pubDate>
-      
-      <guid>http://yarfullstack.com/post/about/</guid>
-      <description>
-
-&lt;p&gt;Проект YarFullStack прежде всего, про технологии, связанные с разработкой программного обеспечения.
-Темы могут быть совершенно разными &amp;mdash; UX, CSS, JavaScript, Go, C#, SQL…&lt;/p&gt;
-
-&lt;h3 id=&#34;кто-эти-люди&#34;&gt;Кто эти люди?&lt;/h3&gt;
-
-&lt;p&gt;Пока наполнением сайта занимаюсь я &amp;mdash; &lt;a href=&#39;https://twitter.com/OlegAxenow&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;@OlegAxenow&lt;/a&gt;.
-Возможно, кто-то знает меня по сайту (уже почившему) gotdotnet.ru.
-Возможно, кто-то читал &lt;a href=&#39;http://www.olegaxenow.com/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;мой блог&lt;/a&gt;, судьбу которого я ещё не решил :)&lt;/p&gt;
-
-&lt;h3 id=&#34;для-чего-всё-это&#34;&gt;Для чего всё это?&lt;/h3&gt;
-
-&lt;p&gt;Я довольно давно делаю &amp;laquo;Пятничную технологическую подборку&amp;raquo; для разработчиков компании.
-Подумалось, что в формате сайта это будет удобнее и, заодно, может быть полезно кому-то ещё.&lt;/p&gt;
 </description>
     </item>
     
