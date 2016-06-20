@@ -24,8 +24,8 @@
 
 &lt;p&gt;&lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Если вкратце &amp;mdash; не так бесполезен и вреден !important, как его малюют. Есть вполне жизненные и правильные варианты использования &amp;mdash;
-например, для утилитных классов с &amp;laquo;text-align: center;&amp;laquo;.
+&lt;p&gt;Если вкратце &amp;mdash; не так уж бесполезен и вреден !important. Есть вполне жизненные и правильные варианты использования &amp;mdash;
+например, для утилитных классов с &amp;laquo;text-align: center&amp;raquo;.
 Похоже, это теперь такая же &amp;laquo;потому что так нельзя&amp;raquo; страшилка среди верстальщиков, как GOTO среди программистов :)&lt;/p&gt;
 
 &lt;h3 id=&#34;рекомендуемые-инструменты-для-css&#34;&gt;Рекомендуемые инструменты для CSS&lt;/h3&gt;
@@ -37,7 +37,7 @@
 &lt;a href=&#39;https://www.sitepoint.com/postcss-mythbusting/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;PostCSS Mythbusting: Four PostCSS Myths Busted&lt;/a&gt;
 (перевод: &lt;a href=&#39;https://habrahabr.ru/post/280988/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;4 мифа о PostCSS&lt;/a&gt;).&lt;/p&gt;
 
-&lt;p&gt;Думаю, что позже поделюсь подробными впечатлениями об его использовании, пока скажу что весьма понравилась идея
+&lt;p&gt;Думаю, что позже поделюсь подробными впечатлениями об его использовании. Пока скажу, что весьма понравилась идея
 использовать следующую версию CSS прямо сейчас с помощью &lt;a href=&#39;http://cssnext.io/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;postcss-cssnext&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;uncss&#34;&gt;UnCSS&lt;/h4&gt;
