@@ -22,7 +22,7 @@
 
 &lt;h3 id=&#34;так-ли-страшен-important-как-его-малюют&#34;&gt;Так ли страшен important, как его малюют?&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Прочитал на днях статью &lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Если вкратце &amp;mdash; не так уж бесполезен и вреден !important. Есть вполне жизненные и правильные варианты использования &amp;mdash;
 например, для утилитных классов с &amp;laquo;text-align: center&amp;raquo;.
