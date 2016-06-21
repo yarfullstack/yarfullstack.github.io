@@ -42,10 +42,9 @@
 
 &lt;h4 id=&#34;uncss&#34;&gt;UnCSS&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.&lt;/p&gt;
-
-&lt;p&gt;Использует &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; для рендеринга и выполнения JavaScript,
-ищет используемые классы и удаляет неиспользуемые. Можно прицепить к Node.js, использовать командую строку или плагин к PostCSS.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.
+С помощью &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; рендерит страницы и выполняет JavaScript,
+ищет используемые классы и удаляет остальные. Можно прицепить к Node.js, вызывать из командной строки или добавить плагин к PostCSS.&lt;/p&gt;
 </description>
     </item>
     
