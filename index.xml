@@ -67,7 +67,7 @@ Console.WriteLine(&#34;B&#34;);
       <guid>https://yarfullstack.com/post/2016-06/css/</guid>
       <description>
 
-&lt;p&gt;Сегодня немного интересностей про CSS. В фокусе &amp;laquo;!important&amp;raquo;, &amp;laquo;PostCSS&amp;raquo; и &amp;laquo;UnCss&amp;raquo;.&lt;/p&gt;
+&lt;p&gt;Сегодня немного интересностей про CSS. В фокусе !important, PostCSS и UnCss.&lt;/p&gt;
 
 &lt;h3 id=&#34;так-ли-страшен-important-как-его-малюют&#34;&gt;Так ли страшен important, как его малюют?&lt;/h3&gt;
 
