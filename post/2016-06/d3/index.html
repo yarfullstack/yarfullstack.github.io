@@ -4,9 +4,9 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-	      content="Интересное для разработчиков. Из Ярославля. И не только.">
+	      content="">
 
-	<title>dotNET</title>
+	<title>Новости, связанные с D3</title>
 
 	
 	<style>
@@ -140,17 +140,12 @@
 
 	<div id="mb-content">
 
-	<h1><svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-		dotNET</h1>
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-06/dotNET/">Новости из мира .NET</a></h2>
+<h1>Новости, связанные с D3</h1>
 
-		<p>
+<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-06-24 12:31&#43;03:00'>24.06.2016, 12:31</time>
+        <time datetime='2016-06-30 14:28&#43;03:00'>30.06.2016, 14:28</time>
     </small>
     
     
@@ -159,7 +154,7 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/topics/dotnet">dotNET</a>
+            <a href="https://yarfullstack.com/topics/%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F">Визуализация</a>
             
         </small>
         
@@ -170,36 +165,109 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/csharp">CSharp</a>
+            <a href="https://yarfullstack.com/tags/d3">D3</a>
             
         </small>
         
     
 </p>
 
-	</header>
 
-	<p>Сегодня в фокусе:</p>
+<p>Сегодня расскажу немного о <a href='https://d3js.org/' rel="nofollow" target="_blank">D3</a>.
+Для тех, кто впервые слышит это странное слово &mdash; речь про библиотеку для визуализации в браузере.
+Строго говоря, это больше чем библиотека для визуализации &mdash; с помощью D3 можно манипулировать DOM (можно сказать, что в ней есть подмножество функциональности jQuery).
+Однако, в основном, её используют именно для визуализации.</p>
+
+<p>Итак, сегодня:</p>
 
 <ul>
-<li>Основные анонсы dotnetConf 2016;</li>
-<li>Статья с хорошим примером и описанием подхода к оптимизации производительности от Джона Скита;</li>
-<li>Немного про тёмную сторону async/await :)</li>
+<li>Немного про NVD3;</li>
+<li>Кратко об изменениях в четвёртой версии D3;</li>
+<li>Интересная библиотека MetricsGraphics.js</li>
 </ul>
 
+<h3 id="немного-про-nvd3">Немного про NVD3</h3>
 
-	
-	<footer>
-		<a href="/post/2016-06/dotNET/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
+<p>D3, безусловно, это мощная штука. Однако, если использовать её для построения простых графиков &mdash; это как купить кирпичный мини-завод, чтобы построить одну дачу.
+Поэтому, на основе D3 есть множество библиотек для графиков, самая известная из которых &mdash; <a href='http://nvd3.org/' rel="nofollow" target="_blank">NVD3</a>.</p>
 
+<p>По большому счёту, чтобы понять её возможности проще перейти на сайт. На главной странице есть интересные примеры, обратите внимание, что они интерактивные.
+От себя добавлю, что использовали её в одном большом проекте, понравилось. Есть мелкие глюки. Но их, так или иначе, можно обойти или исправить.
+К сожалению, NVD3 <a href='https://github.com/novus/nvd3/issues/1681' rel="nofollow" target="_blank">пока не поддерживает D3 4.0</a> (о которой ниже).</p>
+
+<h3 id="кратко-об-изменениях-в-четвёртой-версии-d3">Кратко об изменениях в четвёртой версии D3</h3>
+
+<p>Не так давно вышла <a href='https://github.com/d3/d3/blob/master/CHANGES.md' rel="nofollow" target="_blank">четвёртая версия D3</a>.
+Это реальная такая мажорная версия (не то что этот ваш Chrome :). Улучшены некоторые алгоритмы, добавлены новые, библиотека стала более гранулированной, местами улучшено API.
+Всё это реально круто, жаль только библиотеки, работающие на её основе, не смогут перейти на новую версию мгновенно&hellip;</p>
+
+<h3 id="интересная-библиотека-metricsgraphics-js">Интересная библиотека MetricsGraphics.js</h3>
+
+<p>Признаюсь сразу, сам <a href='http://metricsgraphicsjs.org/' rel="nofollow" target="_blank">MetricsGraphics.js</a> пока не пробовал. Думаю что для интерактивных графиков,
+у которых ось X &mdash; всегда время, выглядит удобно. Посмотрите сами <a href='http://metricsgraphicsjs.org/examples.htm' rel="nofollow" target="_blank">на примеры</a>, мне понравился Linked Graphic.</p>
+
+<p>Если кто-то попробует в реальном проекте &mdash; отпишитесь, буду благодарен.</p>
+
+<p>
+    <small class="u-m-right">
+        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
+        <time datetime='2016-06-30 14:28&#43;03:00'>30.06.2016, 14:28</time>
+    </small>
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/topics/%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F">Визуализация</a>
+            
+        </small>
+        
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/tags/d3">D3</a>
+            
+        </small>
+        
+    
+</p>
+
+	<div class="mb-content-nav">
 	
+	<nav class="mb-prev-next">
+		<a href="https://yarfullstack.com/post/2016-06/dotNET/"><svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+			<use xlink:href="#chevron-left-icon"></use>
+		</svg>&nbsp;Новости из мира .NET
+		</a>
+	</nav>&nbsp;
+	
+	</div>
+
+<script src="/js/microlight.min.js"></script>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		if (window.location.hostname == "localhost") {
+			return;
+		}
+
+		var dsq = document.createElement('script');
+		dsq.type = 'text/javascript';
+		dsq.async = true;
+		var disqus_shortname = 'yarfullstackcom';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 </div> 
 </div> 
 
