@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Производительность on YarFullStack</title>
+    <link>https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
+    <description>Recent content in Производительность on YarFullStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 01 Jul 2016 13:18:17 +0300</lastBuildDate>
+    <atom:link href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Инструменты оптимизация сайтов (в основном, скорости загрузки)</title>
+      <link>https://yarfullstack.com/post/2016-07/SiteOptimizationTools/</link>
+      <pubDate>Fri, 01 Jul 2016 13:18:17 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-07/SiteOptimizationTools/</guid>
+      <description>
+
+&lt;p&gt;Сегодня поделюсь набором инструментов для оптимизации сайтов. Это больше про скорость, чем про SEO, хотя и для SEO там тоже есть много полезного.
+К счастью, поисковики начали учитывать заодно и скорость загрузки сайтов при индексации.&lt;/p&gt;
+
+&lt;p&gt;Да, вероятно я перфекционист, однако я не могу спокойно смотреть на мегабайтные картинки и сайты, загружающиеся дольше секунды при нормальном соединении.
+Правда, этот сайт я пока не оптимизировал на все 100%, но в этом случае я рисковал начать писать сюда в следующем году :)&lt;/p&gt;
+
+&lt;h3 id=&#34;varvy-seo-tool&#34;&gt;Varvy SEO tool&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://varvy.com/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Varvy SEO tool&lt;/a&gt; &amp;mdash; лучший, на мой взгляд, бесплатный многофункциональный сервис проверки сайтов.
+Крайне рекомендую. В отличие от других сервисов, он и на валидность HTML посмотрит, и Accessibility проверит&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;pingdom-website-speed-test&#34;&gt;Pingdom Website Speed Test&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://tools.pingdom.com/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Pingdom Website Speed Test&lt;/a&gt; &amp;mdash; ориентирован на проверку скорости и типовых проблем.
+Попроще, чем Varvy, чуть посложнее, чем PageSpeed.&lt;/p&gt;
+
+&lt;h3 id=&#34;pagespeed&#34;&gt;PageSpeed&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://developers.google.com/speed/pagespeed/?hl=ru&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;PageSpeed&lt;/a&gt; &amp;mdash; инструмент от Google, тоже ориентирован на проверку скорости и типовых проблем.
+Иногда рассказывает меньше, чем Pingdom. Есть модуль для Nginx и Apache, который обеспечивает выполнение многих рекомендаций в автоматическом режиме.
+Также есть плагины для Chrome, правда, не вижу я в них особой пользы.&lt;/p&gt;
+
+&lt;h3 id=&#34;testmysite-thinkwithgoogle-com&#34;&gt;TestMySite (thinkwithgoogle.com)&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://testmysite.thinkwithgoogle.com/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;TestMySite&lt;/a&gt; &amp;mdash; ещё один инструмент от Google,
+я бы сказал, что это максимально простой и красиво оформленный фасад для PageSpeed.&lt;/p&gt;
+
+&lt;h3 id=&#34;webpagetest&#34;&gt;WebPageTest&lt;/h3&gt;
+
+&lt;p&gt;И последний, но отнюдь не по полезности &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;WebPageTest&lt;/a&gt;.
+Этот замечательный инструмент позволяет проверить загрузку сайта в разных условиях:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Несколько десятков вариантов расположение клиента;&lt;/li&gt;
+&lt;li&gt;Десяток вариантов выбора качества internet-соединения;&lt;/li&gt;
+&lt;li&gt;И ещё с десяток разных настроек, но лучше я не буду про них рассказывать, чтобы у вас был стимул посмотреть на этот сервис самим.&lt;br /&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;На выходе получаем подробный отчёт с логом и аналогом результатов вкладки Network в Chrome. Плюс к этому, он ещё и записывает видео, на котором видно, как открывается сайт.
+В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
