@@ -7,8 +7,64 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 20 Jun 2016 22:28:06 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 08 Jul 2016 00:27:37 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Рекомендации по дизайну и про Bootstrap 4</title>
+      <link>https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/</link>
+      <pubDate>Fri, 08 Jul 2016 00:27:37 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/</guid>
+      <description>
+
+&lt;p&gt;Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Рекомендации по дизайну хороших и удобных форм;&lt;/li&gt;
+&lt;li&gt;Визуальные отличия грядущего Bootstrap 4 от Bootstrap 3;&lt;/li&gt;
+&lt;li&gt;Интересное исследование впечатлений пользователей мобильных устройств о сайтах.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;рекомендации-по-дизайну-хороших-и-удобных-форм&#34;&gt;Рекомендации по дизайну хороших и удобных форм&lt;/h3&gt;
+
+&lt;p&gt;В статье &lt;a href=&#39;https://uxdesign.cc/design-better-forms-96fadca0f49c&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Design Better Forms (Common mistakes designers make and how to fix them)&lt;/a&gt;,
+Эндрю Коул на наглядных примерах рассказывает, как надо делать и как не надо делать формы.
+Статью прочитал. Соглашаюсь с автором по всем пунктам (строго говоря, по поводу одного пункта могут быть нестандартные ситуации…).
+Ранее читал похожую статью &lt;a href=&#39;http://mono.company/journal/design-practice/the-10-commandments-of-good-form-design-on-the-web/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;The 10 Commandments of Good Form Design on the Web&lt;/a&gt;,
+но эта мне понравилась значительно больше.&lt;/p&gt;
+
+&lt;h3 id=&#34;визуальные-отличия-грядущего-bootstrap-4-от-bootstrap-3&#34;&gt;Визуальные отличия грядущего Bootstrap 4 от Bootstrap 3&lt;/h3&gt;
+
+&lt;p&gt;Для тех, кто очень далёк от web-разработки &amp;mdash; речь про этот &lt;a href=&#39;http://getbootstrap.com/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Bootstrap&lt;/a&gt;.
+Вероятно вы в курсе, что сейчас четвёртая версия пока только в альфе. Но поинтересоваться какие будут изменения можно и сейчас.
+А Кэрол Скелли поможет достаточно просто увидеть это в статье &lt;a href=&#39;https://medium.com/wdstack/bootstrap-4-whats-new-visual-guide-c84dd81d8387&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Bootstrap 4: A Visual Guide to What’s New&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;интересное-исследование-впечатлений-пользователей-мобильных-устройств-о-сайтах&#34;&gt;Интересное исследование впечатлений пользователей мобильных устройств о сайтах&lt;/h3&gt;
+
+&lt;p&gt;По заголовку статьи &lt;a href=&#39;http://blog.marginmedia.com.au/Our-Blog/bid/87385/10-Mobile-Web-Design-Statistics-All-Marketers-Should-Know-About&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;10 Mobile Web Design Statistics All Marketers Should Know About&lt;/a&gt;
+может показаться, что она для маркетологов. Но нет. Точнее не только для них. Статья древняя &amp;mdash; 2012 года.
+Однако сомневаюсь, что ситуация изменилась в сторону толерантности пользователей к косякам на сайтах :)&lt;/p&gt;
+
+&lt;p&gt;Как обычно, сложно гарантировать достоверность подобных исследований, хотя первая часть статьи пересказывает другими словами исследование Google.&lt;/p&gt;
+
+&lt;p&gt;Приведу примеры фактов, которые должны заставлять задуматься и дизайнеров и разработчиков:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;67% пользователей заявляют, что с большей готовностью купили бы что-то на сайте, который оптимизирован для мобильных устройств;&lt;/li&gt;
+&lt;li&gt;48% пользователей считают, что если сайт не слишком удобен на мобильных, значит данному бизнесу на это пофиг.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;И некоторые ожидания от мобильных версий сайтов:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Местоположение и рабочие часы;&lt;/li&gt;
+&lt;li&gt;Найти всё что нужно за пару кликов;&lt;/li&gt;
+&lt;li&gt;Кнопки побольше;&lt;/li&gt;
+&lt;li&gt;Отсутствие горизонтального скроллинга.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Подборка интересного о CSS</title>

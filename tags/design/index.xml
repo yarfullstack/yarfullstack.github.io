@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CSS on YarFullStack</title>
-    <link>https://yarfullstack.com/tags/css/</link>
-    <description>Recent content in CSS on YarFullStack</description>
+    <title>Design on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/design/</link>
+    <description>Recent content in Design on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 08 Jul 2016 00:27:37 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yarfullstack.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Рекомендации по дизайну и про Bootstrap 4</title>
@@ -63,44 +63,6 @@
 &lt;li&gt;Кнопки побольше;&lt;/li&gt;
 &lt;li&gt;Отсутствие горизонтального скроллинга.&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Подборка интересного о CSS</title>
-      <link>https://yarfullstack.com/post/2016-06/css/</link>
-      <pubDate>Mon, 20 Jun 2016 22:28:06 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-06/css/</guid>
-      <description>
-
-&lt;p&gt;Сегодня немного интересностей про CSS. В фокусе !important, PostCSS и UnCss.&lt;/p&gt;
-
-&lt;h3 id=&#34;так-ли-страшен-important-как-его-малюют&#34;&gt;Так ли страшен important, как его малюют?&lt;/h3&gt;
-
-&lt;p&gt;Прочитал на днях статью &lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.
-Если вкратце &amp;mdash; не так уж бесполезен и вреден !important.&lt;/p&gt;
-
-&lt;p&gt;Есть вполне жизненные и правильные варианты использования &amp;mdash; например, для утилитных классов с &amp;laquo;text-align: center&amp;raquo;.
-Похоже, это теперь такая же &amp;laquo;потому что так нельзя&amp;raquo; страшилка среди верстальщиков, как GOTO среди программистов :)&lt;/p&gt;
-
-&lt;h3 id=&#34;рекомендуемые-инструменты-для-css&#34;&gt;Рекомендуемые инструменты для CSS&lt;/h3&gt;
-
-&lt;h4 id=&#34;postcss&#34;&gt;PostCSS&lt;/h4&gt;
-
-&lt;p&gt;Мой любимый процессор CSS. Важно: пусть вас не путает название, это не пост-процессор :)
-Подробнее об этом есть неплохая статья
-&lt;a href=&#39;https://www.sitepoint.com/postcss-mythbusting/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;PostCSS Mythbusting: Four PostCSS Myths Busted&lt;/a&gt;
-(перевод: &lt;a href=&#39;https://habrahabr.ru/post/280988/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;4 мифа о PostCSS&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Думаю, что позже поделюсь подробными впечатлениями об его использовании. Пока скажу, что весьма понравилась идея
-использовать следующую версию CSS прямо сейчас с помощью &lt;a href=&#39;http://cssnext.io/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;postcss-cssnext&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;uncss&#34;&gt;UnCSS&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.
-С помощью &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; рендерит страницы и выполняет JavaScript,
-ищет используемые классы и удаляет остальные. Можно прицепить к Node.js, вызывать из командной строки или добавить плагин к PostCSS.&lt;/p&gt;
 </description>
     </item>
     
