@@ -7,8 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 13 Jul 2016 08:46:18 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 15 Jul 2016 15:24:57 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Подробности про UnCSS</title>
+      <link>https://yarfullstack.com/post/2016-07/uncss/</link>
+      <pubDate>Fri, 15 Jul 2016 15:24:57 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-07/uncss/</guid>
+      <description>
+
+&lt;p&gt;Ранее я уже &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;немного упоминал UnCSS&lt;/a&gt;, а сегодня расскажу о нем подробнее.
+Напомню, он, с помощью PhantomJS, рендерит страницы и выполняет JavaScript, ищет используемые классы и удаляет остальные.&lt;/p&gt;
+
+&lt;p&gt;Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
+Также можно использовать его API из Node.js или вызывать из командной строки.
+Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;важные-замечания&#34;&gt;Важные замечания&lt;/h3&gt;
+
+&lt;p&gt;Что нужно иметь в виду, при использовании UnCSS.&lt;/p&gt;
+
+&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;laquo;динамические&amp;raquo; стили могут быть незаслуженно выпилены.
+После того, как вы это обнаружите, решить проблему можно с помощью опции ignore или простым комментарием перед селектором:
+&lt;div class=&#34;microlight&#34;&gt;/* uncss:ignore */
+.js .input-file {
+...
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Во-вторых, что следует из первого пункта &amp;mdash; доверяйте, но проверяйте &amp;mdash; стоит периодически проверять что необходимые стили на месте.
+В зависимости от масштаба проекта это можно делать либо визуально, либо с помощью автоматических тестов.&lt;/p&gt;
+
+&lt;h3 id=&#34;опыт-использования&#34;&gt;Опыт использования&lt;/h3&gt;
+
+&lt;p&gt;Пока могу сказать, что опыт использования небольшой, но положительный. Поскольку я использую его вместе с PostCSS, всё просто.
+Сначала ставится плагин &amp;lt;{{ link title=&amp;laquo;postcss-uncss&amp;raquo; href=&amp;laquo;&lt;a href=&#34;https://www.npmjs.com/package/postcss-uncss&amp;quot;}}&amp;gt;:&#34;&gt;https://www.npmjs.com/package/postcss-uncss&amp;quot;}}&amp;gt;:&lt;/a&gt;
+&lt;div class=&#34;microlight&#34;&gt;npm install postcss-uncss uncss
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Затем в набор плагинов для PostCSS прописывается этот (указан один файл для примера, в принципе можно задавать несколько файлов, маски файлов тоже допустимы):&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;require(&#39;postcss-uncss&#39;)({
+	html: [ &#39;index.html&#39; ]
+}
+&lt;/div&gt;
+
+&lt;p&gt;Если требуется, задаются исключения (в строчке выше или комментариями, как в предыдущем разделе. Вот, собственно, и всё.
+В результате, CSS избавляется от неиспользуемых стилей, а пользователи наслаждаются чуть более быстрой загрузкой страниц :)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Обновление Microsoft Visual Studio (KB3165756)</title>
