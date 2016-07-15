@@ -42,7 +42,7 @@
 &lt;h3 id=&#34;опыт-использования&#34;&gt;Опыт использования&lt;/h3&gt;
 
 &lt;p&gt;Пока могу сказать, что опыт использования небольшой, но положительный. Поскольку я использую его вместе с PostCSS, всё просто.
-Сначала ставится плагин &amp;lt;{{ link title=&amp;laquo;postcss-uncss&amp;raquo; href=&amp;laquo;&lt;a href=&#34;https://www.npmjs.com/package/postcss-uncss&amp;quot;}}&amp;gt;:&#34;&gt;https://www.npmjs.com/package/postcss-uncss&amp;quot;}}&amp;gt;:&lt;/a&gt;
+Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
 &lt;div class=&#34;microlight&#34;&gt;npm install postcss-uncss uncss
 &lt;/div&gt;&lt;/p&gt;
 
