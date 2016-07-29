@@ -7,8 +7,63 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 15 Jul 2016 15:24:57 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 29 Jul 2016 12:26:04 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Uber-Postgres&#43;MySQL</title>
+      <link>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</link>
+      <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</guid>
+      <description>
+
+&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
+Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;TL;DR Можете использовать любую СУБД, только знайте её сильные и слабые стороны.
+А если выбор будет неправильным &amp;mdash; можно будет мигрировать на другую (с разным количеством боли, в зависимости от ситуации).
+Postgres хорош в чтении, но проигрывает в записи. MySQL хорош в записи, но (хотя в статьях об этом не говорится &amp;mdash; это уже мой личный опыт)
+оптимизатора запросов у него просто нет.&lt;/p&gt;
+
+&lt;p&gt;Да, раз уж я говорю про личный опыт &amp;mdash; MSSQL сделает по производительности и то и другое :)
+Disclaimer: я не работал активно с Postgres, с MySQL &amp;mdash; немного.&lt;/p&gt;
+
+&lt;h3 id=&#34;забавное&#34;&gt;Забавное&lt;/h3&gt;
+
+&lt;p&gt;Uber в 2013 опубликовал &lt;a href=&#39;https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql&#39; rel=&#34;nofollow&#34; target=&#34;_blank&#34;&gt;статью про переход с MySQL на Postgres&lt;/a&gt;.
+Основная причина перехода, насколько я понял &amp;mdash; в Postgres больше функциональности и &amp;laquo;плагинов&amp;raquo; вроде PostGIS.&lt;/p&gt;
+
+&lt;h3 id=&#34;подробности&#34;&gt;Подробности&lt;/h3&gt;
+
+&lt;p&gt;Исходная статья реально интересная, авторы достаточно подробно описали концептуальные проблемы, которыми их встретил Postgres.&lt;/p&gt;
+
+&lt;h4 id=&#34;одно-соединение-один-процесс&#34;&gt;Одно соединение &amp;ndash; один процесс&lt;/h4&gt;
+
+&lt;p&gt;Самым шокирующим для меня стало то, что каждое соединение с базой обрабатывается в отдельном &lt;strong&gt;процессе&lt;/strong&gt;. Серьёзно? Пул потоков разве сложно было сделать?&lt;/p&gt;
+
+&lt;h4 id=&#34;репликация&#34;&gt;Репликация&lt;/h4&gt;
+
+&lt;p&gt;Довольно противоречивая проблема с репликацией. С одной стороны, я согласен, что концептуально могут быть проблемы с трансляцией записей на диск на низком уровне.
+С другой стороны &amp;mdash; занимаешься репликацией &amp;mdash; будь готов к проблемам в любом случае. А вот проблемы с совместимостью даже минорных версий серверов при репликации &amp;mdash;
+ это печаль. Хотя вроде ситуация исправляется.&lt;/p&gt;
+
+&lt;h4 id=&#34;обновление-индексов&#34;&gt;Обновление индексов&lt;/h4&gt;
+
+&lt;p&gt;Однако самая интересная штука &amp;mdash; это устройство индексов. В MSSQL и MySQL вторичные индексы ссылаются на первичный ключ.
+При обновлении, которое не затрагивает индекс, никаких дополнительных телодвижений не совершается.&lt;/p&gt;
+
+&lt;p&gt;В Postgres строки неизменяемые, а индексы хранят ссылки на конкретное место на диске. При чтении это даёт выигрыш.
+Однако, при обновлении Postgres вынужден создавать копию строки с новыми значениями и обновлять &lt;strong&gt;все&lt;/strong&gt; индексы обновляемой таблицы.
+&amp;laquo;Старая&amp;raquo; строка при этом продолжает занимать место, что уже менее критично (освобождается авто-вакуумом).&lt;/p&gt;
+
+&lt;h3 id=&#34;выводы&#34;&gt;Выводы&lt;/h3&gt;
+
+&lt;p&gt;Как я уже говорил &amp;mdash; используйте любую СУБД, только знайте её сильные и слабые стороны.
+Зная это, вы сами решите, стоит ли использовать, например, Postgres для проекта с высокой нагрузкой на запись и множеством серверов, на которые
+реплицируются данные.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Подробности про UnCSS</title>
