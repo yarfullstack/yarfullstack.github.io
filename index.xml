@@ -20,7 +20,7 @@
 
 &lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
 Сначала &amp;mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
-Затем &amp;mdash; методы правильной работы с target = &amp;ldquo;_blank&amp;rdquo;.&lt;/p&gt;
+Затем &amp;mdash; методы правильной работы с target=&amp;rdquo;_blank&amp;rdquo;.&lt;/p&gt;
 
 &lt;h3 id=&#34;broken-link-checker&#34;&gt;broken-link-checker&lt;/h3&gt;
 
