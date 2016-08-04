@@ -7,8 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 15 Jul 2016 15:24:57 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 04 Aug 2016 21:12:01 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ищем битые ссылки и чиним target=&#34;_blank&#34;</title>
+      <link>https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/</link>
+      <pubDate>Thu, 04 Aug 2016 21:12:01 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/</guid>
+      <description>
+
+&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
+Сначала &amp;mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
+Затем &amp;mdash; методы правильной работы с target = &amp;ldquo;_blank&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;broken-link-checker&#34;&gt;broken-link-checker&lt;/h3&gt;
+
+&lt;p&gt;На днях прочитал  &lt;a href=&#39;https://davidwalsh.name/broken-link-checker&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью Дэвида Уолша&lt;/a&gt;
+ про &lt;a href=&#39;https://github.com/stevenvachon/broken-link-checker&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;broken-link-checker&lt;/a&gt;.
+Попользоваться не довелось, но позже обязательно попробую.&lt;/p&gt;
+
+&lt;p&gt;Если вкратце, это утилита (на Node.js), которую можно натравить на сайт и найти битые ссылки.
+Можно использовать либо через Javascript API, либо из командной строки.&lt;/p&gt;
+
+&lt;h3 id=&#34;как-сделать-target-blank-безопасным-и-производительным&#34;&gt;Как сделать target=&amp;rdquo;_blank&amp;rdquo; безопасным и производительным&lt;/h3&gt;
+
+&lt;h4 id=&#34;про-безопасность&#34;&gt;Про безопасность&lt;/h4&gt;
+
+&lt;p&gt;Скорее всего, вы уже прочитали &lt;a href=&#39;https://habrahabr.ru/post/282880/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью Опасный target=&amp;#34;_blank&amp;#34;&lt;/a&gt;
+ про проблемы с ним с точки зрения безопасности. Ежели нет, то, в двух словах, вредоносный (или взломанный) сайт
+ может получить доступ к исходной странице через window.opener. Это можно использовать, к примеру, для фишинга.&lt;/p&gt;
+
+&lt;p&gt;Внезапно &amp;mdash; IE не подвержен подобным атакам :)&lt;/p&gt;
+
+&lt;p&gt;Рецепты в статье тоже присутствуют:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Добавить во все такие ссылки &lt;div class=&#34;microlight&#34;&gt;rel=&#34;noreferrer noopener&#34;
+&lt;/div&gt; До кучи можно ещё и nofollow добавить, но это к уязвимости уже не имеет отношения.&lt;/li&gt;
+&lt;li&gt;Открывать все внешние ссылки через свою, промежуточную страницу, на которой должен отработать код: &lt;div class=&#34;microlight&#34;&gt;window.opener = null;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Открывать ссылки в новой вкладке через js: &lt;div class=&#34;microlight&#34;&gt;var otherWindow = window.open();
+otherWindow.opener = null;
+otherWindow.location = targetUrl;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Скрытый iframe (как вариант с помощью &lt;a href=&#39;http://danielstjules.github.io/blankshield/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;blankshield&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Лично я для этого сайта выбрал первый вариант.&lt;/p&gt;
+
+&lt;h4 id=&#34;про-производительность&#34;&gt;Про производительность&lt;/h4&gt;
+
+&lt;p&gt;Однако на этом история не заканчивается.
+&lt;a href=&#39;https://jakearchibald.com/2016/performance-benefits-of-rel-noopener/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Статья Джейка Арчибальда&lt;/a&gt; рассказывает о том,
+ что за счёт обнуления opener (одним из способов, описанных выше), можно добиться более быстрого открытия новой страницы для пользователя.&lt;/p&gt;
+
+&lt;p&gt;Думаю, ваши пользователи оценят вашу заботу и об их комфорте, и об их безопасности.&lt;/p&gt;
+
+&lt;h4 id=&#34;возможные-проблемы-с-указанными-решениями&#34;&gt;Возможные проблемы с указанными решениями&lt;/h4&gt;
+
+&lt;p&gt;Да, стоит понимать, что для каких-то сайтов важно передавать referrer.
+Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Подробности про UnCSS</title>
@@ -23,13 +85,13 @@
 
 &lt;p&gt;Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
 Также можно использовать его API из Node.js или вызывать из командной строки.
-Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
+Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;важные-замечания&#34;&gt;Важные замечания&lt;/h3&gt;
 
 &lt;p&gt;Что нужно иметь в виду, при использовании UnCSS.&lt;/p&gt;
 
-&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;laquo;динамические&amp;raquo; стили могут быть незаслуженно выпилены.
+&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;ldquo;динамические&amp;rdquo; стили могут быть незаслуженно выпилены.
 После того, как вы это обнаружите, решить проблему можно с помощью опции ignore или простым комментарием перед селектором:
 &lt;div class=&#34;microlight&#34;&gt;/* uncss:ignore */
 .js .input-file {
@@ -42,7 +104,7 @@
 &lt;h3 id=&#34;опыт-использования&#34;&gt;Опыт использования&lt;/h3&gt;
 
 &lt;p&gt;Пока могу сказать, что опыт использования небольшой, но положительный. Поскольку я использую его вместе с PostCSS, всё просто.
-Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
+Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
 &lt;div class=&#34;microlight&#34;&gt;npm install postcss-uncss uncss
 &lt;/div&gt;&lt;/p&gt;
 
@@ -76,21 +138,21 @@
 
 &lt;h3 id=&#34;рекомендации-по-дизайну-хороших-и-удобных-форм&#34;&gt;Рекомендации по дизайну хороших и удобных форм&lt;/h3&gt;
 
-&lt;p&gt;В статье &lt;a href=&#39;https://uxdesign.cc/design-better-forms-96fadca0f49c&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Design Better Forms (Common mistakes designers make and how to fix them)&lt;/a&gt;,
+&lt;p&gt;В статье &lt;a href=&#39;https://uxdesign.cc/design-better-forms-96fadca0f49c&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Design Better Forms (Common mistakes designers make and how to fix them)&lt;/a&gt;,
 Эндрю Коул на наглядных примерах рассказывает, как надо делать и как не надо делать формы.
 Статью прочитал. Соглашаюсь с автором по всем пунктам (строго говоря, по поводу одного пункта могут быть нестандартные ситуации…).
-Ранее читал похожую статью &lt;a href=&#39;http://mono.company/journal/design-practice/the-10-commandments-of-good-form-design-on-the-web/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;The 10 Commandments of Good Form Design on the Web&lt;/a&gt;,
+Ранее читал похожую статью &lt;a href=&#39;http://mono.company/journal/design-practice/the-10-commandments-of-good-form-design-on-the-web/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The 10 Commandments of Good Form Design on the Web&lt;/a&gt;,
 но эта мне понравилась значительно больше.&lt;/p&gt;
 
 &lt;h3 id=&#34;визуальные-отличия-грядущего-bootstrap-4-от-bootstrap-3&#34;&gt;Визуальные отличия грядущего Bootstrap 4 от Bootstrap 3&lt;/h3&gt;
 
-&lt;p&gt;Для тех, кто очень далёк от web-разработки &amp;mdash; речь про этот &lt;a href=&#39;http://getbootstrap.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Bootstrap&lt;/a&gt;.
+&lt;p&gt;Для тех, кто очень далёк от web-разработки &amp;mdash; речь про этот &lt;a href=&#39;http://getbootstrap.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Bootstrap&lt;/a&gt;.
 Вероятно вы в курсе, что сейчас четвёртая версия пока только в альфе. Но поинтересоваться какие будут изменения можно и сейчас.
-А Кэрол Скелли поможет достаточно просто увидеть это в статье &lt;a href=&#39;https://medium.com/wdstack/bootstrap-4-whats-new-visual-guide-c84dd81d8387&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Bootstrap 4: A Visual Guide to What’s New&lt;/a&gt;.&lt;/p&gt;
+А Кэрол Скелли поможет достаточно просто увидеть это в статье &lt;a href=&#39;https://medium.com/wdstack/bootstrap-4-whats-new-visual-guide-c84dd81d8387&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Bootstrap 4: A Visual Guide to What’s New&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;интересное-исследование-впечатлений-пользователей-мобильных-устройств-о-сайтах&#34;&gt;Интересное исследование впечатлений пользователей мобильных устройств о сайтах&lt;/h3&gt;
 
-&lt;p&gt;По заголовку статьи &lt;a href=&#39;http://blog.marginmedia.com.au/Our-Blog/bid/87385/10-Mobile-Web-Design-Statistics-All-Marketers-Should-Know-About&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;10 Mobile Web Design Statistics All Marketers Should Know About&lt;/a&gt;
+&lt;p&gt;По заголовку статьи &lt;a href=&#39;http://blog.marginmedia.com.au/Our-Blog/bid/87385/10-Mobile-Web-Design-Statistics-All-Marketers-Should-Know-About&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;10 Mobile Web Design Statistics All Marketers Should Know About&lt;/a&gt;
 может показаться, что она для маркетологов. Но нет. Точнее не только для них. Статья древняя &amp;mdash; 2012 года.
 Однако сомневаюсь, что ситуация изменилась в сторону толерантности пользователей к косякам на сайтах :)&lt;/p&gt;
 
@@ -126,11 +188,11 @@
 
 &lt;h3 id=&#34;так-ли-страшен-important-как-его-малюют&#34;&gt;Так ли страшен important, как его малюют?&lt;/h3&gt;
 
-&lt;p&gt;Прочитал на днях статью &lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.
+&lt;p&gt;Прочитал на днях статью &lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.
 Если вкратце &amp;mdash; не так уж бесполезен и вреден !important.&lt;/p&gt;
 
-&lt;p&gt;Есть вполне жизненные и правильные варианты использования &amp;mdash; например, для утилитных классов с &amp;laquo;text-align: center&amp;raquo;.
-Похоже, это теперь такая же &amp;laquo;потому что так нельзя&amp;raquo; страшилка среди верстальщиков, как GOTO среди программистов :)&lt;/p&gt;
+&lt;p&gt;Есть вполне жизненные и правильные варианты использования &amp;mdash; например, для утилитных классов с &amp;ldquo;text-align: center&amp;rdquo;.
+Похоже, это теперь такая же &amp;ldquo;потому что так нельзя&amp;rdquo; страшилка среди верстальщиков, как GOTO среди программистов :)&lt;/p&gt;
 
 &lt;h3 id=&#34;рекомендуемые-инструменты-для-css&#34;&gt;Рекомендуемые инструменты для CSS&lt;/h3&gt;
 
@@ -138,16 +200,16 @@
 
 &lt;p&gt;Мой любимый процессор CSS. Важно: пусть вас не путает название, это не пост-процессор :)
 Подробнее об этом есть неплохая статья
-&lt;a href=&#39;https://www.sitepoint.com/postcss-mythbusting/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;PostCSS Mythbusting: Four PostCSS Myths Busted&lt;/a&gt;
-(перевод: &lt;a href=&#39;https://habrahabr.ru/post/280988/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;4 мифа о PostCSS&lt;/a&gt;).&lt;/p&gt;
+&lt;a href=&#39;https://www.sitepoint.com/postcss-mythbusting/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PostCSS Mythbusting: Four PostCSS Myths Busted&lt;/a&gt;
+(перевод: &lt;a href=&#39;https://habrahabr.ru/post/280988/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;4 мифа о PostCSS&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;Думаю, что позже поделюсь подробными впечатлениями об его использовании. Пока скажу, что весьма понравилась идея
-использовать следующую версию CSS прямо сейчас с помощью &lt;a href=&#39;http://cssnext.io/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;postcss-cssnext&lt;/a&gt;.&lt;/p&gt;
+использовать следующую версию CSS прямо сейчас с помощью &lt;a href=&#39;http://cssnext.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;postcss-cssnext&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;uncss&#34;&gt;UnCSS&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.
-С помощью &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; рендерит страницы и выполняет JavaScript,
+&lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.
+С помощью &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; рендерит страницы и выполняет JavaScript,
 ищет используемые классы и удаляет остальные. Можно прицепить к Node.js, вызывать из командной строки или добавить плагин к PostCSS.&lt;/p&gt;
 </description>
     </item>

@@ -7,8 +7,70 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 29 Jul 2016 12:26:04 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 04 Aug 2016 21:12:01 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Ищем битые ссылки и чиним target=&#34;_blank&#34;</title>
+      <link>https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/</link>
+      <pubDate>Thu, 04 Aug 2016 21:12:01 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/</guid>
+      <description>
+
+&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
+Сначала &amp;mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
+Затем &amp;mdash; методы правильной работы с target = &amp;ldquo;_blank&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;broken-link-checker&#34;&gt;broken-link-checker&lt;/h3&gt;
+
+&lt;p&gt;На днях прочитал  &lt;a href=&#39;https://davidwalsh.name/broken-link-checker&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью Дэвида Уолша&lt;/a&gt;
+ про &lt;a href=&#39;https://github.com/stevenvachon/broken-link-checker&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;broken-link-checker&lt;/a&gt;.
+Попользоваться не довелось, но позже обязательно попробую.&lt;/p&gt;
+
+&lt;p&gt;Если вкратце, это утилита (на Node.js), которую можно натравить на сайт и найти битые ссылки.
+Можно использовать либо через Javascript API, либо из командной строки.&lt;/p&gt;
+
+&lt;h3 id=&#34;как-сделать-target-blank-безопасным-и-производительным&#34;&gt;Как сделать target=&amp;rdquo;_blank&amp;rdquo; безопасным и производительным&lt;/h3&gt;
+
+&lt;h4 id=&#34;про-безопасность&#34;&gt;Про безопасность&lt;/h4&gt;
+
+&lt;p&gt;Скорее всего, вы уже прочитали &lt;a href=&#39;https://habrahabr.ru/post/282880/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью Опасный target=&amp;#34;_blank&amp;#34;&lt;/a&gt;
+ про проблемы с ним с точки зрения безопасности. Ежели нет, то, в двух словах, вредоносный (или взломанный) сайт
+ может получить доступ к исходной странице через window.opener. Это можно использовать, к примеру, для фишинга.&lt;/p&gt;
+
+&lt;p&gt;Внезапно &amp;mdash; IE не подвержен подобным атакам :)&lt;/p&gt;
+
+&lt;p&gt;Рецепты в статье тоже присутствуют:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Добавить во все такие ссылки &lt;div class=&#34;microlight&#34;&gt;rel=&#34;noreferrer noopener&#34;
+&lt;/div&gt; До кучи можно ещё и nofollow добавить, но это к уязвимости уже не имеет отношения.&lt;/li&gt;
+&lt;li&gt;Открывать все внешние ссылки через свою, промежуточную страницу, на которой должен отработать код: &lt;div class=&#34;microlight&#34;&gt;window.opener = null;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Открывать ссылки в новой вкладке через js: &lt;div class=&#34;microlight&#34;&gt;var otherWindow = window.open();
+otherWindow.opener = null;
+otherWindow.location = targetUrl;
+&lt;/div&gt;&lt;/li&gt;
+&lt;li&gt;Скрытый iframe (как вариант с помощью &lt;a href=&#39;http://danielstjules.github.io/blankshield/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;blankshield&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Лично я для этого сайта выбрал первый вариант.&lt;/p&gt;
+
+&lt;h4 id=&#34;про-производительность&#34;&gt;Про производительность&lt;/h4&gt;
+
+&lt;p&gt;Однако на этом история не заканчивается.
+&lt;a href=&#39;https://jakearchibald.com/2016/performance-benefits-of-rel-noopener/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Статья Джейка Арчибальда&lt;/a&gt; рассказывает о том,
+ что за счёт обнуления opener (одним из способов, описанных выше), можно добиться более быстрого открытия новой страницы для пользователя.&lt;/p&gt;
+
+&lt;p&gt;Думаю, ваши пользователи оценят вашу заботу и об их комфорте, и об их безопасности.&lt;/p&gt;
+
+&lt;h4 id=&#34;возможные-проблемы-с-указанными-решениями&#34;&gt;Возможные проблемы с указанными решениями&lt;/h4&gt;
+
+&lt;p&gt;Да, стоит понимать, что для каких-то сайтов важно передавать referrer.
+Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Uber-Postgres&#43;MySQL</title>
@@ -18,8 +80,8 @@
       <guid>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</guid>
       <description>
 
-&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
-Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
+Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;TL;DR Можете использовать любую СУБД, только знайте её сильные и слабые стороны.
 А если выбор будет неправильным &amp;mdash; можно будет мигрировать на другую (с разным количеством боли, в зависимости от ситуации).
@@ -31,8 +93,8 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;h3 id=&#34;забавное&#34;&gt;Забавное&lt;/h3&gt;
 
-&lt;p&gt;Uber в 2013 опубликовал &lt;a href=&#39;https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;статью про переход с MySQL на Postgres&lt;/a&gt;.
-Основная причина перехода, насколько я понял &amp;mdash; в Postgres больше функциональности и &amp;laquo;плагинов&amp;raquo; вроде PostGIS.&lt;/p&gt;
+&lt;p&gt;Uber в 2013 опубликовал &lt;a href=&#39;https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью про переход с MySQL на Postgres&lt;/a&gt;.
+Основная причина перехода, насколько я понял &amp;mdash; в Postgres больше функциональности и &amp;ldquo;плагинов&amp;rdquo; вроде PostGIS.&lt;/p&gt;
 
 &lt;h3 id=&#34;подробности&#34;&gt;Подробности&lt;/h3&gt;
 
@@ -55,7 +117,7 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;p&gt;В Postgres строки неизменяемые, а индексы хранят ссылки на конкретное место на диске. При чтении это даёт выигрыш.
 Однако, при обновлении Postgres вынужден создавать копию строки с новыми значениями и обновлять &lt;strong&gt;все&lt;/strong&gt; индексы обновляемой таблицы.
-&amp;laquo;Старая&amp;raquo; строка при этом продолжает занимать место, что уже менее критично (освобождается авто-вакуумом).&lt;/p&gt;
+&amp;ldquo;Старая&amp;rdquo; строка при этом продолжает занимать место, что уже менее критично (освобождается авто-вакуумом).&lt;/p&gt;
 
 &lt;h3 id=&#34;выводы&#34;&gt;Выводы&lt;/h3&gt;
 
@@ -78,13 +140,13 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;p&gt;Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
 Также можно использовать его API из Node.js или вызывать из командной строки.
-Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
+Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;важные-замечания&#34;&gt;Важные замечания&lt;/h3&gt;
 
 &lt;p&gt;Что нужно иметь в виду, при использовании UnCSS.&lt;/p&gt;
 
-&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;laquo;динамические&amp;raquo; стили могут быть незаслуженно выпилены.
+&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;ldquo;динамические&amp;rdquo; стили могут быть незаслуженно выпилены.
 После того, как вы это обнаружите, решить проблему можно с помощью опции ignore или простым комментарием перед селектором:
 &lt;div class=&#34;microlight&#34;&gt;/* uncss:ignore */
 .js .input-file {
@@ -97,7 +159,7 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 &lt;h3 id=&#34;опыт-использования&#34;&gt;Опыт использования&lt;/h3&gt;
 
 &lt;p&gt;Пока могу сказать, что опыт использования небольшой, но положительный. Поскольку я использую его вместе с PostCSS, всё просто.
-Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
+Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
 &lt;div class=&#34;microlight&#34;&gt;npm install postcss-uncss uncss
 &lt;/div&gt;&lt;/p&gt;
 
@@ -119,9 +181,9 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
       <pubDate>Wed, 13 Jul 2016 08:46:18 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</guid>
-      <description>&lt;p&gt;Недавно вышло новое обновление для Visual Studio: &lt;a href=&#39;https://msdn.microsoft.com/library/mt752379&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Update for Microsoft Visual Studio 2015 Update 3 (KB3165756)&lt;/a&gt;.
+      <description>&lt;p&gt;Недавно вышло новое обновление для Visual Studio: &lt;a href=&#39;https://msdn.microsoft.com/library/mt752379&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Update for Microsoft Visual Studio 2015 Update 3 (KB3165756)&lt;/a&gt;.
 Тем, кто пользуется студией &amp;mdash; крайне рекомендую поставить &amp;mdash; исправлено с десяток багов (подробности по ссылке выше), ставится быстро, перезагрузка не требуется.
-Проще всего поставить, скачав с &lt;a href=&#39;http://go.microsoft.com/fwlink/?LinkID=816878&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Microsoft Download Center&lt;/a&gt;.&lt;/p&gt;
+Проще всего поставить, скачав с &lt;a href=&#39;http://go.microsoft.com/fwlink/?LinkID=816878&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Microsoft Download Center&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Про мои впечатления от апдейта можно прочитать далее (что совсем необязательно, признаюсь &amp;mdash; есть небольшой баг в настройке движка для блога,
 если я не поставлю эту ссылку &amp;mdash; с главной пропадёт форматирование :)&lt;/p&gt;
@@ -150,21 +212,21 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;h3 id=&#34;рекомендации-по-дизайну-хороших-и-удобных-форм&#34;&gt;Рекомендации по дизайну хороших и удобных форм&lt;/h3&gt;
 
-&lt;p&gt;В статье &lt;a href=&#39;https://uxdesign.cc/design-better-forms-96fadca0f49c&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Design Better Forms (Common mistakes designers make and how to fix them)&lt;/a&gt;,
+&lt;p&gt;В статье &lt;a href=&#39;https://uxdesign.cc/design-better-forms-96fadca0f49c&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Design Better Forms (Common mistakes designers make and how to fix them)&lt;/a&gt;,
 Эндрю Коул на наглядных примерах рассказывает, как надо делать и как не надо делать формы.
 Статью прочитал. Соглашаюсь с автором по всем пунктам (строго говоря, по поводу одного пункта могут быть нестандартные ситуации…).
-Ранее читал похожую статью &lt;a href=&#39;http://mono.company/journal/design-practice/the-10-commandments-of-good-form-design-on-the-web/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;The 10 Commandments of Good Form Design on the Web&lt;/a&gt;,
+Ранее читал похожую статью &lt;a href=&#39;http://mono.company/journal/design-practice/the-10-commandments-of-good-form-design-on-the-web/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The 10 Commandments of Good Form Design on the Web&lt;/a&gt;,
 но эта мне понравилась значительно больше.&lt;/p&gt;
 
 &lt;h3 id=&#34;визуальные-отличия-грядущего-bootstrap-4-от-bootstrap-3&#34;&gt;Визуальные отличия грядущего Bootstrap 4 от Bootstrap 3&lt;/h3&gt;
 
-&lt;p&gt;Для тех, кто очень далёк от web-разработки &amp;mdash; речь про этот &lt;a href=&#39;http://getbootstrap.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Bootstrap&lt;/a&gt;.
+&lt;p&gt;Для тех, кто очень далёк от web-разработки &amp;mdash; речь про этот &lt;a href=&#39;http://getbootstrap.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Bootstrap&lt;/a&gt;.
 Вероятно вы в курсе, что сейчас четвёртая версия пока только в альфе. Но поинтересоваться какие будут изменения можно и сейчас.
-А Кэрол Скелли поможет достаточно просто увидеть это в статье &lt;a href=&#39;https://medium.com/wdstack/bootstrap-4-whats-new-visual-guide-c84dd81d8387&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Bootstrap 4: A Visual Guide to What’s New&lt;/a&gt;.&lt;/p&gt;
+А Кэрол Скелли поможет достаточно просто увидеть это в статье &lt;a href=&#39;https://medium.com/wdstack/bootstrap-4-whats-new-visual-guide-c84dd81d8387&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Bootstrap 4: A Visual Guide to What’s New&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;интересное-исследование-впечатлений-пользователей-мобильных-устройств-о-сайтах&#34;&gt;Интересное исследование впечатлений пользователей мобильных устройств о сайтах&lt;/h3&gt;
 
-&lt;p&gt;По заголовку статьи &lt;a href=&#39;http://blog.marginmedia.com.au/Our-Blog/bid/87385/10-Mobile-Web-Design-Statistics-All-Marketers-Should-Know-About&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;10 Mobile Web Design Statistics All Marketers Should Know About&lt;/a&gt;
+&lt;p&gt;По заголовку статьи &lt;a href=&#39;http://blog.marginmedia.com.au/Our-Blog/bid/87385/10-Mobile-Web-Design-Statistics-All-Marketers-Should-Know-About&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;10 Mobile Web Design Statistics All Marketers Should Know About&lt;/a&gt;
 может показаться, что она для маркетологов. Но нет. Точнее не только для них. Статья древняя &amp;mdash; 2012 года.
 Однако сомневаюсь, что ситуация изменилась в сторону толерантности пользователей к косякам на сайтах :)&lt;/p&gt;
 
@@ -204,28 +266,28 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;h3 id=&#34;varvy-seo-tool&#34;&gt;Varvy SEO tool&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://varvy.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Varvy SEO tool&lt;/a&gt; &amp;mdash; лучший, на мой взгляд, бесплатный многофункциональный сервис проверки сайтов.
+&lt;p&gt;&lt;a href=&#39;https://varvy.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Varvy SEO tool&lt;/a&gt; &amp;mdash; лучший, на мой взгляд, бесплатный многофункциональный сервис проверки сайтов.
 Крайне рекомендую. В отличие от других сервисов, он и на валидность HTML посмотрит, и Accessibility проверит&amp;hellip;&lt;/p&gt;
 
 &lt;h3 id=&#34;pingdom-website-speed-test&#34;&gt;Pingdom Website Speed Test&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://tools.pingdom.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Pingdom Website Speed Test&lt;/a&gt; &amp;mdash; ориентирован на проверку скорости и типовых проблем.
+&lt;p&gt;&lt;a href=&#39;https://tools.pingdom.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Pingdom Website Speed Test&lt;/a&gt; &amp;mdash; ориентирован на проверку скорости и типовых проблем.
 Попроще, чем Varvy, чуть посложнее, чем PageSpeed.&lt;/p&gt;
 
 &lt;h3 id=&#34;pagespeed&#34;&gt;PageSpeed&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://developers.google.com/speed/pagespeed/?hl=ru&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;PageSpeed&lt;/a&gt; &amp;mdash; инструмент от Google, тоже ориентирован на проверку скорости и типовых проблем.
+&lt;p&gt;&lt;a href=&#39;https://developers.google.com/speed/pagespeed/?hl=ru&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PageSpeed&lt;/a&gt; &amp;mdash; инструмент от Google, тоже ориентирован на проверку скорости и типовых проблем.
 Иногда рассказывает меньше, чем Pingdom. Есть модуль для Nginx и Apache, который обеспечивает выполнение многих рекомендаций в автоматическом режиме.
 Также есть плагины для Chrome, правда, не вижу я в них особой пользы.&lt;/p&gt;
 
 &lt;h3 id=&#34;testmysite-thinkwithgoogle-com&#34;&gt;TestMySite (thinkwithgoogle.com)&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://testmysite.thinkwithgoogle.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;TestMySite&lt;/a&gt; &amp;mdash; ещё один инструмент от Google,
+&lt;p&gt;&lt;a href=&#39;https://testmysite.thinkwithgoogle.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TestMySite&lt;/a&gt; &amp;mdash; ещё один инструмент от Google,
 я бы сказал, что это максимально простой и красиво оформленный фасад для PageSpeed.&lt;/p&gt;
 
 &lt;h3 id=&#34;webpagetest&#34;&gt;WebPageTest&lt;/h3&gt;
 
-&lt;p&gt;И последний, но отнюдь не по полезности &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;WebPageTest&lt;/a&gt;.
+&lt;p&gt;И последний, но отнюдь не по полезности &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;WebPageTest&lt;/a&gt;.
 Этот замечательный инструмент позволяет проверить загрузку сайта в разных условиях:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -235,7 +297,7 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 &lt;/ul&gt;
 
 &lt;p&gt;На выходе получаем подробный отчёт с логом и аналогом результатов вкладки Network в Chrome. Плюс к этому, он ещё и записывает видео, на котором видно, как открывается сайт.
-В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
+В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
 </description>
     </item>
     
@@ -247,7 +309,7 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
       <guid>https://yarfullstack.com/post/2016-06/d3/</guid>
       <description>
 
-&lt;p&gt;Сегодня расскажу немного о &lt;a href=&#39;https://d3js.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;D3&lt;/a&gt;.
+&lt;p&gt;Сегодня расскажу немного о &lt;a href=&#39;https://d3js.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;D3&lt;/a&gt;.
 Для тех, кто впервые слышит это странное слово &amp;mdash; речь про библиотеку для визуализации в браузере.
 Строго говоря, это больше чем библиотека для визуализации &amp;mdash; с помощью D3 можно манипулировать DOM (можно сказать, что в ней есть подмножество функциональности jQuery).
 Однако, в основном, её используют именно для визуализации.&lt;/p&gt;
@@ -263,22 +325,22 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 &lt;h3 id=&#34;немного-про-nvd3&#34;&gt;Немного про NVD3&lt;/h3&gt;
 
 &lt;p&gt;D3, безусловно, это мощная штука. Однако, если использовать её для построения простых графиков &amp;mdash; это как купить кирпичный мини-завод, чтобы построить одну дачу.
-Поэтому, на основе D3 есть множество библиотек для графиков, самая известная из которых &amp;mdash; &lt;a href=&#39;http://nvd3.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;NVD3&lt;/a&gt;.&lt;/p&gt;
+Поэтому, на основе D3 есть множество библиотек для графиков, самая известная из которых &amp;mdash; &lt;a href=&#39;http://nvd3.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;NVD3&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;По большому счёту, чтобы понять её возможности проще перейти на сайт. На главной странице есть интересные примеры, обратите внимание, что они интерактивные.
 От себя добавлю, что использовали её в одном большом проекте, понравилось. Есть мелкие глюки. Но их, так или иначе, можно обойти или исправить.
-К сожалению, NVD3 &lt;a href=&#39;https://github.com/novus/nvd3/issues/1681&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;пока не поддерживает D3 4.0&lt;/a&gt; (о которой ниже).&lt;/p&gt;
+К сожалению, NVD3 &lt;a href=&#39;https://github.com/novus/nvd3/issues/1681&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;пока не поддерживает D3 4.0&lt;/a&gt; (о которой ниже).&lt;/p&gt;
 
 &lt;h3 id=&#34;кратко-об-изменениях-в-четвёртой-версии-d3&#34;&gt;Кратко об изменениях в четвёртой версии D3&lt;/h3&gt;
 
-&lt;p&gt;Не так давно вышла &lt;a href=&#39;https://github.com/d3/d3/blob/master/CHANGES.md&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;четвёртая версия D3&lt;/a&gt;.
+&lt;p&gt;Не так давно вышла &lt;a href=&#39;https://github.com/d3/d3/blob/master/CHANGES.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;четвёртая версия D3&lt;/a&gt;.
 Это реальная такая мажорная версия (не то что этот ваш Chrome :). Улучшены некоторые алгоритмы, добавлены новые, библиотека стала более гранулированной, местами улучшено API.
 Всё это реально круто, жаль только библиотеки, работающие на её основе, не смогут перейти на новую версию мгновенно&amp;hellip;&lt;/p&gt;
 
 &lt;h3 id=&#34;интересная-библиотека-metricsgraphics-js&#34;&gt;Интересная библиотека MetricsGraphics.js&lt;/h3&gt;
 
-&lt;p&gt;Признаюсь сразу, сам &lt;a href=&#39;http://metricsgraphicsjs.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;MetricsGraphics.js&lt;/a&gt; пока не пробовал. Думаю что для интерактивных графиков,
-у которых ось X &amp;mdash; всегда время, выглядит удобно. Посмотрите сами &lt;a href=&#39;http://metricsgraphicsjs.org/examples.htm&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;на примеры&lt;/a&gt;, мне понравился Linked Graphic.&lt;/p&gt;
+&lt;p&gt;Признаюсь сразу, сам &lt;a href=&#39;http://metricsgraphicsjs.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MetricsGraphics.js&lt;/a&gt; пока не пробовал. Думаю что для интерактивных графиков,
+у которых ось X &amp;mdash; всегда время, выглядит удобно. Посмотрите сами &lt;a href=&#39;http://metricsgraphicsjs.org/examples.htm&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;на примеры&lt;/a&gt;, мне понравился Linked Graphic.&lt;/p&gt;
 
 &lt;p&gt;Если кто-то попробует в реальном проекте &amp;mdash; отпишитесь, буду благодарен.&lt;/p&gt;
 </description>
@@ -303,33 +365,31 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 &lt;h3 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h3&gt;
 
 &lt;p&gt;Для многих самым ожидаемым событием июня будет релиз .NET Core и ASP.NET Core 1.0 &lt;strong&gt;27 июня 2016 года.&lt;/strong&gt;
-Для тех, кто использует .NET и вообще не в курсе что это такое &amp;mdash; &lt;a href=&#39;https://dotnet.github.io/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;рекомендую ознакомиться&lt;/a&gt;.&lt;/p&gt;
+Для тех, кто использует .NET и вообще не в курсе что это такое &amp;mdash; &lt;a href=&#39;https://dotnet.github.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;рекомендую ознакомиться&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Кроме этого, Мигель де Иказа анонсировал &lt;a href=&#39;https://blog.xamarin.com/live-from-dotnetconf-cycle-7-xamarin-studio-6-and-more/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;новые фичи Xamarin&lt;/a&gt;.
+&lt;p&gt;Кроме этого, Мигель де Иказа анонсировал &lt;a href=&#39;https://blog.xamarin.com/live-from-dotnetconf-cycle-7-xamarin-studio-6-and-more/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;новые фичи Xamarin&lt;/a&gt;.
 Сам я Xamarin не использовал, но штука сама по себе интересная.&lt;/p&gt;
 
-&lt;p&gt;Скотт Хансельман рассказал про &lt;a href=&#39;http://www.dotnetfoundation.org/blog/cake-welcome&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Cake&lt;/a&gt; &amp;mdash;
+&lt;p&gt;Скотт Хансельман рассказал про &lt;a href=&#39;http://www.dotnetfoundation.org/blog/cake-welcome&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Cake&lt;/a&gt; &amp;mdash;
 новую систему для билдов. Я пока не вижу, где лично мне было бы полезно на неё перейти, однако, может и приживётся. Наверняка понравится тем, кому нравится Powershell.&lt;/p&gt;
 
 &lt;h3 id=&#34;джон-скит-о-производительности&#34;&gt;Джон Скит о производительности&lt;/h3&gt;
 
-&lt;p&gt;В статье &lt;a href=&#39;https://codeblog.jonskeet.uk/2016/06/09/tracking-down-a-performance-hit/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Tracking down a performance hit&lt;/a&gt;
-Джон Скит подробно описывает подход к поиску &amp;laquo;бутылочных горлышек&amp;raquo; и улучшению производительности. Заодно он нашёл баг в .NET Core и NUnit :)&lt;/p&gt;
+&lt;p&gt;В статье &lt;a href=&#39;https://codeblog.jonskeet.uk/2016/06/09/tracking-down-a-performance-hit/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tracking down a performance hit&lt;/a&gt;
+Джон Скит подробно описывает подход к поиску &amp;ldquo;бутылочных горлышек&amp;rdquo; и улучшению производительности. Заодно он нашёл баг в .NET Core и NUnit :)&lt;/p&gt;
 
 &lt;h3 id=&#34;тёмная-сторона-async-await&#34;&gt;Тёмная сторона async/await&lt;/h3&gt;
 
 &lt;p&gt;Если вы активно используете async/await проверьте себя и скажите, что выведет следующий код:&lt;/p&gt;
 
-&lt;div class=&#34;microlight&#34;&gt;
-await Task.Factory.StartNew(async () =&gt; { 
+&lt;div class=&#34;microlight&#34;&gt;await Task.Factory.StartNew(async () =&gt; { 
     await Task.Delay(10); Console.WriteLine(&#34;A&#34;); 
     });
     
 Console.WriteLine(&#34;B&#34;);
-
 &lt;/div&gt;
 
-&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -345,11 +405,11 @@ Console.WriteLine(&#34;B&#34;);
 
 &lt;h3 id=&#34;так-ли-страшен-important-как-его-малюют&#34;&gt;Так ли страшен important, как его малюют?&lt;/h3&gt;
 
-&lt;p&gt;Прочитал на днях статью &lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.
+&lt;p&gt;Прочитал на днях статью &lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.
 Если вкратце &amp;mdash; не так уж бесполезен и вреден !important.&lt;/p&gt;
 
-&lt;p&gt;Есть вполне жизненные и правильные варианты использования &amp;mdash; например, для утилитных классов с &amp;laquo;text-align: center&amp;raquo;.
-Похоже, это теперь такая же &amp;laquo;потому что так нельзя&amp;raquo; страшилка среди верстальщиков, как GOTO среди программистов :)&lt;/p&gt;
+&lt;p&gt;Есть вполне жизненные и правильные варианты использования &amp;mdash; например, для утилитных классов с &amp;ldquo;text-align: center&amp;rdquo;.
+Похоже, это теперь такая же &amp;ldquo;потому что так нельзя&amp;rdquo; страшилка среди верстальщиков, как GOTO среди программистов :)&lt;/p&gt;
 
 &lt;h3 id=&#34;рекомендуемые-инструменты-для-css&#34;&gt;Рекомендуемые инструменты для CSS&lt;/h3&gt;
 
@@ -357,16 +417,16 @@ Console.WriteLine(&#34;B&#34;);
 
 &lt;p&gt;Мой любимый процессор CSS. Важно: пусть вас не путает название, это не пост-процессор :)
 Подробнее об этом есть неплохая статья
-&lt;a href=&#39;https://www.sitepoint.com/postcss-mythbusting/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;PostCSS Mythbusting: Four PostCSS Myths Busted&lt;/a&gt;
-(перевод: &lt;a href=&#39;https://habrahabr.ru/post/280988/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;4 мифа о PostCSS&lt;/a&gt;).&lt;/p&gt;
+&lt;a href=&#39;https://www.sitepoint.com/postcss-mythbusting/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PostCSS Mythbusting: Four PostCSS Myths Busted&lt;/a&gt;
+(перевод: &lt;a href=&#39;https://habrahabr.ru/post/280988/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;4 мифа о PostCSS&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;Думаю, что позже поделюсь подробными впечатлениями об его использовании. Пока скажу, что весьма понравилась идея
-использовать следующую версию CSS прямо сейчас с помощью &lt;a href=&#39;http://cssnext.io/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;postcss-cssnext&lt;/a&gt;.&lt;/p&gt;
+использовать следующую версию CSS прямо сейчас с помощью &lt;a href=&#39;http://cssnext.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;postcss-cssnext&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;uncss&#34;&gt;UnCSS&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.
-С помощью &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; рендерит страницы и выполняет JavaScript,
+&lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.
+С помощью &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; рендерит страницы и выполняет JavaScript,
 ищет используемые классы и удаляет остальные. Можно прицепить к Node.js, вызывать из командной строки или добавить плагин к PostCSS.&lt;/p&gt;
 </description>
     </item>
@@ -384,13 +444,13 @@ Console.WriteLine(&#34;B&#34;);
 
 &lt;h3 id=&#34;кто-эти-люди&#34;&gt;Кто эти люди?&lt;/h3&gt;
 
-&lt;p&gt;Пока наполнением сайта занимаюсь я &amp;mdash; &lt;a href=&#39;https://twitter.com/OlegAxenow&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;@OlegAxenow&lt;/a&gt;.
+&lt;p&gt;Пока наполнением сайта занимаюсь я &amp;mdash; &lt;a href=&#39;https://twitter.com/OlegAxenow&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;@OlegAxenow&lt;/a&gt;.
 Возможно, кто-то знает меня по сайту (уже почившему) gotdotnet.ru.
-Возможно, кто-то читал &lt;a href=&#39;http://www.olegaxenow.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;мой блог&lt;/a&gt;, судьбу которого я ещё не решил :)&lt;/p&gt;
+Возможно, кто-то читал &lt;a href=&#39;http://www.olegaxenow.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;мой блог&lt;/a&gt;, судьбу которого я ещё не решил :)&lt;/p&gt;
 
 &lt;h3 id=&#34;для-чего-всё-это&#34;&gt;Для чего всё это?&lt;/h3&gt;
 
-&lt;p&gt;Я довольно давно делаю &amp;laquo;Пятничную технологическую подборку&amp;raquo; для разработчиков компании.
+&lt;p&gt;Я довольно давно делаю &amp;ldquo;Пятничную технологическую подборку&amp;rdquo; для разработчиков компании.
 Подумалось, что в формате сайта это будет удобнее и, заодно, может быть полезно кому-то ещё.&lt;/p&gt;
 </description>
     </item>

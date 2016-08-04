@@ -18,7 +18,7 @@
       <guid>https://yarfullstack.com/post/2016-06/d3/</guid>
       <description>
 
-&lt;p&gt;Сегодня расскажу немного о &lt;a href=&#39;https://d3js.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;D3&lt;/a&gt;.
+&lt;p&gt;Сегодня расскажу немного о &lt;a href=&#39;https://d3js.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;D3&lt;/a&gt;.
 Для тех, кто впервые слышит это странное слово &amp;mdash; речь про библиотеку для визуализации в браузере.
 Строго говоря, это больше чем библиотека для визуализации &amp;mdash; с помощью D3 можно манипулировать DOM (можно сказать, что в ней есть подмножество функциональности jQuery).
 Однако, в основном, её используют именно для визуализации.&lt;/p&gt;
@@ -34,22 +34,22 @@
 &lt;h3 id=&#34;немного-про-nvd3&#34;&gt;Немного про NVD3&lt;/h3&gt;
 
 &lt;p&gt;D3, безусловно, это мощная штука. Однако, если использовать её для построения простых графиков &amp;mdash; это как купить кирпичный мини-завод, чтобы построить одну дачу.
-Поэтому, на основе D3 есть множество библиотек для графиков, самая известная из которых &amp;mdash; &lt;a href=&#39;http://nvd3.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;NVD3&lt;/a&gt;.&lt;/p&gt;
+Поэтому, на основе D3 есть множество библиотек для графиков, самая известная из которых &amp;mdash; &lt;a href=&#39;http://nvd3.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;NVD3&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;По большому счёту, чтобы понять её возможности проще перейти на сайт. На главной странице есть интересные примеры, обратите внимание, что они интерактивные.
 От себя добавлю, что использовали её в одном большом проекте, понравилось. Есть мелкие глюки. Но их, так или иначе, можно обойти или исправить.
-К сожалению, NVD3 &lt;a href=&#39;https://github.com/novus/nvd3/issues/1681&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;пока не поддерживает D3 4.0&lt;/a&gt; (о которой ниже).&lt;/p&gt;
+К сожалению, NVD3 &lt;a href=&#39;https://github.com/novus/nvd3/issues/1681&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;пока не поддерживает D3 4.0&lt;/a&gt; (о которой ниже).&lt;/p&gt;
 
 &lt;h3 id=&#34;кратко-об-изменениях-в-четвёртой-версии-d3&#34;&gt;Кратко об изменениях в четвёртой версии D3&lt;/h3&gt;
 
-&lt;p&gt;Не так давно вышла &lt;a href=&#39;https://github.com/d3/d3/blob/master/CHANGES.md&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;четвёртая версия D3&lt;/a&gt;.
+&lt;p&gt;Не так давно вышла &lt;a href=&#39;https://github.com/d3/d3/blob/master/CHANGES.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;четвёртая версия D3&lt;/a&gt;.
 Это реальная такая мажорная версия (не то что этот ваш Chrome :). Улучшены некоторые алгоритмы, добавлены новые, библиотека стала более гранулированной, местами улучшено API.
 Всё это реально круто, жаль только библиотеки, работающие на её основе, не смогут перейти на новую версию мгновенно&amp;hellip;&lt;/p&gt;
 
 &lt;h3 id=&#34;интересная-библиотека-metricsgraphics-js&#34;&gt;Интересная библиотека MetricsGraphics.js&lt;/h3&gt;
 
-&lt;p&gt;Признаюсь сразу, сам &lt;a href=&#39;http://metricsgraphicsjs.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;MetricsGraphics.js&lt;/a&gt; пока не пробовал. Думаю что для интерактивных графиков,
-у которых ось X &amp;mdash; всегда время, выглядит удобно. Посмотрите сами &lt;a href=&#39;http://metricsgraphicsjs.org/examples.htm&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;на примеры&lt;/a&gt;, мне понравился Linked Graphic.&lt;/p&gt;
+&lt;p&gt;Признаюсь сразу, сам &lt;a href=&#39;http://metricsgraphicsjs.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MetricsGraphics.js&lt;/a&gt; пока не пробовал. Думаю что для интерактивных графиков,
+у которых ось X &amp;mdash; всегда время, выглядит удобно. Посмотрите сами &lt;a href=&#39;http://metricsgraphicsjs.org/examples.htm&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;на примеры&lt;/a&gt;, мне понравился Linked Graphic.&lt;/p&gt;
 
 &lt;p&gt;Если кто-то попробует в реальном проекте &amp;mdash; отпишитесь, буду благодарен.&lt;/p&gt;
 </description>

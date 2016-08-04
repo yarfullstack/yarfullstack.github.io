@@ -18,8 +18,8 @@
       <guid>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</guid>
       <description>
 
-&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
-Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
+Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;TL;DR Можете использовать любую СУБД, только знайте её сильные и слабые стороны.
 А если выбор будет неправильным &amp;mdash; можно будет мигрировать на другую (с разным количеством боли, в зависимости от ситуации).
@@ -31,8 +31,8 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;h3 id=&#34;забавное&#34;&gt;Забавное&lt;/h3&gt;
 
-&lt;p&gt;Uber в 2013 опубликовал &lt;a href=&#39;https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;статью про переход с MySQL на Postgres&lt;/a&gt;.
-Основная причина перехода, насколько я понял &amp;mdash; в Postgres больше функциональности и &amp;laquo;плагинов&amp;raquo; вроде PostGIS.&lt;/p&gt;
+&lt;p&gt;Uber в 2013 опубликовал &lt;a href=&#39;https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью про переход с MySQL на Postgres&lt;/a&gt;.
+Основная причина перехода, насколько я понял &amp;mdash; в Postgres больше функциональности и &amp;ldquo;плагинов&amp;rdquo; вроде PostGIS.&lt;/p&gt;
 
 &lt;h3 id=&#34;подробности&#34;&gt;Подробности&lt;/h3&gt;
 
@@ -55,7 +55,7 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;p&gt;В Postgres строки неизменяемые, а индексы хранят ссылки на конкретное место на диске. При чтении это даёт выигрыш.
 Однако, при обновлении Postgres вынужден создавать копию строки с новыми значениями и обновлять &lt;strong&gt;все&lt;/strong&gt; индексы обновляемой таблицы.
-&amp;laquo;Старая&amp;raquo; строка при этом продолжает занимать место, что уже менее критично (освобождается авто-вакуумом).&lt;/p&gt;
+&amp;ldquo;Старая&amp;rdquo; строка при этом продолжает занимать место, что уже менее критично (освобождается авто-вакуумом).&lt;/p&gt;
 
 &lt;h3 id=&#34;выводы&#34;&gt;Выводы&lt;/h3&gt;
 
@@ -81,28 +81,28 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;h3 id=&#34;varvy-seo-tool&#34;&gt;Varvy SEO tool&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://varvy.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Varvy SEO tool&lt;/a&gt; &amp;mdash; лучший, на мой взгляд, бесплатный многофункциональный сервис проверки сайтов.
+&lt;p&gt;&lt;a href=&#39;https://varvy.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Varvy SEO tool&lt;/a&gt; &amp;mdash; лучший, на мой взгляд, бесплатный многофункциональный сервис проверки сайтов.
 Крайне рекомендую. В отличие от других сервисов, он и на валидность HTML посмотрит, и Accessibility проверит&amp;hellip;&lt;/p&gt;
 
 &lt;h3 id=&#34;pingdom-website-speed-test&#34;&gt;Pingdom Website Speed Test&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://tools.pingdom.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Pingdom Website Speed Test&lt;/a&gt; &amp;mdash; ориентирован на проверку скорости и типовых проблем.
+&lt;p&gt;&lt;a href=&#39;https://tools.pingdom.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Pingdom Website Speed Test&lt;/a&gt; &amp;mdash; ориентирован на проверку скорости и типовых проблем.
 Попроще, чем Varvy, чуть посложнее, чем PageSpeed.&lt;/p&gt;
 
 &lt;h3 id=&#34;pagespeed&#34;&gt;PageSpeed&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://developers.google.com/speed/pagespeed/?hl=ru&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;PageSpeed&lt;/a&gt; &amp;mdash; инструмент от Google, тоже ориентирован на проверку скорости и типовых проблем.
+&lt;p&gt;&lt;a href=&#39;https://developers.google.com/speed/pagespeed/?hl=ru&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PageSpeed&lt;/a&gt; &amp;mdash; инструмент от Google, тоже ориентирован на проверку скорости и типовых проблем.
 Иногда рассказывает меньше, чем Pingdom. Есть модуль для Nginx и Apache, который обеспечивает выполнение многих рекомендаций в автоматическом режиме.
 Также есть плагины для Chrome, правда, не вижу я в них особой пользы.&lt;/p&gt;
 
 &lt;h3 id=&#34;testmysite-thinkwithgoogle-com&#34;&gt;TestMySite (thinkwithgoogle.com)&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://testmysite.thinkwithgoogle.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;TestMySite&lt;/a&gt; &amp;mdash; ещё один инструмент от Google,
+&lt;p&gt;&lt;a href=&#39;https://testmysite.thinkwithgoogle.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TestMySite&lt;/a&gt; &amp;mdash; ещё один инструмент от Google,
 я бы сказал, что это максимально простой и красиво оформленный фасад для PageSpeed.&lt;/p&gt;
 
 &lt;h3 id=&#34;webpagetest&#34;&gt;WebPageTest&lt;/h3&gt;
 
-&lt;p&gt;И последний, но отнюдь не по полезности &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;WebPageTest&lt;/a&gt;.
+&lt;p&gt;И последний, но отнюдь не по полезности &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;WebPageTest&lt;/a&gt;.
 Этот замечательный инструмент позволяет проверить загрузку сайта в разных условиях:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -112,7 +112,7 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 &lt;/ul&gt;
 
 &lt;p&gt;На выходе получаем подробный отчёт с логом и аналогом результатов вкладки Network в Chrome. Плюс к этому, он ещё и записывает видео, на котором видно, как открывается сайт.
-В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
+В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
 </description>
     </item>
     

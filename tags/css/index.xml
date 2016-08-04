@@ -23,13 +23,13 @@
 
 &lt;p&gt;Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
 Также можно использовать его API из Node.js или вызывать из командной строки.
-Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
+Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;важные-замечания&#34;&gt;Важные замечания&lt;/h3&gt;
 
 &lt;p&gt;Что нужно иметь в виду, при использовании UnCSS.&lt;/p&gt;
 
-&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;laquo;динамические&amp;raquo; стили могут быть незаслуженно выпилены.
+&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;ldquo;динамические&amp;rdquo; стили могут быть незаслуженно выпилены.
 После того, как вы это обнаружите, решить проблему можно с помощью опции ignore или простым комментарием перед селектором:
 &lt;div class=&#34;microlight&#34;&gt;/* uncss:ignore */
 .js .input-file {
@@ -42,7 +42,7 @@
 &lt;h3 id=&#34;опыт-использования&#34;&gt;Опыт использования&lt;/h3&gt;
 
 &lt;p&gt;Пока могу сказать, что опыт использования небольшой, но положительный. Поскольку я использую его вместе с PostCSS, всё просто.
-Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
+Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
 &lt;div class=&#34;microlight&#34;&gt;npm install postcss-uncss uncss
 &lt;/div&gt;&lt;/p&gt;
 
@@ -76,21 +76,21 @@
 
 &lt;h3 id=&#34;рекомендации-по-дизайну-хороших-и-удобных-форм&#34;&gt;Рекомендации по дизайну хороших и удобных форм&lt;/h3&gt;
 
-&lt;p&gt;В статье &lt;a href=&#39;https://uxdesign.cc/design-better-forms-96fadca0f49c&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Design Better Forms (Common mistakes designers make and how to fix them)&lt;/a&gt;,
+&lt;p&gt;В статье &lt;a href=&#39;https://uxdesign.cc/design-better-forms-96fadca0f49c&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Design Better Forms (Common mistakes designers make and how to fix them)&lt;/a&gt;,
 Эндрю Коул на наглядных примерах рассказывает, как надо делать и как не надо делать формы.
 Статью прочитал. Соглашаюсь с автором по всем пунктам (строго говоря, по поводу одного пункта могут быть нестандартные ситуации…).
-Ранее читал похожую статью &lt;a href=&#39;http://mono.company/journal/design-practice/the-10-commandments-of-good-form-design-on-the-web/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;The 10 Commandments of Good Form Design on the Web&lt;/a&gt;,
+Ранее читал похожую статью &lt;a href=&#39;http://mono.company/journal/design-practice/the-10-commandments-of-good-form-design-on-the-web/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The 10 Commandments of Good Form Design on the Web&lt;/a&gt;,
 но эта мне понравилась значительно больше.&lt;/p&gt;
 
 &lt;h3 id=&#34;визуальные-отличия-грядущего-bootstrap-4-от-bootstrap-3&#34;&gt;Визуальные отличия грядущего Bootstrap 4 от Bootstrap 3&lt;/h3&gt;
 
-&lt;p&gt;Для тех, кто очень далёк от web-разработки &amp;mdash; речь про этот &lt;a href=&#39;http://getbootstrap.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Bootstrap&lt;/a&gt;.
+&lt;p&gt;Для тех, кто очень далёк от web-разработки &amp;mdash; речь про этот &lt;a href=&#39;http://getbootstrap.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Bootstrap&lt;/a&gt;.
 Вероятно вы в курсе, что сейчас четвёртая версия пока только в альфе. Но поинтересоваться какие будут изменения можно и сейчас.
-А Кэрол Скелли поможет достаточно просто увидеть это в статье &lt;a href=&#39;https://medium.com/wdstack/bootstrap-4-whats-new-visual-guide-c84dd81d8387&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Bootstrap 4: A Visual Guide to What’s New&lt;/a&gt;.&lt;/p&gt;
+А Кэрол Скелли поможет достаточно просто увидеть это в статье &lt;a href=&#39;https://medium.com/wdstack/bootstrap-4-whats-new-visual-guide-c84dd81d8387&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Bootstrap 4: A Visual Guide to What’s New&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;интересное-исследование-впечатлений-пользователей-мобильных-устройств-о-сайтах&#34;&gt;Интересное исследование впечатлений пользователей мобильных устройств о сайтах&lt;/h3&gt;
 
-&lt;p&gt;По заголовку статьи &lt;a href=&#39;http://blog.marginmedia.com.au/Our-Blog/bid/87385/10-Mobile-Web-Design-Statistics-All-Marketers-Should-Know-About&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;10 Mobile Web Design Statistics All Marketers Should Know About&lt;/a&gt;
+&lt;p&gt;По заголовку статьи &lt;a href=&#39;http://blog.marginmedia.com.au/Our-Blog/bid/87385/10-Mobile-Web-Design-Statistics-All-Marketers-Should-Know-About&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;10 Mobile Web Design Statistics All Marketers Should Know About&lt;/a&gt;
 может показаться, что она для маркетологов. Но нет. Точнее не только для них. Статья древняя &amp;mdash; 2012 года.
 Однако сомневаюсь, что ситуация изменилась в сторону толерантности пользователей к косякам на сайтах :)&lt;/p&gt;
 
@@ -126,11 +126,11 @@
 
 &lt;h3 id=&#34;так-ли-страшен-important-как-его-малюют&#34;&gt;Так ли страшен important, как его малюют?&lt;/h3&gt;
 
-&lt;p&gt;Прочитал на днях статью &lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.
+&lt;p&gt;Прочитал на днях статью &lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.
 Если вкратце &amp;mdash; не так уж бесполезен и вреден !important.&lt;/p&gt;
 
-&lt;p&gt;Есть вполне жизненные и правильные варианты использования &amp;mdash; например, для утилитных классов с &amp;laquo;text-align: center&amp;raquo;.
-Похоже, это теперь такая же &amp;laquo;потому что так нельзя&amp;raquo; страшилка среди верстальщиков, как GOTO среди программистов :)&lt;/p&gt;
+&lt;p&gt;Есть вполне жизненные и правильные варианты использования &amp;mdash; например, для утилитных классов с &amp;ldquo;text-align: center&amp;rdquo;.
+Похоже, это теперь такая же &amp;ldquo;потому что так нельзя&amp;rdquo; страшилка среди верстальщиков, как GOTO среди программистов :)&lt;/p&gt;
 
 &lt;h3 id=&#34;рекомендуемые-инструменты-для-css&#34;&gt;Рекомендуемые инструменты для CSS&lt;/h3&gt;
 
@@ -138,16 +138,16 @@
 
 &lt;p&gt;Мой любимый процессор CSS. Важно: пусть вас не путает название, это не пост-процессор :)
 Подробнее об этом есть неплохая статья
-&lt;a href=&#39;https://www.sitepoint.com/postcss-mythbusting/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;PostCSS Mythbusting: Four PostCSS Myths Busted&lt;/a&gt;
-(перевод: &lt;a href=&#39;https://habrahabr.ru/post/280988/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;4 мифа о PostCSS&lt;/a&gt;).&lt;/p&gt;
+&lt;a href=&#39;https://www.sitepoint.com/postcss-mythbusting/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PostCSS Mythbusting: Four PostCSS Myths Busted&lt;/a&gt;
+(перевод: &lt;a href=&#39;https://habrahabr.ru/post/280988/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;4 мифа о PostCSS&lt;/a&gt;).&lt;/p&gt;
 
 &lt;p&gt;Думаю, что позже поделюсь подробными впечатлениями об его использовании. Пока скажу, что весьма понравилась идея
-использовать следующую версию CSS прямо сейчас с помощью &lt;a href=&#39;http://cssnext.io/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;postcss-cssnext&lt;/a&gt;.&lt;/p&gt;
+использовать следующую версию CSS прямо сейчас с помощью &lt;a href=&#39;http://cssnext.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;postcss-cssnext&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h4 id=&#34;uncss&#34;&gt;UnCSS&lt;/h4&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.
-С помощью &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; рендерит страницы и выполняет JavaScript,
+&lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.
+С помощью &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; рендерит страницы и выполняет JavaScript,
 ищет используемые классы и удаляет остальные. Можно прицепить к Node.js, вызывать из командной строки или добавить плагин к PostCSS.&lt;/p&gt;
 </description>
     </item>

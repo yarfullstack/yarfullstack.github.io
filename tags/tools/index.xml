@@ -23,13 +23,13 @@
 
 &lt;p&gt;Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
 Также можно использовать его API из Node.js или вызывать из командной строки.
-Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
+Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h3 id=&#34;важные-замечания&#34;&gt;Важные замечания&lt;/h3&gt;
 
 &lt;p&gt;Что нужно иметь в виду, при использовании UnCSS.&lt;/p&gt;
 
-&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;laquo;динамические&amp;raquo; стили могут быть незаслуженно выпилены.
+&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;ldquo;динамические&amp;rdquo; стили могут быть незаслуженно выпилены.
 После того, как вы это обнаружите, решить проблему можно с помощью опции ignore или простым комментарием перед селектором:
 &lt;div class=&#34;microlight&#34;&gt;/* uncss:ignore */
 .js .input-file {
@@ -42,7 +42,7 @@
 &lt;h3 id=&#34;опыт-использования&#34;&gt;Опыт использования&lt;/h3&gt;
 
 &lt;p&gt;Пока могу сказать, что опыт использования небольшой, но положительный. Поскольку я использую его вместе с PostCSS, всё просто.
-Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
+Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
 &lt;div class=&#34;microlight&#34;&gt;npm install postcss-uncss uncss
 &lt;/div&gt;&lt;/p&gt;
 
@@ -74,28 +74,28 @@
 
 &lt;h3 id=&#34;varvy-seo-tool&#34;&gt;Varvy SEO tool&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://varvy.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Varvy SEO tool&lt;/a&gt; &amp;mdash; лучший, на мой взгляд, бесплатный многофункциональный сервис проверки сайтов.
+&lt;p&gt;&lt;a href=&#39;https://varvy.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Varvy SEO tool&lt;/a&gt; &amp;mdash; лучший, на мой взгляд, бесплатный многофункциональный сервис проверки сайтов.
 Крайне рекомендую. В отличие от других сервисов, он и на валидность HTML посмотрит, и Accessibility проверит&amp;hellip;&lt;/p&gt;
 
 &lt;h3 id=&#34;pingdom-website-speed-test&#34;&gt;Pingdom Website Speed Test&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://tools.pingdom.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;Pingdom Website Speed Test&lt;/a&gt; &amp;mdash; ориентирован на проверку скорости и типовых проблем.
+&lt;p&gt;&lt;a href=&#39;https://tools.pingdom.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Pingdom Website Speed Test&lt;/a&gt; &amp;mdash; ориентирован на проверку скорости и типовых проблем.
 Попроще, чем Varvy, чуть посложнее, чем PageSpeed.&lt;/p&gt;
 
 &lt;h3 id=&#34;pagespeed&#34;&gt;PageSpeed&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://developers.google.com/speed/pagespeed/?hl=ru&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;PageSpeed&lt;/a&gt; &amp;mdash; инструмент от Google, тоже ориентирован на проверку скорости и типовых проблем.
+&lt;p&gt;&lt;a href=&#39;https://developers.google.com/speed/pagespeed/?hl=ru&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PageSpeed&lt;/a&gt; &amp;mdash; инструмент от Google, тоже ориентирован на проверку скорости и типовых проблем.
 Иногда рассказывает меньше, чем Pingdom. Есть модуль для Nginx и Apache, который обеспечивает выполнение многих рекомендаций в автоматическом режиме.
 Также есть плагины для Chrome, правда, не вижу я в них особой пользы.&lt;/p&gt;
 
 &lt;h3 id=&#34;testmysite-thinkwithgoogle-com&#34;&gt;TestMySite (thinkwithgoogle.com)&lt;/h3&gt;
 
-&lt;p&gt;&lt;a href=&#39;https://testmysite.thinkwithgoogle.com/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;TestMySite&lt;/a&gt; &amp;mdash; ещё один инструмент от Google,
+&lt;p&gt;&lt;a href=&#39;https://testmysite.thinkwithgoogle.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TestMySite&lt;/a&gt; &amp;mdash; ещё один инструмент от Google,
 я бы сказал, что это максимально простой и красиво оформленный фасад для PageSpeed.&lt;/p&gt;
 
 &lt;h3 id=&#34;webpagetest&#34;&gt;WebPageTest&lt;/h3&gt;
 
-&lt;p&gt;И последний, но отнюдь не по полезности &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;WebPageTest&lt;/a&gt;.
+&lt;p&gt;И последний, но отнюдь не по полезности &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;WebPageTest&lt;/a&gt;.
 Этот замечательный инструмент позволяет проверить загрузку сайта в разных условиях:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -105,7 +105,7 @@
 &lt;/ul&gt;
 
 &lt;p&gt;На выходе получаем подробный отчёт с логом и аналогом результатов вкладки Network в Chrome. Плюс к этому, он ещё и записывает видео, на котором видно, как открывается сайт.
-В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
+В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
 </description>
     </item>
     
