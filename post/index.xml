@@ -7,8 +7,68 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 04 Aug 2016 21:12:01 +0300</lastBuildDate>
+    <lastBuildDate>Sat, 06 Aug 2016 15:04:54 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Улучшаем производительность npm-install нестандартным способом</title>
+      <link>https://yarfullstack.com/post/2016-08/improve-npm-performance-with-progress-bar/</link>
+      <pubDate>Sat, 06 Aug 2016 15:04:54 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-08/improve-npm-performance-with-progress-bar/</guid>
+      <description>
+
+&lt;p&gt;В последнее время всё чаще сталкиваюсь с разработкой на node.js.
+На работе использую версию LTS, по понятным причинам. Дома поставил 6.3.1.&lt;/p&gt;
+
+&lt;p&gt;Идеологически мне больше нравится третий npm &amp;mdash; всё-таки хранить дубликаты модулей, особенно когда их много &amp;mdash; не здорово.
+Кстати, для старой версии ноды есть &lt;a href=&#39;https://www.npmjs.com/package/npm3&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;модуль npm3&lt;/a&gt; &amp;mdash; позволяет
+(в лучших традициях партизан) использовать новый npm при установленном старом (только команды будут npm3 install и т.п.). Но сегодня речь не об этом.&lt;/p&gt;
+
+&lt;h3 id=&#34;progress-bar&#34;&gt;Progress bar&lt;/h3&gt;
+
+&lt;p&gt;Не знаю, насколько для вас это сюрприз, но, таки-да &amp;mdash; этот симпатичный (в третьем npm) зверёк ощутимо влияет на производительность npm install.
+Я, конечно, не буду разводить драму в стиле газетных заголовков и сразу скажу, что, по моим замерам, разница в пределах 20%.
+И да, progress bar можно отключить глобально в &lt;a href=&#39;https://docs.npmjs.com/files/npmrc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;файле .npmrc&lt;/a&gt; с помощью одной строчки:
+&lt;div class=&#34;microlight&#34;&gt;progress=false
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Отключать или нет? Хм. Решайте сами :) Я просто дам чуть больше информации.
+В моём подопытном проекте папка node_modules занимает 160 мегабайт. Проект на стареньком SSD, интернет не самый быстрый.
+Да, у меня Windows 10, проверял в cmd, ConEmu, Git Bash. Разница между консольками в пределах погрешности. Есть только визуальная разница &amp;mdash; в
+Git Bash прогресс не рисуется, даже если включен :)&lt;/p&gt;
+
+&lt;p&gt;С включённым progress bar полный npm install занимает в среднем &lt;strong&gt;25 секунд&lt;/strong&gt;, без него &amp;ndash; &lt;strong&gt;21 секунду&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Лично я себе его отключил, хотя и понимаю, что не так уж часто делаю полный npm install.
+Для билдов, которые могут идти &amp;ldquo;начисто&amp;rdquo; наверное это отключение будет более востребовано.
+За &lt;a href=&#39;https://github.com/npm/npm/issues/11283&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;судьбой баги&lt;/a&gt; (да, она уже давно оформлена и горячо обсуждалась)
+можете последить на GitHub.&lt;/p&gt;
+
+&lt;p&gt;Если хотите проверить разницу для своих проектов, вот скрипт для Windows:&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;npm set progress=true
+rmdir node_modules /s /q
+echo %TIME%
+npm install
+echo %TIME%
+npm set progress=false
+rmdir node_modules /s /q
+echo %TIME%
+npm install
+&lt;/div&gt;
+
+&lt;p&gt;А вот скрипт для Linux (запускал у себя на Git Bash):&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;rm -rf node_modules
+npm set progress=true
+time npm install
+rm -rf node_modules
+npm set progress=false
+time npm install
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>Ищем битые ссылки и чиним target=&#34;_blank&#34;</title>
