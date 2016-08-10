@@ -7,8 +7,56 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 15 Jul 2016 15:24:57 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 10 Aug 2016 22:39:44 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Полезные настройки WebStorm</title>
+      <link>https://yarfullstack.com/post/2016-08/WebStorm-useful-options/</link>
+      <pubDate>Wed, 10 Aug 2016 22:39:44 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-08/WebStorm-useful-options/</guid>
+      <description>
+
+&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
+Я пока ещё &lt;del&gt;не настоящий сварщик&lt;/del&gt; не особо опытный пользователь WebStorm, поэтому здесь вы не найдёте советов как в 10 раз ускорить
+ разработку и т.п. Просто несколько простых способов обустроить эту IDE для своих нужд.&lt;/p&gt;
+
+&lt;h3 id=&#34;вступление&#34;&gt;Вступление&lt;/h3&gt;
+
+&lt;p&gt;На всякий случай, &lt;a href=&#39;https://www.jetbrains.com/webstorm/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;WebStorm&lt;/a&gt; &amp;mdash; это IDE для web-разработчиков от JetBrains.
+И разрабатывать на ней можно не только front-end &amp;mdash; для Node.js она тоже неплохо адаптирована. В ней много всяких полезных плюшек &amp;mdash;
+отладка node.js, простые рефакторинги, Emmet&amp;hellip; Однако, пересказывать то, что про неё и так постоянно пишут я не буду.&lt;/p&gt;
+
+&lt;h3 id=&#34;плагины&#34;&gt;Плагины&lt;/h3&gt;
+
+&lt;p&gt;Тут всё просто &amp;mdash; идёте в Settings / Plugins и подключаете или отключаете плагины.
+Этот текст, к примеру, я сейчас пишу в WebStorm c подключенным плагином для Markdown. И, раз уж речь зашла о тексте&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;проверка-орфографии&#34;&gt;Проверка орфографии&lt;/h3&gt;
+
+&lt;p&gt;WebStorm из коробки поддерживает проверку орфографии. Но английского языка. Несправедливость сия легко исправляется (пусть и не на 100%).
+Отдельная благодарность &lt;a href=&#39;https://dikmax.name/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;dikmax&lt;/a&gt; за
+&lt;a href=&#39;https://yadi.sk/d/DL05vxUaTdLrr&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;предоставленный словарь русского языка&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Словарь копируется в подходящую папку (у меня это Projects/.Settings), затем добавляется в настройках WebStorm.
+Если быть раздражающе точным &amp;mdash; в &amp;ldquo;File / Settings / Editor / Spelling / Dictionaries&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Да, в словаре не хватает некоторых слов, несмотря на его размер &amp;mdash; 49 мегабайт. Ситуации действительно встречаются неожиданные &amp;mdash;
+есть &amp;ldquo;канделябром&amp;rdquo; (ну куда же без этого, в приличном-то обществе :), но нет &amp;ldquo;коробки&amp;rdquo; из коробки&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Эти единичные случаи можно исправить самостоятельно или поискать другой, более полный словарь.
+Меня лично больше расстраивает отсутствие поддержки &amp;ldquo;ё&amp;rdquo;. Так что, если найдёте подходящую замену &amp;mdash; прошу отписаться в комментариях.&lt;/p&gt;
+
+&lt;h3 id=&#34;todo&#34;&gt;TODO&lt;/h3&gt;
+
+&lt;p&gt;TODO сделано достаточно удобно. Если затрудняетесь в его поиске&amp;hellip; &amp;ldquo;View / Tool Windows / TODO&amp;rdquo; для визуалов, Alt+6 для кинестетиков.&lt;/p&gt;
+
+&lt;p&gt;Есть одна маленькая тонкость. По умолчанию TODO показываются для всей папки. Думаю, не всем хочется наблюдать сотни TODO из папки node_modules.
+Поэтому стоит в окне с TODO сверху выбрать Scope Based и настроить так, как вам удобнее. Обычно &amp;ldquo;Project Files&amp;rdquo; бывает достаточно,
+но если есть вложенные в подпроекты node_modules &amp;mdash; не работает (для таких случаев можно добавить свой Scope).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Подробности про UnCSS</title>
