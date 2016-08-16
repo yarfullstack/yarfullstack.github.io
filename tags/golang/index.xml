@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Golang on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/golang/</link>
+    <description>Recent content in Golang on YarFullStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 16 Aug 2016 21:15:58 +0300</lastBuildDate>
+    <atom:link href="https://yarfullstack.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Релиз Go 1.7</title>
+      <link>https://yarfullstack.com/post/2016-08/go-1.7-release/</link>
+      <pubDate>Tue, 16 Aug 2016 21:15:58 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-08/go-1.7-release/</guid>
+      <description>
+
+&lt;p&gt;15 августа &lt;a href=&#39;https://blog.golang.org/go1.7&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;состоялся релиз Go 1.7&lt;/a&gt;. Улучшен компилятор, сборщик мусора, размер бинарников уменьшен на 20-30%.&lt;/p&gt;
+
+&lt;h3 id=&#34;концептуальная-оптимизация-компилятора&#34;&gt;Концептуальная оптимизация компилятора&lt;/h3&gt;
+
+&lt;p&gt;За счёт использования SSA стало проще осуществлять многие оптимизации. Бенчмарки говорят о приросте производительности 5-35%.
+Пока новый back-end для компилятора доступен только для 64-битной платформы x86.
+Подробнее про особенности SSA можно &lt;a href=&#39;https://ru.wikipedia.org/wiki/SSA&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;прочитать в википедии&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;На этом хорошие новости про компилятор не заканчиваются :)
+За счёт нового формата бинарники похудели на 20-30%.&lt;/p&gt;
+
+&lt;h3 id=&#34;оптимизация-стандартной-библиотеки-и-сборщика-мусора&#34;&gt;Оптимизация стандартной библиотеки и сборщика мусора&lt;/h3&gt;
+
+&lt;p&gt;Приложения запускаются быстрее. Для случая с большим количеством простаивающих горутин паузы при сборке мусора уменьшились.&lt;/p&gt;
+
+&lt;h3 id=&#34;контексты-перенесли-уровнем-выше&#34;&gt;Контексты перенесли уровнем выше&lt;/h3&gt;
+
+&lt;p&gt;Теперь &lt;a href=&#39;https://godoc.org/golang.org/x/net/context/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;пакет golang.org/x/net/context&lt;/a&gt; перенесён в
+&lt;a href=&#39;https://golang.org/pkg/context/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;стандартную библиотеку&lt;/a&gt;.
+Подробнее про контексты &lt;a href=&#39;https://blog.golang.org/context&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;остальные-изменения&#34;&gt;Остальные изменения&lt;/h3&gt;
+
+&lt;p&gt;Подробнее про остальные изменения &lt;a href=&#39;https://golang.org/doc/go1.7&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Поддерживаются &lt;a href=&#39;https://golang.org/pkg/testing/#hdr-Subtests_and_Sub_benchmarks&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;вложенные тесты и бенчмарки&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Добавлена поддержка macOS 10.12 Sierra (теперь также доступна в Go 1.6.3) и экспериментальная поддержка linux/s390x.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://golang.org/s/go15vendor&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Vendoring support&lt;/a&gt; стал мейнстримом.&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Немного&amp;rdquo; оптимизирован go trace (оверхед стал порядка 25% против 400% ранее).&lt;/li&gt;
+&lt;li&gt;Увеличена производительность многих пакетов, и, как заверяют создатели, они на этом не остановятся.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
