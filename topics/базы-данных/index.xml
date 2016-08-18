@@ -7,8 +7,65 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 29 Jul 2016 12:26:04 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 18 Aug 2016 22:36:28 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Внимание! TransactionScope по умолчанию включает Serializable.</title>
+      <link>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</link>
+      <pubDate>Thu, 18 Aug 2016 22:36:28 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</guid>
+      <description>
+
+&lt;p&gt;Сегодня поговорим о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
+
+&lt;p&gt;Вообще говоря, я раньше много раз сталкивался с распределёнными транзакциями.
+В какой-то момент я окончательно сформировал своё мнение по этой теме. Получилось что-то вроде: &amp;ldquo;хватит, я не буду их использовать вообще, разве что в ход со стороны оппонента пойдут огнестрельное оружие и прочие нечестные аргументы&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;По этой причине моё знакомство с &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/system.transactions.transactionscope%28v=vs.110%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TransactionScope&lt;/a&gt;
+свелось к его использованию в интеграционных тестах (без распределённой составляющей, просто для удобного отката транзакций)
+ и редким спорам с коллегами. Но сегодня, внезапно&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;разговор-на-работе&#34;&gt;Разговор на работе&lt;/h3&gt;
+
+&lt;p&gt;Вообще говоря, в появлении этого текста на свет основная заслуга Макса (&lt;a href=&#39;https://twitter.com/force_net&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;@force_net&lt;/a&gt;).
+С ним сегодня сначала говорили про &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/tcbchxcb%28v=vs.110%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Snapshot Isolation&lt;/a&gt;,
+потом перешли на TransactionScope. И говорит Макс &amp;mdash; &lt;strong&gt;&amp;ldquo;там ведь Serializable по умолчанию&amp;rdquo;.&lt;/strong&gt;&lt;br /&gt;
+Я говорю &amp;mdash; &amp;ldquo;да ладно, нелогично же &amp;mdash; без него Read Committed по умолчанию&amp;rdquo;. Так, слово за слово, решили проверить.&lt;/p&gt;
+
+&lt;h3 id=&#34;лирическое-отступление&#34;&gt;Лирическое отступление&lt;/h3&gt;
+
+&lt;p&gt;На случай, если вы мало сталкивались с БД, про уровни изоляции есть вполне сносная, хотя не всем с первого раза понятная документация.
+Поэтому лучше дам ссылку на &lt;a href=&#39;https://en.wikipedia.org/wiki/Isolation_%28database_systems%29&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;общее описание от википедии&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если вкратце, применимость Serializable в web-приложениях не очень высокая. Проблема в том, что для MS SQL (и подобных ему &amp;ldquo;блокирующих&amp;rdquo; СУБД)
+ это означает блокировку ресурса на чтение, даже если его только прочитали в транзакции. Когда мы с Максом обсуждали эти особенности,
+ он привёл пример &amp;ldquo;то есть если один заказывает билеты на фильм, то блокируются на всякий случай все места, а второй будет ждать&amp;hellip;&amp;rdquo;
+ &amp;ldquo;&amp;hellip; пока фильм не &lt;del&gt;выложат на торрентах&lt;/del&gt; выйдет на DVD&amp;rdquo;, продолжил я :)&lt;/p&gt;
+
+&lt;h3 id=&#34;результаты-проверки&#34;&gt;Результаты проверки&lt;/h3&gt;
+
+&lt;p&gt;Как я уже говорил, TransactionScope пользовался давно и редко. Поэтому я несколько удивился, увидев подтверждение упомянутому феномену.
+Сказал я Максу что-то вроде &amp;mdash; &amp;ldquo;с чего-бы высокомудрые архитекторы и разработчики такой нетрадиционный способ обратной совместимости выбрали?&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;А он в меня &lt;a href=&#39;http://stackoverflow.com/questions/11292763/why-is-system-transactions-transactionscope-default-isolationlevel-serializable&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ссылкой кидает&lt;/a&gt;.
+Ладно, теперь понятны хотя бы предпосылки этого не самого логичного решения &amp;mdash; предпочли выбрать поведение по умолчанию как в MS DTC, а не как
+в MS SQL и System.Data.SqlClient. Но, чёрт возьми, почему я не вижу рядом с названием класса
+слов &amp;ldquo;по умолчанию использует уровень изоляции Serializable&amp;rdquo; большими красными буквами?
+&lt;a href=&#39;https://msdn.microsoft.com/en-us/library/system.transactions.transactionscope%28v=vs.110%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;В документации класса &lt;/a&gt; вообще Serializable не упомянули :(&lt;/p&gt;
+
+&lt;h3 id=&#34;выводы&#34;&gt;Выводы&lt;/h3&gt;
+
+&lt;p&gt;Если вы подсели на &amp;ldquo;синтаксическое сладкое&amp;rdquo;, любите async/await (предпочитая не погружаться в детали его работы) и используете
+TransactionScope из коробки в production &amp;mdash; ваше дело. Я больше скажу, даже MS DTC вы можете использовать из приложения в ASP.NET.
+Да хоть мигающий фиолетовый текст на жёлтом фоне. Кто я такой, чтобы вам указывать? :)&lt;/p&gt;
+
+&lt;p&gt;Однако, &lt;strong&gt;подумайте над переопределением уровня изоляции транзакций для TransactionScope.&lt;/strong&gt;
+Разумеется, я согласен, что для каких-то решений Serializable будет правильным выбором.
+Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Uber-Postgres&#43;MySQL</title>

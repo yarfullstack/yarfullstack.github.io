@@ -4,8 +4,8 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-	      content="MySQL">
-	<title>MySQL</title>
+	      content="О TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.">
+	<title>Внимание! TransactionScope по умолчанию включает Serializable.</title>
 	
 	<style>
 	html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,select,textarea{font:inherit;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}#mb-container,body,html{min-height:100%;height:100%;width:100%}html{font-size:calc(16px + 6 * ((100vw - 640px) / 512))}@media screen and (min-width:1152px){html{font-size:22px}}@media screen and (max-width:640px){html{font-size:16px}}ul{vertical-align:baseline;list-style-position:outside}#mb-container{float:left;background-color:#fff}#mb-content{color:#282828}#mb-menu{box-sizing:border-box;background-color:#203040;color:#ababab}.mb-mh{font-weight:700}.mb-none{display:none}article,p{line-height:24px;line-height:1.5rem;margin-bottom:24px;margin-bottom:1.5rem}small{font-size:.694em;line-height:16.672px;line-height:1.042rem}h1{font-size:33.184px;font-size:2.074rem;line-height:33.184px;line-height:2.074rem}h1,h2{margin-bottom:24px;margin-bottom:1.5rem}h2{font-size:27.648px;font-size:1.728rem;line-height:27.648px;line-height:1.728rem;margin-top:44.352px;margin-top:2.772rem}h3{font-size:23.04px;font-size:1.44rem;line-height:23.04px;line-height:1.44rem;margin-top:48.96px;margin-top:3.06rem}h3,h4{margin-bottom:24px;margin-bottom:1.5rem}h4{font-size:19.2px;font-size:1.2rem;line-height:19.2px;line-height:1.2rem;margin-top:52.8px;margin-top:3.3rem}h5{font-size:16px;font-size:1rem;line-height:16px;line-height:1rem;margin-top:56px;margin-top:3.5rem;margin-bottom:24px;margin-bottom:1.5rem}a{text-decoration:none;color:#2098d1}.mb-ml-color,a.mb-mh,a.mb-ml,a.mb-mt{color:#ababab}a.mb-mh,a.mb-ml,a.mb-mt{margin-right:12px;margin-top:6px;margin:.375rem .75rem 0 0}.u-m-right{margin-right:.5em}.mb-icon-menu{height:.833em;width:.833em;vertical-align:baseline}.mb-icon-content{height:1em;width:1em;vertical-align:baseline}.u-icon-meta{position:relative;top:.033em;left:0}svg{fill:currentColor}.mb-content-nav{display:block;font-size:1em;line-height:1em;margin-top:calc(1.5rem - 1em + 1.5rem);margin-bottom:1em}.mb-prev-next{display:inline}.microlight{font-family:monospace;white-space:pre;background-color:#203040;color:#fafafa;overflow:auto;padding:.5em}@media screen and (max-width:639px){#mb-content,#mb-menu{width:100%;margin:0;box-sizing:border-box}#mb-menu{padding:12px;padding:.75rem}#mb-content{height:auto;padding:0 12px;padding:0 .75rem}h1{margin-top:14.816px;margin-top:.926rem}a.mb-mh,a.mb-ml,a.mb-mt{display:inline-block}.mb-mhh{font-size:23.04px;font-size:1.44rem;font-weight:700;display:block}.u-icon-top-big{top:.033em!important}.u-icon-top-huge{top:.1em!important}.u-hide-s-vw{display:none!important}}@media screen and (min-width:420px) and (max-width:639px){#mb-content,#mb-menu{padding:4%}}@media screen and (min-width:640px){body{height:100%}#mb-menu{position:fixed;top:0;left:0;width:222.08px;width:13.88rem;height:100%;font-size:11.104px;font-size:.694rem;padding-top:16.672px;padding-bottom:16.672px;padding-left:24px;padding:1.042rem 1.5rem;padding-right:24px}#mb-content{position:absolute;top:0;left:222.08px;left:13.88rem;right:0;bottom:0;padding-top:24px;padding-left:24px;padding:1.5rem 1.5rem 0;padding-right:24px}h1{margin-top:-9.184px;margin-top:-.574rem}.mb-mh,a.mb-mh,a.mb-ml,a.mb-mt{line-height:16.672px;line-height:1.042rem}.mb-mh,a.mb-mh,a.mb-ml{margin-left:0;margin-right:0}.u-menu-vmargin{margin-top:11.12px;margin-top:.695rem;margin-bottom:11.12px;margin-bottom:.695rem}.mb-mh,a.mb-mh{margin-top:16.672px;margin-top:1.042rem;margin-bottom:5.568px;margin-bottom:.348rem}a.mb-mt{display:inline-block}.u-block-l-vw{display:block}.mb-mhh{font-size:16px;font-size:1rem;font-weight:700}.u-icon-top-big{top:.1em!important}.u-icon-top-huge{top:.133em!important}}@media screen and (min-width:1152px){#mb-content{padding-top:24px;padding-bottom:24px;padding:1.5rem calc(1.5rem + (100vw - 1152px) / 2)}}
@@ -36,9 +36,6 @@
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
-	
-	<link href="https://yarfullstack.com/tags/mysql/index.xml" rel="alternate" type="application/rss+xml" title="YarFullStack" />
-	<link href="https://yarfullstack.com/tags/mysql/index.xml" rel="feed" type="application/rss+xml" title="YarFullStack" />
 	
 </head>
 
@@ -101,10 +98,6 @@
 	</defs>
 </svg>
 
-<a href="https://yarfullstack.com/tags/mysql/index.xml" class="mb-ml u-block-l-vw" type="application/rss+xml" target="_blank">
-	<svg class="mb-icon-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><use xlink:href="#rss-icon"></use></svg>
-	Подпишитесь на RSS
-</a>
 	<a class="mb-mh u-block-l-vw" href="https://yarfullstack.com/topics">
 		<svg class="mb-icon-menu u-icon-meta" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
 		Категории
@@ -177,16 +170,11 @@
 
 	<div id="mb-content">
 
-	<h1><svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tag-icon"></use></svg>
-		MySQL</h1>
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/">Uber-Postgres&#43;MySQL</a></h2>
-		<p>
+<h1>Внимание! TransactionScope по умолчанию включает Serializable.</h1>
+<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-07-29 12:26&#43;03:00'>29.07.2016, 12:26</time>
+        <time datetime='2016-08-18 22:36&#43;03:00'>18.08.2016, 22:36</time>
     </small>
     
     
@@ -197,7 +185,7 @@
             
             <a href="https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">Базы данных</a>&nbsp;&nbsp;&#47;&nbsp;
             
-            <a href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Производительность</a>
+            <a href="https://yarfullstack.com/topics/%D0%B2%D0%BD%D0%B5%D0%B7%D0%B0%D0%BF%D0%BD%D0%BE">Внезапно</a>
             
         </small>
         
@@ -208,32 +196,125 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/tags/postgres">Postgres</a>&nbsp;&nbsp;&#47;&nbsp;
+            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
             
-            <a href="https://yarfullstack.com/tags/mysql">MySQL</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/performance">Performance</a>
+            <a href="https://yarfullstack.com/tags/csharp">CSharp</a>
             
         </small>
         
     
 </p>
-	</header>
-	<p>На этой неделе прочитал интереснейшую статью от инженеров Uber: <a href='https://eng.uber.com/mysql-migration/' rel="nofollow noopener noreferrer" target="_blank">Why Uber Engineering Switched from Postgres to MySQL</a>.
-Ayende, чуть позже, написал <a href='https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql' rel="nofollow noopener noreferrer" target="_blank">неплохие комментарии по этой теме</a>.</p>
 
-<p>TL;DR Можете использовать любую СУБД, только знайте её сильные и слабые стороны.</p>
 
-	
-	<footer>
-		<a href="/post/2016-07/Uber-Postgres&#43;MySQL/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
+<p>Сегодня поговорим о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.</p>
 
+<p>Вообще говоря, я раньше много раз сталкивался с распределёнными транзакциями.
+В какой-то момент я окончательно сформировал своё мнение по этой теме. Получилось что-то вроде: &ldquo;хватит, я не буду их использовать вообще, разве что в ход со стороны оппонента пойдут огнестрельное оружие и прочие нечестные аргументы&rdquo;.</p>
+
+<p>По этой причине моё знакомство с <a href='https://msdn.microsoft.com/en-us/library/system.transactions.transactionscope%28v=vs.110%29.aspx' rel="nofollow noopener noreferrer" target="_blank">TransactionScope</a>
+свелось к его использованию в интеграционных тестах (без распределённой составляющей, просто для удобного отката транзакций)
+ и редким спорам с коллегами. Но сегодня, внезапно&hellip;</p>
+
+<h3 id="разговор-на-работе">Разговор на работе</h3>
+
+<p>Вообще говоря, в появлении этого текста на свет основная заслуга Макса (<a href='https://twitter.com/force_net' rel="nofollow noopener noreferrer" target="_blank">@force_net</a>).
+С ним сегодня сначала говорили про <a href='https://msdn.microsoft.com/en-us/library/tcbchxcb%28v=vs.110%29.aspx' rel="nofollow noopener noreferrer" target="_blank">Snapshot Isolation</a>,
+потом перешли на TransactionScope. И говорит Макс &mdash; <strong>&ldquo;там ведь Serializable по умолчанию&rdquo;.</strong><br />
+Я говорю &mdash; &ldquo;да ладно, нелогично же &mdash; без него Read Committed по умолчанию&rdquo;. Так, слово за слово, решили проверить.</p>
+
+<h3 id="лирическое-отступление">Лирическое отступление</h3>
+
+<p>На случай, если вы мало сталкивались с БД, про уровни изоляции есть вполне сносная, хотя не всем с первого раза понятная документация.
+Поэтому лучше дам ссылку на <a href='https://en.wikipedia.org/wiki/Isolation_%28database_systems%29' rel="nofollow noopener noreferrer" target="_blank">общее описание от википедии</a>.</p>
+
+<p>Если вкратце, применимость Serializable в web-приложениях не очень высокая. Проблема в том, что для MS SQL (и подобных ему &ldquo;блокирующих&rdquo; СУБД)
+ это означает блокировку ресурса на чтение, даже если его только прочитали в транзакции. Когда мы с Максом обсуждали эти особенности,
+ он привёл пример &ldquo;то есть если один заказывает билеты на фильм, то блокируются на всякий случай все места, а второй будет ждать&hellip;&rdquo;
+ &ldquo;&hellip; пока фильм не <del>выложат на торрентах</del> выйдет на DVD&rdquo;, продолжил я :)</p>
+
+<h3 id="результаты-проверки">Результаты проверки</h3>
+
+<p>Как я уже говорил, TransactionScope пользовался давно и редко. Поэтому я несколько удивился, увидев подтверждение упомянутому феномену.
+Сказал я Максу что-то вроде &mdash; &ldquo;с чего-бы высокомудрые архитекторы и разработчики такой нетрадиционный способ обратной совместимости выбрали?&rdquo;.</p>
+
+<p>А он в меня <a href='http://stackoverflow.com/questions/11292763/why-is-system-transactions-transactionscope-default-isolationlevel-serializable' rel="nofollow noopener noreferrer" target="_blank">ссылкой кидает</a>.
+Ладно, теперь понятны хотя бы предпосылки этого не самого логичного решения &mdash; предпочли выбрать поведение по умолчанию как в MS DTC, а не как
+в MS SQL и System.Data.SqlClient. Но, чёрт возьми, почему я не вижу рядом с названием класса
+слов &ldquo;по умолчанию использует уровень изоляции Serializable&rdquo; большими красными буквами?
+<a href='https://msdn.microsoft.com/en-us/library/system.transactions.transactionscope%28v=vs.110%29.aspx' rel="nofollow noopener noreferrer" target="_blank">В документации класса </a> вообще Serializable не упомянули :(</p>
+
+<h3 id="выводы">Выводы</h3>
+
+<p>Если вы подсели на &ldquo;синтаксическое сладкое&rdquo;, любите async/await (предпочитая не погружаться в детали его работы) и используете
+TransactionScope из коробки в production &mdash; ваше дело. Я больше скажу, даже MS DTC вы можете использовать из приложения в ASP.NET.
+Да хоть мигающий фиолетовый текст на жёлтом фоне. Кто я такой, чтобы вам указывать? :)</p>
+
+<p>Однако, <strong>подумайте над переопределением уровня изоляции транзакций для TransactionScope.</strong>
+Разумеется, я согласен, что для каких-то решений Serializable будет правильным выбором.
+Главное, чтобы выбор был осознанным&hellip;</p>
+
+<p>
+    <small class="u-m-right">
+        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
+        <time datetime='2016-08-18 22:36&#43;03:00'>18.08.2016, 22:36</time>
+    </small>
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">Базы данных</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/topics/%D0%B2%D0%BD%D0%B5%D0%B7%D0%B0%D0%BF%D0%BD%D0%BE">Внезапно</a>
+            
+        </small>
+        
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/csharp">CSharp</a>
+            
+        </small>
+        
+    
+</p>
+
+	<div class="mb-content-nav">
 	
+	<nav class="mb-prev-next">
+		<a href="https://yarfullstack.com/post/2016-08/go-1.7-release/"><svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+			<use xlink:href="#chevron-left-icon"></use>
+		</svg>&nbsp;Релиз Go 1.7</a></nav>&nbsp;
+		
+	</div>
+
+<script src="/js/microlight.min.js"></script>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		if (window.location.hostname == "localhost") {
+			return;
+		}
+
+		var dsq = document.createElement('script');
+		dsq.type = 'text/javascript';
+		dsq.async = true;
+		var disqus_shortname = 'yarfullstackcom';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 </div> 
 </div> 
 
