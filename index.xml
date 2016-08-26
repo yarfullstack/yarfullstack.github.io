@@ -7,8 +7,43 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 18 Aug 2016 22:36:28 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 26 Aug 2016 14:12:37 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Подборка самых интересных недавних твитов по UX и Usability</title>
+      <link>https://yarfullstack.com/post/2016-08/ux-best-tweets/</link>
+      <pubDate>Fri, 26 Aug 2016 14:12:37 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-08/ux-best-tweets/</guid>
+      <description>
+
+&lt;p&gt;Сегодня предлагаю вашему вниманию несколько наиболее полезных, на мой взгляд, недавних твитов
+ &lt;a href=&#39;https://twitter.com/lukew&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Luke Wroblewski&lt;/a&gt; на тему Usability и UX.
+Если вы не в курсе о том, кто это, &lt;del&gt;вы серьёзно?&lt;/del&gt; крайне рекомендую посмотреть, как минимум, эти твиты&lt;/p&gt;
+
+&lt;p&gt;Скажу сразу, спорить на тему границ UX и Usability считаю неблагодарным занятием,
+ поэтому просто оставлю эти два термина вместе :)&lt;/p&gt;
+
+&lt;h3 id=&#34;про-нарушение-apple-своих-же-правил-ради-понятности-интерфейса&#34;&gt;Про нарушение Apple своих же правил ради понятности интерфейса&lt;/h3&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Even Apple “breaks” their guidelines for improved clarity/usability. Consistency isn’t the goal. Predictability is. &lt;a href=&#34;https://t.co/tDtnSeVg5M&#34;&gt;pic.twitter.com/tDtnSeVg5M&lt;/a&gt;&lt;/p&gt;&amp;mdash; Luke Wroblewski (@lukew) &lt;a href=&#34;https://twitter.com/lukew/status/765603800862167041&#34;&gt;August 16, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Полностью согласен. Джентельмены следуют правилам, но если правила не устраивают джентельменов&amp;hellip; :)
+Обратите внимание на изменения (стоит открыть картинку полностью). Возможно, в одном из ваших проектов стоит сделать то же самое.&lt;/p&gt;
+
+&lt;h3 id=&#34;про-преимущество-текста-над-иконками&#34;&gt;Про преимущество текста над иконками&lt;/h3&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Words always beat icons for clarity. &lt;br&gt;So why are there still so many icons in software/UI design? [1/2] &lt;a href=&#34;https://t.co/qLvpCjZ6NG&#34;&gt;pic.twitter.com/qLvpCjZ6NG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Luke Wroblewski (@lukew) &lt;a href=&#34;https://twitter.com/lukew/status/760951363291353088&#34;&gt;August 3, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Top two excuses: not enough room on screen for words &amp;amp; difficulty localizing text. [2/2] &lt;a href=&#34;https://t.co/MVJdyiXBW4&#34;&gt;pic.twitter.com/MVJdyiXBW4&lt;/a&gt;&lt;/p&gt;&amp;mdash; Luke Wroblewski (@lukew) &lt;a href=&#34;https://twitter.com/lukew/status/760951449337499653&#34;&gt;August 3, 2016&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+
+&lt;p&gt;Тоже извечная тема, особенно учитывая, что у продукта всегда будут пользователи-новички (если им, конечно, вообще будут пользоваться).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Внимание! TransactionScope по умолчанию включает Serializable.</title>
