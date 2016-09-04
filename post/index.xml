@@ -7,8 +7,110 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 01 Sep 2016 20:35:25 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 04 Sep 2016 12:42:32 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>UX с точки зрения психологии</title>
+      <link>https://yarfullstack.com/post/2016-09/ux-psychology/</link>
+      <pubDate>Sun, 04 Sep 2016 12:42:32 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-09/ux-psychology/</guid>
+      <description>
+
+&lt;p&gt;Сначала хотел сделать подборку статей по UX, но одна статья достойна отдельного поста.
+Это &lt;a href=&#39;https://uxmag.com/articles/the-psychologists-view-of-ux-design&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;отличная статья Susan Weinschenk&lt;/a&gt;
+о том, как можно применить знания психолога к UX-проектированию.&lt;/p&gt;
+
+&lt;p&gt;Статья короткая и не даёт подробных рецептов. Зато она затрагивает многие моменты, которые не всегда очевидны для разработчиков.
+Разумеется, большинство из них очевидны для UX-проектировщиков и тех, кто вечерами перечитывает книги Алана Купера :)&lt;/p&gt;
+
+&lt;p&gt;Я попробую сжать информацию из этой статьи ещё больше, сократив или убрав некоторые пункты.
+А вы уже сами решайте насколько вам полезно будет прочитать оригинал.&lt;/p&gt;
+
+&lt;h3 id=&#34;1-люди-не-хотят-делать-или-думать-больше-чем-должны&#34;&gt;1. Люди не хотят делать или думать больше чем должны&lt;/h3&gt;
+
+&lt;p&gt;Что может помочь:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Постепенно раскрывайте информацию;&lt;/li&gt;
+&lt;li&gt;Подкрепляйте описание примерами;&lt;/li&gt;
+&lt;li&gt;Проводите исследования пользователей вместо &amp;ldquo;волевых решений&amp;rdquo; на тему &amp;ldquo;нужна ли фича&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;2-у-людей-есть-ограничения&#34;&gt;2. У людей есть ограничения&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Подавайте информацию так, чтобы её было легко &amp;ldquo;сканировать&amp;rdquo;;&lt;/li&gt;
+&lt;li&gt;Используйте заголовки и короткие блоки текста;&lt;/li&gt;
+&lt;li&gt;Люди &lt;strong&gt;не&lt;/strong&gt; многозадачны.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;3-люди-делают-ошибки&#34;&gt;3. Люди делают ошибки&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ошибки лучше предотвращать, а не красиво обрабатывать;&lt;/li&gt;
+&lt;li&gt;Если человек сделал ошибку, а система её исправила &amp;mdash; необходимо показать как именно;&lt;/li&gt;
+&lt;li&gt;Имейте в виду, что UX-проектировщики тоже делают ошибки :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;4-человеческая-память-сложна&#34;&gt;4. Человеческая память сложна&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Память это не бэкап с контрольной суммой &amp;mdash; мы реконструируем воспоминания;&lt;/li&gt;
+&lt;li&gt;Негуманно заставлять пользователей помнить что-то при переходе между формами/экранами;&lt;/li&gt;
+&lt;li&gt;Несмотря на распространённое мнение о 7±2, люди в среднем могут удержать в &amp;ldquo;кэше&amp;rdquo; памяти &lt;strong&gt;3-4&lt;/strong&gt; вещи.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;5-люди-социальны&#34;&gt;5. Люди социальны&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Для человека важно социальное подтверждение, вот почему популярны рейтинги и ревью;&lt;/li&gt;
+&lt;li&gt;Люди охотнее что-то сделают, если сначала вы им дадите что-то полезное;&lt;/li&gt;
+&lt;li&gt;Люди запрограммированы на имитацию. Можно им показать, как кто-то другой делает то, что вы хотите от них.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;7-внимание&#34;&gt;7. Внимание&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Люди обращают внимание на новое или &lt;strong&gt;отличающееся&lt;/strong&gt; от остального;&lt;/li&gt;
+&lt;li&gt;Однако, надо учитывать, что люди могут не заметить даже значимых изменений, если сфокусированы на чём-то другом.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Кстати, вы обратили внимание, что я &amp;ldquo;сломал&amp;rdquo; в этом разделе нумерацию заголовков? :)&lt;/p&gt;
+
+&lt;h3 id=&#34;6-люди-жаждут-информации&#34;&gt;6. Люди жаждут информации&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Поглощение большего объёма информации, чем человек может обработать, стимулируется дофамином;&lt;/li&gt;
+&lt;li&gt;Людям нужна обратная связь о том, что происходит.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;8-большая-часть-умственной-деятельности-бессознательная&#34;&gt;8. Большая часть умственной деятельности &amp;mdash; бессознательная&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Лучше подтвердить маленькое действие, чем большой набор действий;&lt;/li&gt;
+&lt;li&gt;&amp;ldquo;Эмоциональный мозг&amp;rdquo; сильно влияет на принятие решений, поэтому и рекомендуют размещать картинки (особенно те, на которых люди);&lt;/li&gt;
+&lt;li&gt;Часто &amp;ldquo;сознательный мозг&amp;rdquo; вообще не принимает участия в принятии решений.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;9-люди-создают-ментальные-модели&#34;&gt;9. Люди создают ментальные модели&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Ментальная модель, которая есть у человека относительно текущей задачи, делает использование вашего интерфейса проще или сложнее.&lt;/li&gt;
+&lt;li&gt;Поэтому либо интерфейс должен соответствовать этой модели, либо вы должны научить пользователя другой модели
+(выявление ментальных моделей &amp;mdash; одна из основных задач исследований пользователей);&lt;/li&gt;
+&lt;li&gt;Метафоры помогают пользователю понять вашу модель.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;10-визуальная-система&#34;&gt;10. Визуальная система&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Делайте размер шрифта достаточно большим, а количество декоративных деталей достаточно маленьким, чтобы было удобно читать;&lt;/li&gt;
+&lt;li&gt;Люди активно используют периферическое зрение, поэтому не стоит слепо полагаться на eye-tracking в исследованиях.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>TypeScript 2.0 RC</title>
@@ -729,44 +831,6 @@ Console.WriteLine(&#34;B&#34;);
 &lt;/div&gt;
 
 &lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Подборка интересного о CSS</title>
-      <link>https://yarfullstack.com/post/2016-06/css/</link>
-      <pubDate>Mon, 20 Jun 2016 22:28:06 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-06/css/</guid>
-      <description>
-
-&lt;p&gt;Сегодня немного интересностей про CSS. В фокусе !important, PostCSS и UnCss.&lt;/p&gt;
-
-&lt;h3 id=&#34;так-ли-страшен-important-как-его-малюют&#34;&gt;Так ли страшен important, как его малюют?&lt;/h3&gt;
-
-&lt;p&gt;Прочитал на днях статью &lt;a href=&#39;http://csswizardry.com/2016/05/the-importance-of-important/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The Importance of !important: Forcing Immutability in CSS&lt;/a&gt;.
-Если вкратце &amp;mdash; не так уж бесполезен и вреден !important.&lt;/p&gt;
-
-&lt;p&gt;Есть вполне жизненные и правильные варианты использования &amp;mdash; например, для утилитных классов с &amp;ldquo;text-align: center&amp;rdquo;.
-Похоже, это теперь такая же &amp;ldquo;потому что так нельзя&amp;rdquo; страшилка среди верстальщиков, как GOTO среди программистов :)&lt;/p&gt;
-
-&lt;h3 id=&#34;рекомендуемые-инструменты-для-css&#34;&gt;Рекомендуемые инструменты для CSS&lt;/h3&gt;
-
-&lt;h4 id=&#34;postcss&#34;&gt;PostCSS&lt;/h4&gt;
-
-&lt;p&gt;Мой любимый процессор CSS. Важно: пусть вас не путает название, это не пост-процессор :)
-Подробнее об этом есть неплохая статья
-&lt;a href=&#39;https://www.sitepoint.com/postcss-mythbusting/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PostCSS Mythbusting: Four PostCSS Myths Busted&lt;/a&gt;
-(перевод: &lt;a href=&#39;https://habrahabr.ru/post/280988/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;4 мифа о PostCSS&lt;/a&gt;).&lt;/p&gt;
-
-&lt;p&gt;Думаю, что позже поделюсь подробными впечатлениями об его использовании. Пока скажу, что весьма понравилась идея
-использовать следующую версию CSS прямо сейчас с помощью &lt;a href=&#39;http://cssnext.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;postcss-cssnext&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h4 id=&#34;uncss&#34;&gt;UnCSS&lt;/h4&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.
-С помощью &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; рендерит страницы и выполняет JavaScript,
-ищет используемые классы и удаляет остальные. Можно прицепить к Node.js, вызывать из командной строки или добавить плагин к PostCSS.&lt;/p&gt;
 </description>
     </item>
     
