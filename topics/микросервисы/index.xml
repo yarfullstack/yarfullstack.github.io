@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CSharp on YarFullStack</title>
-    <link>https://yarfullstack.com/tags/csharp/</link>
-    <description>Recent content in CSharp on YarFullStack</description>
+    <title>Микросервисы on YarFullStack</title>
+    <link>https://yarfullstack.com/topics/%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B/</link>
+    <description>Recent content in Микросервисы on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Sun, 18 Sep 2016 14:54:10 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://yarfullstack.com/topics/%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>gRPC - первые шаги</title>
@@ -209,111 +209,6 @@ RouteGuideClient.exe
 Альтернативы, на мой взгляд &amp;ndash; Apache Thrift и Cap&amp;rsquo;n Proto. Правда, слышал, что некоторые мигрируют с Apache Thrift на gRPC&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Внимание! TransactionScope по умолчанию включает Serializable.</title>
-      <link>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</link>
-      <pubDate>Thu, 18 Aug 2016 22:36:28 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</guid>
-      <description>
-
-&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
-
-&lt;p&gt;Вообще говоря, я раньше много раз сталкивался с распределёнными транзакциями.
-В какой-то момент я окончательно сформировал своё мнение по этой теме. Получилось что-то вроде: &amp;ldquo;хватит, я не буду их использовать вообще, разве что в ход со стороны оппонента пойдут огнестрельное оружие и прочие нечестные аргументы&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;По этой причине моё знакомство с &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/system.transactions.transactionscope%28v=vs.110%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TransactionScope&lt;/a&gt;
-свелось к его использованию в интеграционных тестах (без распределённой составляющей, просто для удобного отката транзакций)
- и редким спорам с коллегами. Но сегодня, внезапно&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;разговор-на-работе&#34;&gt;Разговор на работе&lt;/h3&gt;
-
-&lt;p&gt;Вообще говоря, в появлении этого текста на свет основная заслуга Макса (&lt;a href=&#39;https://twitter.com/force_net&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;@force_net&lt;/a&gt;).
-С ним сегодня сначала говорили про &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/tcbchxcb%28v=vs.110%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Snapshot Isolation&lt;/a&gt;,
-потом перешли на TransactionScope. И говорит Макс &amp;mdash; &lt;strong&gt;&amp;ldquo;там ведь Serializable по умолчанию&amp;rdquo;.&lt;/strong&gt;&lt;br /&gt;
-Я говорю &amp;mdash; &amp;ldquo;да ладно, нелогично же &amp;mdash; без него Read Committed по умолчанию&amp;rdquo;. Так, слово за слово, решили проверить.&lt;/p&gt;
-
-&lt;h3 id=&#34;лирическое-отступление&#34;&gt;Лирическое отступление&lt;/h3&gt;
-
-&lt;p&gt;На случай, если вы мало сталкивались с БД, про уровни изоляции есть вполне сносная, хотя не всем с первого раза понятная документация.
-Поэтому лучше дам ссылку на &lt;a href=&#39;https://en.wikipedia.org/wiki/Isolation_%28database_systems%29&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;общее описание от википедии&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Если вкратце, применимость Serializable в web-приложениях не очень высокая &amp;mdash; слишком много блокировок. Когда мы с Максом обсуждали эти особенности,
- он привёл пример &amp;ldquo;то есть если один заказывает билеты на фильм, то блокируются на всякий случай все места, а второй будет ждать&amp;hellip;&amp;rdquo;
- &amp;ldquo;&amp;hellip; пока фильм не &lt;del&gt;выложат на торрентах&lt;/del&gt; выйдет на DVD&amp;rdquo;, продолжил я :)&lt;/p&gt;
-
-&lt;p&gt;Постараюсь чуть позже написать более подробную статью на тему уровней изоляции.&lt;/p&gt;
-
-&lt;h3 id=&#34;результаты-проверки&#34;&gt;Результаты проверки&lt;/h3&gt;
-
-&lt;p&gt;Как я уже говорил, TransactionScope пользовался давно и редко. Поэтому я несколько удивился, увидев подтверждение упомянутому феномену.
-Сказал я Максу что-то вроде &amp;mdash; &amp;ldquo;с чего-бы высокомудрые архитекторы и разработчики такой нетрадиционный способ обратной совместимости выбрали?&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;А он в меня &lt;a href=&#39;http://stackoverflow.com/questions/11292763/why-is-system-transactions-transactionscope-default-isolationlevel-serializable&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ссылкой кидает&lt;/a&gt;.
-Ладно, теперь понятны хотя бы предпосылки этого не самого логичного решения &amp;mdash; предпочли выбрать поведение по умолчанию как в MS DTC, а не как
-в MS SQL и System.Data.SqlClient. Но, чёрт возьми, почему я не вижу рядом с названием класса
-слов &amp;ldquo;по умолчанию использует уровень изоляции Serializable&amp;rdquo; большими красными буквами?
-&lt;a href=&#39;https://msdn.microsoft.com/en-us/library/system.transactions.transactionscope%28v=vs.110%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;В документации класса &lt;/a&gt; вообще Serializable не упомянули :(&lt;/p&gt;
-
-&lt;h3 id=&#34;выводы&#34;&gt;Выводы&lt;/h3&gt;
-
-&lt;p&gt;Если вы подсели на &amp;ldquo;синтаксическое сладкое&amp;rdquo;, любите async/await (предпочитая не погружаться в детали его работы) и используете
-TransactionScope из коробки в production &amp;mdash; ваше дело. Я больше скажу, даже MS DTC вы можете использовать из приложения в ASP.NET.
-Да хоть мигающий фиолетовый текст на жёлтом фоне. Кто я такой, чтобы вам указывать? :)&lt;/p&gt;
-
-&lt;p&gt;Однако, &lt;strong&gt;подумайте над переопределением уровня изоляции транзакций для TransactionScope.&lt;/strong&gt;
-Разумеется, я согласен, что для каких-то решений Serializable будет правильным выбором.
-Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Новости из мира .NET</title>
-      <link>https://yarfullstack.com/post/2016-06/dotNET/</link>
-      <pubDate>Fri, 24 Jun 2016 12:31:11 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-06/dotNET/</guid>
-      <description>
-
-&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Основные анонсы dotnetConf 2016;&lt;/li&gt;
-&lt;li&gt;Статья с хорошим примером и описанием подхода к оптимизации производительности от Джона Скита;&lt;/li&gt;
-&lt;li&gt;Немного про тёмную сторону async/await :)&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h3&gt;
-
-&lt;p&gt;Для многих самым ожидаемым событием июня будет релиз .NET Core и ASP.NET Core 1.0 &lt;strong&gt;27 июня 2016 года.&lt;/strong&gt;
-Для тех, кто использует .NET и вообще не в курсе что это такое &amp;mdash; &lt;a href=&#39;https://dotnet.github.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;рекомендую ознакомиться&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Кроме этого, Мигель де Иказа анонсировал &lt;a href=&#39;https://blog.xamarin.com/live-from-dotnetconf-cycle-7-xamarin-studio-6-and-more/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;новые фичи Xamarin&lt;/a&gt;.
-Сам я Xamarin не использовал, но штука сама по себе интересная.&lt;/p&gt;
-
-&lt;p&gt;Скотт Хансельман рассказал про &lt;a href=&#39;http://www.dotnetfoundation.org/blog/cake-welcome&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Cake&lt;/a&gt; &amp;mdash;
-новую систему для билдов. Я пока не вижу, где лично мне было бы полезно на неё перейти, однако, может и приживётся. Наверняка понравится тем, кому нравится Powershell.&lt;/p&gt;
-
-&lt;h3 id=&#34;джон-скит-о-производительности&#34;&gt;Джон Скит о производительности&lt;/h3&gt;
-
-&lt;p&gt;В статье &lt;a href=&#39;https://codeblog.jonskeet.uk/2016/06/09/tracking-down-a-performance-hit/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tracking down a performance hit&lt;/a&gt;
-Джон Скит подробно описывает подход к поиску &amp;ldquo;бутылочных горлышек&amp;rdquo; и улучшению производительности. Заодно он нашёл баг в .NET Core и NUnit :)&lt;/p&gt;
-
-&lt;h3 id=&#34;тёмная-сторона-async-await&#34;&gt;Тёмная сторона async/await&lt;/h3&gt;
-
-&lt;p&gt;Если вы активно используете async/await проверьте себя и скажите, что выведет следующий код:&lt;/p&gt;
-
-&lt;div class=&#34;microlight&#34;&gt;await Task.Factory.StartNew(async () =&gt; { 
-    await Task.Delay(10); Console.WriteLine(&#34;A&#34;); 
-    });
-    
-Console.WriteLine(&#34;B&#34;);
-&lt;/div&gt;
-
-&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
