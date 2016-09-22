@@ -7,8 +7,69 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 01 Sep 2016 20:35:25 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 22 Sep 2016 23:12:42 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/typescript/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Релиз TypeScript 2.0</title>
+      <link>https://yarfullstack.com/post/2016-09/typescript-2-release/</link>
+      <pubDate>Thu, 22 Sep 2016 23:12:42 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-09/typescript-2-release/</guid>
+      <description>
+
+&lt;p&gt;Команда разработки TypeScript радует своими темпами &amp;mdash; в начале месяца я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/typescript-2.0-RC/&#34;&gt;писал про TypeScript 2.0 RC&lt;/a&gt;,
+а сегодня они &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/09/22/announcing-typescript-2-0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;сделали релиз 2.0&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;В общем-то, на этом можно и закончить, но кому интересно &amp;mdash; можете почитать краткий пересказ анонса про основные фичи.&lt;/p&gt;
+
+&lt;h3 id=&#34;урощённое-подключение-d-ts&#34;&gt;Урощённое подключение .d.ts&lt;/h3&gt;
+
+&lt;p&gt;Вот так просто можно теперь &amp;ldquo;типизировать&amp;rdquo; пакет из npm:&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;npm install -s @types/lodash
+&lt;/div&gt;
+
+&lt;h3 id=&#34;запрет-null-для-значений&#34;&gt;Запрет null для значений&lt;/h3&gt;
+
+&lt;p&gt;Добавлен режим &amp;ldquo;&amp;mdash;strictNullChecks&amp;rdquo;, при включении которого необходимо явно указывать для типа, что значения могут быть
+null или undefined, например так:&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;let x: number | null;
+&lt;/div&gt;
+
+&lt;p&gt;Зачем это сделано, думаю, вы и сами догадались.&lt;/p&gt;
+
+&lt;h3 id=&#34;добавлен-анализ-ветвлений&#34;&gt;Добавлен анализ ветвлений&lt;/h3&gt;
+
+&lt;p&gt;Пример:&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;let result: number;
+if (condition) {
+    result = computeImportantStuff();
+}
+
+// Whoops! &#39;result&#39; might never have been initialized!
+return result;
+&lt;/div&gt;
+
+&lt;h3 id=&#34;свойства-только-для-чтения&#34;&gt;Свойства только для чтения&lt;/h3&gt;
+
+&lt;p&gt;Раньше не было, теперь добавили:&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;class Person {
+    readonly name: string;
+
+    constructor(name: string) {
+        this.name = name;
+    }
+}
+
+// Error! &#39;name&#39; is read-only.
+new Person(&#34;Daniel&#34;).name = &#34;Dan&#34;;
+&lt;/div&gt;
+</description>
+    </item>
     
     <item>
       <title>TypeScript 2.0 RC</title>
