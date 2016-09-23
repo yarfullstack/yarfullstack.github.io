@@ -7,8 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 16 Sep 2016 14:32:24 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 23 Sep 2016 14:28:45 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Хорошие статьи про дизайн кнопок</title>
+      <link>https://yarfullstack.com/post/2016-09/ux-buttons/</link>
+      <pubDate>Fri, 23 Sep 2016 14:28:45 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-09/ux-buttons/</guid>
+      <description>
+
+&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
+
+&lt;h3 id=&#34;best-practices-types-and-states&#34;&gt;Best Practices, Types and States&lt;/h3&gt;
+
+&lt;p&gt;В статье &lt;a href=&#39;https://uxplanet.org/button-ux-design-best-practices-types-and-states-647cf4ae0fc6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Button UX Design: Best Practices, Types and States&lt;/a&gt;
+есть как всем известные рекомендации, так и не очень. Для меня было интересно почитать про Ghost Buttons, да и многое другое полезно было в памяти освежить.&lt;/p&gt;
+
+&lt;h3 id=&#34;primary-secondary-action-buttons&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/h3&gt;
+
+&lt;p&gt;Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
+внимание на то, что в разных ситуациях кнопки могут и должны выглядеть по-разному. Пример &amp;mdash; кнопка &amp;ldquo;безвозвратного&amp;rdquo; удаления чего-либо.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Новости дизайна и JavaScript</title>
