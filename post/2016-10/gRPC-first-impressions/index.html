@@ -4,8 +4,8 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-	      content="Микросервисы">
-	<title>Микросервисы</title>
+	      content="Первые впечатления о gRPC">
+	<title>Первые впечатления о gRPC</title>
 	
 	<style>
 	html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,select,textarea{font:inherit;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}#mb-container,body,html{min-height:100%;height:100%;width:100%}html{font-size:calc(16px + 6 * ((100vw - 800px) / 480))}@media screen and (min-width:1280px){html{font-size:22px}}@media screen and (max-width:800px){html{font-size:16px}}ul{vertical-align:baseline;list-style-position:outside}#mb-container{float:left;background-color:#fff}#mb-content{color:#282828}#mb-menu{box-sizing:border-box;background-color:#203040;color:#ababab}.mb-mh{font-weight:700}.mb-none{display:none}article,p{line-height:24px;line-height:1.5rem;margin-bottom:24px;margin-bottom:1.5rem}small{font-size:.694em;line-height:16.672px;line-height:1.042rem}h1{font-size:33.184px;font-size:2.074rem;line-height:33.184px;line-height:2.074rem}h1,h2{margin-bottom:24px;margin-bottom:1.5rem}h2{font-size:27.648px;font-size:1.728rem;line-height:27.648px;line-height:1.728rem;margin-top:44.352px;margin-top:2.772rem}h3{font-size:23.04px;font-size:1.44rem;line-height:23.04px;line-height:1.44rem;margin-top:48.96px;margin-top:3.06rem}h3,h4{margin-bottom:24px;margin-bottom:1.5rem}h4{font-size:19.2px;font-size:1.2rem;line-height:19.2px;line-height:1.2rem;margin-top:52.8px;margin-top:3.3rem}h5{font-size:16px;font-size:1rem;line-height:16px;line-height:1rem;margin-top:56px;margin-top:3.5rem;margin-bottom:24px;margin-bottom:1.5rem}a{text-decoration:none;color:#2098d1}.mb-ml-color,a.mb-mh,a.mb-ml,a.mb-mt{color:#ababab}a.mb-mh,a.mb-ml,a.mb-mt{margin-right:12px;margin-top:6px;margin:.375rem .75rem 0 0}.u-m-right{margin-right:.5em}.mb-icon-menu{height:.833em;width:.833em;vertical-align:baseline}.mb-icon-content{height:1em;width:1em;vertical-align:baseline}.u-icon-meta{position:relative;top:.033em;left:0}svg{fill:currentColor}.mb-content-nav{display:block;font-size:1em;line-height:1em;margin-top:calc(1.5rem - 1em + 1.5rem);margin-bottom:1em}.mb-prev-next{display:inline}.microlight{font-family:monospace;font-size:.75em;white-space:pre;background-color:#203040;color:#fafafa;overflow:auto;padding:.5em}@media screen and (max-width:799px){#mb-content,#mb-menu{width:100%;margin:0;box-sizing:border-box}#mb-menu{padding:12px;padding:.75rem}#mb-content{height:auto;padding:0 12px;padding:0 .75rem}h1{margin-top:14.816px;margin-top:.926rem}a.mb-mh,a.mb-ml,a.mb-mt{display:inline-block}.mb-mhh{font-size:23.04px;font-size:1.44rem;font-weight:700;display:block}.u-icon-top-big{top:.033em!important}.u-icon-top-huge{top:.1em!important}.u-hide-s-vw{display:none!important}}@media screen and (min-width:420px) and (max-width:799px){#mb-content,#mb-menu{padding:4%}}@media screen and (min-width:800px){body{height:100%}#mb-menu{position:fixed;top:0;left:0;width:199.872px;width:12.492rem;height:100%;font-size:11.104px;font-size:.694rem;padding-top:16.672px;padding-bottom:16.672px;padding-left:24px;padding:1.042rem 1.5rem;padding-right:24px;overflow:auto}#mb-content{position:absolute;top:0;left:199.872px;left:12.492rem;right:0;bottom:0;padding-top:24px;padding-left:24px;padding:1.5rem 1.5rem 0;padding-right:24px}h1{margin-top:-9.184px;margin-top:-.574rem}.mb-mh,a.mb-mh,a.mb-ml,a.mb-mt{line-height:16.672px;line-height:1.042rem}.mb-mh,a.mb-mh,a.mb-ml{margin-left:0;margin-right:0}.u-menu-vmargin{margin-top:11.12px;margin-top:.695rem;margin-bottom:11.12px;margin-bottom:.695rem}.mb-mh,a.mb-mh{margin-top:16.672px;margin-top:1.042rem;margin-bottom:5.568px;margin-bottom:.348rem}a.mb-mt{display:inline-block}.u-block-l-vw{display:block}.mb-mhh{font-size:16px;font-size:1rem;font-weight:700}.u-icon-top-big{top:.1em!important}.u-icon-top-huge{top:.133em!important}}@media screen and (min-width:1280px){#mb-menu{width:calc((100vw - 1280px)/5 + 12.492rem)}#mb-content{left:calc((100vw - 1280px)/5 + 12.492rem);padding-top:24px;padding-bottom:24px;padding:1.5rem calc(1.5rem + (100vw - 1280px) / 3)}}
@@ -36,9 +36,6 @@
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
-	
-	<link href="https://yarfullstack.com/topics/%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B/index.xml" rel="alternate" type="application/rss+xml" title="YarFullStack" />
-	<link href="https://yarfullstack.com/topics/%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B/index.xml" rel="feed" type="application/rss+xml" title="YarFullStack" />
 	
 </head>
 
@@ -101,10 +98,6 @@
 	</defs>
 </svg>
 
-<a href="https://yarfullstack.com/topics/%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B/index.xml" class="mb-ml u-block-l-vw" type="application/rss+xml" target="_blank">
-	<svg class="mb-icon-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><use xlink:href="#rss-icon"></use></svg>
-	Подпишитесь на RSS
-</a>
 	<a class="mb-mh u-block-l-vw" href="https://yarfullstack.com/topics">
 		<svg class="mb-icon-menu u-icon-meta" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
 		Категории
@@ -197,13 +190,8 @@
 
 	<div id="mb-content">
 
-	<h1><svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-		Микросервисы</h1>
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-10/gRPC-first-impressions/">Первые впечатления о gRPC</a></h2>
-		<p>
+<h1>Первые впечатления о gRPC</h1>
+<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
         <time datetime='2016-10-13 21:46&#43;03:00'>13.10.2016, 21:46</time>
@@ -238,30 +226,98 @@
         
     
 </p>
-	</header>
-	<p>Помните, я <a href="/post/2016-09/grpc-first-steps/">обещал поделиться впечатлениями о gRPC</a>, когда доведётся попробовать в деле?
+
+
+<p>Помните, я <a href="/post/2016-09/grpc-first-steps/">обещал поделиться впечатлениями о gRPC</a>, когда доведётся попробовать в деле?
 Довелось. Сейчас поделюсь. Только уточню, что пока это впечатления с хакатона, там не будет махрового энтерпрайза, повального контроля с аудитом и тому подобного.</p>
 
 <p>В вопросу о хакатоне. Делал небольшую инфраструктуру для того, чтобы сделать немного счастливее наших тестировщиков.
 И разработчиков, конечно, но в исторической перспективе.</p>
 
-	
-	<footer>
-		<a href="/post/2016-10/gRPC-first-impressions/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
+<h3 id="техническая-концепция">Техническая концепция</h3>
 
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-09/grpc-first-steps/">gRPC — первые шаги</a></h2>
-		<p>
+<p>Концепция была простая &mdash; плагины к браузерам для упрощения заведения багов и набор сервисов (строго говоря &mdash; пока это консольные приложения).
+Цели &mdash; быстро сделать прототип, получив при этом удовольствие от исследования сравнительно новых для меня технологий.
+Исходя из целей, отметены были всякие консулы, grpc-gateway (для REST) &mdash; в основном, всё реализовывалось &ldquo;в лоб&rdquo;. В тот же лес ушла &ldquo;безопасность&rdquo;.
+Сервисы получились такие:</p>
+
+<ul>
+<li><strong>Central</strong> &mdash; серверное приложение на Go. Основная ответственность &mdash; реестр подключённых сервисов (агентов). Или как модно говорить &mdash; service discovery.</li>
+<li><strong>Bot</strong> &mdash; серверное приложение на Go. Принимает сообщения из Rocket.Chat и может отвечать на них или отправлять новые.</li>
+<li><strong>Session</strong> &mdash; приложение на Go. Запускается на компьютере тестировщика. Помогает плагину получать дополнительную информацию (например, из Redmine) и перенаправлять команды другим агентам.</li>
+<li><strong>Redmine</strong> &mdash; серверное приложение на .NET. Предоставляет необходимые данные из Redmine (например, список проектов).</li>
+<li><strong>Archiver</strong> &mdash; приложение на .NET. Запускается на сервере БД. Умеет делать бэкапы. Юзает наш замечательный <a href='http://sparesync.com/downloads.htm' rel="nofollow noopener noreferrer" target="_blank">PackDb</a>.</li>
+<li><strong>Redmine</strong> &mdash; серверное приложение на .NET. Предоставляет необходимые данные из Redmine (например, список проектов).</li>
+<li><strong>Deployer</strong> &mdash; приложение на .NET. Запускается на компьютере разработчика. Умеет восстанавливать бэкапы (без PackDb тоже не обошлось).</li>
+</ul>
+
+<h3 id="что-было-использовано">Что было использовано</h3>
+
+<p>Как видите, у меня был небольшой зоопарк из плагина к Chrome (сейчас в процессе плагин к IE), три приложения на Go и четыре на .NET.
+Всем им, естественно, хотелось между собой общаться (ладно, не всем, но я заставил почти всех :)</p>
+
+<p>В такой ситуации gRPC показал себя крайне положительно, за исключением того, что в браузере он пока из коробки не работает.
+С другой стороны, написать на Go простенький HTTP API Server&hellip; Даже для такого ненастоящего гофера как я &mdash; дело 5 минут.
+По большому счёту, это потребовалось только для &ldquo;session&rdquo; (чтобы плагин мог получать и записывать необходимые данные) и для &ldquo;bot&rdquo;
+(Rocket.Chat пока тоже не умеет gRPC).</p>
+
+<h3 id="что-понравилось">Что понравилось</h3>
+
+<p>Описание сервисов в proto-файлах. Действительно, описание &ldquo;как бы контракта&rdquo; в отдельном файле мотивирует думать над API, пока его пишешь
+(хотя protobuf v3 сравнительно толерантен к изменению API). Нравится, что есть в явном виде &ldquo;сообщение&rdquo;, а не набор параметров. Маленький пример:
+<div class="microlight">service CentralService {
+// Registers specified Agent.
+rpc Register(Agent) returns (RegisterResponse) {}
+</div></p>
+
+<p>Есть поддержка перечислений:
+<div class="microlight">enum AgentType {
+    ...
+    // Redmine watching (singleton)
+    Redmine		=	4;
+    ...
+}
+</div></p>
+
+<p>Понравилось что относительно быстро генерируются прокси (что на Go, что на .NET). Прокси достаточно удобно использовать.
+Так выглядит сигнатура описанного выше метода на Go:
+<div class="microlight">func (s *centralServer) Register(ctx context.Context, agent *a.Agent) 
+    (*a.RegisterResponse, error) { ...
+</div></p>
+
+<p>А так вызов этого метода на .NET:
+<div class="microlight">var channel = new Channel(
+    Environment.GetEnvironmentVariable("MULTIDASH"), ChannelCredentials.Insecure);
+var central = new CentralService.CentralServiceClient(channel);
+...
+central.Register(new Agent
+{
+    Type = AgentType.Redmine,
+    Host = Environment.MachineName,
+    Port = port,
+    ...
+});
+</div></p>
+
+<p>И ещё (это субъективно, конечно) &mdash; эстетическое удовольствие от названия командного файла generate_<strong>protos</strong>.bat :)
+С ним, пожалуй, сравнится разве что использование хранилища &ldquo;bolt&rdquo; для &ldquo;session&rdquo;.</p>
+
+<h3 id="что-не-понравилось">Что не понравилось</h3>
+
+<p>Не понравилось то, что падает в runtime, когда передаёшь null в поле сообщения. Столкнулся с этим, когда передавал строки на C#
+(в Go строки и так по умолчанию &ldquo;&rdquo; &mdash; там такой проблемы нет). Лечится, конечно, инциализацией в пустую строку. Но осадок остался.</p>
+
+<p>Не столкнулся, но заочно не нравится <a href='http://www.grpc.io/docs/guides/auth.html' rel="nofollow noopener noreferrer" target="_blank">скудный набор вариантов аутентификации из коробки</a> (либо SSL/TLS, либо гугловый OAuth2).
+Понятно, что можно реализовать свой (возможно сейчас уже плодятся проекты на GitHub, которые это делают), но хотелось бы что-то <del>тёплое, ламповое</del> коробочное&hellip;</p>
+
+<h3 id="резюме">Резюме</h3>
+
+<p>В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.</p>
+
+<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-09-18 14:54&#43;03:00'>18.09.2016, 14:54</time>
+        <time datetime='2016-10-13 21:46&#43;03:00'>13.10.2016, 21:46</time>
     </small>
     
     
@@ -293,25 +349,35 @@
         
     
 </p>
-	</header>
-	<p>Недавно вышел релиз <a href='http://www.grpc.io/' rel="nofollow noopener noreferrer" target="_blank">gRPC</a>.
-Сегодня я расскажу о том, что это такое и почему стоит, как минимум, обратить на это внимание.
-А потом расскажу, как посмотреть его в работе, используя стандартные примеры.</p>
 
-<p>Чтобы не было скучно от слова &ldquo;стандартные&rdquo;, мы будем обращаться к серверу на Go из клиента на C#.
-В принципе, можно реализовать любые комбинации из языков программирования, которые поддерживаются gRPC.
-Кстати, вот список поддерживаемых платформ и ЯП:</p>
+	<div class="mb-content-nav">
+	
+	<nav class="mb-prev-next">
+		<a href="https://yarfullstack.com/post/2016-10/ux-icons/"><svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+			<use xlink:href="#chevron-left-icon"></use>
+		</svg>&nbsp;Руководство по использованию иконок</a></nav>&nbsp;
+		
+	</div>
 
-	
-	<footer>
-		<a href="/post/2016-09/grpc-first-steps/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
+<script src="/js/microlight.min.js"></script>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		if (window.location.hostname == "localhost") {
+			return;
+		}
 
-	
+		var dsq = document.createElement('script');
+		dsq.type = 'text/javascript';
+		dsq.async = true;
+		var disqus_shortname = 'yarfullstackcom';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 </div> 
 </div> 
 

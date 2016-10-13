@@ -7,8 +7,104 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 18 Sep 2016 14:54:10 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 13 Oct 2016 21:46:12 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Первые впечатления о gRPC</title>
+      <link>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</link>
+      <pubDate>Thu, 13 Oct 2016 21:46:12 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</guid>
+      <description>
+
+&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
+Довелось. Сейчас поделюсь. Только уточню, что пока это впечатления с хакатона, там не будет махрового энтерпрайза, повального контроля с аудитом и тому подобного.&lt;/p&gt;
+
+&lt;p&gt;В вопросу о хакатоне. Делал небольшую инфраструктуру для того, чтобы сделать немного счастливее наших тестировщиков.
+И разработчиков, конечно, но в исторической перспективе.&lt;/p&gt;
+
+&lt;h3 id=&#34;техническая-концепция&#34;&gt;Техническая концепция&lt;/h3&gt;
+
+&lt;p&gt;Концепция была простая &amp;mdash; плагины к браузерам для упрощения заведения багов и набор сервисов (строго говоря &amp;mdash; пока это консольные приложения).
+Цели &amp;mdash; быстро сделать прототип, получив при этом удовольствие от исследования сравнительно новых для меня технологий.
+Исходя из целей, отметены были всякие консулы, grpc-gateway (для REST) &amp;mdash; в основном, всё реализовывалось &amp;ldquo;в лоб&amp;rdquo;. В тот же лес ушла &amp;ldquo;безопасность&amp;rdquo;.
+Сервисы получились такие:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Central&lt;/strong&gt; &amp;mdash; серверное приложение на Go. Основная ответственность &amp;mdash; реестр подключённых сервисов (агентов). Или как модно говорить &amp;mdash; service discovery.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bot&lt;/strong&gt; &amp;mdash; серверное приложение на Go. Принимает сообщения из Rocket.Chat и может отвечать на них или отправлять новые.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session&lt;/strong&gt; &amp;mdash; приложение на Go. Запускается на компьютере тестировщика. Помогает плагину получать дополнительную информацию (например, из Redmine) и перенаправлять команды другим агентам.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Redmine&lt;/strong&gt; &amp;mdash; серверное приложение на .NET. Предоставляет необходимые данные из Redmine (например, список проектов).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Archiver&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на сервере БД. Умеет делать бэкапы. Юзает наш замечательный &lt;a href=&#39;http://sparesync.com/downloads.htm&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PackDb&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Redmine&lt;/strong&gt; &amp;mdash; серверное приложение на .NET. Предоставляет необходимые данные из Redmine (например, список проектов).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deployer&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на компьютере разработчика. Умеет восстанавливать бэкапы (без PackDb тоже не обошлось).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;что-было-использовано&#34;&gt;Что было использовано&lt;/h3&gt;
+
+&lt;p&gt;Как видите, у меня был небольшой зоопарк из плагина к Chrome (сейчас в процессе плагин к IE), три приложения на Go и четыре на .NET.
+Всем им, естественно, хотелось между собой общаться (ладно, не всем, но я заставил почти всех :)&lt;/p&gt;
+
+&lt;p&gt;В такой ситуации gRPC показал себя крайне положительно, за исключением того, что в браузере он пока из коробки не работает.
+С другой стороны, написать на Go простенький HTTP API Server&amp;hellip; Даже для такого ненастоящего гофера как я &amp;mdash; дело 5 минут.
+По большому счёту, это потребовалось только для &amp;ldquo;session&amp;rdquo; (чтобы плагин мог получать и записывать необходимые данные) и для &amp;ldquo;bot&amp;rdquo;
+(Rocket.Chat пока тоже не умеет gRPC).&lt;/p&gt;
+
+&lt;h3 id=&#34;что-понравилось&#34;&gt;Что понравилось&lt;/h3&gt;
+
+&lt;p&gt;Описание сервисов в proto-файлах. Действительно, описание &amp;ldquo;как бы контракта&amp;rdquo; в отдельном файле мотивирует думать над API, пока его пишешь
+(хотя protobuf v3 сравнительно толерантен к изменению API). Нравится, что есть в явном виде &amp;ldquo;сообщение&amp;rdquo;, а не набор параметров. Маленький пример:
+&lt;div class=&#34;microlight&#34;&gt;service CentralService {
+// Registers specified Agent.
+rpc Register(Agent) returns (RegisterResponse) {}
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Есть поддержка перечислений:
+&lt;div class=&#34;microlight&#34;&gt;enum AgentType {
+    ...
+    // Redmine watching (singleton)
+    Redmine		=	4;
+    ...
+}
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Понравилось что относительно быстро генерируются прокси (что на Go, что на .NET). Прокси достаточно удобно использовать.
+Так выглядит сигнатура описанного выше метода на Go:
+&lt;div class=&#34;microlight&#34;&gt;func (s *centralServer) Register(ctx context.Context, agent *a.Agent) 
+    (*a.RegisterResponse, error) { ...
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;А так вызов этого метода на .NET:
+&lt;div class=&#34;microlight&#34;&gt;var channel = new Channel(
+    Environment.GetEnvironmentVariable(&#34;MULTIDASH&#34;), ChannelCredentials.Insecure);
+var central = new CentralService.CentralServiceClient(channel);
+...
+central.Register(new Agent
+{
+    Type = AgentType.Redmine,
+    Host = Environment.MachineName,
+    Port = port,
+    ...
+});
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;И ещё (это субъективно, конечно) &amp;mdash; эстетическое удовольствие от названия командного файла generate_&lt;strong&gt;protos&lt;/strong&gt;.bat :)
+С ним, пожалуй, сравнится разве что использование хранилища &amp;ldquo;bolt&amp;rdquo; для &amp;ldquo;session&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;что-не-понравилось&#34;&gt;Что не понравилось&lt;/h3&gt;
+
+&lt;p&gt;Не понравилось то, что падает в runtime, когда передаёшь null в поле сообщения. Столкнулся с этим, когда передавал строки на C#
+(в Go строки и так по умолчанию &amp;ldquo;&amp;rdquo; &amp;mdash; там такой проблемы нет). Лечится, конечно, инциализацией в пустую строку. Но осадок остался.&lt;/p&gt;
+
+&lt;p&gt;Не столкнулся, но заочно не нравится &lt;a href=&#39;http://www.grpc.io/docs/guides/auth.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;скудный набор вариантов аутентификации из коробки&lt;/a&gt; (либо SSL/TLS, либо гугловый OAuth2).
+Понятно, что можно реализовать свой (возможно сейчас уже плодятся проекты на GitHub, которые это делают), но хотелось бы что-то &lt;del&gt;тёплое, ламповое&lt;/del&gt; коробочное&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+
+&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>gRPC — первые шаги</title>
