@@ -7,8 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 23 Sep 2016 14:28:45 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 13 Oct 2016 21:30:39 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Руководство по использованию иконок</title>
+      <link>https://yarfullstack.com/post/2016-10/ux-icons/</link>
+      <pubDate>Thu, 13 Oct 2016 21:30:39 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-10/ux-icons/</guid>
+      <description>&lt;p&gt;Недавно прочитал статью &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.
+Понравилась. Вроде всё по делу. Делюсь кратким содержанием.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Чтобы иконки были полезными, их назначение должно быть понятно пользователю. Рекомендуется правило 5 секунд (если дольше думаешь над тем, что она значит =&amp;gt; не подходит).&lt;/li&gt;
+&lt;li&gt;Иконки должны быть простыми и схематичными, чтобы пользователю легче было к ним привыкнуть.&lt;/li&gt;
+&lt;li&gt;Хорошо бы иконке заиметь постоянно видимое текстовое пояснение. Подтверждено многократными экспериментами.&lt;/li&gt;
+&lt;li&gt;На иконки должно быть удобно нажимать (должны быть достаточно большими и с хорошими отступами).&lt;/li&gt;
+&lt;li&gt;Если есть иконки для платформы, не надо придумывать свои.&lt;/li&gt;
+&lt;li&gt;Тестируйте иконки! Тестировать стоит как понятность, так и запоминаемость.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Хорошие статьи про дизайн кнопок</title>
@@ -935,25 +955,6 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;p&gt;Если требуется, задаются исключения (в строчке выше или комментариями, как в предыдущем разделе. Вот, собственно, и всё.
 В результате, CSS избавляется от неиспользуемых стилей, а пользователи наслаждаются чуть более быстрой загрузкой страниц :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Обновление Microsoft Visual Studio (KB3165756)</title>
-      <link>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</link>
-      <pubDate>Wed, 13 Jul 2016 08:46:18 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</guid>
-      <description>&lt;p&gt;Недавно вышло новое обновление для Visual Studio: &lt;a href=&#39;https://msdn.microsoft.com/library/mt752379&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Update for Microsoft Visual Studio 2015 Update 3 (KB3165756)&lt;/a&gt;.
-Тем, кто пользуется студией &amp;mdash; крайне рекомендую поставить &amp;mdash; исправлено с десяток багов (подробности по ссылке выше), ставится быстро, перезагрузка не требуется.
-Проще всего поставить, скачав с &lt;a href=&#39;http://go.microsoft.com/fwlink/?LinkID=816878&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Microsoft Download Center&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Про мои впечатления от апдейта можно прочитать далее (что совсем необязательно, признаюсь &amp;mdash; есть небольшой баг в настройке движка для блога,
-если я не поставлю эту ссылку &amp;mdash; с главной пропадёт форматирование :)&lt;/p&gt;
-
-&lt;p&gt;Как обещал &amp;mdash; впечатления. Загружается и ставится быстро. На моём компьютере субъективно заняло минуты 2.
-&lt;del&gt;После этого студия работает в 4 раза быстрее, а мои волосы стали крепкими и шелковистыми.&lt;/del&gt;
-Естественно, за несколько минут работы эффект незаметен. Однако, утечкам памяти это свойственно.&lt;/p&gt;
 </description>
     </item>
     
