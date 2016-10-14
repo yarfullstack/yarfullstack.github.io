@@ -7,8 +7,123 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 23 Sep 2016 14:28:45 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 13 Oct 2016 21:46:12 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Первые впечатления о gRPC</title>
+      <link>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</link>
+      <pubDate>Thu, 13 Oct 2016 21:46:12 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</guid>
+      <description>
+
+&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
+Довелось. Сейчас поделюсь. Только уточню, что пока это впечатления с хакатона, там не будет махрового энтерпрайза, повального контроля с аудитом и тому подобного.&lt;/p&gt;
+
+&lt;p&gt;В вопросу о хакатоне. Делал небольшую инфраструктуру для того, чтобы сделать немного счастливее наших тестировщиков.
+И разработчиков, конечно, но в исторической перспективе.&lt;/p&gt;
+
+&lt;h3 id=&#34;техническая-концепция&#34;&gt;Техническая концепция&lt;/h3&gt;
+
+&lt;p&gt;Концепция была простая &amp;mdash; плагины к браузерам для упрощения заведения багов и набор сервисов (строго говоря &amp;mdash; пока это консольные приложения).
+Цели &amp;mdash; быстро сделать прототип, получив при этом удовольствие от исследования сравнительно новых для меня технологий.
+Исходя из целей, отметены были всякие консулы, grpc-gateway (для REST) &amp;mdash; в основном, всё реализовывалось &amp;ldquo;в лоб&amp;rdquo;. В тот же лес ушла &amp;ldquo;безопасность&amp;rdquo;.
+Сервисы получились такие:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Central&lt;/strong&gt; &amp;mdash; серверное приложение на Go. Основная ответственность &amp;mdash; реестр подключённых сервисов (агентов). Или как модно говорить &amp;mdash; service discovery.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Bot&lt;/strong&gt; &amp;mdash; серверное приложение на Go. Принимает сообщения из Rocket.Chat и может отвечать на них или отправлять новые.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Session&lt;/strong&gt; &amp;mdash; приложение на Go. Запускается на компьютере тестировщика. Помогает плагину получать дополнительную информацию (например, из Redmine) и перенаправлять команды другим агентам.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Redmine&lt;/strong&gt; &amp;mdash; серверное приложение на .NET. Предоставляет необходимые данные из Redmine (например, список проектов).&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Archiver&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на сервере БД. Умеет делать бэкапы. Юзает наш замечательный &lt;a href=&#39;http://sparesync.com/downloads.htm&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PackDb&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Deployer&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на компьютере разработчика. Умеет восстанавливать бэкапы (без PackDb тоже не обошлось).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;что-было-использовано&#34;&gt;Что было использовано&lt;/h3&gt;
+
+&lt;p&gt;Как видите, у меня был небольшой зоопарк из плагина к Chrome (сейчас в процессе плагин к IE), три приложения на Go и три на .NET.
+Всем им, естественно, хотелось между собой общаться (ладно, не всем, но я заставил почти всех :)&lt;/p&gt;
+
+&lt;p&gt;В такой ситуации gRPC показал себя крайне положительно, за исключением того, что в браузере он пока из коробки не работает.
+С другой стороны, написать на Go простенький HTTP API Server&amp;hellip; Даже для такого ненастоящего гофера как я &amp;mdash; дело 5 минут.
+По большому счёту, это потребовалось только для &amp;ldquo;session&amp;rdquo; (чтобы плагин мог получать и записывать необходимые данные) и для &amp;ldquo;bot&amp;rdquo;
+(Rocket.Chat пока тоже не умеет gRPC).&lt;/p&gt;
+
+&lt;h3 id=&#34;что-понравилось&#34;&gt;Что понравилось&lt;/h3&gt;
+
+&lt;p&gt;Описание сервисов в proto-файлах. Действительно, описание &amp;ldquo;как бы контракта&amp;rdquo; в отдельном файле мотивирует думать над API, пока его пишешь
+(хотя protobuf v3 сравнительно толерантен к изменению API). Нравится, что есть в явном виде &amp;ldquo;сообщение&amp;rdquo;, а не набор параметров. Маленький пример:
+&lt;div class=&#34;microlight&#34;&gt;service CentralService {
+// Registers specified Agent.
+rpc Register(Agent) returns (RegisterResponse) {}
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Есть поддержка перечислений:
+&lt;div class=&#34;microlight&#34;&gt;enum AgentType {
+    ...
+    // Redmine watching (singleton)
+    Redmine		=	4;
+    ...
+}
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Понравилось что относительно быстро генерируются прокси (что на Go, что на .NET). Прокси достаточно удобно использовать.
+Так выглядит сигнатура описанного выше метода на Go:
+&lt;div class=&#34;microlight&#34;&gt;func (s *centralServer) Register(ctx context.Context, agent *a.Agent) 
+    (*a.RegisterResponse, error) { ...
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;А так вызов этого метода на .NET:
+&lt;div class=&#34;microlight&#34;&gt;var channel = new Channel(
+    Environment.GetEnvironmentVariable(&#34;MULTIDASH&#34;), ChannelCredentials.Insecure);
+var central = new CentralService.CentralServiceClient(channel);
+...
+central.Register(new Agent
+{
+    Type = AgentType.Redmine,
+    Host = Environment.MachineName,
+    Port = port,
+    ...
+});
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;И ещё (это субъективно, конечно) &amp;mdash; эстетическое удовольствие от названия командного файла generate_&lt;strong&gt;protos&lt;/strong&gt;.bat :)
+С ним, пожалуй, сравнится разве что использование хранилища &amp;ldquo;bolt&amp;rdquo; для &amp;ldquo;session&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;что-не-понравилось&#34;&gt;Что не понравилось&lt;/h3&gt;
+
+&lt;p&gt;Не понравилось то, что падает в runtime, когда передаёшь null в поле сообщения. Столкнулся с этим, когда передавал строки на C#
+(в Go строки и так по умолчанию &amp;ldquo;&amp;rdquo; &amp;mdash; там такой проблемы нет). Лечится, конечно, инциализацией в пустую строку. Но осадок остался.&lt;/p&gt;
+
+&lt;p&gt;Не столкнулся, но заочно не нравится &lt;a href=&#39;http://www.grpc.io/docs/guides/auth.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;скудный набор вариантов аутентификации из коробки&lt;/a&gt; (либо SSL/TLS, либо гугловый OAuth2).
+Понятно, что можно реализовать свой (возможно сейчас уже плодятся проекты на GitHub, которые это делают), но хотелось бы что-то &lt;del&gt;тёплое, ламповое&lt;/del&gt; коробочное&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+
+&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Руководство по использованию иконок</title>
+      <link>https://yarfullstack.com/post/2016-10/ux-icons/</link>
+      <pubDate>Thu, 13 Oct 2016 21:30:39 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-10/ux-icons/</guid>
+      <description>&lt;p&gt;Недавно прочитал статью &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.
+Понравилась. Вроде всё по делу. Делюсь кратким содержанием.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Чтобы иконки были полезными, их назначение должно быть понятно пользователю. Рекомендуется правило 5 секунд (если дольше думаешь над тем, что она значит =&amp;gt; не подходит).&lt;/li&gt;
+&lt;li&gt;Иконки должны быть простыми и схематичными, чтобы пользователю легче было к ним привыкнуть.&lt;/li&gt;
+&lt;li&gt;Хорошо бы иконке заиметь постоянно видимое текстовое пояснение. Подтверждено многократными экспериментами.&lt;/li&gt;
+&lt;li&gt;На иконки должно быть удобно нажимать (должны быть достаточно большими и с хорошими отступами).&lt;/li&gt;
+&lt;li&gt;Если есть иконки для платформы, не надо придумывать свои.&lt;/li&gt;
+&lt;li&gt;Тестируйте иконки! Тестировать стоит как понятность, так и запоминаемость.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Хорошие статьи про дизайн кнопок</title>
@@ -887,73 +1002,6 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 &lt;p&gt;Как я уже говорил &amp;mdash; используйте любую СУБД, только знайте её сильные и слабые стороны.
 Зная это, вы сами решите, стоит ли использовать, например, Postgres для проекта с высокой нагрузкой на запись и множеством серверов, на которые
 реплицируются данные.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Подробности про UnCSS</title>
-      <link>https://yarfullstack.com/post/2016-07/uncss/</link>
-      <pubDate>Fri, 15 Jul 2016 15:24:57 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-07/uncss/</guid>
-      <description>
-
-&lt;p&gt;Ранее я уже &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;немного упоминал UnCSS&lt;/a&gt;, а сегодня расскажу о нем подробнее.
-Напомню, он, с помощью PhantomJS, рендерит страницы и выполняет JavaScript, ищет используемые классы и удаляет остальные.&lt;/p&gt;
-
-&lt;p&gt;Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
-Также можно использовать его API из Node.js или вызывать из командной строки.
-Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;важные-замечания&#34;&gt;Важные замечания&lt;/h3&gt;
-
-&lt;p&gt;Что нужно иметь в виду, при использовании UnCSS.&lt;/p&gt;
-
-&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;ldquo;динамические&amp;rdquo; стили могут быть незаслуженно выпилены.
-После того, как вы это обнаружите, решить проблему можно с помощью опции ignore или простым комментарием перед селектором:
-&lt;div class=&#34;microlight&#34;&gt;/* uncss:ignore */
-.js .input-file {
-...
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Во-вторых, что следует из первого пункта &amp;mdash; доверяйте, но проверяйте &amp;mdash; стоит периодически проверять что необходимые стили на месте.
-В зависимости от масштаба проекта это можно делать либо визуально, либо с помощью автоматических тестов.&lt;/p&gt;
-
-&lt;h3 id=&#34;опыт-использования&#34;&gt;Опыт использования&lt;/h3&gt;
-
-&lt;p&gt;Пока могу сказать, что опыт использования небольшой, но положительный. Поскольку я использую его вместе с PostCSS, всё просто.
-Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
-&lt;div class=&#34;microlight&#34;&gt;npm install postcss-uncss uncss
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Затем в набор плагинов для PostCSS прописывается этот (указан один файл для примера, в принципе можно задавать несколько файлов, маски файлов тоже допустимы):&lt;/p&gt;
-
-&lt;div class=&#34;microlight&#34;&gt;require(&#39;postcss-uncss&#39;)({
-	html: [ &#39;index.html&#39; ]
-}
-&lt;/div&gt;
-
-&lt;p&gt;Если требуется, задаются исключения (в строчке выше или комментариями, как в предыдущем разделе. Вот, собственно, и всё.
-В результате, CSS избавляется от неиспользуемых стилей, а пользователи наслаждаются чуть более быстрой загрузкой страниц :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Обновление Microsoft Visual Studio (KB3165756)</title>
-      <link>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</link>
-      <pubDate>Wed, 13 Jul 2016 08:46:18 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</guid>
-      <description>&lt;p&gt;Недавно вышло новое обновление для Visual Studio: &lt;a href=&#39;https://msdn.microsoft.com/library/mt752379&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Update for Microsoft Visual Studio 2015 Update 3 (KB3165756)&lt;/a&gt;.
-Тем, кто пользуется студией &amp;mdash; крайне рекомендую поставить &amp;mdash; исправлено с десяток багов (подробности по ссылке выше), ставится быстро, перезагрузка не требуется.
-Проще всего поставить, скачав с &lt;a href=&#39;http://go.microsoft.com/fwlink/?LinkID=816878&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Microsoft Download Center&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Про мои впечатления от апдейта можно прочитать далее (что совсем необязательно, признаюсь &amp;mdash; есть небольшой баг в настройке движка для блога,
-если я не поставлю эту ссылку &amp;mdash; с главной пропадёт форматирование :)&lt;/p&gt;
-
-&lt;p&gt;Как обещал &amp;mdash; впечатления. Загружается и ставится быстро. На моём компьютере субъективно заняло минуты 2.
-&lt;del&gt;После этого студия работает в 4 раза быстрее, а мои волосы стали крепкими и шелковистыми.&lt;/del&gt;
-Естественно, за несколько минут работы эффект незаметен. Однако, утечкам памяти это свойственно.&lt;/p&gt;
 </description>
     </item>
     
