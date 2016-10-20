@@ -27,13 +27,11 @@
 &lt;p&gt;Собственно, о чём речь? Речь о том, что в идеале, пользователь должен быть избавлен от лишней информации и &amp;ldquo;визуального шума&amp;rdquo;.
 С этим я согласен более чем абсолютно. Только всё хорошо в меру. Что предлагают авторы?&lt;/p&gt;
 
-&lt;p&gt;Давайте посмотрим.
-&lt;div class=&#34;u-hide-s-vw&#34;&gt;&lt;p&gt;&lt;img src=&#34;http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=700&amp;height=525&amp;name=clear-off-the-table-gif.gif&#34; alt=&#34;clear-off-the-table-gif.gif&#34; width=&#34;700&#34; height=&#34;525&#34; srcset=&#34;http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=350&amp;height=263&amp;name=clear-off-the-table-gif.gif 350w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=700&amp;height=525&amp;name=clear-off-the-table-gif.gif 700w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1050&amp;height=788&amp;name=clear-off-the-table-gif.gif 1050w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1400&amp;height=1050&amp;name=clear-off-the-table-gif.gif 1400w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1750&amp;height=1313&amp;name=clear-off-the-table-gif.gif 1750w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=2100&amp;height=1575&amp;name=clear-off-the-table-gif.gif 2100w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Давайте посмотрим.&lt;/p&gt;
 
-&lt;/div&gt;
-&lt;div class=&#34;u-hide-l-vw&#34;&gt;&lt;p&gt;&lt;img src=&#34;http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=350&amp;height=263&amp;name=clear-off-the-table-gif.gif&#34; alt=&#34;clear-off-the-table-gif.gif&#34; width=&#34;350&#34; height=&#34;263&#34; srcset=&#34;http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=350&amp;height=263&amp;name=clear-off-the-table-gif.gif 350w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=700&amp;height=525&amp;name=clear-off-the-table-gif.gif 700w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1050&amp;height=788&amp;name=clear-off-the-table-gif.gif 1050w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1400&amp;height=1050&amp;name=clear-off-the-table-gif.gif 1400w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1750&amp;height=1313&amp;name=clear-off-the-table-gif.gif 1750w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=2100&amp;height=1575&amp;name=clear-off-the-table-gif.gif 2100w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34;&gt;&lt;/p&gt;
-
-&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
+    srcset=&#34;https://yarfullstack.com/img/clear-off-the-table.gif 800w, https://yarfullstack.com/img/clear-off-the-table-small.gif 400w&#34;
+    sizes=&#34;(min-width: 1280px) 800px, (max-width: 1280px) and (min-width: 1024px) 600px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
 
 &lt;p&gt;Когда я смотрел в первый раз, думал &amp;mdash; а потом они скажут &amp;ldquo;здесь вообще таблица не нужна, давайте текстом напишем самое важное&amp;rdquo; :)&lt;/p&gt;
 
@@ -54,12 +52,9 @@
 &lt;p&gt;В том же блоге есть не менее впечатляющая статья &lt;a href=&#39;http://blog.darkhorseanalytics.com/data-looks-better-naked&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Data Looks Better Naked&lt;/a&gt;.
 Всё сказанное выше применимо и к этой статье (быть может, в чуть меньшей степени).&lt;/p&gt;
 
-&lt;p&gt;&lt;div class=&#34;u-hide-s-vw&#34;&gt;&lt;p&gt;&lt;img src=&#34;http://blog.darkhorseanalytics.com/hubfs/Imported_Blog_Media/data-ink.gif&#34; alt=&#34;data-ink.gif&#34; width=&#34;640&#34; height=&#34;460&#34; &gt;&lt;/p&gt;
-
-&lt;/div&gt;
-&lt;div class=&#34;u-hide-l-vw&#34;&gt;&lt;p&gt;&lt;img src=&#34;http://blog.darkhorseanalytics.com/hubfs/Imported_Blog_Media/data-ink.gif&#34; alt=&#34;data-ink.gif&#34; width=&#34;320&#34; height=&#34;230&#34; &gt;&lt;/p&gt;
-
-&lt;/div&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://yarfullstack.com/img/data-ink-small.gif&#34; alt=&#34;data-ink.gif&#34; style=&#34;margin-left:-1em;padding:0;&#34; 
+    srcset=&#34;https://yarfullstack.com/img/data-ink.gif 640w, https://yarfullstack.com/img/data-ink-small.gif 320w&#34;
+    sizes=&#34;(min-width: 1024px) 640px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;мои-личные-рекомендации&#34;&gt;Мои личные рекомендации&lt;/h3&gt;
 
