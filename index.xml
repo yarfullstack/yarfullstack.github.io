@@ -7,8 +7,68 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 13 Oct 2016 21:46:12 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 20 Oct 2016 21:46:43 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Удобное представление таблиц и диаграмм</title>
+      <link>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</link>
+      <pubDate>Thu, 20 Oct 2016 21:46:43 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</guid>
+      <description>
+
+&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
+Сначала увидел ссылку в комментарии к другой статье на хабре, потом ещё пара человек мне ссылку на перевод прислали.&lt;/p&gt;
+
+&lt;p&gt;Что характерно, поскольку сама статья и анимация достаточно грамотная, у многих возникает ощущение &amp;ldquo;круто! давайте &lt;strong&gt;всё&lt;/strong&gt; так сделаем&amp;rdquo;.
+Не надо так :)&lt;/p&gt;
+
+&lt;p&gt;Собственно, о чём речь? Речь о том, что в идеале, пользователь должен быть избавлен от лишней информации и &amp;ldquo;визуального шума&amp;rdquo;.
+С этим я согласен более чем абсолютно. Только всё хорошо в меру. Что предлагают авторы?&lt;/p&gt;
+
+&lt;p&gt;Давайте посмотрим.
+&lt;div class=&#34;u-hide-s-vw&#34;&gt;&lt;p&gt;&lt;img src=&#34;http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=700&amp;height=525&amp;name=clear-off-the-table-gif.gif&#34; alt=&#34;clear-off-the-table-gif.gif&#34; width=&#34;700&#34; height=&#34;525&#34; srcset=&#34;http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=350&amp;height=263&amp;name=clear-off-the-table-gif.gif 350w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=700&amp;height=525&amp;name=clear-off-the-table-gif.gif 700w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1050&amp;height=788&amp;name=clear-off-the-table-gif.gif 1050w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1400&amp;height=1050&amp;name=clear-off-the-table-gif.gif 1400w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1750&amp;height=1313&amp;name=clear-off-the-table-gif.gif 1750w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=2100&amp;height=1575&amp;name=clear-off-the-table-gif.gif 2100w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34;&gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;u-hide-l-vw&#34;&gt;&lt;p&gt;&lt;img src=&#34;http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=350&amp;height=263&amp;name=clear-off-the-table-gif.gif&#34; alt=&#34;clear-off-the-table-gif.gif&#34; width=&#34;350&#34; height=&#34;263&#34; srcset=&#34;http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=350&amp;height=263&amp;name=clear-off-the-table-gif.gif 350w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=700&amp;height=525&amp;name=clear-off-the-table-gif.gif 700w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1050&amp;height=788&amp;name=clear-off-the-table-gif.gif 1050w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1400&amp;height=1050&amp;name=clear-off-the-table-gif.gif 1400w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=1750&amp;height=1313&amp;name=clear-off-the-table-gif.gif 1750w, http://blog.darkhorseanalytics.com/hs-fs/hubfs/clear-off-the-table-gif.gif?width=2100&amp;height=1575&amp;name=clear-off-the-table-gif.gif 2100w&#34; sizes=&#34;(max-width: 700px) 100vw, 700px&#34;&gt;&lt;/p&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Когда я смотрел в первый раз, думал &amp;mdash; а потом они скажут &amp;ldquo;здесь вообще таблица не нужна, давайте текстом напишем самое важное&amp;rdquo; :)&lt;/p&gt;
+
+&lt;p&gt;Где отлично сработает такой подход? Для презентаций, докладов и прочих материалов, где вы &lt;strong&gt;знаете&lt;/strong&gt; набор данных.
+То есть, когда он статичен или почти статичен.&lt;/p&gt;
+
+&lt;p&gt;Что делать на динамическом наборе данных? Правильный ответ, на мой взгляд &amp;mdash; необходимо принимать достаточно хорошее решение для каждого конкретного случая.
+И сделать более-менее приемлемый универсальный вариант (не всегда реально проработать каждый конкретный случай, если задуматься о бюджете).&lt;/p&gt;
+
+&lt;p&gt;Что однозначно работает всегда? Выравнивание. Правильно выровненные данные, на моей памяти, ещё никому не вредили.&lt;/p&gt;
+
+&lt;p&gt;Что работает реже? Подбор точности для чисел и выбор ширины столбцов. Но стараться, безусловно, стоит. То же самое относится к группировке строк.&lt;/p&gt;
+
+&lt;p&gt;Что касается &amp;ldquo;зебры&amp;rdquo; и линий &amp;mdash; иногда что-то из этого придётся оставить, особенно когда много столбцов и строк (и не всегда работает вариант &amp;ldquo;не делайте много столбцов и строк&amp;rdquo;).&lt;/p&gt;
+
+&lt;h3 id=&#34;про-диаграммы-и-графики&#34;&gt;Про диаграммы и графики&lt;/h3&gt;
+
+&lt;p&gt;В том же блоге есть не менее впечатляющая статья &lt;a href=&#39;http://blog.darkhorseanalytics.com/data-looks-better-naked&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Data Looks Better Naked&lt;/a&gt;.
+Всё сказанное выше применимо и к этой статье (быть может, в чуть меньшей степени).&lt;/p&gt;
+
+&lt;p&gt;&lt;div class=&#34;u-hide-s-vw&#34;&gt;&lt;p&gt;&lt;img src=&#34;http://blog.darkhorseanalytics.com/hubfs/Imported_Blog_Media/data-ink.gif&#34; alt=&#34;data-ink.gif&#34; width=&#34;640&#34; height=&#34;460&#34; &gt;&lt;/p&gt;
+
+&lt;/div&gt;
+&lt;div class=&#34;u-hide-l-vw&#34;&gt;&lt;p&gt;&lt;img src=&#34;http://blog.darkhorseanalytics.com/hubfs/Imported_Blog_Media/data-ink.gif&#34; alt=&#34;data-ink.gif&#34; width=&#34;320&#34; height=&#34;230&#34; &gt;&lt;/p&gt;
+
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;мои-личные-рекомендации&#34;&gt;Мои личные рекомендации&lt;/h3&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Думайте :)&lt;/li&gt;
+&lt;li&gt;Если интересно глубокое погружение в тему &amp;mdash; почитайте Тафти. Потом мне расскажете :)&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
     
     <item>
       <title>Первые впечатления о gRPC</title>
@@ -947,61 +1007,6 @@ otherWindow.location = targetUrl;
 
 &lt;p&gt;Да, стоит понимать, что для каких-то сайтов важно передавать referrer.
 Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Uber-Postgres&#43;MySQL</title>
-      <link>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</link>
-      <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</guid>
-      <description>
-
-&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
-Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;TL;DR Можете использовать любую СУБД, только знайте её сильные и слабые стороны.
-А если выбор будет неправильным &amp;mdash; можно будет мигрировать на другую (с разным количеством боли, в зависимости от ситуации).
-Postgres хорош в чтении, но проигрывает в записи. MySQL хорош в записи, но (хотя в статьях об этом не говорится &amp;mdash; это уже мой личный опыт)
-оптимизатора запросов у него просто нет.&lt;/p&gt;
-
-&lt;p&gt;Да, раз уж я говорю про личный опыт &amp;mdash; MSSQL сделает по производительности и то и другое :)
-Disclaimer: я не работал активно с Postgres, с MySQL &amp;mdash; немного.&lt;/p&gt;
-
-&lt;h3 id=&#34;забавное&#34;&gt;Забавное&lt;/h3&gt;
-
-&lt;p&gt;Uber в 2013 опубликовал &lt;a href=&#39;https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью про переход с MySQL на Postgres&lt;/a&gt;.
-Основная причина перехода, насколько я понял &amp;mdash; в Postgres больше функциональности и &amp;ldquo;плагинов&amp;rdquo; вроде PostGIS.&lt;/p&gt;
-
-&lt;h3 id=&#34;подробности&#34;&gt;Подробности&lt;/h3&gt;
-
-&lt;p&gt;Исходная статья реально интересная, авторы достаточно подробно описали концептуальные проблемы, которыми их встретил Postgres.&lt;/p&gt;
-
-&lt;h4 id=&#34;одно-соединение-один-процесс&#34;&gt;Одно соединение &amp;ndash; один процесс&lt;/h4&gt;
-
-&lt;p&gt;Самым шокирующим для меня стало то, что каждое соединение с базой обрабатывается в отдельном &lt;strong&gt;процессе&lt;/strong&gt;. Серьёзно? Пул потоков разве сложно было сделать?&lt;/p&gt;
-
-&lt;h4 id=&#34;репликация&#34;&gt;Репликация&lt;/h4&gt;
-
-&lt;p&gt;Довольно противоречивая проблема с репликацией. С одной стороны, я согласен, что концептуально могут быть проблемы с трансляцией записей на диск на низком уровне.
-С другой стороны &amp;mdash; занимаешься репликацией &amp;mdash; будь готов к проблемам в любом случае. А вот проблемы с совместимостью даже минорных версий серверов при репликации &amp;mdash;
- это печаль. Хотя вроде ситуация исправляется.&lt;/p&gt;
-
-&lt;h4 id=&#34;обновление-индексов&#34;&gt;Обновление индексов&lt;/h4&gt;
-
-&lt;p&gt;Однако самая интересная штука &amp;mdash; это устройство индексов. В MSSQL и MySQL вторичные индексы ссылаются на первичный ключ.
-При обновлении, которое не затрагивает индекс, никаких дополнительных телодвижений не совершается.&lt;/p&gt;
-
-&lt;p&gt;В Postgres строки неизменяемые, а индексы хранят ссылки на конкретное место на диске. При чтении это даёт выигрыш.
-Однако, при обновлении Postgres вынужден создавать копию строки с новыми значениями и обновлять &lt;strong&gt;все&lt;/strong&gt; индексы обновляемой таблицы.
-&amp;ldquo;Старая&amp;rdquo; строка при этом продолжает занимать место, что уже менее критично (освобождается авто-вакуумом).&lt;/p&gt;
-
-&lt;h3 id=&#34;выводы&#34;&gt;Выводы&lt;/h3&gt;
-
-&lt;p&gt;Как я уже говорил &amp;mdash; используйте любую СУБД, только знайте её сильные и слабые стороны.
-Зная это, вы сами решите, стоит ли использовать, например, Postgres для проекта с высокой нагрузкой на запись и множеством серверов, на которые
-реплицируются данные.&lt;/p&gt;
 </description>
     </item>
     
