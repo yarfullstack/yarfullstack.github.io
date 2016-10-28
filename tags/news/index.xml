@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>News on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/news/</link>
+    <description>Recent content in News on YarFullStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 28 Oct 2016 09:56:03 +0300</lastBuildDate>
+    <atom:link href="https://yarfullstack.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Интересное в октябре</title>
+      <link>https://yarfullstack.com/post/2016-10/interesting/</link>
+      <pubDate>Fri, 28 Oct 2016 09:56:03 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-10/interesting/</guid>
+      <description>
+
+&lt;p&gt;Сегодня &lt;del&gt;бессвязная&lt;/del&gt; подборка слабо связанных между собой новостей и заметок, которые мне показались мне интересными.
+Про повторное использование кода, Next.js и Yarn.&lt;/p&gt;
+
+&lt;h3 id=&#34;о-мифическом-повторном-использовании-кода&#34;&gt;О мифическом повторном использовании кода&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://plus.google.com/&amp;#43;SergeyTeplyakov/posts/D6EnwcjUaW4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Заметка Сергея Теплякова&lt;/a&gt; понравилась.
+В принципе, мы с ним сходимся на том, что увлекаться &amp;ldquo;высокими материями&amp;rdquo; при проектировании далеко не всегда полезно :)&lt;/p&gt;
+
+&lt;h3 id=&#34;next-js&#34;&gt;Next.js&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://zeit.co/blog/next&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Интересный фреймворк от интересных людей.&lt;/a&gt;
+Отзывов написать не могу, пока ещё не пробовал. Однако, описание интересное.
+Предвосхищая ваши вопросы вида &amp;ldquo;ещё один шаблон для старта?&amp;rdquo;, &lt;a href=&#39;https://github.com/zeit/next.js&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;рекомендую посмотреть в FAQ&lt;/a&gt; раздел &amp;ldquo;Is this like create-react-app?&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;yarn&#34;&gt;Yarn&lt;/h3&gt;
+
+&lt;p&gt;Более быстрая и (вроде бы) удобная альтернатива npm. Кто-то пищит от радости, кто-то настроен скептически&amp;hellip;
+Я пока остался на npm, но, вероятно, немного позже попробую yarn. А пока набор ссылок по теме:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://yarnpkg.com/en/docs/usage&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Документация о том, как использовать&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://yehudakatz.com/2016/10/11/im-excited-to-work-on-yarn-the-new-js-package-manager-2/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Мнение Yehuda Katz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Сравнение&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://www.sitepoint.com/yarn-vs-npm/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ещё одно сравнение&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

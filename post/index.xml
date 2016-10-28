@@ -7,8 +7,44 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 20 Oct 2016 21:46:43 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 28 Oct 2016 09:56:03 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Интересное в октябре</title>
+      <link>https://yarfullstack.com/post/2016-10/interesting/</link>
+      <pubDate>Fri, 28 Oct 2016 09:56:03 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-10/interesting/</guid>
+      <description>
+
+&lt;p&gt;Сегодня &lt;del&gt;бессвязная&lt;/del&gt; подборка слабо связанных между собой новостей и заметок, которые мне показались мне интересными.
+Про повторное использование кода, Next.js и Yarn.&lt;/p&gt;
+
+&lt;h3 id=&#34;о-мифическом-повторном-использовании-кода&#34;&gt;О мифическом повторном использовании кода&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://plus.google.com/&amp;#43;SergeyTeplyakov/posts/D6EnwcjUaW4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Заметка Сергея Теплякова&lt;/a&gt; понравилась.
+В принципе, мы с ним сходимся на том, что увлекаться &amp;ldquo;высокими материями&amp;rdquo; при проектировании далеко не всегда полезно :)&lt;/p&gt;
+
+&lt;h3 id=&#34;next-js&#34;&gt;Next.js&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://zeit.co/blog/next&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Интересный фреймворк от интересных людей.&lt;/a&gt;
+Отзывов написать не могу, пока ещё не пробовал. Однако, описание интересное.
+Предвосхищая ваши вопросы вида &amp;ldquo;ещё один шаблон для старта?&amp;rdquo;, &lt;a href=&#39;https://github.com/zeit/next.js&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;рекомендую посмотреть в FAQ&lt;/a&gt; раздел &amp;ldquo;Is this like create-react-app?&amp;rdquo;.&lt;/p&gt;
+
+&lt;h3 id=&#34;yarn&#34;&gt;Yarn&lt;/h3&gt;
+
+&lt;p&gt;Более быстрая и (вроде бы) удобная альтернатива npm. Кто-то пищит от радости, кто-то настроен скептически&amp;hellip;
+Я пока остался на npm, но, вероятно, немного позже попробую yarn. А пока набор ссылок по теме:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://yarnpkg.com/en/docs/usage&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Документация о том, как использовать&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://yehudakatz.com/2016/10/11/im-excited-to-work-on-yarn-the-new-js-package-manager-2/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Мнение Yehuda Katz&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Сравнение&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://www.sitepoint.com/yarn-vs-npm/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ещё одно сравнение&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Удобное представление таблиц и диаграмм</title>
@@ -940,68 +976,6 @@ rm -rf node_modules
 npm set progress=false
 time npm install
 &lt;/div&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Ищем битые ссылки и чиним target=&#34;_blank&#34;</title>
-      <link>https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/</link>
-      <pubDate>Thu, 04 Aug 2016 21:12:01 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/</guid>
-      <description>
-
-&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
-Сначала &amp;mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
-Затем &amp;mdash; методы правильной работы с target=&amp;rdquo;_blank&amp;rdquo;.&lt;/p&gt;
-
-&lt;h3 id=&#34;broken-link-checker&#34;&gt;broken-link-checker&lt;/h3&gt;
-
-&lt;p&gt;На днях прочитал  &lt;a href=&#39;https://davidwalsh.name/broken-link-checker&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью Дэвида Уолша&lt;/a&gt;
- про &lt;a href=&#39;https://github.com/stevenvachon/broken-link-checker&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;broken-link-checker&lt;/a&gt;.
-Попользоваться не довелось, но позже обязательно попробую.&lt;/p&gt;
-
-&lt;p&gt;Если вкратце, это утилита (на Node.js), которую можно натравить на сайт и найти битые ссылки.
-Можно использовать либо через Javascript API, либо из командной строки.&lt;/p&gt;
-
-&lt;h3 id=&#34;как-сделать-target-blank-безопасным-и-производительным&#34;&gt;Как сделать target=&amp;rdquo;_blank&amp;rdquo; безопасным и производительным&lt;/h3&gt;
-
-&lt;h4 id=&#34;про-безопасность&#34;&gt;Про безопасность&lt;/h4&gt;
-
-&lt;p&gt;Скорее всего, вы уже прочитали &lt;a href=&#39;https://habrahabr.ru/post/282880/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью Опасный target=&amp;#34;_blank&amp;#34;&lt;/a&gt;
- про проблемы с ним с точки зрения безопасности. Ежели нет, то, в двух словах, вредоносный (или взломанный) сайт
- может получить доступ к исходной странице через window.opener. Это можно использовать, к примеру, для фишинга.&lt;/p&gt;
-
-&lt;p&gt;Внезапно &amp;mdash; IE не подвержен подобным атакам :)&lt;/p&gt;
-
-&lt;p&gt;Рецепты в статье тоже присутствуют:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Добавить во все такие ссылки &lt;div class=&#34;microlight&#34;&gt;rel=&#34;noreferrer noopener&#34;
-&lt;/div&gt; До кучи можно ещё и nofollow добавить, но это к уязвимости уже не имеет отношения.&lt;/li&gt;
-&lt;li&gt;Открывать все внешние ссылки через свою, промежуточную страницу, на которой должен отработать код: &lt;div class=&#34;microlight&#34;&gt;window.opener = null;
-&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;Открывать ссылки в новой вкладке через js: &lt;div class=&#34;microlight&#34;&gt;var otherWindow = window.open();
-otherWindow.opener = null;
-otherWindow.location = targetUrl;
-&lt;/div&gt;&lt;/li&gt;
-&lt;li&gt;Скрытый iframe (как вариант с помощью &lt;a href=&#39;http://danielstjules.github.io/blankshield/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;blankshield&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Лично я для этого сайта выбрал первый вариант.&lt;/p&gt;
-
-&lt;h4 id=&#34;про-производительность&#34;&gt;Про производительность&lt;/h4&gt;
-
-&lt;p&gt;Однако на этом история не заканчивается.
-&lt;a href=&#39;https://jakearchibald.com/2016/performance-benefits-of-rel-noopener/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Статья Джейка Арчибальда&lt;/a&gt; рассказывает о том,
- что за счёт обнуления opener (одним из способов, описанных выше), можно добиться более быстрого открытия новой страницы для пользователя.&lt;/p&gt;
-
-&lt;p&gt;Думаю, ваши пользователи оценят вашу заботу и об их комфорте, и об их безопасности.&lt;/p&gt;
-
-&lt;h4 id=&#34;возможные-проблемы-с-указанными-решениями&#34;&gt;Возможные проблемы с указанными решениями&lt;/h4&gt;
-
-&lt;p&gt;Да, стоит понимать, что для каких-то сайтов важно передавать referrer.
-Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;
 </description>
     </item>
     
