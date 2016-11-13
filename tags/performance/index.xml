@@ -7,8 +7,107 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 06 Aug 2016 15:04:54 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 13 Nov 2016 18:32:37 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Два простых совета, как сделать пользователей счастливее</title>
+      <link>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</link>
+      <pubDate>Sun, 13 Nov 2016 18:32:37 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</guid>
+      <description>
+
+&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
+
+&lt;p&gt;Как вы уже знаете, мне нравятся быстрые сайты. Летом я уже делился &lt;a href=&#34;https://yarfullstack.com/post/2016-07/site-optimization-tools/&#34;&gt;набором инструментов для оптимизации сайтов&lt;/a&gt;.
+Однако, есть пара несложных приёмов, первый из которых эти инструменты вряд ли когда-нибудь догадаются посоветовать.&lt;/p&gt;
+
+&lt;p&gt;Начнём с самого простого в &lt;em&gt;реализации&lt;/em&gt; способа.
+Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.&lt;/p&gt;
+
+&lt;h3 id=&#34;быстрая-загрузка-шрифтов&#34;&gt;Быстрая загрузка шрифтов&lt;/h3&gt;
+
+&lt;p&gt;Безусловно, вам может пригодиться статья &lt;a href=&#39;https://www.filamentgroup.com/lab/font-events.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;How We Load Web Fonts Progressively&lt;/a&gt;.
+Или, более фундаментальная &lt;a href=&#39;https://www.zachleat.com/web/comprehensive-webfonts/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;A Comprehensive Guide to Font Loading Strategies&lt;/a&gt;.
+Но подождите тратить 15-30 минут вашего времени на увлекательное чтение! Я успел? :)&lt;/p&gt;
+
+&lt;p&gt;Давайте подумаем, в чём может быть цель загрузки шрифта?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;В вашей компании есть корпоративный стиль, брендбук, строгие рекомендации и использование особенных шрифтов. Тогда читайте статьи выше и переходите к следующему разделу.&lt;/li&gt;
+&lt;li&gt;Вам сказали &amp;ldquo;этот шрифт такой клёвый, лишние 100КБ никто не заметит&amp;hellip;&amp;rdquo;. Здесь ещё есть варианты на что-то повлиять. Читайте дальше.&lt;/li&gt;
+&lt;li&gt;Вы выбираете какой шрифт использовать и у вас нет ярко выраженной антипатии к системным шрифтам (Segoe UI, Roboto,..). Тогда этот способ точно для вас.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Способ простой до невозможности. Что может быть быстрее загрузки шрифта, который не надо загружать? :)
+Я увидел этот способ в статье &lt;a href=&#39;https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Using System UI Fonts In Web Design: A Quick Practical Guide&lt;/a&gt;
+как раз, когда я занимался CSS для YarFullStack. И он мне, конечно же, понравился. Справедливости ради стоит отметить, что Medium уже
+не использует этот подход. Так что решайте сами.&lt;/p&gt;
+
+&lt;p&gt;Как выглядит определение шрифтов для YarFullStack? Да очень просто:&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, &#34;Roboto&#34;, &#34;Oxygen&#34;,
+&#34;Ubuntu&#34;, &#34;Cantarell&#34;, &#34;Fira Sans&#34;, &#34;Droid Sans&#34;, &#34;Helvetica Neue&#34;, sans-serif;
+&lt;/div&gt;
+
+&lt;p&gt;Как это работает? Тоже просто. Если вы работаете на Mac OS X или iOS &amp;mdash; у вас сработает один из первых двух вариантов. Для Windows [Phone] &amp;mdash; третий и т.д.
+Естественно, если вы умудрились установить всевозможные шрифты на Android &amp;mdash; тогда шрифт будет не совсем &amp;ldquo;родной&amp;rdquo;, но тоже симпатичный.&lt;/p&gt;
+
+&lt;p&gt;Плюсы понятные &amp;mdash; грузится быстро, никаких &amp;ldquo;морганий&amp;rdquo;, никакого чтения статей на тему &amp;ldquo;а вот сейчас-то мы совсем хорошо загрузим шрифт&amp;rdquo;.
+Ещё немаловажный плюс &amp;mdash; пользователь читает текст на сайте, набранный тем же шрифтом, что и остальной интерфейс.
+Думаю, это должно быть приятно большинству ваших пользователей. Да, вы можете тащиться от Open Sans или Noto, однако у людей разные вкусы и это прекрасно.&lt;/p&gt;
+
+&lt;p&gt;Какие минусы?&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Брэнд &amp;mdash; если для вас &lt;strong&gt;действительно&lt;/strong&gt; критичен какой-то особенный шрифт &amp;mdash; большого выбора у вас нет.&lt;/li&gt;
+&lt;li&gt;В разных системах сайт будет выглядеть немного по-разному. Однако, если вы не фанат попиксельного выравнивания табличек&amp;hellip; Да и, будем честными, чаще всего в разных системах сайт и без этого будет выглядеть немного по-разному.&lt;/li&gt;
+&lt;li&gt;Вероятно, в будущем вам может захотеться добавить шрифты в список. Правда, лично я это и минусом не считаю
+&amp;mdash; с учётом частоты смены системных шрифтов и критичности этой задачи.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;загрузка-картинок-в-зависимости-от-разрешения-с-помощью-srcset&#34;&gt;Загрузка картинок в зависимости от разрешения с помощью srcset&lt;/h3&gt;
+
+&lt;p&gt;Если вкратце, этот способ позволяет не грузить на маленькие смартфончики ваши картинища, оптимизированные для Retina :)&lt;/p&gt;
+
+&lt;p&gt;Когда я писал статью &lt;a href=&#34;https://yarfullstack.com/post/2016-10/tables-and-charts-ux/&#34;&gt;Удобное представление таблиц и диаграмм&lt;/a&gt;, понадобилось добавить довольно большие анимированные гифки.
+Когда я подумал про тех, кто может читать эту статью с телефона и не на самом удачном тарифе или соединении&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;В общем, я слышал раньше про srcset, но как-то не доводилось применять &amp;mdash; картинки обычно использовал довольно мелкие, а тут, суммарно, 3МБ&amp;hellip;
+Почитал пару статей: &lt;a href=&#39;https://bitsofco.de/the-srcset-and-sizes-attributes/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Responsive Images - The srcset and sizes Attributes&lt;/a&gt;
+и &lt;a href=&#39;https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Responsive Images: If you’re just changing resolutions, use srcset&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Сделал:
+&lt;div class=&#34;microlight&#34;&gt;
+&amp;lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; 
+    style=&#34;overflow-x:hidden&#34; 
+    srcset=&#34;https://yarfullstack.com/img/clear-off-the-table.gif 800w, https://yarfullstack.com/img/clear-off-the-table-small.gif 400w&#34;
+    sizes=&#34;(min-width: 1280px) 800px,
+    (max-width: 1280px) and (min-width: 1024px) 600px,
+    (max-width: 1024px) and (min-width: 800px) 520px, 
+    (max-width:800px) 90vw, 90vw&#34;&gt;
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;Принцип работы такой: вы указываете отдельно набор картинок с шириной и на каких разрешениях какая ширина предпочтительнее.
+Браузер учитывает ваши пожелания (но может их немного оптимизировать, на своё усмотрение).&lt;/p&gt;
+
+&lt;p&gt;По большому счёту, результатом я доволен. В IE не работает, но полифил прикручивать не стал из-за потенциальных проблем.
+Открытой остаётся более сложная тема &amp;mdash; как, помимо ширины окна, определить, действительно ли нужна маленькая картинка.&lt;/p&gt;
+
+&lt;p&gt;Да, чуть не забыл, вроде в HTML 5.1 для &lt;picture&gt; srscset тоже будет нормально работать. Just FYI.&lt;/p&gt;
+
+&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+
+&lt;p&gt;Подумайте, что ещё вы можете сделать для ваших пользователей. Может, есть что-то, что не особо нужно никому кроме вас самих,
+а без этого сайт станет немного легче и удобнее?&lt;/p&gt;
+
+&lt;p&gt;Например, я лично стараюсь держать себя в руках и, несмотря на многочисленные рекомендации, не добавлять КПДВ к статьям :)&lt;/p&gt;
+
+&lt;p&gt;Ещё в планах выбрать другой вариант обратной связи и отстрелить этот тормозной Disqus&amp;hellip;
+Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в Twitter :)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Улучшаем производительность npm-install нестандартным способом</title>
