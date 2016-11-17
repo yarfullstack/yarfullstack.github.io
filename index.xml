@@ -18,7 +18,7 @@
       <guid>https://yarfullstack.com/post/2016-11/sql-2016-sp1-enterprise-features/</guid>
       <description>
 
-&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &amp;ldquo;MSSQL on Linux&amp;rdquo;, а про
+&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &lt;a href=&#39;https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MSSQL on Linux&lt;/a&gt; , а про
 &lt;a href=&#39;https://blogs.msdn.microsoft.com/sqlreleaseservices/sql-server-2016-service-pack-1-sp1-released/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выход Microsoft SQL Server 2016 SP1&lt;/a&gt;.
 Они просто взяли и включили большинство enterprise-фич во &lt;strong&gt;все&lt;/strong&gt; редакции MSSQL! Можете просто прочитать статью по ссылке,
 ниже табличка с фичами и ещё несколько слов о паре других интересных нововведений.&lt;/p&gt;
