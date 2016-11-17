@@ -7,8 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 22 Sep 2016 23:12:42 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 17 Nov 2016 13:10:32 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>MSSQL 2016 SP1 - теперь enterprise-фичи и в стандартных редакциях!</title>
+      <link>https://yarfullstack.com/post/2016-11/sql-2016-sp1-enterprise-features/</link>
+      <pubDate>Thu, 17 Nov 2016 13:10:32 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-11/sql-2016-sp1-enterprise-features/</guid>
+      <description>
+
+&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &amp;ldquo;MSSQL on Linux&amp;rdquo;, а про
+&lt;a href=&#39;https://blogs.msdn.microsoft.com/sqlreleaseservices/sql-server-2016-service-pack-1-sp1-released/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выход Microsoft SQL Server 2016 SP1&lt;/a&gt;.
+Они просто взяли и включили большинство enterprise-фич во &lt;strong&gt;все&lt;/strong&gt; редакции MSSQL! Можете просто прочитать статью по ссылке,
+ниже табличка с фичами и ещё несколько слов о паре других интересных нововведений.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;https://msdnshared.blob.core.windows.net/media/2016/11/111616_0403_SQLServer201.png&#34; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;прочие-нововведения&#34;&gt;Прочие нововведения&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;CREATE OR ALTER &amp;mdash; давно пора! Думаю все поняли о чём речь :)&lt;/li&gt;
+&lt;li&gt;DBCC CLONEDATABASE &amp;mdash; копирование схемы БД (без данных). Не подразумевается использование клонов в продакшн.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Релиз TypeScript 2.0</title>
