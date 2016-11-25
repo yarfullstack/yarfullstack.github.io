@@ -1,14 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CSS on YarFullStack</title>
-    <link>https://yarfullstack.com/tags/css/</link>
-    <description>Recent content in CSS on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/tags/css/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 15 Jul 2016 15:24:57 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/css/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Отладка и тестирование вёрстки</title>
+      <link>https://yarfullstack.com/post/2016-11/css-debug-and-testing/</link>
+      <pubDate>Fri, 25 Nov 2016 12:59:32 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-11/css-debug-and-testing/</guid>
+      <description>&lt;p&gt;Сегодня небольшая подборка информации для тех, кому интересна тема тестирования и отладки вёрстки.
+Disclaimer: некоторые статьи читал давно (возможно что-то устарело), не всеми советами пользовался, однако статьи, безусловно, полезные.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;chrome-dev-tools&#34;&gt;Chrome Dev Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://hackernoon.com/twelve-fancy-chrome-devtools-tips-dc1e39d10d9d&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twelve Fancy Chrome DevTools Tips&lt;/a&gt;.
+Понятно, что статья не всеобъемлющая, но некоторые советы очень даже полезные.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://habrahabr.ru/post/254007/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;15 советов и хитростей инструментов разработчика Chrome, которые вы обязаны знать&lt;/a&gt;.
+Другой набор советов.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://habrahabr.ru/post/253359/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Справочник методов console в JS&lt;/a&gt;.
+Статья 2015 года, некоторых новшеств там нет, но она очень удобно структурирована и рассматриваются все основные браузеры (а также Node.js).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://bgrins.github.io/devtools-snippets/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;DevTools Snippets&lt;/a&gt;. Коллекция сниппетов (Source / Snippets в Chrome Dev Tools).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Отдельный совет касается галочки Async в Sources / Call stack.
+Её включение позволяет увидеть полный стек вызовов (например, перейти из обработчика setTimeout/setInterval к коду, который его установил).
+Анализируя стек вызовов, можно посмотреть значения переменных в любой точке выполнения.&lt;/p&gt;
+
+&lt;h3 id=&#34;отладка-css&#34;&gt;Отладка CSS&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://benfrain.com/debugging-css/%20&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Debugging CSS&lt;/a&gt; &amp;mdash; отличная статья, особенно для таких как я &amp;mdash;
+кто занимается проблемами с вёрсткой далеко не каждый день. Можно последовательно читать, когда сам сходу не разобрался &amp;mdash; есть вероятность,
+что найдёшь что-то подходящее.&lt;/p&gt;
+
+&lt;h3 id=&#34;автоматизация-теситрования&#34;&gt;Автоматизация теситрования&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://www.smashingmagazine.com/2016/06/the-art-of-layout-testing-with-galen-framework/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The Art Of Layout Testing With Galen Framework&lt;/a&gt; &amp;mdash; интересный фреймворк.
+Пока не было случая попробовать, но по описанию очень понравилось. Если кто-то уже пробовал &amp;mdash; &lt;strong&gt;поделитесь отзывами, пожалуйста.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://github.com/mapbox/pixelmatch&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Pixelmatch. The smallest, simplest and fastest JavaScript pixel-level image comparison library&lt;/a&gt;.
+Из названия, думаю, всё понятно, где можно применить &amp;mdash; тоже :)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Подробности про UnCSS</title>
@@ -16,9 +56,7 @@
       <pubDate>Fri, 15 Jul 2016 15:24:57 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/uncss/</guid>
-      <description>
-
-&lt;p&gt;Ранее я уже &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;немного упоминал UnCSS&lt;/a&gt;, а сегодня расскажу о нем подробнее.
+      <description>&lt;p&gt;Ранее я уже &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;немного упоминал UnCSS&lt;/a&gt;, а сегодня расскажу о нем подробнее.
 Напомню, он, с помощью PhantomJS, рендерит страницы и выполняет JavaScript, ищет используемые классы и удаляет остальные.&lt;/p&gt;
 
 &lt;p&gt;Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
@@ -54,8 +92,7 @@
 &lt;/div&gt;
 
 &lt;p&gt;Если требуется, задаются исключения (в строчке выше или комментариями, как в предыдущем разделе. Вот, собственно, и всё.
-В результате, CSS избавляется от неиспользуемых стилей, а пользователи наслаждаются чуть более быстрой загрузкой страниц :)&lt;/p&gt;
-</description>
+В результате, CSS избавляется от неиспользуемых стилей, а пользователи наслаждаются чуть более быстрой загрузкой страниц :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,9 +101,7 @@
       <pubDate>Fri, 08 Jul 2016 00:27:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/</guid>
-      <description>
-
-&lt;p&gt;Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.&lt;/p&gt;
+      <description>&lt;p&gt;Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Рекомендации по дизайну хороших и удобных форм;&lt;/li&gt;
@@ -110,8 +145,7 @@
 &lt;li&gt;Найти всё что нужно за пару кликов;&lt;/li&gt;
 &lt;li&gt;Кнопки побольше;&lt;/li&gt;
 &lt;li&gt;Отсутствие горизонтального скроллинга.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -120,9 +154,7 @@
       <pubDate>Mon, 20 Jun 2016 22:28:06 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-06/css/</guid>
-      <description>
-
-&lt;p&gt;Сегодня немного интересностей про CSS. В фокусе !important, PostCSS и UnCss.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня немного интересностей про CSS. В фокусе !important, PostCSS и UnCss.&lt;/p&gt;
 
 &lt;h3 id=&#34;так-ли-страшен-important-как-его-малюют&#34;&gt;Так ли страшен important, как его малюют?&lt;/h3&gt;
 
@@ -148,8 +180,7 @@
 
 &lt;p&gt;&lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;UnCSS&lt;/a&gt; &amp;mdash; утилита для уничтожения неиспользуемого CSS.
 С помощью &lt;a href=&#39;https://github.com/Obvious/phantomjs&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PhantomJS&lt;/a&gt; рендерит страницы и выполняет JavaScript,
-ищет используемые классы и удаляет остальные. Можно прицепить к Node.js, вызывать из командной строки или добавить плагин к PostCSS.&lt;/p&gt;
-</description>
+ищет используемые классы и удаляет остальные. Можно прицепить к Node.js, вызывать из командной строки или добавить плагин к PostCSS.&lt;/p&gt;</description>
     </item>
     
   </channel>

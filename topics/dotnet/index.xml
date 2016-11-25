@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>dotNET on YarFullStack</title>
-    <link>https://yarfullstack.com/topics/dotnet/</link>
-    <description>Recent content in dotNET on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/topics/dotnet/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 24 Jun 2016 12:31:11 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,17 +15,17 @@
       <pubDate>Fri, 24 Jun 2016 12:31:11 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-06/dotNET/</guid>
-      <description>
-
-&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Основные анонсы dotnetConf 2016;&lt;/li&gt;
 &lt;li&gt;Статья с хорошим примером и описанием подхода к оптимизации производительности от Джона Скита;&lt;/li&gt;
-&lt;li&gt;Немного про тёмную сторону async/await :)&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;h3 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h3&gt;
+&lt;li&gt;&lt;p&gt;Немного про тёмную сторону async/await :)
+&lt;/p&gt;
+
+&lt;h3 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Для многих самым ожидаемым событием июня будет релиз .NET Core и ASP.NET Core 1.0 &lt;strong&gt;27 июня 2016 года.&lt;/strong&gt;
 Для тех, кто использует .NET и вообще не в курсе что это такое &amp;mdash; &lt;a href=&#39;https://dotnet.github.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;рекомендую ознакомиться&lt;/a&gt;.&lt;/p&gt;
@@ -53,8 +52,7 @@
 Console.WriteLine(&#34;B&#34;);
 &lt;/div&gt;
 
-&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

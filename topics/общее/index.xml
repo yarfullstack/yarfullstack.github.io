@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Общее on YarFullStack</title>
-    <link>https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5/</link>
-    <description>Recent content in Общее on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 15 Jun 2016 20:13:07 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,10 +15,10 @@
       <pubDate>Wed, 15 Jun 2016 20:13:07 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/about/</guid>
-      <description>
-
-&lt;p&gt;Проект YarFullStack прежде всего, про технологии, связанные с разработкой программного обеспечения.
+      <description>&lt;p&gt;Проект YarFullStack прежде всего, про технологии, связанные с разработкой программного обеспечения.
 Темы могут быть совершенно разными &amp;mdash; UX, CSS, JavaScript, Go, C#, SQL…&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;кто-эти-люди&#34;&gt;Кто эти люди?&lt;/h3&gt;
 
@@ -30,8 +29,7 @@
 &lt;h3 id=&#34;для-чего-всё-это&#34;&gt;Для чего всё это?&lt;/h3&gt;
 
 &lt;p&gt;Я довольно давно делаю &amp;ldquo;Пятничную технологическую подборку&amp;rdquo; для разработчиков компании.
-Подумалось, что в формате сайта это будет удобнее и, заодно, может быть полезно кому-то ещё.&lt;/p&gt;
-</description>
+Подумалось, что в формате сайта это будет удобнее и, заодно, может быть полезно кому-то ещё.&lt;/p&gt;</description>
     </item>
     
   </channel>

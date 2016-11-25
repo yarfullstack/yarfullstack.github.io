@@ -2,13 +2,54 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>YarFullStack</title>
-    <link>https://yarfullstack.com/</link>
+    <link>https://yarfullstack.com/index.xml</link>
     <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 17 Nov 2016 13:10:32 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 25 Nov 2016 12:59:32 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Отладка и тестирование вёрстки</title>
+      <link>https://yarfullstack.com/post/2016-11/css-debug-and-testing/</link>
+      <pubDate>Fri, 25 Nov 2016 12:59:32 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-11/css-debug-and-testing/</guid>
+      <description>&lt;p&gt;Сегодня небольшая подборка информации для тех, кому интересна тема тестирования и отладки вёрстки.
+Disclaimer: некоторые статьи читал давно (возможно что-то устарело), не всеми советами пользовался, однако статьи, безусловно, полезные.
+&lt;/p&gt;
+
+&lt;h3 id=&#34;chrome-dev-tools&#34;&gt;Chrome Dev Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://hackernoon.com/twelve-fancy-chrome-devtools-tips-dc1e39d10d9d&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twelve Fancy Chrome DevTools Tips&lt;/a&gt;.
+Понятно, что статья не всеобъемлющая, но некоторые советы очень даже полезные.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://habrahabr.ru/post/254007/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;15 советов и хитростей инструментов разработчика Chrome, которые вы обязаны знать&lt;/a&gt;.
+Другой набор советов.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://habrahabr.ru/post/253359/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Справочник методов console в JS&lt;/a&gt;.
+Статья 2015 года, некоторых новшеств там нет, но она очень удобно структурирована и рассматриваются все основные браузеры (а также Node.js).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://bgrins.github.io/devtools-snippets/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;DevTools Snippets&lt;/a&gt;. Коллекция сниппетов (Source / Snippets в Chrome Dev Tools).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Отдельный совет касается галочки Async в Sources / Call stack.
+Её включение позволяет увидеть полный стек вызовов (например, перейти из обработчика setTimeout/setInterval к коду, который его установил).
+Анализируя стек вызовов, можно посмотреть значения переменных в любой точке выполнения.&lt;/p&gt;
+
+&lt;h3 id=&#34;отладка-css&#34;&gt;Отладка CSS&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://benfrain.com/debugging-css/%20&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Debugging CSS&lt;/a&gt; &amp;mdash; отличная статья, особенно для таких как я &amp;mdash;
+кто занимается проблемами с вёрсткой далеко не каждый день. Можно последовательно читать, когда сам сходу не разобрался &amp;mdash; есть вероятность,
+что найдёшь что-то подходящее.&lt;/p&gt;
+
+&lt;h3 id=&#34;автоматизация-теситрования&#34;&gt;Автоматизация теситрования&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://www.smashingmagazine.com/2016/06/the-art-of-layout-testing-with-galen-framework/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The Art Of Layout Testing With Galen Framework&lt;/a&gt; &amp;mdash; интересный фреймворк.
+Пока не было случая попробовать, но по описанию очень понравилось. Если кто-то уже пробовал &amp;mdash; &lt;strong&gt;поделитесь отзывами, пожалуйста.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://github.com/mapbox/pixelmatch&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Pixelmatch. The smallest, simplest and fastest JavaScript pixel-level image comparison library&lt;/a&gt;.
+Из названия, думаю, всё понятно, где можно применить &amp;mdash; тоже :)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>MSSQL 2016 SP1 - теперь enterprise-фичи и в стандартных редакциях!</title>
@@ -16,12 +57,12 @@
       <pubDate>Thu, 17 Nov 2016 13:10:32 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-11/sql-2016-sp1-enterprise-features/</guid>
-      <description>
-
-&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &lt;a href=&#39;https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MSSQL on Linux&lt;/a&gt; , а про
+      <description>&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &lt;a href=&#39;https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MSSQL on Linux&lt;/a&gt; , а про
 &lt;a href=&#39;https://blogs.msdn.microsoft.com/sqlreleaseservices/sql-server-2016-service-pack-1-sp1-released/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выход Microsoft SQL Server 2016 SP1&lt;/a&gt;.
 Они просто взяли и включили большинство enterprise-фич во &lt;strong&gt;все&lt;/strong&gt; редакции MSSQL! Можете просто прочитать статью по ссылке,
 ниже табличка с фичами и ещё несколько слов о паре других интересных нововведений.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://msdnshared.blob.core.windows.net/media/2016/11/111616_0403_SQLServer201.png&#34; /&gt;&lt;/p&gt;
 
@@ -30,8 +71,7 @@
 &lt;ul&gt;
 &lt;li&gt;CREATE OR ALTER &amp;mdash; давно пора! Думаю все поняли о чём речь :)&lt;/li&gt;
 &lt;li&gt;DBCC CLONEDATABASE &amp;mdash; копирование схемы БД (без данных). Не подразумевается использование клонов в продакшн.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -40,15 +80,14 @@
       <pubDate>Sun, 13 Nov 2016 18:32:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</guid>
-      <description>
-
-&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
 
 &lt;p&gt;Как вы уже знаете, мне нравятся быстрые сайты. Летом я уже делился &lt;a href=&#34;https://yarfullstack.com/post/2016-07/site-optimization-tools/&#34;&gt;набором инструментов для оптимизации сайтов&lt;/a&gt;.
 Однако, есть пара несложных приёмов, первый из которых эти инструменты вряд ли когда-нибудь догадаются посоветовать.&lt;/p&gt;
 
 &lt;p&gt;Начнём с самого простого в &lt;em&gt;реализации&lt;/em&gt; способа.
-Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.&lt;/p&gt;
+Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.
+&lt;/p&gt;
 
 &lt;h3 id=&#34;быстрая-загрузка-шрифтов&#34;&gt;Быстрая загрузка шрифтов&lt;/h3&gt;
 
@@ -135,8 +174,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Например, я лично стараюсь держать себя в руках и, несмотря на многочисленные рекомендации, не добавлять КПДВ к статьям :)&lt;/p&gt;
 
 &lt;p&gt;Ещё в планах выбрать другой вариант обратной связи и отстрелить этот тормозной Disqus&amp;hellip;
-Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;
-</description>
+Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -145,15 +183,14 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Fri, 28 Oct 2016 09:56:03 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/interesting/</guid>
-      <description>
-
-&lt;p&gt;Сегодня &lt;del&gt;бессвязная&lt;/del&gt; подборка слабо связанных между собой новостей и заметок, которые мне показались мне интересными.
+      <description>&lt;p&gt;Сегодня &lt;del&gt;бессвязная&lt;/del&gt; подборка слабо связанных между собой новостей и заметок, которые мне показались мне интересными.
 Про повторное использование кода, Next.js и Yarn.&lt;/p&gt;
 
 &lt;h3 id=&#34;о-мифическом-повторном-использовании-кода&#34;&gt;О мифическом повторном использовании кода&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#39;https://plus.google.com/&amp;#43;SergeyTeplyakov/posts/D6EnwcjUaW4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Заметка Сергея Теплякова&lt;/a&gt; понравилась.
-В принципе, мы с ним сходимся на том, что увлекаться &amp;ldquo;высокими материями&amp;rdquo; при проектировании далеко не всегда полезно :)&lt;/p&gt;
+В принципе, мы с ним сходимся на том, что увлекаться &amp;ldquo;высокими материями&amp;rdquo; при проектировании далеко не всегда полезно :)
+&lt;/p&gt;
 
 &lt;h3 id=&#34;next-js&#34;&gt;Next.js&lt;/h3&gt;
 
@@ -171,8 +208,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;&lt;a href=&#39;http://yehudakatz.com/2016/10/11/im-excited-to-work-on-yarn-the-new-js-package-manager-2/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Мнение Yehuda Katz&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Сравнение&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;https://www.sitepoint.com/yarn-vs-npm/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ещё одно сравнение&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -181,9 +217,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Thu, 20 Oct 2016 21:46:43 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</guid>
-      <description>
-
-&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
+      <description>&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
 Сначала увидел ссылку в комментарии к другой статье на хабре, потом ещё пара человек мне ссылку на перевод прислали.&lt;/p&gt;
 
 &lt;p&gt;Что характерно, поскольку сама статья и анимация достаточно грамотная, у многих возникает ощущение &amp;ldquo;круто! давайте &lt;strong&gt;всё&lt;/strong&gt; так сделаем&amp;rdquo;.
@@ -192,9 +226,9 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Собственно, о чём речь? Речь о том, что в идеале, пользователь должен быть избавлен от лишней информации и &amp;ldquo;визуального шума&amp;rdquo;.
 С этим я согласен более чем абсолютно. Только всё хорошо в меру. Что предлагают авторы?&lt;/p&gt;
 
-&lt;p&gt;Давайте посмотрим.&lt;/p&gt;
+&lt;p&gt;Давайте посмотрим.
 
-&lt;p&gt;&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
+&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
     srcset=&#34;https://yarfullstack.com/img/clear-off-the-table.gif 800w, https://yarfullstack.com/img/clear-off-the-table-small.gif 400w&#34;
     sizes=&#34;(min-width: 1280px) 800px, (max-width: 1280px) and (min-width: 1024px) 600px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
 
@@ -226,8 +260,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;ol&gt;
 &lt;li&gt;Думайте :)&lt;/li&gt;
 &lt;li&gt;Если интересно глубокое погружение в тему &amp;mdash; почитайте Тафти. Потом мне расскажете :)&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -236,9 +269,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Thu, 13 Oct 2016 21:46:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</guid>
-      <description>
-
-&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
+      <description>&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
 Довелось. Сейчас поделюсь. Только уточню, что пока это впечатления с хакатона, там не будет махрового энтерпрайза, повального контроля с аудитом и тому подобного.&lt;/p&gt;
 
 &lt;p&gt;В вопросу о хакатоне. Делал небольшую инфраструктуру для того, чтобы сделать немного счастливее наших тестировщиков.
@@ -321,8 +352,7 @@ central.Register(new Agent
 
 &lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
 
-&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;
-</description>
+&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -332,7 +362,7 @@ central.Register(new Agent
       
       <guid>https://yarfullstack.com/post/2016-10/ux-icons/</guid>
       <description>&lt;p&gt;Недавно прочитал статью &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.
-Понравилась. Вроде всё по делу. Делюсь кратким содержанием.&lt;/p&gt;
+Понравилась. Вроде всё по делу. Делюсь кратким содержанием. &lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Чтобы иконки были полезными, их назначение должно быть понятно пользователю. Рекомендуется правило 5 секунд (если дольше думаешь над тем, что она значит =&amp;gt; не подходит).&lt;/li&gt;
@@ -341,8 +371,7 @@ central.Register(new Agent
 &lt;li&gt;На иконки должно быть удобно нажимать (должны быть достаточно большими и с хорошими отступами).&lt;/li&gt;
 &lt;li&gt;Если есть иконки для платформы, не надо придумывать свои.&lt;/li&gt;
 &lt;li&gt;Тестируйте иконки! Тестировать стоит как понятность, так и запоминаемость.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -351,9 +380,7 @@ central.Register(new Agent
       <pubDate>Fri, 23 Sep 2016 14:28:45 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/ux-buttons/</guid>
-      <description>
-
-&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
+      <description>&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
 
 &lt;h3 id=&#34;best-practices-types-and-states&#34;&gt;Best Practices, Types and States&lt;/h3&gt;
 
@@ -362,11 +389,11 @@ central.Register(new Agent
 
 &lt;h3 id=&#34;primary-secondary-action-buttons&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/h3&gt;
 
-&lt;p&gt;Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
+&lt;p&gt;
+Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
 внимание на то, что в разных ситуациях кнопки могут и должны выглядеть по-разному. Пример &amp;mdash; кнопка &amp;ldquo;безвозвратного&amp;rdquo; удаления чего-либо.&lt;/p&gt;
 
-&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;
-</description>
+&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -375,9 +402,7 @@ central.Register(new Agent
       <pubDate>Thu, 22 Sep 2016 23:12:42 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/typescript-2-release/</guid>
-      <description>
-
-&lt;p&gt;Команда разработки TypeScript радует своими темпами &amp;mdash; в начале месяца я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/typescript-2.0-RC/&#34;&gt;писал про TypeScript 2.0 RC&lt;/a&gt;,
+      <description>&lt;p&gt;Команда разработки TypeScript радует своими темпами &amp;mdash; в начале месяца я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/typescript-2/&#34;&gt;писал про TypeScript 2.0 RC&lt;/a&gt;,
 а сегодня они &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/09/22/announcing-typescript-2-0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;сделали релиз 2.0&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;В общем-то, на этом можно и закончить, но кому интересно &amp;mdash; можете почитать краткий пересказ анонса про основные фичи.&lt;/p&gt;
@@ -426,8 +451,7 @@ return result;
 
 // Error! &#39;name&#39; is read-only.
 new Person(&#34;Daniel&#34;).name = &#34;Dan&#34;;
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -436,15 +460,13 @@ new Person(&#34;Daniel&#34;).name = &#34;Dan&#34;;
       <pubDate>Sun, 18 Sep 2016 14:54:10 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/grpc-first-steps/</guid>
-      <description>
-
-&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
+      <description>&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
 Сегодня я расскажу о том, что это такое и почему стоит, как минимум, обратить на это внимание.
 А потом расскажу, как посмотреть его в работе, используя стандартные примеры.&lt;/p&gt;
 
 &lt;p&gt;Чтобы не было скучно от слова &amp;ldquo;стандартные&amp;rdquo;, мы будем обращаться к серверу на Go из клиента на C#.
 В принципе, можно реализовать любые комбинации из языков программирования, которые поддерживаются gRPC.
-Кстати, вот список поддерживаемых платформ и ЯП:&lt;/p&gt;
+Кстати, вот список поддерживаемых платформ и ЯП: &lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;C++&lt;/li&gt;
@@ -628,8 +650,7 @@ RouteGuideClient.exe
 &lt;p&gt;Моё личное мнение &amp;mdash; gRPC обязательно стоит попробовать, если вы делаете микросервисы и не сильно привязаны к альтернативам.
 Альтернативы, на мой взгляд &amp;ndash; Apache Thrift и Cap&amp;rsquo;n Proto. Правда, слышал, что некоторые мигрируют с Apache Thrift на gRPC&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;
-</description>
+&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -638,15 +659,13 @@ RouteGuideClient.exe
       <pubDate>Fri, 16 Sep 2016 14:32:24 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/js-and-design-news/</guid>
-      <description>
-
-&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике.&lt;/p&gt;
 
 &lt;h3 id=&#34;angular2&#34;&gt;Angular2&lt;/h3&gt;
 
 &lt;p&gt;Думаю, многие ждали этого момента. Некоторые мои коллеги подшучивали &amp;mdash; &amp;ldquo;да они наверное уже никогда не зарелизятся&amp;rdquo;.
 Однако, &lt;a href=&#39;http://angularjs.blogspot.ru/2016/09/angular2-final.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;зарелизились&lt;/a&gt;.
-Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :)&lt;/p&gt;
+Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :) &lt;/p&gt;
 
 &lt;h3 id=&#34;node-js-v6-6-0&#34;&gt;Node.js v6.6.0&lt;/h3&gt;
 
@@ -663,8 +682,7 @@ RouteGuideClient.exe
 
 &lt;h3 id=&#34;variable-fonts&#34;&gt;Variable fonts&lt;/h3&gt;
 
-&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -673,9 +691,7 @@ RouteGuideClient.exe
       <pubDate>Sun, 04 Sep 2016 12:42:32 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/ux-psychology/</guid>
-      <description>
-
-&lt;p&gt;Сначала хотел сделать подборку статей по UX, но одна статья достойна отдельного поста.
+      <description>&lt;p&gt;Сначала хотел сделать подборку статей по UX, но одна статья достойна отдельного поста.
 Это &lt;a href=&#39;https://uxmag.com/articles/the-psychologists-view-of-ux-design&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;отличная статья Susan Weinschenk&lt;/a&gt;
 о том, как можно применить знания психолога к UX-проектированию.&lt;/p&gt;
 
@@ -765,24 +781,21 @@ RouteGuideClient.exe
 &lt;ul&gt;
 &lt;li&gt;Делайте размер шрифта достаточно большим, а количество декоративных деталей достаточно маленьким, чтобы было удобно читать;&lt;/li&gt;
 &lt;li&gt;Люди активно используют периферическое зрение, поэтому не стоит слепо полагаться на eye-tracking в исследованиях.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
       <title>TypeScript 2.0 RC</title>
-      <link>https://yarfullstack.com/post/2016-09/typescript-2.0-RC/</link>
+      <link>https://yarfullstack.com/post/2016-09/typescript-2/</link>
       <pubDate>Thu, 01 Sep 2016 20:35:25 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-09/typescript-2.0-RC/</guid>
-      <description>
-
-&lt;p&gt;Недавно прочитал про выход &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/08/30/announcing-typescript-2-0-rc/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TypeScript 2.0 RC&lt;/a&gt;.
+      <guid>https://yarfullstack.com/post/2016-09/typescript-2/</guid>
+      <description>&lt;p&gt;Недавно прочитал про выход &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/08/30/announcing-typescript-2-0-rc/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TypeScript 2.0 RC&lt;/a&gt;.
 Делюсь фичами, которые мне понравились.&lt;/p&gt;
 
 &lt;h3 id=&#34;tagged-unions&#34;&gt;Tagged Unions&lt;/h3&gt;
 
-&lt;p&gt;Интереснейшая фишка, которая, в том числе, позволяет делать другие интересные фишки.
+&lt;p&gt;Интереснейшая фишка, которая, в том числе, позволяет делать другие интересные фишки. 
 Давайте посмотрим на примере.
 &lt;div class=&#34;microlight&#34;&gt;interface Circle {
     kind: &#34;circle&#34;;
@@ -859,8 +872,7 @@ else {
 
 &lt;p&gt;Это, на мой взгляд, наиболее интересные нововведения в TypeScript 2.0 после беты.
 Полный &lt;a href=&#39;https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;список новых фич в TypeScript 2.0&lt;/a&gt;,
-разумеется, более впечатляющий.&lt;/p&gt;
-</description>
+разумеется, более впечатляющий.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -869,14 +881,12 @@ else {
       <pubDate>Fri, 26 Aug 2016 14:12:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/ux-best-tweets/</guid>
-      <description>
-
-&lt;p&gt;Сегодня предлагаю вашему вниманию несколько наиболее полезных, на мой взгляд, недавних твитов
+      <description>&lt;p&gt;Сегодня предлагаю вашему вниманию несколько наиболее полезных, на мой взгляд, недавних твитов
  &lt;a href=&#39;https://twitter.com/lukew&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Luke Wroblewski&lt;/a&gt; на тему Usability и UX.
 Если вы не в курсе о том, кто это, &lt;del&gt;вы серьёзно?&lt;/del&gt; крайне рекомендую посмотреть, как минимум, эти твиты&lt;/p&gt;
 
 &lt;p&gt;Скажу сразу, спорить на тему границ UX и Usability считаю неблагодарным занятием,
- поэтому просто оставлю эти два термина вместе :)&lt;/p&gt;
+ поэтому просто оставлю эти два термина вместе :) &lt;/p&gt;
 
 &lt;h3 id=&#34;про-нарушение-apple-своих-же-правил-ради-понятности-интерфейса&#34;&gt;Про нарушение Apple своих же правил ради понятности интерфейса&lt;/h3&gt;
 
@@ -894,8 +904,7 @@ else {
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Top two excuses: not enough room on screen for words &amp;amp; difficulty localizing text. [2/2] &lt;a href=&#34;https://t.co/MVJdyiXBW4&#34;&gt;pic.twitter.com/MVJdyiXBW4&lt;/a&gt;&lt;/p&gt;&amp;mdash; Luke Wroblewski (@lukew) &lt;a href=&#34;https://twitter.com/lukew/status/760951449337499653&#34;&gt;August 3, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;Тоже извечная тема, особенно учитывая, что у продукта всегда будут пользователи-новички (если им, конечно, вообще будут пользоваться).&lt;/p&gt;
-</description>
+&lt;p&gt;Тоже извечная тема, особенно учитывая, что у продукта всегда будут пользователи-новички (если им, конечно, вообще будут пользоваться).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -904,9 +913,7 @@ else {
       <pubDate>Thu, 18 Aug 2016 22:36:28 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</guid>
-      <description>
-
-&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
 
 &lt;p&gt;Вообще говоря, я раньше много раз сталкивался с распределёнными транзакциями.
 В какой-то момент я окончательно сформировал своё мнение по этой теме. Получилось что-то вроде: &amp;ldquo;хватит, я не буду их использовать вообще, разве что в ход со стороны оппонента пойдут огнестрельное оружие и прочие нечестные аргументы&amp;rdquo;.&lt;/p&gt;
@@ -952,51 +959,7 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
 
 &lt;p&gt;Однако, &lt;strong&gt;подумайте над переопределением уровня изоляции транзакций для TransactionScope.&lt;/strong&gt;
 Разумеется, я согласен, что для каких-то решений Serializable будет правильным выбором.
-Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Релиз Go 1.7</title>
-      <link>https://yarfullstack.com/post/2016-08/go-1.7-release/</link>
-      <pubDate>Tue, 16 Aug 2016 21:15:58 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-08/go-1.7-release/</guid>
-      <description>
-
-&lt;p&gt;15 августа &lt;a href=&#39;https://blog.golang.org/go1.7&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;состоялся релиз Go 1.7&lt;/a&gt;. Улучшен компилятор, сборщик мусора, размер бинарников уменьшен на 20-30%.&lt;/p&gt;
-
-&lt;h3 id=&#34;концептуальная-оптимизация-компилятора&#34;&gt;Концептуальная оптимизация компилятора&lt;/h3&gt;
-
-&lt;p&gt;За счёт использования SSA стало проще осуществлять многие оптимизации. Бенчмарки говорят о приросте производительности 5-35%.
-Пока новый back-end для компилятора доступен только для 64-битной платформы x86.
-Подробнее про особенности SSA можно &lt;a href=&#39;https://ru.wikipedia.org/wiki/SSA&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;прочитать в википедии&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;На этом хорошие новости про компилятор не заканчиваются :)
-За счёт нового формата бинарники похудели на 20-30%.&lt;/p&gt;
-
-&lt;h3 id=&#34;оптимизация-стандартной-библиотеки-и-сборщика-мусора&#34;&gt;Оптимизация стандартной библиотеки и сборщика мусора&lt;/h3&gt;
-
-&lt;p&gt;Приложения запускаются быстрее. Для случая с большим количеством простаивающих горутин паузы при сборке мусора уменьшились.&lt;/p&gt;
-
-&lt;h3 id=&#34;контексты-перенесли-уровнем-выше&#34;&gt;Контексты перенесли уровнем выше&lt;/h3&gt;
-
-&lt;p&gt;Теперь &lt;a href=&#39;https://godoc.org/golang.org/x/net/context/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;пакет golang.org/x/net/context&lt;/a&gt; перенесён в
-&lt;a href=&#39;https://golang.org/pkg/context/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;стандартную библиотеку&lt;/a&gt;.
-Подробнее про контексты &lt;a href=&#39;https://blog.golang.org/context&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h3 id=&#34;остальные-изменения&#34;&gt;Остальные изменения&lt;/h3&gt;
-
-&lt;p&gt;Подробнее про остальные изменения &lt;a href=&#39;https://golang.org/doc/go1.7&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Поддерживаются &lt;a href=&#39;https://golang.org/pkg/testing/#hdr-Subtests_and_Sub_benchmarks&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;вложенные тесты и бенчмарки&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Добавлена поддержка macOS 10.12 Sierra (теперь также доступна в Go 1.6.3) и экспериментальная поддержка linux/s390x.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;https://golang.org/s/go15vendor&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Vendoring support&lt;/a&gt; стал мейнстримом.&lt;/li&gt;
-&lt;li&gt;&amp;ldquo;Немного&amp;rdquo; оптимизирован go trace (оверхед стал порядка 25% против 400% ранее).&lt;/li&gt;
-&lt;li&gt;Увеличена производительность многих пакетов, и, как заверяют создатели, они на этом не остановятся.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;</description>
     </item>
     
   </channel>
