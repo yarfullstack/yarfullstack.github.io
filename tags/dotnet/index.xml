@@ -1,13 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/dotnet/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>dotNET on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/dotnet/</link>
+    <description>Recent content in dotNET on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 01 Dec 2016 22:05:35 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Интересное в ноябре</title>
+      <link>https://yarfullstack.com/post/2016-12/interesting/</link>
+      <pubDate>Thu, 01 Dec 2016 22:05:35 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-12/interesting/</guid>
+      <description>
+
+&lt;p&gt;Немного странное название для декабрьской статьи, однако, ссылки я собирал давно :)
+Сегодня ссылки и краткое описание следующих статей:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;.NET Portability Analyzer&lt;/li&gt;
+&lt;li&gt;Как дизайнить слова&lt;/li&gt;
+&lt;li&gt;AWS Snowmobile&lt;/li&gt;
+&lt;li&gt;TANK &amp;mdash; быстрый распределённый лог&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;net-portability-analyzer&#34;&gt;.NET Portability Analyzer&lt;/h3&gt;
+
+&lt;p&gt;Вчера прочитал на Хабре про &lt;a href=&#39;https://habrahabr.ru/post/312506/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Portability Analyzer&lt;/a&gt;.
+Лично мне она пока не сильно пригодиться, а вот коллегам, которые переводят один из наших продуктов под Linux &amp;mdash; имеет смысл посмотреть.&lt;/p&gt;
+
+&lt;h3 id=&#34;как-дизайнить-слова&#34;&gt;Как дизайнить слова&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://medium.com/@jsaito/how-to-design-words-63d6965051e9&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;How to design words&lt;/a&gt; &amp;mdash; очень полезная статья!
+Советы, вроде бы, несложные, некоторые &amp;mdash; даже очевидные&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Но поймал себя на том, что надо через пару месяцев ещё раз перечитать. А потом подумать, как сделать некоторые наши продукты ещё лучше.&lt;/p&gt;
+
+&lt;h3 id=&#34;aws-snowmobile&#34;&gt;AWS Snowmobile&lt;/h3&gt;
+
+&lt;p&gt;Помните старую задачу, как быстрее организовать передачу большого объёма данных (с ответом &amp;mdash; грузовик с дисками)?
+Amazon &lt;a href=&#39;https://aws.amazon.com/ru/snowmobile/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;решает её аналогичным образом&lt;/a&gt; (и это не шутка).&lt;/p&gt;
+
+&lt;h3 id=&#34;tank-быстрый-распределённый-лог&#34;&gt;TANK &amp;mdash; быстрый распределённый лог&lt;/h3&gt;
+
+&lt;p&gt;Не пробовал, да и подходящих задач пока нет. Но чем-то меня зацепило &lt;a href=&#39;https://github.com/phaistos-networks/TANK&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;описание этого проекта на GitHub&lt;/a&gt;.
+Говорят, что в пару раз быстрее Кафки на одном источнике и в 10 раз на трёх.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Внимание! TransactionScope по умолчанию включает Serializable.</title>
@@ -15,7 +58,9 @@
       <pubDate>Thu, 18 Aug 2016 22:36:28 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</guid>
-      <description>&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
 
 &lt;p&gt;Вообще говоря, я раньше много раз сталкивался с распределёнными транзакциями.
 В какой-то момент я окончательно сформировал своё мнение по этой теме. Получилось что-то вроде: &amp;ldquo;хватит, я не буду их использовать вообще, разве что в ход со стороны оппонента пойдут огнестрельное оружие и прочие нечестные аргументы&amp;rdquo;.&lt;/p&gt;
@@ -61,7 +106,8 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
 
 &lt;p&gt;Однако, &lt;strong&gt;подумайте над переопределением уровня изоляции транзакций для TransactionScope.&lt;/strong&gt;
 Разумеется, я согласен, что для каких-то решений Serializable будет правильным выбором.
-Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;</description>
+Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -70,17 +116,17 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
       <pubDate>Fri, 24 Jun 2016 12:31:11 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-06/dotNET/</guid>
-      <description>&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Основные анонсы dotnetConf 2016;&lt;/li&gt;
 &lt;li&gt;Статья с хорошим примером и описанием подхода к оптимизации производительности от Джона Скита;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Немного про тёмную сторону async/await :)
-&lt;/p&gt;
-
-&lt;h3 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;Немного про тёмную сторону async/await :)&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h3 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h3&gt;
 
 &lt;p&gt;Для многих самым ожидаемым событием июня будет релиз .NET Core и ASP.NET Core 1.0 &lt;strong&gt;27 июня 2016 года.&lt;/strong&gt;
 Для тех, кто использует .NET и вообще не в курсе что это такое &amp;mdash; &lt;a href=&#39;https://dotnet.github.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;рекомендую ознакомиться&lt;/a&gt;.&lt;/p&gt;
@@ -107,7 +153,8 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
 Console.WriteLine(&#34;B&#34;);
 &lt;/div&gt;
 
-&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

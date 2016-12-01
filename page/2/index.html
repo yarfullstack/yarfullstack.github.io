@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta name="generator" content="Hugo 0.17" />
+	<meta name="generator" content="Hugo 0.16" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
@@ -206,6 +206,63 @@
 	
 	<article>
 	<header>
+		<h2><a href="https://yarfullstack.com/post/2016-09/grpc-first-steps/">gRPC — первые шаги</a></h2>
+		<p>
+    <small class="u-m-right">
+        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
+        <time datetime='2016-09-18 14:54&#43;03:00'>18.09.2016, 14:54</time>
+    </small>
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/topics/%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B">Микросервисы</a>
+            
+        </small>
+        
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/tags/microservices">Microservices</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/google">Google</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/csharp">CSharp</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/golang">Golang</a>
+            
+        </small>
+        
+    
+</p>
+	</header>
+	<p>Недавно вышел релиз <a href='http://www.grpc.io/' rel="nofollow noopener noreferrer" target="_blank">gRPC</a>.
+Сегодня я расскажу о том, что это такое и почему стоит, как минимум, обратить на это внимание.
+А потом расскажу, как посмотреть его в работе, используя стандартные примеры.</p>
+
+<p>Чтобы не было скучно от слова &ldquo;стандартные&rdquo;, мы будем обращаться к серверу на Go из клиента на C#.
+В принципе, можно реализовать любые комбинации из языков программирования, которые поддерживаются gRPC.
+Кстати, вот список поддерживаемых платформ и ЯП:</p>
+
+	
+	<footer>
+		<a href="/post/2016-09/grpc-first-steps/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+			<use xlink:href="#angle-double-right-icon"></use>
+		</svg></a>
+	</footer>
+	
+</article>
+
+	
+	<article>
+	<header>
 		<h2><a href="https://yarfullstack.com/post/2016-09/js-and-design-news/">Новости дизайна и JavaScript</a></h2>
 		<p>
     <small class="u-m-right">
@@ -251,7 +308,8 @@
 
 <p>Думаю, многие ждали этого момента. Некоторые мои коллеги подшучивали &mdash; &ldquo;да они наверное уже никогда не зарелизятся&rdquo;.
 Однако, <a href='http://angularjs.blogspot.ru/2016/09/angular2-final.html' rel="nofollow noopener noreferrer" target="_blank">зарелизились</a>.
-Те кто ждал релиза, чтобы начать использовать &mdash; ваше время пришло :) </p>
+Те кто ждал релиза, чтобы начать использовать &mdash; ваше время пришло :)</p>
+
 	
 	<footer>
 		<a href="/post/2016-09/js-and-design-news/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -308,6 +366,7 @@
 
 <p>Я попробую сжать информацию из этой статьи ещё больше, сократив или убрав некоторые пункты.
 А вы уже сами решайте насколько вам полезно будет прочитать оригинал.</p>
+
 	
 	<footer>
 		<a href="/post/2016-09/ux-psychology/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -320,7 +379,7 @@
 	
 	<article>
 	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-09/typescript-2/">TypeScript 2.0 RC</a></h2>
+		<h2><a href="https://yarfullstack.com/post/2016-09/typescript-2.0-RC/">TypeScript 2.0 RC</a></h2>
 		<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
@@ -361,9 +420,12 @@
 Делюсь фичами, которые мне понравились.</p>
 
 <h3 id="tagged-unions">Tagged Unions</h3>
+
+<p>Интереснейшая фишка, которая, в том числе, позволяет делать другие интересные фишки.</p>
+
 	
 	<footer>
-		<a href="/post/2016-09/typescript-2/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+		<a href="/post/2016-09/typescript-2.0-RC/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 			<use xlink:href="#angle-double-right-icon"></use>
 		</svg></a>
 	</footer>
@@ -413,7 +475,8 @@
 Если вы не в курсе о том, кто это, <del>вы серьёзно?</del> крайне рекомендую посмотреть, как минимум, эти твиты</p>
 
 <p>Скажу сразу, спорить на тему границ UX и Usability считаю неблагодарным занятием,
- поэтому просто оставлю эти два термина вместе :) </p>
+ поэтому просто оставлю эти два термина вместе :)</p>
+
 	
 	<footer>
 		<a href="/post/2016-08/ux-best-tweets/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -469,6 +532,7 @@
 <p>По этой причине моё знакомство с <a href='https://msdn.microsoft.com/en-us/library/system.transactions.transactionscope%28v=vs.110%29.aspx' rel="nofollow noopener noreferrer" target="_blank">TransactionScope</a>
 свелось к его использованию в интеграционных тестах (без распределённой составляющей, просто для удобного отката транзакций)
  и редким спорам с коллегами. Но сегодня, внезапно&hellip;</p>
+
 	
 	<footer>
 		<a href="/post/2016-08/transaction-scope-serializable/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -481,7 +545,7 @@
 	
 	<article>
 	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-08/go-1/">Релиз Go 1.7</a></h2>
+		<h2><a href="https://yarfullstack.com/post/2016-08/go-1.7-release/">Релиз Go 1.7</a></h2>
 		<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
@@ -517,9 +581,10 @@
 </p>
 	</header>
 	<p>15 августа <a href='https://blog.golang.org/go1.7' rel="nofollow noopener noreferrer" target="_blank">состоялся релиз Go 1.7</a>. Улучшен компилятор, сборщик мусора, размер бинарников уменьшен на 20-30%.</p>
+
 	
 	<footer>
-		<a href="/post/2016-08/go-1/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+		<a href="/post/2016-08/go-1.7-release/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 			<use xlink:href="#angle-double-right-icon"></use>
 		</svg></a>
 	</footer>
@@ -564,7 +629,8 @@
 	</header>
 	<p>Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
 Я пока ещё <del>не настоящий сварщик</del> не особо опытный пользователь WebStorm, поэтому здесь вы не найдёте советов как в 10 раз ускорить
- разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее. </p>
+ разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее.</p>
+
 	
 	<footer>
 		<a href="/post/2016-08/WebStorm-useful-options/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -616,6 +682,7 @@
 <p>Идеологически мне больше нравится третий npm &mdash; всё-таки хранить дубликаты модулей, особенно когда их много &mdash; не здорово.
 Кстати, для старой версии ноды есть <a href='https://www.npmjs.com/package/npm3' rel="nofollow noopener noreferrer" target="_blank">модуль npm3</a> &mdash; позволяет
 (в лучших традициях партизан) использовать новый npm при установленном старом (только команды будут npm3 install и т.п.). Но сегодня речь не об этом.</p>
+
 	
 	<footer>
 		<a href="/post/2016-08/improve-npm-performance-with-progress-bar/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -663,61 +730,11 @@
 	</header>
 	<p>Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
 Сначала &mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
-Затем &mdash; методы правильной работы с target=&rdquo;_blank&rdquo;. </p>
+Затем &mdash; методы правильной работы с target=&rdquo;_blank&rdquo;.</p>
+
 	
 	<footer>
 		<a href="/post/2016-08/find-broken-links-and-fix-target-blank/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/">Uber-Postgres&#43;MySQL</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-07-29 12:26&#43;03:00'>29.07.2016, 12:26</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">Базы данных</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Производительность</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/postgres">Postgres</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/mysql">MySQL</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/performance">Performance</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>На этой неделе прочитал интереснейшую статью от инженеров Uber: <a href='https://eng.uber.com/mysql-migration/' rel="nofollow noopener noreferrer" target="_blank">Why Uber Engineering Switched from Postgres to MySQL</a>.
-Ayende, чуть позже, написал <a href='https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql' rel="nofollow noopener noreferrer" target="_blank">неплохие комментарии по этой теме</a>.</p>
-	
-	<footer>
-		<a href="/post/2016-07/Uber-Postgres&#43;MySQL/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 			<use xlink:href="#angle-double-right-icon"></use>
 		</svg></a>
 	</footer>

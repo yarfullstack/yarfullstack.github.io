@@ -1,13 +1,56 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/news/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>News on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/news/</link>
+    <description>Recent content in News on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 01 Dec 2016 22:05:35 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Интересное в ноябре</title>
+      <link>https://yarfullstack.com/post/2016-12/interesting/</link>
+      <pubDate>Thu, 01 Dec 2016 22:05:35 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-12/interesting/</guid>
+      <description>
+
+&lt;p&gt;Немного странное название для декабрьской статьи, однако, ссылки я собирал давно :)
+Сегодня ссылки и краткое описание следующих статей:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;.NET Portability Analyzer&lt;/li&gt;
+&lt;li&gt;Как дизайнить слова&lt;/li&gt;
+&lt;li&gt;AWS Snowmobile&lt;/li&gt;
+&lt;li&gt;TANK &amp;mdash; быстрый распределённый лог&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;net-portability-analyzer&#34;&gt;.NET Portability Analyzer&lt;/h3&gt;
+
+&lt;p&gt;Вчера прочитал на Хабре про &lt;a href=&#39;https://habrahabr.ru/post/312506/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Portability Analyzer&lt;/a&gt;.
+Лично мне она пока не сильно пригодиться, а вот коллегам, которые переводят один из наших продуктов под Linux &amp;mdash; имеет смысл посмотреть.&lt;/p&gt;
+
+&lt;h3 id=&#34;как-дизайнить-слова&#34;&gt;Как дизайнить слова&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://medium.com/@jsaito/how-to-design-words-63d6965051e9&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;How to design words&lt;/a&gt; &amp;mdash; очень полезная статья!
+Советы, вроде бы, несложные, некоторые &amp;mdash; даже очевидные&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;Но поймал себя на том, что надо через пару месяцев ещё раз перечитать. А потом подумать, как сделать некоторые наши продукты ещё лучше.&lt;/p&gt;
+
+&lt;h3 id=&#34;aws-snowmobile&#34;&gt;AWS Snowmobile&lt;/h3&gt;
+
+&lt;p&gt;Помните старую задачу, как быстрее организовать передачу большого объёма данных (с ответом &amp;mdash; грузовик с дисками)?
+Amazon &lt;a href=&#39;https://aws.amazon.com/ru/snowmobile/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;решает её аналогичным образом&lt;/a&gt; (и это не шутка).&lt;/p&gt;
+
+&lt;h3 id=&#34;tank-быстрый-распределённый-лог&#34;&gt;TANK &amp;mdash; быстрый распределённый лог&lt;/h3&gt;
+
+&lt;p&gt;Не пробовал, да и подходящих задач пока нет. Но чем-то меня зацепило &lt;a href=&#39;https://github.com/phaistos-networks/TANK&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;описание этого проекта на GitHub&lt;/a&gt;.
+Говорят, что в пару раз быстрее Кафки на одном источнике и в 10 раз на трёх.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Интересное в октябре</title>
@@ -15,14 +58,15 @@
       <pubDate>Fri, 28 Oct 2016 09:56:03 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/interesting/</guid>
-      <description>&lt;p&gt;Сегодня &lt;del&gt;бессвязная&lt;/del&gt; подборка слабо связанных между собой новостей и заметок, которые мне показались мне интересными.
+      <description>
+
+&lt;p&gt;Сегодня &lt;del&gt;бессвязная&lt;/del&gt; подборка слабо связанных между собой новостей и заметок, которые мне показались мне интересными.
 Про повторное использование кода, Next.js и Yarn.&lt;/p&gt;
 
 &lt;h3 id=&#34;о-мифическом-повторном-использовании-кода&#34;&gt;О мифическом повторном использовании кода&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#39;https://plus.google.com/&amp;#43;SergeyTeplyakov/posts/D6EnwcjUaW4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Заметка Сергея Теплякова&lt;/a&gt; понравилась.
-В принципе, мы с ним сходимся на том, что увлекаться &amp;ldquo;высокими материями&amp;rdquo; при проектировании далеко не всегда полезно :)
-&lt;/p&gt;
+В принципе, мы с ним сходимся на том, что увлекаться &amp;ldquo;высокими материями&amp;rdquo; при проектировании далеко не всегда полезно :)&lt;/p&gt;
 
 &lt;h3 id=&#34;next-js&#34;&gt;Next.js&lt;/h3&gt;
 
@@ -40,7 +84,8 @@
 &lt;li&gt;&lt;a href=&#39;http://yehudakatz.com/2016/10/11/im-excited-to-work-on-yarn-the-new-js-package-manager-2/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Мнение Yehuda Katz&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Сравнение&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;https://www.sitepoint.com/yarn-vs-npm/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ещё одно сравнение&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>
