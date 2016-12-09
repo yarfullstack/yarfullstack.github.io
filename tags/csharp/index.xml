@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CSharp on YarFullStack</title>
-    <link>https://yarfullstack.com/tags/csharp/</link>
-    <description>Recent content in CSharp on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/tags/csharp/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 13 Oct 2016 21:46:12 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,9 +15,7 @@
       <pubDate>Thu, 13 Oct 2016 21:46:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</guid>
-      <description>
-
-&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
+      <description>&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
 Довелось. Сейчас поделюсь. Только уточню, что пока это впечатления с хакатона, там не будет махрового энтерпрайза, повального контроля с аудитом и тому подобного.&lt;/p&gt;
 
 &lt;p&gt;В вопросу о хакатоне. Делал небольшую инфраструктуру для того, чтобы сделать немного счастливее наших тестировщиков.
@@ -101,8 +98,7 @@ central.Register(new Agent
 
 &lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
 
-&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;
-</description>
+&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -111,15 +107,13 @@ central.Register(new Agent
       <pubDate>Sun, 18 Sep 2016 14:54:10 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/grpc-first-steps/</guid>
-      <description>
-
-&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
+      <description>&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
 Сегодня я расскажу о том, что это такое и почему стоит, как минимум, обратить на это внимание.
 А потом расскажу, как посмотреть его в работе, используя стандартные примеры.&lt;/p&gt;
 
 &lt;p&gt;Чтобы не было скучно от слова &amp;ldquo;стандартные&amp;rdquo;, мы будем обращаться к серверу на Go из клиента на C#.
 В принципе, можно реализовать любые комбинации из языков программирования, которые поддерживаются gRPC.
-Кстати, вот список поддерживаемых платформ и ЯП:&lt;/p&gt;
+Кстати, вот список поддерживаемых платформ и ЯП: &lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;C++&lt;/li&gt;
@@ -303,8 +297,7 @@ RouteGuideClient.exe
 &lt;p&gt;Моё личное мнение &amp;mdash; gRPC обязательно стоит попробовать, если вы делаете микросервисы и не сильно привязаны к альтернативам.
 Альтернативы, на мой взгляд &amp;ndash; Apache Thrift и Cap&amp;rsquo;n Proto. Правда, слышал, что некоторые мигрируют с Apache Thrift на gRPC&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;
-</description>
+&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -313,9 +306,7 @@ RouteGuideClient.exe
       <pubDate>Thu, 18 Aug 2016 22:36:28 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</guid>
-      <description>
-
-&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
 
 &lt;p&gt;Вообще говоря, я раньше много раз сталкивался с распределёнными транзакциями.
 В какой-то момент я окончательно сформировал своё мнение по этой теме. Получилось что-то вроде: &amp;ldquo;хватит, я не буду их использовать вообще, разве что в ход со стороны оппонента пойдут огнестрельное оружие и прочие нечестные аргументы&amp;rdquo;.&lt;/p&gt;
@@ -361,8 +352,7 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
 
 &lt;p&gt;Однако, &lt;strong&gt;подумайте над переопределением уровня изоляции транзакций для TransactionScope.&lt;/strong&gt;
 Разумеется, я согласен, что для каких-то решений Serializable будет правильным выбором.
-Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;
-</description>
+Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -371,17 +361,17 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
       <pubDate>Fri, 24 Jun 2016 12:31:11 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-06/dotNET/</guid>
-      <description>
-
-&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Основные анонсы dotnetConf 2016;&lt;/li&gt;
 &lt;li&gt;Статья с хорошим примером и описанием подхода к оптимизации производительности от Джона Скита;&lt;/li&gt;
-&lt;li&gt;Немного про тёмную сторону async/await :)&lt;/li&gt;
-&lt;/ul&gt;
 
-&lt;h3 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h3&gt;
+&lt;li&gt;&lt;p&gt;Немного про тёмную сторону async/await :)
+&lt;/p&gt;
+
+&lt;h3 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h3&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Для многих самым ожидаемым событием июня будет релиз .NET Core и ASP.NET Core 1.0 &lt;strong&gt;27 июня 2016 года.&lt;/strong&gt;
 Для тех, кто использует .NET и вообще не в курсе что это такое &amp;mdash; &lt;a href=&#39;https://dotnet.github.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;рекомендую ознакомиться&lt;/a&gt;.&lt;/p&gt;
@@ -408,8 +398,7 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
 Console.WriteLine(&#34;B&#34;);
 &lt;/div&gt;
 
-&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>

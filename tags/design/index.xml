@@ -1,14 +1,61 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Design on YarFullStack</title>
-    <link>https://yarfullstack.com/tags/design/</link>
-    <description>Recent content in Design on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/tags/design/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 13 Nov 2016 18:32:37 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Про руководства по стилю (style guides)</title>
+      <link>https://yarfullstack.com/post/2016-12/style-guides/</link>
+      <pubDate>Fri, 09 Dec 2016 14:07:59 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-12/style-guides/</guid>
+      <description>&lt;p&gt;Хочу поделиться подборкой статей про руководства по стилю (или как говорят наши зарубежные коллеги, style guides).&lt;/p&gt;
+
+&lt;p&gt;На случай, если вы сталкиваетесь с этим понятием впервые, подобные руководства упрощают жизнь дизайнеров, верстальщиков, разработчиков и тестировщиков.
+А для крупных компаний, которые каждый год по несколько дизайнеров нанимают, я бы сказал &amp;mdash; значительно упрощают жизнь.&lt;/p&gt;
+
+&lt;p&gt;Что ж, начну с отечественных наработок.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;контур-гайды&#34;&gt;Контур.Гайды&lt;/h3&gt;
+
+&lt;p&gt;Недавно Алексей Рякин прислал мне ссылку &lt;a href=&#39;https://guides.kontur.ru/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Контур.Гайды&lt;/a&gt;.
+До конца пока не прочитал, но в целом, впечатление положительное. Тем, кому намного проще читать подобные материалы на русском &amp;mdash; рекомендую.&lt;/p&gt;
+
+&lt;h3 id=&#34;material-design&#34;&gt;Material Design&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://material.google.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Material Design&lt;/a&gt; &amp;mdash; если мне не изменяет память, это первое опубликованное и детально проработанное руководство.
+Да, в Google не все и не всегда ему следуют, с &amp;ldquo;иконкой-гамбургером&amp;rdquo; и &amp;ldquo;троеточием&amp;rdquo; у них вообще беда в их же приложениях&amp;hellip; Но само руководство крутое.&lt;/p&gt;
+
+&lt;h3 id=&#34;styleguides-io&#34;&gt;StyleGuides.io&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;http://styleguides.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;StyleGuides.io&lt;/a&gt; &amp;mdash; наиболее полное и удобное, из мне известных, собрание материалов по style guides.
+Там есть и статьи, и примеры (тех же руководств от разных компаний там десятки). Если вам интересна эта тема, то StyleGuides.io, безусловно, отличная отправная точка.
+Причём, как с точки зрения первого ознакомления с темой, так и с развитием в этом направлении.&lt;/p&gt;
+
+&lt;h3 id=&#34;разное&#34;&gt;Разное&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://www.nngroup.com/articles/front-end-style-guides/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Front-End Style-Guides: Definition, Requirements, Component Checklist&lt;/a&gt; от
+Nielsen Norman Group &amp;mdash; довольно неплохая статья небольшого объёма, которая объясняет что это и зачем, а также дарит короткий чеклист.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#39;http://airbnb.design/the-way-we-build/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The Way We Build (How rethinking the Airbnb app changed the way we approach design)&lt;/a&gt; &amp;mdash; просто интересно почитать.&lt;/p&gt;
+
+&lt;h3 id=&#34;странное&#34;&gt;Странное&lt;/h3&gt;
+
+&lt;p&gt;Даже не знаю как характеризовать вот эту статью &lt;a href=&#39;https://vc.ru/p/accordion-and-tab-design&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Юзабилити веб-форм: Почему вкладки и «гармошки» вызывают проблемы у пользователей&lt;/a&gt;,
+ссылку на которую мне прислал Женя Кирьянов.&lt;/p&gt;
+
+&lt;p&gt;С одной стороны, наверное что-то полезное в ней есть.
+Но, с учётом того, что картинки там не подгружаются, а простой способ сообщить администрации ресурса о проблеме отсутствует (комментарии уже недоступны)&amp;hellip;
+Скорее, эта статья на данный хороший пример того, как не надо публиковать статьи :)&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Два простых способа сделать пользователей счастливее</title>
@@ -16,15 +63,14 @@
       <pubDate>Sun, 13 Nov 2016 18:32:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</guid>
-      <description>
-
-&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
 
 &lt;p&gt;Как вы уже знаете, мне нравятся быстрые сайты. Летом я уже делился &lt;a href=&#34;https://yarfullstack.com/post/2016-07/site-optimization-tools/&#34;&gt;набором инструментов для оптимизации сайтов&lt;/a&gt;.
 Однако, есть пара несложных приёмов, первый из которых эти инструменты вряд ли когда-нибудь догадаются посоветовать.&lt;/p&gt;
 
 &lt;p&gt;Начнём с самого простого в &lt;em&gt;реализации&lt;/em&gt; способа.
-Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.&lt;/p&gt;
+Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.
+&lt;/p&gt;
 
 &lt;h3 id=&#34;быстрая-загрузка-шрифтов&#34;&gt;Быстрая загрузка шрифтов&lt;/h3&gt;
 
@@ -111,8 +157,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Например, я лично стараюсь держать себя в руках и, несмотря на многочисленные рекомендации, не добавлять КПДВ к статьям :)&lt;/p&gt;
 
 &lt;p&gt;Ещё в планах выбрать другой вариант обратной связи и отстрелить этот тормозной Disqus&amp;hellip;
-Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;
-</description>
+Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -121,9 +166,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Thu, 20 Oct 2016 21:46:43 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</guid>
-      <description>
-
-&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
+      <description>&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
 Сначала увидел ссылку в комментарии к другой статье на хабре, потом ещё пара человек мне ссылку на перевод прислали.&lt;/p&gt;
 
 &lt;p&gt;Что характерно, поскольку сама статья и анимация достаточно грамотная, у многих возникает ощущение &amp;ldquo;круто! давайте &lt;strong&gt;всё&lt;/strong&gt; так сделаем&amp;rdquo;.
@@ -132,9 +175,9 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Собственно, о чём речь? Речь о том, что в идеале, пользователь должен быть избавлен от лишней информации и &amp;ldquo;визуального шума&amp;rdquo;.
 С этим я согласен более чем абсолютно. Только всё хорошо в меру. Что предлагают авторы?&lt;/p&gt;
 
-&lt;p&gt;Давайте посмотрим.&lt;/p&gt;
+&lt;p&gt;Давайте посмотрим.
 
-&lt;p&gt;&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
+&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
     srcset=&#34;https://yarfullstack.com/img/clear-off-the-table.gif 800w, https://yarfullstack.com/img/clear-off-the-table-small.gif 400w&#34;
     sizes=&#34;(min-width: 1280px) 800px, (max-width: 1280px) and (min-width: 1024px) 600px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
 
@@ -166,8 +209,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;ol&gt;
 &lt;li&gt;Думайте :)&lt;/li&gt;
 &lt;li&gt;Если интересно глубокое погружение в тему &amp;mdash; почитайте Тафти. Потом мне расскажете :)&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -177,7 +219,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       
       <guid>https://yarfullstack.com/post/2016-10/ux-icons/</guid>
       <description>&lt;p&gt;Недавно прочитал статью &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.
-Понравилась. Вроде всё по делу. Делюсь кратким содержанием.&lt;/p&gt;
+Понравилась. Вроде всё по делу. Делюсь кратким содержанием. &lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Чтобы иконки были полезными, их назначение должно быть понятно пользователю. Рекомендуется правило 5 секунд (если дольше думаешь над тем, что она значит =&amp;gt; не подходит).&lt;/li&gt;
@@ -186,8 +228,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;На иконки должно быть удобно нажимать (должны быть достаточно большими и с хорошими отступами).&lt;/li&gt;
 &lt;li&gt;Если есть иконки для платформы, не надо придумывать свои.&lt;/li&gt;
 &lt;li&gt;Тестируйте иконки! Тестировать стоит как понятность, так и запоминаемость.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -196,9 +237,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Fri, 23 Sep 2016 14:28:45 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/ux-buttons/</guid>
-      <description>
-
-&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
+      <description>&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
 
 &lt;h3 id=&#34;best-practices-types-and-states&#34;&gt;Best Practices, Types and States&lt;/h3&gt;
 
@@ -207,11 +246,11 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 
 &lt;h3 id=&#34;primary-secondary-action-buttons&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/h3&gt;
 
-&lt;p&gt;Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
+&lt;p&gt;
+Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
 внимание на то, что в разных ситуациях кнопки могут и должны выглядеть по-разному. Пример &amp;mdash; кнопка &amp;ldquo;безвозвратного&amp;rdquo; удаления чего-либо.&lt;/p&gt;
 
-&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;
-</description>
+&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -220,15 +259,13 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Fri, 16 Sep 2016 14:32:24 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/js-and-design-news/</guid>
-      <description>
-
-&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике.&lt;/p&gt;
 
 &lt;h3 id=&#34;angular2&#34;&gt;Angular2&lt;/h3&gt;
 
 &lt;p&gt;Думаю, многие ждали этого момента. Некоторые мои коллеги подшучивали &amp;mdash; &amp;ldquo;да они наверное уже никогда не зарелизятся&amp;rdquo;.
 Однако, &lt;a href=&#39;http://angularjs.blogspot.ru/2016/09/angular2-final.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;зарелизились&lt;/a&gt;.
-Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :)&lt;/p&gt;
+Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :) &lt;/p&gt;
 
 &lt;h3 id=&#34;node-js-v6-6-0&#34;&gt;Node.js v6.6.0&lt;/h3&gt;
 
@@ -245,8 +282,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 
 &lt;h3 id=&#34;variable-fonts&#34;&gt;Variable fonts&lt;/h3&gt;
 
-&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -255,9 +291,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Fri, 08 Jul 2016 00:27:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/</guid>
-      <description>
-
-&lt;p&gt;Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.&lt;/p&gt;
+      <description>&lt;p&gt;Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Рекомендации по дизайну хороших и удобных форм;&lt;/li&gt;
@@ -301,8 +335,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;Найти всё что нужно за пару кликов;&lt;/li&gt;
 &lt;li&gt;Кнопки побольше;&lt;/li&gt;
 &lt;li&gt;Отсутствие горизонтального скроллинга.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
   </channel>
