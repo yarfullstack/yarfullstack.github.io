@@ -7,8 +7,91 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 01 Dec 2016 22:05:35 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 19 Jan 2017 22:09:44 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/dotnet/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>.NET Core и Visual Studio</title>
+      <link>https://yarfullstack.com/post/2017-01/dotnet-core-and-visual-studio/</link>
+      <pubDate>Thu, 19 Jan 2017 22:09:44 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-01/dotnet-core-and-visual-studio/</guid>
+      <description>
+
+&lt;p&gt;Сегодня про опыт (мой и моих коллег) и впечатления о .NET Core.&lt;/p&gt;
+
+&lt;p&gt;На всякий (почти невероятный) случай кратко о том, что это такое.
+Microsoft сделал фреймворк для кросcплатформенной разработки. Построил его на немного других принципах &amp;mdash; сделал более
+гранулированным (говоря попросту &amp;mdash; нарезали большие DLL-ки помельче), кое-что ещё поменяли.&lt;/p&gt;
+
+&lt;p&gt;В итоге имеем возможность писать более быстрые (в том числе, потому что не тянем лишнего) и компактные кроссплатформенные приложения.
+Проверяли под Windows и Linux &amp;mdash; вполне работает. Маководов не было рядом :)&lt;/p&gt;
+
+&lt;p&gt;Есть и щедро разбросанные ложки дёгтя.  Основная проблема &amp;mdash; пока сыровато.
+10 000 попугаев в секунду это, конечно, прикольно, но редко критично (по крайней мере, для бизнес-приложений).
+Давайте по порядку.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;TL;DR&lt;/em&gt; В целом, новые проекты можно аккуратно пробовать делать на .NET Core, старые и большие я бы поостерёгся мигрировать.&lt;/p&gt;
+
+&lt;h3 id=&#34;установка&#34;&gt;Установка&lt;/h3&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; у меня Windows 10 + Visual Studio 2015, так что рассматриваю только этот случай и на данный момент времени.
+Поэтому через месяц-другой лучше свериться с сайтом.&lt;/p&gt;
+
+&lt;p&gt;Кстати, &lt;a href=&#39;https://www.microsoft.com/net/core&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;на сайте есть удобная и понятная инструкция о том, как начать работать&lt;/a&gt;.
+Я всё по ней сделал и не встретил никаких проблем. Правда, не все следуют инструкции. А зря.&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;Скачайте и установите &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkId=691129&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Visual Studio 2015 Update 3&lt;/a&gt; если у вас установлена более старая VS 2015.
+Нет, не так. &lt;strong&gt;ОБЯЗАТЕЛЬНО СНАЧАЛА УСТАНОВИТЕ&lt;/strong&gt;, если конечно не хотите потом потратить время на то, чтобы всё это выпрямлять.&lt;/li&gt;
+&lt;li&gt;Скачайте и установите &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkID=827546&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core 1.0.1 tools Preview 2&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Не лишним будет сразу скачать и установить &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkID=835014&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Download .NET Core 1.1 SDK&lt;/a&gt;. Не факт, что потребуется, но вероятность хорошая.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h3 id=&#34;зрелость-экосистемы&#34;&gt;&amp;ldquo;Зрелость&amp;rdquo; экосистемы&lt;/h3&gt;
+
+&lt;p&gt;Казалось бы, &amp;ldquo;это же .NET, что может случиться?&amp;rdquo; :)
+Как вам отсутствие в нём отправки писем? Да, есть сторонний пакет &amp;mdash; &lt;a href=&#39;https://github.com/jstedfast/MailKit&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MailKit&lt;/a&gt;.
+Однако, думаю, ситуация понятна. Возникает ощущение экосистемы Node.js, но вместо выбора из десятка пакетов для почти каждой задачи &amp;mdash; один или ноль.
+Я немного утрирую, конечно, что-то есть.&lt;/p&gt;
+
+&lt;p&gt;Есть &lt;a href=&#39;https://docs.microsoft.com/en-us/dotnet/articles/standard/library&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Standard Library&lt;/a&gt; &amp;mdash; попытка специфицировать общее API для обычного .NET и Core.
+Получится ли в итоге всё красиво и когда это будет, не берусь судить. Прорвёмся, я надеюсь.&lt;/p&gt;
+
+&lt;p&gt;Пока нормально получается писать под .NET Standard 1.3 (1.4 отличается незначительно).
+Но, временами, некоторые пакеты &amp;ldquo;хотят&amp;rdquo; 1.6 (не поддерживается обычным .NET).
+Для микросервисной архитектуры не очень критично (достаточно дёшево сделать хоть два мелких проекта под разные версии), для монолитной может быть печальнее.&lt;/p&gt;
+
+&lt;p&gt;В общем, ощущение, что очень уж хотелось сделать местами всё с нуля и круто и немного поторопились. Обратная совместимость? Ну, вы поняли.
+И с project.json как-то неудобно получилось&amp;hellip;&lt;/p&gt;
+
+&lt;h3 id=&#34;мелкие-грабли-с-нашей-инфраструктурой&#34;&gt;Мелкие грабли с нашей инфраструктурой&lt;/h3&gt;
+
+&lt;p&gt;Исторически сложилось, что мы используем TeamCity для билдов и NUnit для тестов.
+Мне, лично, ещё нравится, когда тесты можно из ReSharper запускать.&lt;/p&gt;
+
+&lt;p&gt;Если вкратце, из коробки просто так это всё не заработает. Про настройку билд-сервера рассказывать не буду, расскажу про настройку окружения для разработки.&lt;/p&gt;
+
+&lt;p&gt;Чтобы запускать тесты на NUnit из командной строки (&lt;code&gt;dotnet test&lt;/code&gt;) или из студии, вам потребуется установить
+&lt;a href=&#39;https://github.com/nunit/dotnet-test-nunit&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;dotnet-test-nunit&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;В принципе, ничего сложного. Но если вы тоже работаете с TeamCity, не торопитесь набирать в Package Manager Console заветную строку:
+&lt;div class=&#34;microlight&#34;&gt;Install-Package dotnet-test-nunit -Pre
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;На данный момент, интеграция с TeamCity будет вида &amp;ldquo;упал какой-то тест, курите логи&amp;rdquo;. В новой версии вроде должны починить.
+Поэтому, устанавливаем немного модифицированный пакет:
+&lt;div class=&#34;microlight&#34;&gt;Install-Package dotnet-test-nunit-teamcity -Pre
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+
+&lt;p&gt;Повторюсь. В целом, новые проекты можно аккуратно пробовать делать на .NET Core. Старые и большие проекты я бы поостерёгся мигрировать.&lt;/p&gt;
+
+&lt;p&gt;И да, в микросервисной архитектуре будет немного проще сгладить некоторые &amp;ldquo;углы&amp;rdquo;.
+А для тех, кто никуда не торопится, можно попробовать подождать, когда .NET Core будет поддерживать .NET Standard 2.0.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Интересное в ноябре</title>
