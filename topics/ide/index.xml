@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/topics/ide/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>IDE on YarFullStack</title>
+    <link>https://yarfullstack.com/topics/ide/</link>
+    <description>Recent content in IDE on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 10 Aug 2016 22:39:44 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/ide/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,9 +16,11 @@
       <pubDate>Wed, 10 Aug 2016 22:39:44 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/WebStorm-useful-options/</guid>
-      <description>&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
+      <description>
+
+&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
 Я пока ещё &lt;del&gt;не настоящий сварщик&lt;/del&gt; не особо опытный пользователь WebStorm, поэтому здесь вы не найдёте советов как в 10 раз ускорить
- разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее. &lt;/p&gt;
+ разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее.&lt;/p&gt;
 
 &lt;h3 id=&#34;вступление&#34;&gt;Вступление&lt;/h3&gt;
 
@@ -52,15 +55,16 @@
 &lt;p&gt;Есть одна маленькая тонкость. По умолчанию TODO показываются для всех исходников в папке проекта.
 Думаю, не всем хочется наблюдать сотни TODO из папки node_modules.
 Поэтому стоит в окне с TODO сверху выбрать Scope Based и настроить так, как вам удобнее. Обычно &amp;ldquo;Project Files&amp;rdquo; бывает достаточно,
-но если есть вложенные в подпроекты node_modules &amp;mdash; не работает (для таких случаев можно добавить свой Scope).&lt;/p&gt;</description>
+но если есть вложенные в подпроекты node_modules &amp;mdash; не работает (для таких случаев можно добавить свой Scope).&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Обновление Microsoft Visual Studio (KB3165756)</title>
-      <link>https://yarfullstack.com/post/2016-07/visual-studio/</link>
+      <link>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</link>
       <pubDate>Wed, 13 Jul 2016 08:46:18 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-07/visual-studio/</guid>
+      <guid>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</guid>
       <description>&lt;p&gt;Недавно вышло новое обновление для Visual Studio: &lt;a href=&#39;https://msdn.microsoft.com/library/mt752379&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Update for Microsoft Visual Studio 2015 Update 3 (KB3165756)&lt;/a&gt;.
 Тем, кто пользуется студией &amp;mdash; крайне рекомендую поставить &amp;mdash; исправлено с десяток багов (подробности по ссылке выше), ставится быстро, перезагрузка не требуется.
 Проще всего поставить, скачав с &lt;a href=&#39;http://go.microsoft.com/fwlink/?LinkID=816878&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Microsoft Download Center&lt;/a&gt;.&lt;/p&gt;
@@ -70,7 +74,8 @@
 
 &lt;p&gt;Как обещал &amp;mdash; впечатления. Загружается и ставится быстро. На моём компьютере субъективно заняло минуты 2.
 &lt;del&gt;После этого студия работает в 4 раза быстрее, а мои волосы стали крепкими и шелковистыми.&lt;/del&gt;
-Естественно, за несколько минут работы эффект незаметен. Однако, утечкам памяти это свойственно.&lt;/p&gt;</description>
+Естественно, за несколько минут работы эффект незаметен. Однако, утечкам памяти это свойственно.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

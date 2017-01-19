@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/tools/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>Tools on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/tools/</link>
+    <description>Recent content in Tools on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 10 Aug 2016 22:39:44 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,9 +16,11 @@
       <pubDate>Wed, 10 Aug 2016 22:39:44 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/WebStorm-useful-options/</guid>
-      <description>&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
+      <description>
+
+&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
 Я пока ещё &lt;del&gt;не настоящий сварщик&lt;/del&gt; не особо опытный пользователь WebStorm, поэтому здесь вы не найдёте советов как в 10 раз ускорить
- разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее. &lt;/p&gt;
+ разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее.&lt;/p&gt;
 
 &lt;h3 id=&#34;вступление&#34;&gt;Вступление&lt;/h3&gt;
 
@@ -52,7 +55,8 @@
 &lt;p&gt;Есть одна маленькая тонкость. По умолчанию TODO показываются для всех исходников в папке проекта.
 Думаю, не всем хочется наблюдать сотни TODO из папки node_modules.
 Поэтому стоит в окне с TODO сверху выбрать Scope Based и настроить так, как вам удобнее. Обычно &amp;ldquo;Project Files&amp;rdquo; бывает достаточно,
-но если есть вложенные в подпроекты node_modules &amp;mdash; не работает (для таких случаев можно добавить свой Scope).&lt;/p&gt;</description>
+но если есть вложенные в подпроекты node_modules &amp;mdash; не работает (для таких случаев можно добавить свой Scope).&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -61,7 +65,9 @@
       <pubDate>Fri, 15 Jul 2016 15:24:57 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/uncss/</guid>
-      <description>&lt;p&gt;Ранее я уже &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;немного упоминал UnCSS&lt;/a&gt;, а сегодня расскажу о нем подробнее.
+      <description>
+
+&lt;p&gt;Ранее я уже &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;немного упоминал UnCSS&lt;/a&gt;, а сегодня расскажу о нем подробнее.
 Напомню, он, с помощью PhantomJS, рендерит страницы и выполняет JavaScript, ищет используемые классы и удаляет остальные.&lt;/p&gt;
 
 &lt;p&gt;Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
@@ -97,7 +103,8 @@
 &lt;/div&gt;
 
 &lt;p&gt;Если требуется, задаются исключения (в строчке выше или комментариями, как в предыдущем разделе. Вот, собственно, и всё.
-В результате, CSS избавляется от неиспользуемых стилей, а пользователи наслаждаются чуть более быстрой загрузкой страниц :)&lt;/p&gt;</description>
+В результате, CSS избавляется от неиспользуемых стилей, а пользователи наслаждаются чуть более быстрой загрузкой страниц :)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -106,7 +113,9 @@
       <pubDate>Fri, 01 Jul 2016 13:18:17 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/site-optimization-tools/</guid>
-      <description>&lt;p&gt;Сегодня поделюсь набором инструментов для оптимизации сайтов. Это больше про скорость, чем про SEO, хотя и для SEO там тоже есть много полезного.
+      <description>
+
+&lt;p&gt;Сегодня поделюсь набором инструментов для оптимизации сайтов. Это больше про скорость, чем про SEO, хотя и для SEO там тоже есть много полезного.
 К счастью, поисковики начали учитывать заодно и скорость загрузки сайтов при индексации.&lt;/p&gt;
 
 &lt;p&gt;Да, вероятно я перфекционист, однако я не могу спокойно смотреть на мегабайтные картинки и сайты, загружающиеся дольше секунды при нормальном соединении.
@@ -145,7 +154,8 @@
 &lt;/ul&gt;
 
 &lt;p&gt;На выходе получаем подробный отчёт с логом и аналогом результатов вкладки Network в Chrome. Плюс к этому, он ещё и записывает видео, на котором видно, как открывается сайт.
-В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;</description>
+В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
+</description>
     </item>
     
   </channel>
