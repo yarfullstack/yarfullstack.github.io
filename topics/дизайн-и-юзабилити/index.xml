@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Дизайн и юзабилити on YarFullStack</title>
-    <link>https://yarfullstack.com/topics/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8/</link>
-    <description>Recent content in Дизайн и юзабилити on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/topics/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 09 Dec 2016 14:07:59 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,14 +15,14 @@
       <pubDate>Fri, 09 Dec 2016 14:07:59 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-12/style-guides/</guid>
-      <description>
-
-&lt;p&gt;Хочу поделиться подборкой статей про руководства по стилю (или как говорят наши зарубежные коллеги, style guides).&lt;/p&gt;
+      <description>&lt;p&gt;Хочу поделиться подборкой статей про руководства по стилю (или как говорят наши зарубежные коллеги, style guides).&lt;/p&gt;
 
 &lt;p&gt;На случай, если вы сталкиваетесь с этим понятием впервые, подобные руководства упрощают жизнь дизайнеров, верстальщиков, разработчиков и тестировщиков.
 А для крупных компаний, которые каждый год по несколько дизайнеров нанимают, я бы сказал &amp;mdash; значительно упрощают жизнь.&lt;/p&gt;
 
 &lt;p&gt;Что ж, начну с отечественных наработок.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;контур-гайды&#34;&gt;Контур.Гайды&lt;/h3&gt;
 
@@ -55,8 +54,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
 
 &lt;p&gt;С одной стороны, наверное что-то полезное в ней есть.
 Но, с учётом того, что картинки там не подгружаются, а простой способ сообщить администрации ресурса о проблеме отсутствует (комментарии уже недоступны)&amp;hellip;
-Скорее, эта статья на данный хороший пример того, как не надо публиковать статьи :)&lt;/p&gt;
-</description>
+Скорее, эта статья на данный хороший пример того, как не надо публиковать статьи :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,9 +63,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
       <pubDate>Thu, 20 Oct 2016 21:46:43 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</guid>
-      <description>
-
-&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
+      <description>&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
 Сначала увидел ссылку в комментарии к другой статье на хабре, потом ещё пара человек мне ссылку на перевод прислали.&lt;/p&gt;
 
 &lt;p&gt;Что характерно, поскольку сама статья и анимация достаточно грамотная, у многих возникает ощущение &amp;ldquo;круто! давайте &lt;strong&gt;всё&lt;/strong&gt; так сделаем&amp;rdquo;.
@@ -76,9 +72,9 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
 &lt;p&gt;Собственно, о чём речь? Речь о том, что в идеале, пользователь должен быть избавлен от лишней информации и &amp;ldquo;визуального шума&amp;rdquo;.
 С этим я согласен более чем абсолютно. Только всё хорошо в меру. Что предлагают авторы?&lt;/p&gt;
 
-&lt;p&gt;Давайте посмотрим.&lt;/p&gt;
+&lt;p&gt;Давайте посмотрим.
 
-&lt;p&gt;&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
+&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
     srcset=&#34;https://yarfullstack.com/img/clear-off-the-table.gif 800w, https://yarfullstack.com/img/clear-off-the-table-small.gif 400w&#34;
     sizes=&#34;(min-width: 1280px) 800px, (max-width: 1280px) and (min-width: 1024px) 600px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
 
@@ -110,8 +106,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
 &lt;ol&gt;
 &lt;li&gt;Думайте :)&lt;/li&gt;
 &lt;li&gt;Если интересно глубокое погружение в тему &amp;mdash; почитайте Тафти. Потом мне расскажете :)&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -121,7 +116,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
       
       <guid>https://yarfullstack.com/post/2016-10/ux-icons/</guid>
       <description>&lt;p&gt;Недавно прочитал статью &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.
-Понравилась. Вроде всё по делу. Делюсь кратким содержанием.&lt;/p&gt;
+Понравилась. Вроде всё по делу. Делюсь кратким содержанием. &lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Чтобы иконки были полезными, их назначение должно быть понятно пользователю. Рекомендуется правило 5 секунд (если дольше думаешь над тем, что она значит =&amp;gt; не подходит).&lt;/li&gt;
@@ -130,8 +125,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
 &lt;li&gt;На иконки должно быть удобно нажимать (должны быть достаточно большими и с хорошими отступами).&lt;/li&gt;
 &lt;li&gt;Если есть иконки для платформы, не надо придумывать свои.&lt;/li&gt;
 &lt;li&gt;Тестируйте иконки! Тестировать стоит как понятность, так и запоминаемость.&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
@@ -140,9 +134,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
       <pubDate>Fri, 23 Sep 2016 14:28:45 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/ux-buttons/</guid>
-      <description>
-
-&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
+      <description>&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
 
 &lt;h3 id=&#34;best-practices-types-and-states&#34;&gt;Best Practices, Types and States&lt;/h3&gt;
 
@@ -151,11 +143,11 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
 
 &lt;h3 id=&#34;primary-secondary-action-buttons&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/h3&gt;
 
-&lt;p&gt;Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
+&lt;p&gt;
+Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
 внимание на то, что в разных ситуациях кнопки могут и должны выглядеть по-разному. Пример &amp;mdash; кнопка &amp;ldquo;безвозвратного&amp;rdquo; удаления чего-либо.&lt;/p&gt;
 
-&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;
-</description>
+&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -164,15 +156,13 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
       <pubDate>Fri, 16 Sep 2016 14:32:24 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/js-and-design-news/</guid>
-      <description>
-
-&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике.&lt;/p&gt;
 
 &lt;h3 id=&#34;angular2&#34;&gt;Angular2&lt;/h3&gt;
 
 &lt;p&gt;Думаю, многие ждали этого момента. Некоторые мои коллеги подшучивали &amp;mdash; &amp;ldquo;да они наверное уже никогда не зарелизятся&amp;rdquo;.
 Однако, &lt;a href=&#39;http://angularjs.blogspot.ru/2016/09/angular2-final.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;зарелизились&lt;/a&gt;.
-Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :)&lt;/p&gt;
+Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :) &lt;/p&gt;
 
 &lt;h3 id=&#34;node-js-v6-6-0&#34;&gt;Node.js v6.6.0&lt;/h3&gt;
 
@@ -189,8 +179,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
 
 &lt;h3 id=&#34;variable-fonts&#34;&gt;Variable fonts&lt;/h3&gt;
 
-&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -199,9 +188,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
       <pubDate>Sun, 04 Sep 2016 12:42:32 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/ux-psychology/</guid>
-      <description>
-
-&lt;p&gt;Сначала хотел сделать подборку статей по UX, но одна статья достойна отдельного поста.
+      <description>&lt;p&gt;Сначала хотел сделать подборку статей по UX, но одна статья достойна отдельного поста.
 Это &lt;a href=&#39;https://uxmag.com/articles/the-psychologists-view-of-ux-design&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;отличная статья Susan Weinschenk&lt;/a&gt;
 о том, как можно применить знания психолога к UX-проектированию.&lt;/p&gt;
 
@@ -291,8 +278,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
 &lt;ul&gt;
 &lt;li&gt;Делайте размер шрифта достаточно большим, а количество декоративных деталей достаточно маленьким, чтобы было удобно читать;&lt;/li&gt;
 &lt;li&gt;Люди активно используют периферическое зрение, поэтому не стоит слепо полагаться на eye-tracking в исследованиях.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -301,14 +287,12 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
       <pubDate>Fri, 26 Aug 2016 14:12:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/ux-best-tweets/</guid>
-      <description>
-
-&lt;p&gt;Сегодня предлагаю вашему вниманию несколько наиболее полезных, на мой взгляд, недавних твитов
+      <description>&lt;p&gt;Сегодня предлагаю вашему вниманию несколько наиболее полезных, на мой взгляд, недавних твитов
  &lt;a href=&#39;https://twitter.com/lukew&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Luke Wroblewski&lt;/a&gt; на тему Usability и UX.
 Если вы не в курсе о том, кто это, &lt;del&gt;вы серьёзно?&lt;/del&gt; крайне рекомендую посмотреть, как минимум, эти твиты&lt;/p&gt;
 
 &lt;p&gt;Скажу сразу, спорить на тему границ UX и Usability считаю неблагодарным занятием,
- поэтому просто оставлю эти два термина вместе :)&lt;/p&gt;
+ поэтому просто оставлю эти два термина вместе :) &lt;/p&gt;
 
 &lt;h3 id=&#34;про-нарушение-apple-своих-же-правил-ради-понятности-интерфейса&#34;&gt;Про нарушение Apple своих же правил ради понятности интерфейса&lt;/h3&gt;
 
@@ -326,8 +310,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Top two excuses: not enough room on screen for words &amp;amp; difficulty localizing text. [2/2] &lt;a href=&#34;https://t.co/MVJdyiXBW4&#34;&gt;pic.twitter.com/MVJdyiXBW4&lt;/a&gt;&lt;/p&gt;&amp;mdash; Luke Wroblewski (@lukew) &lt;a href=&#34;https://twitter.com/lukew/status/760951449337499653&#34;&gt;August 3, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;Тоже извечная тема, особенно учитывая, что у продукта всегда будут пользователи-новички (если им, конечно, вообще будут пользоваться).&lt;/p&gt;
-</description>
+&lt;p&gt;Тоже извечная тема, особенно учитывая, что у продукта всегда будут пользователи-новички (если им, конечно, вообще будут пользоваться).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -336,9 +319,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
       <pubDate>Fri, 08 Jul 2016 00:27:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/</guid>
-      <description>
-
-&lt;p&gt;Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.&lt;/p&gt;
+      <description>&lt;p&gt;Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Рекомендации по дизайну хороших и удобных форм;&lt;/li&gt;
@@ -382,8 +363,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
 &lt;li&gt;Найти всё что нужно за пару кликов;&lt;/li&gt;
 &lt;li&gt;Кнопки побольше;&lt;/li&gt;
 &lt;li&gt;Отсутствие горизонтального скроллинга.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
   </channel>

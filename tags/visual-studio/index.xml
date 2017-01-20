@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Visual Studio on YarFullStack</title>
-    <link>https://yarfullstack.com/tags/visual-studio/</link>
-    <description>Recent content in Visual Studio on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/tags/visual-studio/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 19 Jan 2017 22:09:44 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,9 +15,7 @@
       <pubDate>Thu, 19 Jan 2017 22:09:44 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-01/dotnet-core-and-visual-studio/</guid>
-      <description>
-
-&lt;p&gt;Сегодня про опыт (мой и моих коллег) и впечатления о .NET Core.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня про опыт (мой и моих коллег) и впечатления о .NET Core.&lt;/p&gt;
 
 &lt;p&gt;На всякий (почти невероятный) случай кратко о том, что это такое.
 Microsoft сделал фреймворк для кросcплатформенной разработки. Построил его на немного других принципах &amp;mdash; сделал более
@@ -43,9 +40,9 @@ Microsoft сделал фреймворк для кросcплатформенн
 
 &lt;ol&gt;
 &lt;li&gt;Скачайте и установите &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkId=691129&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Visual Studio 2015 Update 3&lt;/a&gt; если у вас установлена более старая VS 2015.
-Нет, не так. &lt;strong&gt;ОБЯЗАТЕЛЬНО СНАЧАЛА УСТАНОВИТЕ&lt;/strong&gt;, если конечно не хотите потом потратить время на то, чтобы всё это выпрямлять.&lt;/li&gt;
+Нет, не так. &lt;strong&gt;ОБЯЗАТЕЛЬНО СНАЧАЛА УСТАНОВИТЕ&lt;/strong&gt;, чтобы потом не тратить время на последствия.&lt;/li&gt;
 &lt;li&gt;Скачайте и установите &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkID=827546&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core 1.0.1 tools Preview 2&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Не лишним будет сразу скачать и установить &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkID=835014&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Download .NET Core 1.1 SDK&lt;/a&gt;. Не факт, что потребуется, но вероятность хорошая.&lt;/li&gt;
+&lt;li&gt;Не лишним будет сразу скачать и установить &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkID=835014&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core 1.1 SDK&lt;/a&gt;. Не факт, что потребуется, но вероятность хорошая.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;зрелость-экосистемы&#34;&gt;&amp;ldquo;Зрелость&amp;rdquo; экосистемы&lt;/h3&gt;
@@ -89,16 +86,15 @@ Microsoft сделал фреймворк для кросcплатформенн
 &lt;p&gt;Повторюсь. В целом, новые проекты можно аккуратно пробовать делать на .NET Core. Старые и большие проекты я бы поостерёгся мигрировать.&lt;/p&gt;
 
 &lt;p&gt;И да, в микросервисной архитектуре будет немного проще сгладить некоторые &amp;ldquo;углы&amp;rdquo;.
-А для тех, кто никуда не торопится, можно попробовать подождать, когда .NET Core будет поддерживать .NET Standard 2.0.&lt;/p&gt;
-</description>
+А для тех, кто никуда не торопится, можно попробовать подождать, когда .NET Core будет поддерживать .NET Standard 2.0.&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Обновление Microsoft Visual Studio (KB3165756)</title>
-      <link>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</link>
+      <link>https://yarfullstack.com/post/2016-07/visual-studio/</link>
       <pubDate>Wed, 13 Jul 2016 08:46:18 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</guid>
+      <guid>https://yarfullstack.com/post/2016-07/visual-studio/</guid>
       <description>&lt;p&gt;Недавно вышло новое обновление для Visual Studio: &lt;a href=&#39;https://msdn.microsoft.com/library/mt752379&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Update for Microsoft Visual Studio 2015 Update 3 (KB3165756)&lt;/a&gt;.
 Тем, кто пользуется студией &amp;mdash; крайне рекомендую поставить &amp;mdash; исправлено с десяток багов (подробности по ссылке выше), ставится быстро, перезагрузка не требуется.
 Проще всего поставить, скачав с &lt;a href=&#39;http://go.microsoft.com/fwlink/?LinkID=816878&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Microsoft Download Center&lt;/a&gt;.&lt;/p&gt;
@@ -108,8 +104,7 @@ Microsoft сделал фреймворк для кросcплатформенн
 
 &lt;p&gt;Как обещал &amp;mdash; впечатления. Загружается и ставится быстро. На моём компьютере субъективно заняло минуты 2.
 &lt;del&gt;После этого студия работает в 4 раза быстрее, а мои волосы стали крепкими и шелковистыми.&lt;/del&gt;
-Естественно, за несколько минут работы эффект незаметен. Однако, утечкам памяти это свойственно.&lt;/p&gt;
-</description>
+Естественно, за несколько минут работы эффект незаметен. Однако, утечкам памяти это свойственно.&lt;/p&gt;</description>
     </item>
     
   </channel>

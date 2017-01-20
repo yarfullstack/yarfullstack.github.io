@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Производительность on YarFullStack</title>
-    <link>https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</link>
-    <description>Recent content in Производительность on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 13 Nov 2016 18:32:37 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,15 +15,14 @@
       <pubDate>Sun, 13 Nov 2016 18:32:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</guid>
-      <description>
-
-&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
 
 &lt;p&gt;Как вы уже знаете, мне нравятся быстрые сайты. Летом я уже делился &lt;a href=&#34;https://yarfullstack.com/post/2016-07/site-optimization-tools/&#34;&gt;набором инструментов для оптимизации сайтов&lt;/a&gt;.
 Однако, есть пара несложных приёмов, первый из которых эти инструменты вряд ли когда-нибудь догадаются посоветовать.&lt;/p&gt;
 
 &lt;p&gt;Начнём с самого простого в &lt;em&gt;реализации&lt;/em&gt; способа.
-Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.&lt;/p&gt;
+Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.
+&lt;/p&gt;
 
 &lt;h3 id=&#34;быстрая-загрузка-шрифтов&#34;&gt;Быстрая загрузка шрифтов&lt;/h3&gt;
 
@@ -111,8 +109,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Например, я лично стараюсь держать себя в руках и, несмотря на многочисленные рекомендации, не добавлять КПДВ к статьям :)&lt;/p&gt;
 
 &lt;p&gt;Ещё в планах выбрать другой вариант обратной связи и отстрелить этот тормозной Disqus&amp;hellip;
-Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;
-</description>
+Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -121,9 +118,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Sat, 06 Aug 2016 15:04:54 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/improve-npm-performance-with-progress-bar/</guid>
-      <description>
-
-&lt;p&gt;В последнее время всё чаще сталкиваюсь с разработкой на node.js.
+      <description>&lt;p&gt;В последнее время всё чаще сталкиваюсь с разработкой на node.js.
 На работе использую версию LTS, по понятным причинам. Дома поставил 6.3.1.&lt;/p&gt;
 
 &lt;p&gt;Идеологически мне больше нравится третий npm &amp;mdash; всё-таки хранить дубликаты модулей, особенно когда их много &amp;mdash; не здорово.
@@ -171,8 +166,7 @@ time npm install
 rm -rf node_modules
 npm set progress=false
 time npm install
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -181,9 +175,7 @@ time npm install
       <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</guid>
-      <description>
-
-&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
+      <description>&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
 Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;TL;DR Можете использовать любую СУБД, только знайте её сильные и слабые стороны.
@@ -226,8 +218,7 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;p&gt;Как я уже говорил &amp;mdash; используйте любую СУБД, только знайте её сильные и слабые стороны.
 Зная это, вы сами решите, стоит ли использовать, например, Postgres для проекта с высокой нагрузкой на запись и множеством серверов, на которые
-реплицируются данные.&lt;/p&gt;
-</description>
+реплицируются данные.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -236,9 +227,7 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
       <pubDate>Fri, 01 Jul 2016 13:18:17 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/site-optimization-tools/</guid>
-      <description>
-
-&lt;p&gt;Сегодня поделюсь набором инструментов для оптимизации сайтов. Это больше про скорость, чем про SEO, хотя и для SEO там тоже есть много полезного.
+      <description>&lt;p&gt;Сегодня поделюсь набором инструментов для оптимизации сайтов. Это больше про скорость, чем про SEO, хотя и для SEO там тоже есть много полезного.
 К счастью, поисковики начали учитывать заодно и скорость загрузки сайтов при индексации.&lt;/p&gt;
 
 &lt;p&gt;Да, вероятно я перфекционист, однако я не могу спокойно смотреть на мегабайтные картинки и сайты, загружающиеся дольше секунды при нормальном соединении.
@@ -277,8 +266,7 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 &lt;/ul&gt;
 
 &lt;p&gt;На выходе получаем подробный отчёт с логом и аналогом результатов вкладки Network в Chrome. Плюс к этому, он ещё и записывает видео, на котором видно, как открывается сайт.
-В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
-</description>
+В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;</description>
     </item>
     
   </channel>
