@@ -10,6 +10,49 @@
     <atom:link href="https://yarfullstack.com/tags/usability/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Подборка статей по UX, дизайну, CSS</title>
+      <link>https://yarfullstack.com/post/2017-01/ux-articles/</link>
+      <pubDate>Fri, 27 Jan 2017 11:22:58 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-01/ux-articles/</guid>
+      <description>&lt;p&gt;У меня накопилось много интересных ссылок, подробно описывать каждую утомительно.
+Поэтому, я просто оставлю это здесь.&lt;/p&gt;
+
+&lt;h3 id=&#34;фундаментальное&#34;&gt;Фундаментальное&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Основы и отличия персонализации и кастомизации: &lt;a href=&#39;https://www.nngroup.com/articles/customization-personalization/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Customization vs. Personalization in the User Experience&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;7 советов для успешной кастомизации: &lt;a href=&#39;https://www.nngroup.com/articles/customization/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;7 Tips for Successful Customization&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://habrahabr.ru/company/mailru/blog/307556/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Планирование юзабилити-тестирования. Часть 1&lt;/a&gt;, &lt;a href=&#39;https://habrahabr.ru/company/mailru/blog/308054/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Планирование юзабилити-тестирования. Часть 2&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;прикладное&#34;&gt;Прикладное&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Полезные советы по использованию иконок: &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Краткий обзор процессов и инструментов для прототипирования: &lt;a href=&#39;https://blog.prototypr.io/14-prototyping-tools-how-each-can-be-used-1c804fab33a6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;16 Prototyping Tools &amp;amp; How Each Can Be Used&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;css-feature-queries&#34;&gt;CSS feature queries&lt;/h3&gt;
+
+&lt;p&gt;А вы знаете, что в свежих браузерах можно определять, поддерживают ли они фичи CSS?
+Встречайте CSS feature queries (@supports):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;http://tympanus.net/codrops/css_reference/supports/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;@supports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://bitsofco.de/the-one-css-feature/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The One CSS Feature I Really Want&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://hacks.mozilla.org/2016/08/using-feature-queries-in-css/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Using Feature Queries in CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;оригинальное&#34;&gt;Оригинальное&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Где может быть удобен интерфейс командной строки: &lt;a href=&#39;http://boxesandarrows.com/heres-what-may-sound-like-a-crazy-idea/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Here’s What May Sound Like a Crazy Idea&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://www.heydonworks.com/article/on-writing-less-damn-code&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Writing Less Damn Code&lt;/a&gt; (перевод: &lt;a href=&#39;https://habrahabr.ru/post/308308/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Пишите меньше кода, блин&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Про руководства по стилю (style guides)</title>
       <link>https://yarfullstack.com/post/2016-12/style-guides/</link>
       <pubDate>Fri, 09 Dec 2016 14:07:59 +0300</pubDate>

@@ -7,8 +7,51 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 19 Jan 2017 22:09:44 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 27 Jan 2017 11:22:58 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Подборка статей по UX, дизайну, CSS</title>
+      <link>https://yarfullstack.com/post/2017-01/ux-articles/</link>
+      <pubDate>Fri, 27 Jan 2017 11:22:58 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-01/ux-articles/</guid>
+      <description>&lt;p&gt;У меня накопилось много интересных ссылок, подробно описывать каждую утомительно.
+Поэтому, я просто оставлю это здесь.&lt;/p&gt;
+
+&lt;h3 id=&#34;фундаментальное&#34;&gt;Фундаментальное&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Основы и отличия персонализации и кастомизации: &lt;a href=&#39;https://www.nngroup.com/articles/customization-personalization/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Customization vs. Personalization in the User Experience&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;7 советов для успешной кастомизации: &lt;a href=&#39;https://www.nngroup.com/articles/customization/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;7 Tips for Successful Customization&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://habrahabr.ru/company/mailru/blog/307556/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Планирование юзабилити-тестирования. Часть 1&lt;/a&gt;, &lt;a href=&#39;https://habrahabr.ru/company/mailru/blog/308054/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Планирование юзабилити-тестирования. Часть 2&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;прикладное&#34;&gt;Прикладное&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Полезные советы по использованию иконок: &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Краткий обзор процессов и инструментов для прототипирования: &lt;a href=&#39;https://blog.prototypr.io/14-prototyping-tools-how-each-can-be-used-1c804fab33a6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;16 Prototyping Tools &amp;amp; How Each Can Be Used&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;css-feature-queries&#34;&gt;CSS feature queries&lt;/h3&gt;
+
+&lt;p&gt;А вы знаете, что в свежих браузерах можно определять, поддерживают ли они фичи CSS?
+Встречайте CSS feature queries (@supports):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;http://tympanus.net/codrops/css_reference/supports/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;@supports&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://bitsofco.de/the-one-css-feature/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The One CSS Feature I Really Want&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://hacks.mozilla.org/2016/08/using-feature-queries-in-css/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Using Feature Queries in CSS&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;оригинальное&#34;&gt;Оригинальное&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Где может быть удобен интерфейс командной строки: &lt;a href=&#39;http://boxesandarrows.com/heres-what-may-sound-like-a-crazy-idea/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Here’s What May Sound Like a Crazy Idea&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://www.heydonworks.com/article/on-writing-less-damn-code&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Writing Less Damn Code&lt;/a&gt; (перевод: &lt;a href=&#39;https://habrahabr.ru/post/308308/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Пишите меньше кода, блин&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
     
     <item>
       <title>.NET Core и Visual Studio</title>
@@ -860,38 +903,6 @@ RouteGuideClient.exe
 Альтернативы, на мой взгляд &amp;ndash; Apache Thrift и Cap&amp;rsquo;n Proto. Правда, слышал, что некоторые мигрируют с Apache Thrift на gRPC&amp;hellip;&lt;/p&gt;
 
 &lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Новости дизайна и JavaScript</title>
-      <link>https://yarfullstack.com/post/2016-09/js-and-design-news/</link>
-      <pubDate>Fri, 16 Sep 2016 14:32:24 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-09/js-and-design-news/</guid>
-      <description>&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике.&lt;/p&gt;
-
-&lt;h3 id=&#34;angular2&#34;&gt;Angular2&lt;/h3&gt;
-
-&lt;p&gt;Думаю, многие ждали этого момента. Некоторые мои коллеги подшучивали &amp;mdash; &amp;ldquo;да они наверное уже никогда не зарелизятся&amp;rdquo;.
-Однако, &lt;a href=&#39;http://angularjs.blogspot.ru/2016/09/angular2-final.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;зарелизились&lt;/a&gt;.
-Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :) &lt;/p&gt;
-
-&lt;h3 id=&#34;node-js-v6-6-0&#34;&gt;Node.js v6.6.0&lt;/h3&gt;
-
-&lt;p&gt;На фоне предыдущей новости, &lt;a href=&#39;https://nodejs.org/en/blog/release/v6.6.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;этот релиз&lt;/a&gt; прошёл,
-можно сказать, незаметно.&lt;/p&gt;
-
-&lt;h3 id=&#34;webstorm-2016-3-eap&#34;&gt;WebStorm 2016.3 EAP&lt;/h3&gt;
-
-&lt;p&gt;В WebStorm 2016.3 EAP &lt;a href=&#39;https://blog.jetbrains.com/webstorm/2016/09/webstorm-2016-3-eap-163-4396/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;добавлена поддержка Create React app и улучшена поддержка Angular2&lt;/a&gt;.
-Также там &lt;a href=&#39;https://blog.jetbrains.com/webstorm/2016/08/webstorm-2016-3-early-access-preview/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;добавлена поддержка Flow и PostCSS&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Про PostCSS &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;я уже немного писал&lt;/a&gt;, а &lt;a href=&#39;https://blog.aria.ai/post/why-use-flow/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Flow&lt;/a&gt; вещь интересная,
-но пока не довелось попробовать. Если есть опыт &amp;mdash; напишите в комментариях.&lt;/p&gt;
-
-&lt;h3 id=&#34;variable-fonts&#34;&gt;Variable fonts&lt;/h3&gt;
-
-&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
   </channel>
