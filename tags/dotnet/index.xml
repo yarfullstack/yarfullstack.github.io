@@ -10,6 +10,39 @@
     <atom:link href="https://yarfullstack.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Новости февраля (и января)</title>
+      <link>https://yarfullstack.com/post/2017-02/news/</link>
+      <pubDate>Fri, 03 Feb 2017 12:31:41 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-02/news/</guid>
+      <description>&lt;p&gt;Немного новостей про Visual Studio Code, .NET, Go и прочее.&lt;/p&gt;
+
+&lt;h3 id=&#34;vs-code-net&#34;&gt;VS Code + .NET&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://code.visualstudio.com/updates/v1_9&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз VS Code 1.9&lt;/a&gt; &amp;mdash; много доработок, в т.ч. для TypeScript.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2017/02/01/the-net-language-strategy/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The .NET Language Strategy&lt;/a&gt; &amp;mdash; о стратегии развития C#, VB.NET, F#.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://github.com/dotnet/csharplang&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The official repo for the design of the C# programming language&lt;/a&gt; &amp;mdash; теперь здесь.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;go&#34;&gt;Go&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://groups.google.com/forum/#!msg/golang-dev/G09HaWfMl6g/74v1cFGlAwAJ&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Go 1.8 / Go 1.9 Schedule Update&lt;/a&gt; &amp;mdash; выпуск 1.8 планируется на 14-16 февраля.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://blog.codeship.com/comparing-elixir-go/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Comparing Elixir and Go&lt;/a&gt; &amp;mdash; автор без фанатизма и достаточно качественно сравнивает оба языка (вкупе с инфраструктурой).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;прочее&#34;&gt;Прочее&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://nodejs.org/en/blog/release/v7.5.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз Node.js 7.5&lt;/a&gt; (на всякий случай напомню, что не LTS).&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://mithril.js.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз Mithril 1.0&lt;/a&gt; &amp;mdash; кто не в курсе, это небольшой и шустрый фреймворк для SPA (самому не доводилось пробовать).&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>.NET Core и Visual Studio</title>
       <link>https://yarfullstack.com/post/2017-01/dotnet-core-and-visual-studio/</link>
       <pubDate>Thu, 19 Jan 2017 22:09:44 +0300</pubDate>
