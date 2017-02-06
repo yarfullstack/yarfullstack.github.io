@@ -10,6 +10,35 @@
     <atom:link href="https://yarfullstack.com/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>GVFS (Git Virtual File System)</title>
+      <link>https://yarfullstack.com/post/2017-02/gvfs/</link>
+      <pubDate>Mon, 06 Feb 2017 13:38:03 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-02/gvfs/</guid>
+      <description>&lt;p&gt;Microsoft &lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudioalm/2017/02/03/announcing-gvfs-git-virtual-file-system/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;анонсировала GVFS&lt;/a&gt;.&lt;br /&gt;
+Можно просто почитать статью по ссылке, далее просто короткое описание.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; В Microsoft обнаружили, что на больших репозиториях (пара сотен гигабайт) Git подтормаживает :)
+И написали виртуальную файловую систему, которая забирает файл только тогда, когда он действительно нужен.&lt;/p&gt;
+
+&lt;p&gt;Disclaimer: Холивар по поводу того, Git тормозит или NTFS оставим любителям холиваров.&lt;/p&gt;
+
+&lt;p&gt;В статье приводятся замеры &lt;strong&gt;для описанного кейса&lt;/strong&gt; (было/стало):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;clone: 12 часов/5 минут&lt;/li&gt;
+&lt;li&gt;checkout: 3 часа/30 секунд&lt;/li&gt;
+&lt;li&gt;status: 8 минут/4 секунды&lt;/li&gt;
+&lt;li&gt;commit: 30 минут/13 секунд&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+
+&lt;p&gt;Если у вас похожий кейс с огромным репозиторием, рекомендую попробовать.
+Правда, сначала рекомендую задуматься &amp;mdash; правильно ли у вас организован репозиторий.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>.NET Core и Visual Studio</title>
       <link>https://yarfullstack.com/post/2017-01/dotnet-core-and-visual-studio/</link>
       <pubDate>Thu, 19 Jan 2017 22:09:44 +0300</pubDate>
