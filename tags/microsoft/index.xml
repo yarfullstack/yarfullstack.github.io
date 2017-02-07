@@ -71,7 +71,7 @@ Microsoft сделал фреймворк для кросcплатформенн
 &lt;li&gt;Скачайте и установите &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkId=691129&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Visual Studio 2015 Update 3&lt;/a&gt; если у вас установлена более старая VS 2015.
 Нет, не так. &lt;strong&gt;ОБЯЗАТЕЛЬНО СНАЧАЛА УСТАНОВИТЕ&lt;/strong&gt;, чтобы потом не тратить время на последствия.&lt;/li&gt;
 &lt;li&gt;Скачайте и установите &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkID=827546&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core 1.0.1 tools Preview 2&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Не лишним будет сразу скачать и установить &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkID=835014&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core 1.1 SDK&lt;/a&gt;. Не факт, что потребуется, но вероятность хорошая.&lt;/li&gt;
+&lt;li&gt;Не лишним будет сразу скачать и установить &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkID=836281&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core 1.0.3 SDK&lt;/a&gt;. Не факт, что потребуется, но вероятность хорошая.&lt;/li&gt;
 &lt;/ol&gt;
 
 &lt;h3 id=&#34;зрелость-экосистемы&#34;&gt;&amp;ldquo;Зрелость&amp;rdquo; экосистемы&lt;/h3&gt;
