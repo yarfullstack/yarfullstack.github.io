@@ -7,8 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 06 Feb 2017 13:38:03 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 08 Feb 2017 12:50:11 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>RethinkDB жив</title>
+      <link>https://yarfullstack.com/post/2017-02/rethinkdb-alive/</link>
+      <pubDate>Wed, 08 Feb 2017 12:50:11 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-02/rethinkdb-alive/</guid>
+      <description>&lt;p&gt;Хорошая новость &amp;mdash; &lt;a href=&#39;https://rethinkdb.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;RethinkDB&lt;/a&gt; теперь под крылом Linux Foundation, разработка продолжается.
+Подробнее можно прочитать &lt;a href=&#39;https://rethinkdb.com/blog/rethinkdb-joins-linux-foundation/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;в их блоге&lt;/a&gt;.
+Есть также &lt;a href=&#39;https://habrahabr.ru/post/321380/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;перевод на Хабре&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;От себя могу добавить немного.&lt;/p&gt;
+
+&lt;p&gt;Если вкратце &amp;mdash; я рад. Было грустно читать об их проблемах, потому что сама концепция хорошая.
+Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>GVFS (Git Virtual File System)</title>
@@ -687,28 +703,6 @@ central.Register(new Agent
 &lt;li&gt;Если есть иконки для платформы, не надо придумывать свои.&lt;/li&gt;
 &lt;li&gt;Тестируйте иконки! Тестировать стоит как понятность, так и запоминаемость.&lt;/li&gt;
 &lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>Хорошие статьи про дизайн кнопок</title>
-      <link>https://yarfullstack.com/post/2016-09/ux-buttons/</link>
-      <pubDate>Fri, 23 Sep 2016 14:28:45 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-09/ux-buttons/</guid>
-      <description>&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
-
-&lt;h3 id=&#34;best-practices-types-and-states&#34;&gt;Best Practices, Types and States&lt;/h3&gt;
-
-&lt;p&gt;В статье &lt;a href=&#39;https://uxplanet.org/button-ux-design-best-practices-types-and-states-647cf4ae0fc6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Button UX Design: Best Practices, Types and States&lt;/a&gt;
-есть как всем известные рекомендации, так и не очень. Для меня было интересно почитать про Ghost Buttons, да и многое другое полезно было в памяти освежить.&lt;/p&gt;
-
-&lt;h3 id=&#34;primary-secondary-action-buttons&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/h3&gt;
-
-&lt;p&gt;
-Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
-внимание на то, что в разных ситуациях кнопки могут и должны выглядеть по-разному. Пример &amp;mdash; кнопка &amp;ldquo;безвозвратного&amp;rdquo; удаления чего-либо.&lt;/p&gt;
-
-&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;</description>
     </item>
     
   </channel>

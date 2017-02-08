@@ -10,6 +10,22 @@
     <atom:link href="https://yarfullstack.com/topics/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>RethinkDB жив</title>
+      <link>https://yarfullstack.com/post/2017-02/rethinkdb-alive/</link>
+      <pubDate>Wed, 08 Feb 2017 12:50:11 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-02/rethinkdb-alive/</guid>
+      <description>&lt;p&gt;Хорошая новость &amp;mdash; &lt;a href=&#39;https://rethinkdb.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;RethinkDB&lt;/a&gt; теперь под крылом Linux Foundation, разработка продолжается.
+Подробнее можно прочитать &lt;a href=&#39;https://rethinkdb.com/blog/rethinkdb-joins-linux-foundation/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;в их блоге&lt;/a&gt;.
+Есть также &lt;a href=&#39;https://habrahabr.ru/post/321380/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;перевод на Хабре&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;От себя могу добавить немного.&lt;/p&gt;
+
+&lt;p&gt;Если вкратце &amp;mdash; я рад. Было грустно читать об их проблемах, потому что сама концепция хорошая.
+Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>GVFS (Git Virtual File System)</title>
       <link>https://yarfullstack.com/post/2017-02/gvfs/</link>
       <pubDate>Mon, 06 Feb 2017 13:38:03 +0300</pubDate>
