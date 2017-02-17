@@ -10,6 +10,55 @@
     <atom:link href="https://yarfullstack.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Интересные релизы</title>
+      <link>https://yarfullstack.com/post/2017-02/interesting-releases/</link>
+      <pubDate>Fri, 17 Feb 2017 13:18:12 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-02/interesting-releases/</guid>
+      <description>&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;tensorflow-1-0&#34;&gt;TensorFlow 1.0&lt;/h3&gt;
+
+&lt;p&gt;15 февраля вышел релиз &lt;a href=&#39;https://developers.googleblog.com/2017/02/announcing-tensorflow-10.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TensorFlow 1.0&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Важно:&lt;/strong&gt; API изменился, потребуется миграция. Но обещают, что теперь для Python будет очень стабильное API.
+Прочие новшества:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Многое стало в разы быстрее.&lt;/li&gt;
+&lt;li&gt;Появилось экспериментальное API для Go и Java.&lt;/li&gt;
+&lt;li&gt;Совместимость с Keras.&lt;/li&gt;
+&lt;li&gt;Появился &lt;a href=&#39;https://www.tensorflow.org/programmers_guide/debugger&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;отладчик tfdbg&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;go-1-8&#34;&gt;Go 1.8&lt;/h3&gt;
+
+&lt;p&gt;16 февраля был &lt;a href=&#39;https://blog.golang.org/go1.8&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Go 1.8&lt;/a&gt;.&lt;br /&gt;
+Коротко о главном (в основном это касается производительности):&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Паузы при сборке мусора теперь ещё меньше (10-100 микросекунд).&lt;/li&gt;
+&lt;li&gt;Компиляция по сравнению с 1.7 быстрее на 15%.&lt;/li&gt;
+&lt;li&gt;Накладные расходы на defer меньше в два раза.&lt;/li&gt;
+&lt;li&gt;HTTP-сервер теперь можно погасить гуманно.&lt;/li&gt;
+&lt;li&gt;Изменение в языке одно &amp;ndash; теперь можно привести одну структуру к другой, &lt;a href=&#39;https://golang.org/doc/go1.8#language&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;если отличия только в тэгах&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;visual-studio-2017&#34;&gt;Visual Studio 2017&lt;/h3&gt;
+
+&lt;p&gt;Недавно анонсировали &lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudio/2017/02/09/visual-studio-2017-launch-event-and-20th-anniversary/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз VS 2017 седьмого марта&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Для интересующихся &amp;mdash; &lt;a href=&#39;https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ссылка на release notes&lt;/a&gt;.
+Если вкратце, то из ближайших изменений &amp;mdash; в основном улучшения и исправления багов для .NET Core, например &amp;mdash; &lt;a href=&#39;https://github.com/dotnet/templating&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;новый движок шаблонов&lt;/a&gt; для &lt;code&gt;dotnet new&lt;/code&gt;.
+А в целом про нововведения для RC &lt;a href=&#39;https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-in-visual-studio&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Ещё, возможно, вам будет интересен &lt;a href=&#39;https://github.com/dotnet/core/blob/master/roadmap.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core Roadmap&lt;/a&gt;.
+В частности, в планах на третий квартал этого года .NET Core 2.0 и .NET Standard 2.0.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Новости февраля (и января)</title>
       <link>https://yarfullstack.com/post/2017-02/news/</link>
       <pubDate>Fri, 03 Feb 2017 12:31:41 +0300</pubDate>
