@@ -39,7 +39,7 @@
       
       <guid>https://yarfullstack.com/post/2017-02/react-ant-design/</guid>
       <description>&lt;p&gt;&lt;a href=&#39;https://ant.design/docs/spec/introduce&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ant Design&lt;/a&gt; &amp;mdash; это альтернатива &lt;a href=&#39;https://material.io/guidelines/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Material Design&lt;/a&gt;.
-Что лучше, что хуже &amp;mdash; решать вам, я лишь делюсь информацией (отдельное спасибо Андрею Митягову за наводку).&lt;/p&gt;
+Что лучше, что хуже &amp;mdash; решать вам, я лишь делюсь информацией.&lt;/p&gt;
 
 &lt;p&gt;Вы наверняка слышали про &lt;a href=&#39;http://www.material-ui.com/#/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Material UI&lt;/a&gt; &amp;mdash; библиотеку, которая реализует принципы Material Design для React.
 Аналогично, есть реализация Ant Design &amp;mdash; &lt;a href=&#39;https://ant.design/docs/react/introduce&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ant Design of React&lt;/a&gt;.
