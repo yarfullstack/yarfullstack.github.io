@@ -7,8 +7,58 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 17 Feb 2017 13:18:12 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 03 Mar 2017 14:10:00 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Visual Studio - несколько трюков для Watch</title>
+      <link>https://yarfullstack.com/post/2017-02/visual-studio-watch-tricks/</link>
+      <pubDate>Fri, 03 Mar 2017 14:10:00 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-02/visual-studio-watch-tricks/</guid>
+      <description>&lt;p&gt;На этой неделе я столкнулся с тем, что пришлось часто проверять сгенерированный код при отладке в Visual Studio.
+Схема &amp;mdash; открыть &amp;ldquo;text visualizer&amp;rdquo;, выделить код, скопировать, вставить (по ситуации) в Notepad++ или Visual Studio &amp;mdash; надоела мне где-то через час.
+Вариант напрямую копировать значение не подходил из-за эскейпинга.&lt;/p&gt;
+
+&lt;p&gt;И я нашёл &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/e514eeby%28v=vs.140%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;приемлемое решение проблемы&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;Всё, что нужно сделать &amp;mdash; добавить в Watch после переменной &amp;ldquo;,nq&amp;rdquo; &amp;mdash; после этого можно копировать текст по правой кнопке на значении в Watch (пункт Copy Value).
+Остальные варианты можно прочитать по ссылке выше. Вот то, что лично мне показалось полезным:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;hidden &amp;mdash; сразу показывает и приватные поля/свойства;&lt;/li&gt;
+&lt;li&gt;results &amp;mdash; для IEnumerable показывает результат выполнения, то есть не потребуется разворачивать &amp;ldquo;Results View&amp;rdquo;, скажем, для результата Enumerable.Take.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
+      <title>Ant Design</title>
+      <link>https://yarfullstack.com/post/2017-02/react-ant-design/</link>
+      <pubDate>Fri, 03 Mar 2017 13:38:21 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-02/react-ant-design/</guid>
+      <description>&lt;p&gt;&lt;a href=&#39;https://ant.design/docs/spec/introduce&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ant Design&lt;/a&gt; &amp;mdash; это альтернатива &lt;a href=&#39;https://material.io/guidelines/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Material Design&lt;/a&gt;.
+Что лучше, что хуже &amp;mdash; решать вам, я лишь делюсь информацией (отдельное спасибо Андрею Митягову за наводку).&lt;/p&gt;
+
+&lt;p&gt;Вы наверняка слышали про &lt;a href=&#39;http://www.material-ui.com/#/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Material UI&lt;/a&gt; &amp;mdash; библиотеку, которая реализует принципы Material Design для React.
+Аналогично, есть реализация Ant Design &amp;mdash; &lt;a href=&#39;https://ant.design/docs/react/introduce&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ant Design of React&lt;/a&gt;.
+Подробно не смотрел, но выглядит красиво. Далее несколько восторженных отзывов про табличное представление.
+&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://ant.design/components/table/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Компонент Table&lt;/a&gt; внешне мне весьма понравился.
+Лучше просто перейти по ссылке и посмотреть. Если вкратце, вот неполный список вкусняшек:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;freeze для столбцов и заголовков;&lt;/li&gt;
+&lt;li&gt;объединение нескольких заголовков в группу;&lt;/li&gt;
+&lt;li&gt;объединение ячеек (colspan/rowspan);&lt;/li&gt;
+&lt;li&gt;inline-редактирование в строках;&lt;/li&gt;
+&lt;li&gt;строки с детализацией, иерархические строки, вложенные таблицы.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;P.S. Возможно, вам будет интересно кто поддерживает разработку и использует Ant Design &amp;mdash; это, в первую очередь, Alibaba и Ant Financial (AliPay).&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Интересные релизы</title>
@@ -589,150 +639,6 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;&lt;a href=&#39;https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Сравнение&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;https://www.sitepoint.com/yarn-vs-npm/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ещё одно сравнение&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;</description>
-    </item>
-    
-    <item>
-      <title>Удобное представление таблиц и диаграмм</title>
-      <link>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</link>
-      <pubDate>Thu, 20 Oct 2016 21:46:43 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</guid>
-      <description>&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
-Сначала увидел ссылку в комментарии к другой статье на хабре, потом ещё пара человек мне ссылку на перевод прислали.&lt;/p&gt;
-
-&lt;p&gt;Что характерно, поскольку сама статья и анимация достаточно грамотная, у многих возникает ощущение &amp;ldquo;круто! давайте &lt;strong&gt;всё&lt;/strong&gt; так сделаем&amp;rdquo;.
-Не надо так :)&lt;/p&gt;
-
-&lt;p&gt;Собственно, о чём речь? Речь о том, что в идеале, пользователь должен быть избавлен от лишней информации и &amp;ldquo;визуального шума&amp;rdquo;.
-С этим я согласен более чем абсолютно. Только всё хорошо в меру. Что предлагают авторы?&lt;/p&gt;
-
-&lt;p&gt;Давайте посмотрим.
-
-&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
-    srcset=&#34;https://yarfullstack.com/img/clear-off-the-table.gif 800w, https://yarfullstack.com/img/clear-off-the-table-small.gif 400w&#34;
-    sizes=&#34;(min-width: 1280px) 800px, (max-width: 1280px) and (min-width: 1024px) 600px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
-
-&lt;p&gt;Когда я смотрел в первый раз, думал &amp;mdash; а потом они скажут &amp;ldquo;здесь вообще таблица не нужна, давайте текстом напишем самое важное&amp;rdquo; :)&lt;/p&gt;
-
-&lt;p&gt;Где отлично сработает такой подход? Для презентаций, докладов и прочих материалов, где вы &lt;strong&gt;знаете&lt;/strong&gt; набор данных.
-То есть, когда он статичен или почти статичен.&lt;/p&gt;
-
-&lt;p&gt;Что делать на динамическом наборе данных? Правильный ответ, на мой взгляд &amp;mdash; необходимо принимать достаточно хорошее решение для каждого конкретного случая.
-И сделать более-менее приемлемый универсальный вариант (не всегда реально проработать каждый конкретный случай, если задуматься о бюджете).&lt;/p&gt;
-
-&lt;p&gt;Что однозначно работает всегда? Выравнивание. Правильно выровненные данные, на моей памяти, ещё никому не вредили.&lt;/p&gt;
-
-&lt;p&gt;Что работает реже? Подбор точности для чисел и выбор ширины столбцов. Но стараться, безусловно, стоит. То же самое относится к группировке строк.&lt;/p&gt;
-
-&lt;p&gt;Что касается &amp;ldquo;зебры&amp;rdquo; и линий &amp;mdash; иногда что-то из этого придётся оставить, особенно когда много столбцов и строк (и не всегда работает вариант &amp;ldquo;не делайте много столбцов и строк&amp;rdquo;).&lt;/p&gt;
-
-&lt;h3 id=&#34;про-диаграммы-и-графики&#34;&gt;Про диаграммы и графики&lt;/h3&gt;
-
-&lt;p&gt;В том же блоге есть не менее впечатляющая статья &lt;a href=&#39;http://blog.darkhorseanalytics.com/data-looks-better-naked&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Data Looks Better Naked&lt;/a&gt;.
-Всё сказанное выше применимо и к этой статье (быть может, в чуть меньшей степени).&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://yarfullstack.com/img/data-ink-small.gif&#34; alt=&#34;data-ink.gif&#34; style=&#34;margin-left:-1em;padding:0;&#34; 
-    srcset=&#34;https://yarfullstack.com/img/data-ink.gif 640w, https://yarfullstack.com/img/data-ink-small.gif 320w&#34;
-    sizes=&#34;(min-width: 1024px) 640px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;мои-личные-рекомендации&#34;&gt;Мои личные рекомендации&lt;/h3&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Думайте :)&lt;/li&gt;
-&lt;li&gt;Если интересно глубокое погружение в тему &amp;mdash; почитайте Тафти. Потом мне расскажете :)&lt;/li&gt;
-&lt;/ol&gt;</description>
-    </item>
-    
-    <item>
-      <title>Первые впечатления о gRPC</title>
-      <link>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</link>
-      <pubDate>Thu, 13 Oct 2016 21:46:12 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</guid>
-      <description>&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
-Довелось. Сейчас поделюсь. Только уточню, что пока это впечатления с хакатона, там не будет махрового энтерпрайза, повального контроля с аудитом и тому подобного.&lt;/p&gt;
-
-&lt;p&gt;В вопросу о хакатоне. Делал небольшую инфраструктуру для того, чтобы сделать немного счастливее наших тестировщиков.
-И разработчиков, конечно, но в исторической перспективе.&lt;/p&gt;
-
-&lt;h3 id=&#34;техническая-концепция&#34;&gt;Техническая концепция&lt;/h3&gt;
-
-&lt;p&gt;Концепция была простая &amp;mdash; плагины к браузерам для упрощения заведения багов и набор сервисов (строго говоря &amp;mdash; пока это консольные приложения).
-Цели &amp;mdash; быстро сделать прототип, получив при этом удовольствие от исследования сравнительно новых для меня технологий.
-Исходя из целей, отметены были всякие консулы, grpc-gateway (для REST) &amp;mdash; в основном, всё реализовывалось &amp;ldquo;в лоб&amp;rdquo;. В тот же лес ушла &amp;ldquo;безопасность&amp;rdquo;.
-Сервисы получились такие:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Central&lt;/strong&gt; &amp;mdash; серверное приложение на Go. Основная ответственность &amp;mdash; реестр подключённых сервисов (агентов). Или как модно говорить &amp;mdash; service discovery.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bot&lt;/strong&gt; &amp;mdash; серверное приложение на Go. Принимает сообщения из Rocket.Chat и может отвечать на них или отправлять новые.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Session&lt;/strong&gt; &amp;mdash; приложение на Go. Запускается на компьютере тестировщика. Помогает плагину получать дополнительную информацию (например, из Redmine) и перенаправлять команды другим агентам.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Redmine&lt;/strong&gt; &amp;mdash; серверное приложение на .NET. Предоставляет необходимые данные из Redmine (например, список проектов).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Archiver&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на сервере БД. Умеет делать бэкапы. Юзает наш замечательный &lt;a href=&#39;http://sparesync.com/downloads.htm&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PackDb&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Deployer&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на компьютере разработчика. Умеет восстанавливать бэкапы (без PackDb тоже не обошлось).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;что-было-использовано&#34;&gt;Что было использовано&lt;/h3&gt;
-
-&lt;p&gt;Как видите, у меня был небольшой зоопарк из плагина к Chrome (сейчас в процессе плагин к IE), три приложения на Go и три на .NET.
-Всем им, естественно, хотелось между собой общаться (ладно, не всем, но я заставил почти всех :)&lt;/p&gt;
-
-&lt;p&gt;В такой ситуации gRPC показал себя крайне положительно, за исключением того, что в браузере он пока из коробки не работает.
-С другой стороны, написать на Go простенький HTTP API Server&amp;hellip; Даже для такого ненастоящего гофера как я &amp;mdash; дело 5 минут.
-По большому счёту, это потребовалось только для &amp;ldquo;session&amp;rdquo; (чтобы плагин мог получать и записывать необходимые данные) и для &amp;ldquo;bot&amp;rdquo;
-(Rocket.Chat пока тоже не умеет gRPC).&lt;/p&gt;
-
-&lt;h3 id=&#34;что-понравилось&#34;&gt;Что понравилось&lt;/h3&gt;
-
-&lt;p&gt;Описание сервисов в proto-файлах. Действительно, описание &amp;ldquo;как бы контракта&amp;rdquo; в отдельном файле мотивирует думать над API, пока его пишешь
-(хотя protobuf v3 сравнительно толерантен к изменению API). Нравится, что есть в явном виде &amp;ldquo;сообщение&amp;rdquo;, а не набор параметров. Маленький пример:
-&lt;div class=&#34;microlight&#34;&gt;service CentralService {
-// Registers specified Agent.
-rpc Register(Agent) returns (RegisterResponse) {}
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Есть поддержка перечислений:
-&lt;div class=&#34;microlight&#34;&gt;enum AgentType {
-    ...
-    // Redmine watching (singleton)
-    Redmine		=	4;
-    ...
-}
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Понравилось что относительно быстро генерируются прокси (что на Go, что на .NET). Прокси достаточно удобно использовать.
-Так выглядит сигнатура описанного выше метода на Go:
-&lt;div class=&#34;microlight&#34;&gt;func (s *centralServer) Register(ctx context.Context, agent *a.Agent) 
-    (*a.RegisterResponse, error) { ...
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;А так вызов этого метода на .NET:
-&lt;div class=&#34;microlight&#34;&gt;var channel = new Channel(
-    Environment.GetEnvironmentVariable(&#34;MULTIDASH&#34;), ChannelCredentials.Insecure);
-var central = new CentralService.CentralServiceClient(channel);
-...
-central.Register(new Agent
-{
-    Type = AgentType.Redmine,
-    Host = Environment.MachineName,
-    Port = port,
-    ...
-});
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;И ещё (это субъективно, конечно) &amp;mdash; эстетическое удовольствие от названия командного файла generate_&lt;strong&gt;protos&lt;/strong&gt;.bat :)
-С ним, пожалуй, сравнится разве что использование хранилища &amp;ldquo;bolt&amp;rdquo; для &amp;ldquo;session&amp;rdquo;.&lt;/p&gt;
-
-&lt;h3 id=&#34;что-не-понравилось&#34;&gt;Что не понравилось&lt;/h3&gt;
-
-&lt;p&gt;Не понравилось то, что падает в runtime, когда передаёшь null в поле сообщения. Столкнулся с этим, когда передавал строки на C#
-(в Go строки и так по умолчанию &amp;ldquo;&amp;rdquo; &amp;mdash; там такой проблемы нет). Лечится, конечно, инциализацией в пустую строку. Но осадок остался.&lt;/p&gt;
-
-&lt;p&gt;Не столкнулся, но заочно не нравится &lt;a href=&#39;http://www.grpc.io/docs/guides/auth.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;скудный набор вариантов аутентификации из коробки&lt;/a&gt; (либо SSL/TLS, либо гугловый OAuth2).
-Понятно, что можно реализовать свой (возможно сейчас уже плодятся проекты на GitHub, которые это делают), но хотелось бы что-то &lt;del&gt;тёплое, ламповое&lt;/del&gt; коробочное&amp;hellip;&lt;/p&gt;
-
-&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
-
-&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -10,6 +10,28 @@
     <atom:link href="https://yarfullstack.com/tags/visual-studio/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Visual Studio - несколько трюков для Watch</title>
+      <link>https://yarfullstack.com/post/2017-02/visual-studio-watch-tricks/</link>
+      <pubDate>Fri, 03 Mar 2017 14:10:00 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-02/visual-studio-watch-tricks/</guid>
+      <description>&lt;p&gt;На этой неделе я столкнулся с тем, что пришлось часто проверять сгенерированный код при отладке в Visual Studio.
+Схема &amp;mdash; открыть &amp;ldquo;text visualizer&amp;rdquo;, выделить код, скопировать, вставить (по ситуации) в Notepad++ или Visual Studio &amp;mdash; надоела мне где-то через час.
+Вариант напрямую копировать значение не подходил из-за эскейпинга.&lt;/p&gt;
+
+&lt;p&gt;И я нашёл &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/e514eeby%28v=vs.140%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;приемлемое решение проблемы&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;p&gt;Всё, что нужно сделать &amp;mdash; добавить в Watch после переменной &amp;ldquo;,nq&amp;rdquo; &amp;mdash; после этого можно копировать текст по правой кнопке на значении в Watch (пункт Copy Value).
+Остальные варианты можно прочитать по ссылке выше. Вот то, что лично мне показалось полезным:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;hidden &amp;mdash; сразу показывает и приватные поля/свойства;&lt;/li&gt;
+&lt;li&gt;results &amp;mdash; для IEnumerable показывает результат выполнения, то есть не потребуется разворачивать &amp;ldquo;Results View&amp;rdquo;, скажем, для результата Enumerable.Take.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>Интересные релизы</title>
       <link>https://yarfullstack.com/post/2017-02/interesting-releases/</link>
       <pubDate>Fri, 17 Feb 2017 13:18:12 +0300</pubDate>
