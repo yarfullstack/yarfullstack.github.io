@@ -10,6 +10,50 @@
     <atom:link href="https://yarfullstack.com/topics/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Релизы Visual Studio 2017 и .NET Core</title>
+      <link>https://yarfullstack.com/post/2017-03/visual-studio-2017-and-dotnetcore/</link>
+      <pubDate>Fri, 10 Mar 2017 12:31:19 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-03/visual-studio-2017-and-dotnetcore/</guid>
+      <description>&lt;p&gt;Вы наверняка в курсе про &lt;a href=&#39;https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Visual Studio 2017&lt;/a&gt;.
+Если хочется читать на русском &amp;mdash; на Хабре есть более короткая статья &lt;a href=&#39;https://habrahabr.ru/company/microsoft/blog/323452/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Visual Studio 2017 и новые возможности инструментов от Microsoft&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Давайте сначала расскажу про позитивные вещи, про негатив потом.&lt;/p&gt;
+
+&lt;h3 id=&#34;основные-новшества-на-мой-взгляд&#34;&gt;Основные новшества (на мой взгляд)&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Поддержка &lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2016/08/24/whats-new-in-csharp-7-0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;C# 7.0&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;С точки зрения поддержки C# в IDE &amp;mdash; добавили ещё немного фич ReSharper :)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudio/2017/03/09/live-unit-testing-in-visual-studio-2017-enterprise/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Live Unit Testing&lt;/a&gt; &amp;mdash; только для редакции Enterprise.&lt;/li&gt;
+&lt;li&gt;.NET Core Tools &amp;mdash; об этом ниже.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;net-core-tools&#34;&gt;.NET Core Tools&lt;/h3&gt;
+
+&lt;p&gt;Теперь про чашку дёгтя в бочке мёда. &lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2017/03/07/announcing-net-core-tools-1-0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выпустили .NET Core Tools 1.0&lt;/a&gt;.
+Есть несколько фишечек, в статье перечислены.&lt;/p&gt;
+
+&lt;p&gt;Про основное. В Visual Studio 2017 проекты с project.json будут заменены csproj. &lt;strong&gt;Для Visual Studio 2015 поддержки не будет.&lt;/strong&gt;
+В том числе, не будет и релизов .NET Core Tools.&lt;/p&gt;
+
+&lt;p&gt;Честно, просто нет слов. Скоро любители новых фишечек окончательно выживут из Microsoft тех, кто хоть как-то задумывается про обратную совместимость.
+Ощущение, что на пользователей платной версии Visual Studio тупо забили.&lt;/p&gt;
+
+&lt;p&gt;У меня есть ещё несколько более крепких слов по этому поводу, однако оставлю их при себе :)&lt;/p&gt;
+
+&lt;h3 id=&#34;мелкие-улучшения&#34;&gt;Мелкие улучшения&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudio/2016/10/11/shorter-solution-load-time-in-visual-studio-15/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Lightweight Solution Load&lt;/a&gt; &amp;mdash; фича для более быстрой загрузки больших solution (по умолчанию отключена).&lt;/li&gt;
+&lt;li&gt;Декларируется что на 50% быстрее стартует. Лично я редко переключаюсь между проектами, но кому-то может пригодиться.&lt;/li&gt;
+&lt;li&gt;Workloads &amp;mdash; &amp;ldquo;наборы инструментов&amp;rdquo;, для того, чтобы не устанавливать лишнее. Пока не попробовал, сложно судить насколько это полезнее того, что было раньше.&lt;/li&gt;
+&lt;li&gt;Attach to Process Filter и Reattach to Process &amp;mdash; удобно для отладки, когда приходиться аттачиться к процессу.&lt;/li&gt;
+&lt;li&gt;Run to Click &amp;mdash; возможно я чего-то не понимаю, но Ctrl+F10 делает то же самое. Для мышелюбов?&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>.NET Core и Visual Studio</title>
       <link>https://yarfullstack.com/post/2017-01/dotnet-core-and-visual-studio/</link>
       <pubDate>Thu, 19 Jan 2017 22:09:44 +0300</pubDate>
