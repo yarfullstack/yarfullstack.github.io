@@ -18,7 +18,7 @@
       <guid>https://yarfullstack.com/post/2017-03/reactconf-2017/</guid>
       <description>
 
-&lt;p&gt;Сегодня коротенько про новости с &lt;a href=&#39;http://conf.reactjs.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ReactConf 2017&lt;/a&gt;, проходившей 13 и 14 марта.
+&lt;p&gt;Сегодня коротенько про новости &lt;a href=&#39;http://conf.reactjs.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ReactConf 2017&lt;/a&gt;, проходившей 13 и 14 марта.
 Основная новость &amp;mdash; в React 16 будет реализован алгоритм &lt;a href=&#39;https://github.com/acdlite/react-fiber-architecture/blob/master/README.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;React Fiber&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;И, что немаловажно, не придётся переписывать приложения на предыдущих версиях React под новую архитектуру. Привет, Angular 2 :)&lt;/p&gt;
