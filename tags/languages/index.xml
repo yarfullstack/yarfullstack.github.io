@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/languages/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>Languages on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/languages/</link>
+    <description>Recent content in Languages on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 22 Sep 2016 23:12:42 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/languages/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,7 +16,9 @@
       <pubDate>Thu, 22 Sep 2016 23:12:42 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/typescript-2-release/</guid>
-      <description>&lt;p&gt;Команда разработки TypeScript радует своими темпами &amp;mdash; в начале месяца я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/typescript-2/&#34;&gt;писал про TypeScript 2.0 RC&lt;/a&gt;,
+      <description>
+
+&lt;p&gt;Команда разработки TypeScript радует своими темпами &amp;mdash; в начале месяца я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/typescript-2.0-RC/&#34;&gt;писал про TypeScript 2.0 RC&lt;/a&gt;,
 а сегодня они &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/09/22/announcing-typescript-2-0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;сделали релиз 2.0&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;В общем-то, на этом можно и закончить, но кому интересно &amp;mdash; можете почитать краткий пересказ анонса про основные фичи.&lt;/p&gt;
@@ -64,21 +67,24 @@ return result;
 
 // Error! &#39;name&#39; is read-only.
 new Person(&#34;Daniel&#34;).name = &#34;Dan&#34;;
-&lt;/div&gt;</description>
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>TypeScript 2.0 RC</title>
-      <link>https://yarfullstack.com/post/2016-09/typescript-2/</link>
+      <link>https://yarfullstack.com/post/2016-09/typescript-2.0-RC/</link>
       <pubDate>Thu, 01 Sep 2016 20:35:25 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-09/typescript-2/</guid>
-      <description>&lt;p&gt;Недавно прочитал про выход &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/08/30/announcing-typescript-2-0-rc/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TypeScript 2.0 RC&lt;/a&gt;.
+      <guid>https://yarfullstack.com/post/2016-09/typescript-2.0-RC/</guid>
+      <description>
+
+&lt;p&gt;Недавно прочитал про выход &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/08/30/announcing-typescript-2-0-rc/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TypeScript 2.0 RC&lt;/a&gt;.
 Делюсь фичами, которые мне понравились.&lt;/p&gt;
 
 &lt;h3 id=&#34;tagged-unions&#34;&gt;Tagged Unions&lt;/h3&gt;
 
-&lt;p&gt;Интереснейшая фишка, которая, в том числе, позволяет делать другие интересные фишки. 
+&lt;p&gt;Интереснейшая фишка, которая, в том числе, позволяет делать другие интересные фишки.
 Давайте посмотрим на примере.
 &lt;div class=&#34;microlight&#34;&gt;interface Circle {
     kind: &#34;circle&#34;;
@@ -155,16 +161,19 @@ else {
 
 &lt;p&gt;Это, на мой взгляд, наиболее интересные нововведения в TypeScript 2.0 после беты.
 Полный &lt;a href=&#39;https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;список новых фич в TypeScript 2.0&lt;/a&gt;,
-разумеется, более впечатляющий.&lt;/p&gt;</description>
+разумеется, более впечатляющий.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Релиз Go 1.7</title>
-      <link>https://yarfullstack.com/post/2016-08/go-1/</link>
+      <link>https://yarfullstack.com/post/2016-08/go-1.7-release/</link>
       <pubDate>Tue, 16 Aug 2016 21:15:58 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-08/go-1/</guid>
-      <description>&lt;p&gt;15 августа &lt;a href=&#39;https://blog.golang.org/go1.7&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;состоялся релиз Go 1.7&lt;/a&gt;. Улучшен компилятор, сборщик мусора, размер бинарников уменьшен на 20-30%.&lt;/p&gt;
+      <guid>https://yarfullstack.com/post/2016-08/go-1.7-release/</guid>
+      <description>
+
+&lt;p&gt;15 августа &lt;a href=&#39;https://blog.golang.org/go1.7&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;состоялся релиз Go 1.7&lt;/a&gt;. Улучшен компилятор, сборщик мусора, размер бинарников уменьшен на 20-30%.&lt;/p&gt;
 
 &lt;h3 id=&#34;концептуальная-оптимизация-компилятора&#34;&gt;Концептуальная оптимизация компилятора&lt;/h3&gt;
 
@@ -195,7 +204,8 @@ else {
 &lt;li&gt;&lt;a href=&#39;https://golang.org/s/go15vendor&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Vendoring support&lt;/a&gt; стал мейнстримом.&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Немного&amp;rdquo; оптимизирован go trace (оверхед стал порядка 25% против 400% ранее).&lt;/li&gt;
 &lt;li&gt;Увеличена производительность многих пакетов, и, как заверяют создатели, они на этом не остановятся.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

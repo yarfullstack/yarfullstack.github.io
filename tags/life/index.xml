@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/life/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>Life on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/life/</link>
+    <description>Recent content in Life on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 16 Dec 2016 14:25:17 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,7 +16,9 @@
       <pubDate>Fri, 16 Dec 2016 14:25:17 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-12/logic-and-cognitive-bias/</guid>
-      <description>&lt;p&gt;Сейчас буду говорить не совсем про технологии, но тема интересная.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сейчас буду говорить не совсем про технологии, но тема интересная.&lt;/p&gt;
 
 &lt;p&gt;Для разработки ПО тема логики и когнитивных искажений, думаю, особенно важная. Ведь разработчики обычно считают себя и свои рассуждения более логичными, чем у большинства других.
 Всегда ли это так?&lt;/p&gt;
@@ -45,7 +48,8 @@
 &lt;p&gt;Не так давно узнал, что памяти тоже не стоит особо доверять. Со временем память искажается (причём, в том числе, без нашего ведома).
 В частности, какую-то последовательность событий (даже необязательно давнюю) вы можете помнить немного по-другому. Не говоря уже про зрительные образы.&lt;/p&gt;
 
-&lt;p&gt;Подробнее в &lt;a href=&#39;http://www.ted.com/talks/elizabeth_loftus_the_fiction_of_memory&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выступлении Elizabeth Loftus на TED&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Подробнее в &lt;a href=&#39;http://www.ted.com/talks/elizabeth_loftus_the_fiction_of_memory&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выступлении Elizabeth Loftus на TED&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
