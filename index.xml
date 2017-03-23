@@ -7,8 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 16 Mar 2017 23:09:38 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2017 00:40:16 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Smashing Magazine - редизайн и переход с WordPress на Hugo</title>
+      <link>https://yarfullstack.com/post/2017-03/hugo-smashing-magazine/</link>
+      <pubDate>Fri, 24 Mar 2017 00:40:16 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-03/hugo-smashing-magazine/</guid>
+      <description>&lt;p&gt;Думаю, большинство из вас в курсе, что такое &lt;a href=&#39;https://www.smashingmagazine.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Smashing Magazine&lt;/a&gt;.
+Если нет &amp;mdash; почитайте там статьи, получите удовольствие.&lt;/p&gt;
+
+&lt;p&gt;Мне лично они нравятся. Недавно они затеяли &lt;a href=&#39;https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;редизайн сайта&lt;/a&gt;.
+И, что вдвойне приятно, наряду с редизайном они перешли с &lt;del&gt;глючного решета&lt;/del&gt; WordPress на &lt;a href=&#39;https://gohugo.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;.
+Чуть больше подробностей далее.&lt;/p&gt;
+
+&lt;p&gt;Почему меня радует их переход на Hugo? Потому что, когда я выбирал движок для этого сайта тоже остановился на нём.
+Есть много генераторов статики, есть те, кто популярнее и/или лучше настраивается. Однако Hugo просто на порядок быстрее работает.&lt;/p&gt;
+
+&lt;p&gt;Да, у Smashing Magazine не только статика &amp;mdash; есть комментарии и магазин. Но это дополнительные вещи, которые они реализовали с помощью сервисов Netlify
+(по концепции &lt;a href=&#39;https://jamstack.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;JAMstack&lt;/a&gt;).
+Подробности можно прочитать в &lt;a href=&#39;https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;оригинальной статье&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;В общем-то идея JAMstack мне импонирует &amp;mdash; читателям приятно, когда сайт не тормозит. А что-то быстрее статики придумать сложновато.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Новости ReactConf 2017</title>
@@ -589,30 +613,6 @@ Disclaimer: некоторые статьи читал давно (возмож�
 
 &lt;p&gt;&lt;a href=&#39;https://github.com/mapbox/pixelmatch&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Pixelmatch. The smallest, simplest and fastest JavaScript pixel-level image comparison library&lt;/a&gt;.
 Из названия, думаю, всё понятно, где можно применить &amp;mdash; тоже :)&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>MSSQL 2016 SP1 - теперь enterprise-фичи и в стандартных редакциях!</title>
-      <link>https://yarfullstack.com/post/2016-11/sql-2016-sp1-enterprise-features/</link>
-      <pubDate>Thu, 17 Nov 2016 13:10:32 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-11/sql-2016-sp1-enterprise-features/</guid>
-      <description>
-
-&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &lt;a href=&#39;https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MSSQL on Linux&lt;/a&gt; , а про
-&lt;a href=&#39;https://blogs.msdn.microsoft.com/sqlreleaseservices/sql-server-2016-service-pack-1-sp1-released/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выход Microsoft SQL Server 2016 SP1&lt;/a&gt;.
-Они просто взяли и включили большинство enterprise-фич во &lt;strong&gt;все&lt;/strong&gt; редакции MSSQL! Можете просто прочитать статью по ссылке,
-ниже табличка с фичами и ещё несколько слов о паре других интересных нововведений.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&#34;https://msdnshared.blob.core.windows.net/media/2016/11/111616_0403_SQLServer201.png&#34; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;прочие-нововведения&#34;&gt;Прочие нововведения&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;CREATE OR ALTER &amp;mdash; давно пора! Думаю все поняли о чём речь :)&lt;/li&gt;
-&lt;li&gt;DBCC CLONEDATABASE &amp;mdash; копирование схемы БД (без данных). Не подразумевается использование клонов в продакшн.&lt;/li&gt;
-&lt;/ul&gt;
 </description>
     </item>
     

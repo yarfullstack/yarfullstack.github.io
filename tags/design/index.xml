@@ -7,8 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 03 Mar 2017 13:38:21 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 24 Mar 2017 00:40:16 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Smashing Magazine - редизайн и переход с WordPress на Hugo</title>
+      <link>https://yarfullstack.com/post/2017-03/hugo-smashing-magazine/</link>
+      <pubDate>Fri, 24 Mar 2017 00:40:16 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-03/hugo-smashing-magazine/</guid>
+      <description>&lt;p&gt;Думаю, большинство из вас в курсе, что такое &lt;a href=&#39;https://www.smashingmagazine.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Smashing Magazine&lt;/a&gt;.
+Если нет &amp;mdash; почитайте там статьи, получите удовольствие.&lt;/p&gt;
+
+&lt;p&gt;Мне лично они нравятся. Недавно они затеяли &lt;a href=&#39;https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;редизайн сайта&lt;/a&gt;.
+И, что вдвойне приятно, наряду с редизайном они перешли с &lt;del&gt;глючного решета&lt;/del&gt; WordPress на &lt;a href=&#39;https://gohugo.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;.
+Чуть больше подробностей далее.&lt;/p&gt;
+
+&lt;p&gt;Почему меня радует их переход на Hugo? Потому что, когда я выбирал движок для этого сайта тоже остановился на нём.
+Есть много генераторов статики, есть те, кто популярнее и/или лучше настраивается. Однако Hugo просто на порядок быстрее работает.&lt;/p&gt;
+
+&lt;p&gt;Да, у Smashing Magazine не только статика &amp;mdash; есть комментарии и магазин. Но это дополнительные вещи, которые они реализовали с помощью сервисов Netlify
+(по концепции &lt;a href=&#39;https://jamstack.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;JAMstack&lt;/a&gt;).
+Подробности можно прочитать в &lt;a href=&#39;https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;оригинальной статье&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;В общем-то идея JAMstack мне импонирует &amp;mdash; читателям приятно, когда сайт не тормозит. А что-то быстрее статики придумать сложновато.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Ant Design</title>
