@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Базы данных on YarFullStack</title>
-    <link>https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/</link>
-    <description>Recent content in Базы данных on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 08 Feb 2017 12:50:11 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Проблемы с connection pool и уровнями изоляции транзакций</title>
+      <link>https://yarfullstack.com/post/2017-03/isolation-level-and-connection-pool/</link>
+      <pubDate>Tue, 28 Mar 2017 13:47:09 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-03/isolation-level-and-connection-pool/</guid>
+      <description>&lt;p&gt;Продолжаю тему, начатую ранее &lt;a href=&#34;https://yarfullstack.com/post/2016-08/transaction-scope-serializable/&#34;&gt;про дырявые абстракции и TransactionScope&lt;/a&gt;.
+Сегодня ещё одна короткая заметка из категории &amp;ldquo;Внезапно&amp;rdquo; и снова про &lt;a href=&#39;https://en.wikipedia.org/wiki/Isolation_%28database_systems%29&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;уровни изоляции&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Знаете ли вы, какой будет уровень изоляции, когда вы откроете соединение (для определённости &amp;mdash; SqlConnection)? Вопрос с подвохом.
+Правильный ответ, как обычно &amp;mdash; It depends.&lt;/p&gt;
+
+&lt;p&gt;Дело в том, что, чаще всего, вы используете &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/8xx3tyca%28v=vs.110%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;connection pool&lt;/a&gt;.
+А он, при возврате в пул и извлечении из него соединения не меняет уровень изоляции. На эту тему есть статья (&lt;a href=&#39;https://support.microsoft.com/en-us/help/972915/the-transaction-isolation-level-is-not-reset-when-you-reuse-a-connection-from-the-connection-pool&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;KB 972915&lt;/a&gt;), которая говорит что это &amp;ldquo;by desing&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Что тут можно сказать &amp;mdash; будьте бдительны :) В принципе, если у вас всегда один уровень изоляции, вы в относительной безопасности. А чаще всего так и бывает &amp;mdash; мало кто задумывается об уровнях изоляции, отличных от дефолтных.
+А вот если уровней может быть несколько &amp;mdash; лучше их указывать явно всегда (одним из способов, перечисленных в KB).&lt;/p&gt;
+
+&lt;p&gt;Из забавного. В MSSQL 2014 это поведение починили, но потом спохватились и &lt;a href=&#39;https://support.microsoft.com/en-us/help/3025845/fix-the-transaction-isolation-level-is-reset-incorrectly-when-the-sql-server-connection-is-released-in-sql-server-2014&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;назвали такое изменение поведения ошибкой&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>RethinkDB жив</title>
@@ -23,8 +43,7 @@
 &lt;p&gt;От себя могу добавить немного.&lt;/p&gt;
 
 &lt;p&gt;Если вкратце &amp;mdash; я рад. Было грустно читать об их проблемах, потому что сама концепция хорошая.
-Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;
-</description>
+Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -33,12 +52,12 @@
       <pubDate>Thu, 17 Nov 2016 13:10:32 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-11/sql-2016-sp1-enterprise-features/</guid>
-      <description>
-
-&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &lt;a href=&#39;https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MSSQL on Linux&lt;/a&gt; , а про
+      <description>&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &lt;a href=&#39;https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MSSQL on Linux&lt;/a&gt; , а про
 &lt;a href=&#39;https://blogs.msdn.microsoft.com/sqlreleaseservices/sql-server-2016-service-pack-1-sp1-released/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выход Microsoft SQL Server 2016 SP1&lt;/a&gt;.
 Они просто взяли и включили большинство enterprise-фич во &lt;strong&gt;все&lt;/strong&gt; редакции MSSQL! Можете просто прочитать статью по ссылке,
 ниже табличка с фичами и ещё несколько слов о паре других интересных нововведений.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&#34;https://msdnshared.blob.core.windows.net/media/2016/11/111616_0403_SQLServer201.png&#34; /&gt;&lt;/p&gt;
 
@@ -47,8 +66,7 @@
 &lt;ul&gt;
 &lt;li&gt;CREATE OR ALTER &amp;mdash; давно пора! Думаю все поняли о чём речь :)&lt;/li&gt;
 &lt;li&gt;DBCC CLONEDATABASE &amp;mdash; копирование схемы БД (без данных). Не подразумевается использование клонов в продакшн.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -57,9 +75,7 @@
       <pubDate>Thu, 18 Aug 2016 22:36:28 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</guid>
-      <description>
-
-&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
 
 &lt;p&gt;Вообще говоря, я раньше много раз сталкивался с распределёнными транзакциями.
 В какой-то момент я окончательно сформировал своё мнение по этой теме. Получилось что-то вроде: &amp;ldquo;хватит, я не буду их использовать вообще, разве что в ход со стороны оппонента пойдут огнестрельное оружие и прочие нечестные аргументы&amp;rdquo;.&lt;/p&gt;
@@ -105,8 +121,7 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
 
 &lt;p&gt;Однако, &lt;strong&gt;подумайте над переопределением уровня изоляции транзакций для TransactionScope.&lt;/strong&gt;
 Разумеется, я согласен, что для каких-то решений Serializable будет правильным выбором.
-Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;
-</description>
+Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -115,9 +130,7 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
       <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</guid>
-      <description>
-
-&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
+      <description>&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
 Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;TL;DR Можете использовать любую СУБД, только знайте её сильные и слабые стороны.
@@ -160,8 +173,7 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;p&gt;Как я уже говорил &amp;mdash; используйте любую СУБД, только знайте её сильные и слабые стороны.
 Зная это, вы сами решите, стоит ли использовать, например, Postgres для проекта с высокой нагрузкой на запись и множеством серверов, на которые
-реплицируются данные.&lt;/p&gt;
-</description>
+реплицируются данные.&lt;/p&gt;</description>
     </item>
     
   </channel>

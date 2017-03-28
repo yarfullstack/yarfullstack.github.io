@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta name="generator" content="Hugo 0.16" />
+	<meta name="generator" content="Hugo 0.17" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
@@ -204,6 +204,8 @@
 	
 	<a href="/tags/dotnet" class="mb-mt u-hide-s-vw">dotNET</a>
 	
+	<a href="/tags/dotnet" class="mb-mt u-hide-s-vw">dotNet</a>
+	
 	<p class="u-hide-s-vw u-block-l-vw"><small>© 2016 OlegAxenow. <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow" class="mb-ml" target="_blank">Some rights reserved.</a></small></p>
 
 </nav>
@@ -211,6 +213,58 @@
 	<div id="mb-content">
 
 	<h1>Публикации</h1>
+	
+	<article>
+	<header>
+		<h2><a href="https://yarfullstack.com/post/2017-03/isolation-level-and-connection-pool/">Проблемы с connection pool и уровнями изоляции транзакций</a></h2>
+		<p>
+    <small class="u-m-right">
+        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
+        <time datetime='2017-03-28 13:47&#43;03:00'>28.03.2017, 13:47</time>
+    </small>
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">Базы данных</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/topics/%D0%B2%D0%BD%D0%B5%D0%B7%D0%B0%D0%BF%D0%BD%D0%BE">Внезапно</a>
+            
+        </small>
+        
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/tags/dotnet">dotNet</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/mssql">MSSQL</a>
+            
+        </small>
+        
+    
+</p>
+	</header>
+	<p>Продолжаю тему, начатую ранее <a href="/post/2016-08/transaction-scope-serializable/">про дырявые абстракции и TransactionScope</a>.
+Сегодня ещё одна короткая заметка из категории &ldquo;Внезапно&rdquo; и снова про <a href='https://en.wikipedia.org/wiki/Isolation_%28database_systems%29' rel="nofollow noopener noreferrer" target="_blank">уровни изоляции</a>.</p>
+
+<p>Знаете ли вы, какой будет уровень изоляции, когда вы откроете соединение (для определённости &mdash; SqlConnection)? Вопрос с подвохом.
+Правильный ответ, как обычно &mdash; It depends.</p>
+	
+	<footer>
+		<a href="/post/2017-03/isolation-level-and-connection-pool/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+			<use xlink:href="#angle-double-right-icon"></use>
+		</svg></a>
+	</footer>
+	
+</article>
+
 	
 	<article>
 	<header>
@@ -255,7 +309,6 @@
 <p>Мне лично они нравятся. Недавно они затеяли <a href='https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/' rel="nofollow noopener noreferrer" target="_blank">редизайн сайта</a>.
 И, что вдвойне приятно, наряду с редизайном они перешли с <del>глючного решета</del> WordPress на <a href='https://gohugo.io/' rel="nofollow noopener noreferrer" target="_blank">Hugo</a>.
 Чуть больше подробностей далее.</p>
-
 	
 	<footer>
 		<a href="/post/2017-03/hugo-smashing-magazine/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -288,8 +341,8 @@
 	<p>Сегодня коротенько про новости <a href='http://conf.reactjs.org/' rel="nofollow noopener noreferrer" target="_blank">ReactConf 2017</a>, проходившей 13 и 14 марта.
 Основная новость &mdash; в React 16 будет реализован алгоритм <a href='https://github.com/acdlite/react-fiber-architecture/blob/master/README.md' rel="nofollow noopener noreferrer" target="_blank">React Fiber</a>.</p>
 
-<p>И, что немаловажно, не придётся переписывать приложения на предыдущих версиях React под новую архитектуру. Привет, Angular 2 :)</p>
-
+<p>И, что немаловажно, не придётся переписывать приложения на предыдущих версиях React под новую архитектуру. Привет, Angular 2 :)
+</p>
 	
 	<footer>
 		<a href="/post/2017-03/reactconf-2017/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -343,7 +396,6 @@
 Если хочется читать на русском &mdash; на Хабре есть более короткая статья <a href='https://habrahabr.ru/company/microsoft/blog/323452/' rel="nofollow noopener noreferrer" target="_blank">Visual Studio 2017 и новые возможности инструментов от Microsoft</a>.</p>
 
 <p>Давайте сначала расскажу про позитивные вещи, про негатив потом.</p>
-
 	
 	<footer>
 		<a href="/post/2017-03/visual-studio-2017-and-dotnetcore/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -393,8 +445,8 @@
 Схема &mdash; открыть &ldquo;text visualizer&rdquo;, выделить код, скопировать, вставить (по ситуации) в Notepad++ или Visual Studio &mdash; надоела мне где-то через час.
 Вариант напрямую копировать значение не подходил из-за эскейпинга.</p>
 
-<p>И я нашёл <a href='https://msdn.microsoft.com/en-us/library/e514eeby%28v=vs.140%29.aspx' rel="nofollow noopener noreferrer" target="_blank">приемлемое решение проблемы</a>.</p>
-
+<p>И я нашёл <a href='https://msdn.microsoft.com/en-us/library/e514eeby%28v=vs.140%29.aspx' rel="nofollow noopener noreferrer" target="_blank">приемлемое решение проблемы</a>.
+</p>
 	
 	<footer>
 		<a href="/post/2017-02/visual-studio-watch-tricks/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -447,8 +499,8 @@
 
 <p>Вы наверняка слышали про <a href='http://www.material-ui.com/#/' rel="nofollow noopener noreferrer" target="_blank">Material UI</a> &mdash; библиотеку, которая реализует принципы Material Design для React.
 Аналогично, есть реализация Ant Design &mdash; <a href='https://ant.design/docs/react/introduce' rel="nofollow noopener noreferrer" target="_blank">Ant Design of React</a>.
-Подробно не смотрел, но выглядит красиво. Далее несколько восторженных отзывов про табличное представление.</p>
-
+Подробно не смотрел, но выглядит красиво. Далее несколько восторженных отзывов про табличное представление.
+</p>
 	
 	<footer>
 		<a href="/post/2017-02/react-ant-design/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -502,6 +554,7 @@
 	</header>
 	<p>Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.</p>
 
+<p></p>
 	
 	<footer>
 		<a href="/post/2017-02/interesting-releases/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -554,7 +607,6 @@
 Есть также <a href='https://habrahabr.ru/post/321380/' rel="nofollow noopener noreferrer" target="_blank">перевод на Хабре</a>.</p>
 
 <p>От себя могу добавить немного.</p>
-
 	
 	<footer>
 		<a href="/post/2017-02/rethinkdb-alive/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -602,7 +654,6 @@
 	</header>
 	<p>Microsoft <a href='https://blogs.msdn.microsoft.com/visualstudioalm/2017/02/03/announcing-gvfs-git-virtual-file-system/' rel="nofollow noopener noreferrer" target="_blank">анонсировала GVFS</a>.<br />
 Можно просто почитать статью по ссылке, далее просто короткое описание.</p>
-
 	
 	<footer>
 		<a href="/post/2017-02/gvfs/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -664,61 +715,10 @@
 <li><a href='https://github.com/dotnet/csharplang' rel="nofollow noopener noreferrer" target="_blank">The official repo for the design of the C# programming language</a> &mdash; теперь здесь.</li>
 </ul>
 
+<p></p>
 	
 	<footer>
 		<a href="/post/2017-02/news/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2017-01/ux-articles/">Подборка статей по UX, дизайну, CSS</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2017-01-27 11:22&#43;03:00'>27.01.2017, 11:22</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/ux">UX</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8">Дизайн и юзабилити</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/usability">Usability</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/ux">UX</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/design">Design</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>У меня накопилось много интересных ссылок, подробно описывать каждую утомительно.
-Поэтому, я просто оставлю это здесь.</p>
-
-	
-	<footer>
-		<a href="/post/2017-01/ux-articles/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 			<use xlink:href="#angle-double-right-icon"></use>
 		</svg></a>
 	</footer>
