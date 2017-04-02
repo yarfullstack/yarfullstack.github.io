@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/news/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>News on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/news/</link>
+    <description>Recent content in News on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 24 Mar 2017 00:40:16 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -29,7 +30,8 @@
 (по концепции &lt;a href=&#39;https://jamstack.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;JAMstack&lt;/a&gt;).
 Подробности можно прочитать в &lt;a href=&#39;https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;оригинальной статье&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;В общем-то идея JAMstack мне импонирует &amp;mdash; читателям приятно, когда сайт не тормозит. А что-то быстрее статики придумать сложновато.&lt;/p&gt;</description>
+&lt;p&gt;В общем-то идея JAMstack мне импонирует &amp;mdash; читателям приятно, когда сайт не тормозит. А что-то быстрее статики придумать сложновато.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -38,9 +40,9 @@
       <pubDate>Fri, 17 Feb 2017 13:18:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/interesting-releases/</guid>
-      <description>&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
 
 &lt;h3 id=&#34;tensorflow-1-0&#34;&gt;TensorFlow 1.0&lt;/h3&gt;
 
@@ -78,7 +80,8 @@
 А в целом про нововведения для RC &lt;a href=&#39;https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-in-visual-studio&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Ещё, возможно, вам будет интересен &lt;a href=&#39;https://github.com/dotnet/core/blob/master/roadmap.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core Roadmap&lt;/a&gt;.
-В частности, в планах на третий квартал этого года .NET Core 2.0 и .NET Standard 2.0.&lt;/p&gt;</description>
+В частности, в планах на третий квартал этого года .NET Core 2.0 и .NET Standard 2.0.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -94,7 +97,8 @@
 &lt;p&gt;От себя могу добавить немного.&lt;/p&gt;
 
 &lt;p&gt;Если вкратце &amp;mdash; я рад. Было грустно читать об их проблемах, потому что сама концепция хорошая.
-Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;</description>
+Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -103,7 +107,9 @@
       <pubDate>Fri, 03 Feb 2017 12:31:41 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/news/</guid>
-      <description>&lt;p&gt;Немного новостей про Visual Studio Code, .NET, Go и прочее.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Немного новостей про Visual Studio Code, .NET, Go и прочее.&lt;/p&gt;
 
 &lt;h3 id=&#34;vs-code-net&#34;&gt;VS Code + .NET&lt;/h3&gt;
 
@@ -112,8 +118,6 @@
 &lt;li&gt;&lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2017/02/01/the-net-language-strategy/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The .NET Language Strategy&lt;/a&gt; &amp;mdash; о стратегии развития C#, VB.NET, F#.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;https://github.com/dotnet/csharplang&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The official repo for the design of the C# programming language&lt;/a&gt; &amp;mdash; теперь здесь.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;go&#34;&gt;Go&lt;/h3&gt;
 
@@ -127,7 +131,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#39;https://nodejs.org/en/blog/release/v7.5.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз Node.js 7.5&lt;/a&gt; (на всякий случай напомню, что не LTS).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;http://mithril.js.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз Mithril 1.0&lt;/a&gt; &amp;mdash; кто не в курсе, это небольшой и шустрый фреймворк для SPA (самому не доводилось пробовать).&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -136,7 +141,9 @@
       <pubDate>Thu, 01 Dec 2016 22:05:35 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-12/interesting/</guid>
-      <description>&lt;p&gt;Немного странное название для декабрьской статьи, однако, ссылки я собирал давно :)
+      <description>
+
+&lt;p&gt;Немного странное название для декабрьской статьи, однако, ссылки я собирал давно :)
 Сегодня ссылки и краткое описание следующих статей:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -145,8 +152,6 @@
 &lt;li&gt;AWS Snowmobile&lt;/li&gt;
 &lt;li&gt;TANK &amp;mdash; быстрый распределённый лог&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;net-portability-analyzer&#34;&gt;.NET Portability Analyzer&lt;/h3&gt;
 
@@ -168,7 +173,8 @@ Amazon &lt;a href=&#39;https://aws.amazon.com/ru/snowmobile/&#39; rel=&#34;nofol
 &lt;h3 id=&#34;tank-быстрый-распределённый-лог&#34;&gt;TANK &amp;mdash; быстрый распределённый лог&lt;/h3&gt;
 
 &lt;p&gt;Не пробовал, да и подходящих задач пока нет. Но чем-то меня зацепило &lt;a href=&#39;https://github.com/phaistos-networks/TANK&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;описание этого проекта на GitHub&lt;/a&gt;.
-Говорят, что в пару раз быстрее Кафки на одном источнике и в 10 раз на трёх.&lt;/p&gt;</description>
+Говорят, что в пару раз быстрее Кафки на одном источнике и в 10 раз на трёх.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -177,14 +183,15 @@ Amazon &lt;a href=&#39;https://aws.amazon.com/ru/snowmobile/&#39; rel=&#34;nofol
       <pubDate>Fri, 28 Oct 2016 09:56:03 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/interesting/</guid>
-      <description>&lt;p&gt;Сегодня &lt;del&gt;бессвязная&lt;/del&gt; подборка слабо связанных между собой новостей и заметок, которые мне показались мне интересными.
+      <description>
+
+&lt;p&gt;Сегодня &lt;del&gt;бессвязная&lt;/del&gt; подборка слабо связанных между собой новостей и заметок, которые мне показались мне интересными.
 Про повторное использование кода, Next.js и Yarn.&lt;/p&gt;
 
 &lt;h3 id=&#34;о-мифическом-повторном-использовании-кода&#34;&gt;О мифическом повторном использовании кода&lt;/h3&gt;
 
 &lt;p&gt;&lt;a href=&#39;https://plus.google.com/&amp;#43;SergeyTeplyakov/posts/D6EnwcjUaW4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Заметка Сергея Теплякова&lt;/a&gt; понравилась.
-В принципе, мы с ним сходимся на том, что увлекаться &amp;ldquo;высокими материями&amp;rdquo; при проектировании далеко не всегда полезно :)
-&lt;/p&gt;
+В принципе, мы с ним сходимся на том, что увлекаться &amp;ldquo;высокими материями&amp;rdquo; при проектировании далеко не всегда полезно :)&lt;/p&gt;
 
 &lt;h3 id=&#34;next-js&#34;&gt;Next.js&lt;/h3&gt;
 
@@ -202,7 +209,8 @@ Amazon &lt;a href=&#39;https://aws.amazon.com/ru/snowmobile/&#39; rel=&#34;nofol
 &lt;li&gt;&lt;a href=&#39;http://yehudakatz.com/2016/10/11/im-excited-to-work-on-yarn-the-new-js-package-manager-2/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Мнение Yehuda Katz&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Сравнение&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;https://www.sitepoint.com/yarn-vs-npm/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ещё одно сравнение&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

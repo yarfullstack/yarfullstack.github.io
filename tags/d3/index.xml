@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/d3/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>D3 on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/d3/</link>
+    <description>Recent content in D3 on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 30 Jun 2016 14:28:22 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/d3/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,7 +16,9 @@
       <pubDate>Thu, 30 Jun 2016 14:28:22 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-06/d3/</guid>
-      <description>&lt;p&gt;Сегодня расскажу немного о &lt;a href=&#39;https://d3js.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;D3&lt;/a&gt;.
+      <description>
+
+&lt;p&gt;Сегодня расскажу немного о &lt;a href=&#39;https://d3js.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;D3&lt;/a&gt;.
 Для тех, кто впервые слышит это странное слово &amp;mdash; речь про библиотеку для визуализации в браузере.
 Строго говоря, это больше чем библиотека для визуализации &amp;mdash; с помощью D3 можно манипулировать DOM (можно сказать, что в ней есть подмножество функциональности jQuery).
 Однако, в основном, её используют именно для визуализации.&lt;/p&gt;
@@ -48,7 +51,8 @@
 &lt;p&gt;Признаюсь сразу, сам &lt;a href=&#39;http://metricsgraphicsjs.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MetricsGraphics.js&lt;/a&gt; пока не пробовал. Думаю что для интерактивных графиков,
 у которых ось X &amp;mdash; всегда время, выглядит удобно. Посмотрите сами &lt;a href=&#39;http://metricsgraphicsjs.org/examples.htm&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;на примеры&lt;/a&gt;, мне понравился Linked Graphic.&lt;/p&gt;
 
-&lt;p&gt;Если кто-то попробует в реальном проекте &amp;mdash; отпишитесь, буду благодарен.&lt;/p&gt;</description>
+&lt;p&gt;Если кто-то попробует в реальном проекте &amp;mdash; отпишитесь, буду благодарен.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

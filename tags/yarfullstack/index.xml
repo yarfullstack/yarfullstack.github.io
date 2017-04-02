@@ -1,13 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/yarfullstack/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>YarFullStack on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/yarfullstack/</link>
+    <description>Recent content in YarFullStack on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 02 Apr 2017 19:42:19 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/yarfullstack/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>NameSilo - оптимальный способ регистрации доменных имён</title>
+      <link>https://yarfullstack.com/post/2017-03/domain-name-registration-namesilo/</link>
+      <pubDate>Sun, 02 Apr 2017 19:42:19 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-03/domain-name-registration-namesilo/</guid>
+      <description>&lt;p&gt;Хочу поделиться условиями &lt;a href=&#39;https://www.namesilo.com/?rid=ef4dd44lb&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;своего регистратора доменных имён&lt;/a&gt; и купоном YARFS со скидкой $1 на первый заказ.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Disclaimers:&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;В заголовке слово &amp;ldquo;оптимальный&amp;rdquo; относительно моей ситуации &amp;mdash; когда живёшь в России и временами регистрируешь домены в зоне &lt;strong&gt;.com&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Ссылки реферальные (глядишь, не придётся за продление этого домена платить). Если кто-то из принципа по ним не ходит, можете вырезать параметр из URL :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Предыстория. Я не веду бизнес в сети, однако есть у меня пяток доменов, включая этот. Раньше я регистрировал их на GoDaddy.
+Потом (безотносительно кампании по бойкотированию GoDaddy) мне надоело сталкиваться с тем, что стоимость регистрации у них маленькая (если найдёшь купон),
+а вот продление (renewal) &amp;mdash; достаточно дорогое.&lt;/p&gt;
+
+&lt;p&gt;Когда регистрировал этот домен, решил поискать альтернативы. На каком-то из форумов нашёл упоминание NameSilo.
+Условия мне понравились &amp;mdash; $8.99 как за регистрацию, так и за продление + бесплатный WHOIS Privacy.
+Если интересуют подробности по ценам &amp;mdash; &lt;a href=&#39;https://www.namesilo.com/pricing.php?rid=ef4dd44lb&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;они здесь&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;В итоге, за пару лет постепенно перевёл все домены с GoDaddy на namesilo. Что могу сказать.
+Что не нравится:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Визуально сайт выглядит так себе. Но, сдаётся мне, у большинства регистраторов проблемы либо с визуальной частью, либо с удобством. У них хотя бы работает шустро.&lt;/li&gt;
+&lt;li&gt;С одной стороны, хорошо, что теперь не надо тратить время на поиск купонов. С другой &amp;mdash; иногда хочется, когда жаба просыпается :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Что нравится:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Работает сравнительно шустро (правда, в сравнении с предыдущим регистратором).&lt;/li&gt;
+&lt;li&gt;Понятные гайды по трансферу с других регистраторов. Про тот же GoDaddy рассказано о том, как можно &amp;ldquo;подвесить&amp;rdquo; этот процесс, сделав что-то &amp;ldquo;лишнее&amp;rdquo;.&lt;/li&gt;
+&lt;li&gt;Цены и прозрачность (за два года подстав не обнаружено).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Да, по поводу цен. На меня накатывают думы по поводу снижения подобных расходов где-то раз в пять лет, поэтому может сейчас и есть альтернативы, активно не мониторил.
+Если есть предложение лучше, чем $9 в год (при этом с бесплатным WHOIS Privacy) &amp;mdash; делитесь.&lt;/p&gt;
+
+&lt;p&gt;P.S. Сам я свой купон (YARFS) попробовать не могу, надеюсь, что работает как надо.
+По идее, если вы делаете у них первый заказ (регистрация или трансфер) стоимостью дороже доллара &amp;mdash; должен примениться.
+В 2019 году будет недействителен, торопитесь :)&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Два простых способа сделать пользователей счастливее</title>
@@ -15,14 +64,15 @@
       <pubDate>Sun, 13 Nov 2016 18:32:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</guid>
-      <description>&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
 
 &lt;p&gt;Как вы уже знаете, мне нравятся быстрые сайты. Летом я уже делился &lt;a href=&#34;https://yarfullstack.com/post/2016-07/site-optimization-tools/&#34;&gt;набором инструментов для оптимизации сайтов&lt;/a&gt;.
 Однако, есть пара несложных приёмов, первый из которых эти инструменты вряд ли когда-нибудь догадаются посоветовать.&lt;/p&gt;
 
 &lt;p&gt;Начнём с самого простого в &lt;em&gt;реализации&lt;/em&gt; способа.
-Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.
-&lt;/p&gt;
+Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.&lt;/p&gt;
 
 &lt;h3 id=&#34;быстрая-загрузка-шрифтов&#34;&gt;Быстрая загрузка шрифтов&lt;/h3&gt;
 
@@ -109,7 +159,8 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Например, я лично стараюсь держать себя в руках и, несмотря на многочисленные рекомендации, не добавлять КПДВ к статьям :)&lt;/p&gt;
 
 &lt;p&gt;Ещё в планах выбрать другой вариант обратной связи и отстрелить этот тормозной Disqus&amp;hellip;
-Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;</description>
+Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -118,10 +169,10 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Wed, 15 Jun 2016 20:13:07 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/about/</guid>
-      <description>&lt;p&gt;Проект YarFullStack прежде всего, про технологии, связанные с разработкой программного обеспечения.
-Темы могут быть совершенно разными &amp;mdash; UX, CSS, JavaScript, Go, C#, SQL…&lt;/p&gt;
+      <description>
 
-&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Проект YarFullStack прежде всего, про технологии, связанные с разработкой программного обеспечения.
+Темы могут быть совершенно разными &amp;mdash; UX, CSS, JavaScript, Go, C#, SQL…&lt;/p&gt;
 
 &lt;h3 id=&#34;кто-эти-люди&#34;&gt;Кто эти люди?&lt;/h3&gt;
 
@@ -132,7 +183,8 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;h3 id=&#34;для-чего-всё-это&#34;&gt;Для чего всё это?&lt;/h3&gt;
 
 &lt;p&gt;Я довольно давно делаю &amp;ldquo;Пятничную технологическую подборку&amp;rdquo; для разработчиков компании.
-Подумалось, что в формате сайта это будет удобнее и, заодно, может быть полезно кому-то ещё.&lt;/p&gt;</description>
+Подумалось, что в формате сайта это будет удобнее и, заодно, может быть полезно кому-то ещё.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
