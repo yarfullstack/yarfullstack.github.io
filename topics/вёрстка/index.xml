@@ -7,8 +7,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 25 Nov 2016 12:59:32 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 12 Apr 2017 22:24:04 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Немного про CSS и вёрстку</title>
+      <link>https://yarfullstack.com/post/2017-04/css/</link>
+      <pubDate>Wed, 12 Apr 2017 22:24:04 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-04/css/</guid>
+      <description>
+
+&lt;p&gt;Сегодня несколько интересных статей от css-tricks, csswizardry и uxdesign.cc.&lt;/p&gt;
+
+&lt;h3 id=&#34;background-repeat&#34;&gt;background-repeat&lt;/h3&gt;
+
+&lt;p&gt;Ничего сверхъестественного, просто &lt;a href=&#39;https://css-tricks.com/almanac/properties/b/background-repeat/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;качественная статья&lt;/a&gt;
+ о том, как можно использовать CSS-свойство &amp;ldquo;background-repeat&amp;rdquo;. Про &amp;ldquo;round&amp;rdquo; и &amp;ldquo;space&amp;rdquo; не слышал, а они поддерживаются аж с IE9 (и нормальными браузерами).&lt;/p&gt;
+
+&lt;h3 id=&#34;проблемы-с-производительностью-base64-для-картинок&#34;&gt;Проблемы с производительностью base64 для картинок&lt;/h3&gt;
+
+&lt;p&gt;Это две статьи:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://csswizardry.com/2017/02/base64-encoding-and-performance/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Base64 Encoding &amp;amp; Performance, Part 1: What’s Up with Base64?&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://csswizardry.com/2017/02/base64-encoding-and-performance-part-2/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Base64 Encoding &amp;amp; Performance, Part 2: Gathering Data&lt;/a&gt; &amp;mdash; в этой части приводятся тесты и дополнительные выводы.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Согласен с автором &amp;mdash; &lt;strong&gt;использование base64 чаще всего не оправдано&lt;/strong&gt; (если это не пара-другая мелких картинок).
+Запихнув картинки в стили, мы получаем: блокировку отрисовки, отсутствие кэширования отдельных картинок, более длительный парсинг стилей.&lt;/p&gt;
+
+&lt;p&gt;Ещё узнал, что можно делать так (чтобы грузить картинки параллельно с загрузкой CSS):&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;link rel=&amp;quot;preload&amp;quot; href=&amp;quot;masthead.jpg&amp;quot; as=&amp;quot;image&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;краткая-запись-css-как-антипаттерн&#34;&gt;Краткая запись CSS как антипаттерн&lt;/h3&gt;
+
+&lt;p&gt;Статья-предостережение о том, что не стоит увлекаться записями вида &lt;code&gt;background: red;&lt;/code&gt;.
+Есть и оригинал и перевод:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;CSS Shorthand Syntax Considered an Anti-Pattern&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://prgssr.ru/development/kratkaya-zapis-css-kak-antipattern.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Краткая запись CSS как антипаттерн&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;о-стилях-для-печати&#34;&gt;О стилях для печати&lt;/h3&gt;
+
+&lt;p&gt;Напоминание о том, что они есть и несколько полезных техник. Аналогично, оригинал и перевод:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://uxdesign.cc/i-totally-forgot-about-print-style-sheets-f1e6604cfd6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;I totally forgot about print style sheets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://prgssr.ru/development/ya-sovsem-zabyl-o-stilyah-dlya-pechati.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Я совсем забыл о стилях для печати&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Отладка и тестирование вёрстки</title>

@@ -7,8 +7,60 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 02 Apr 2017 19:42:19 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 12 Apr 2017 22:24:04 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Немного про CSS и вёрстку</title>
+      <link>https://yarfullstack.com/post/2017-04/css/</link>
+      <pubDate>Wed, 12 Apr 2017 22:24:04 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-04/css/</guid>
+      <description>
+
+&lt;p&gt;Сегодня несколько интересных статей от css-tricks, csswizardry и uxdesign.cc.&lt;/p&gt;
+
+&lt;h3 id=&#34;background-repeat&#34;&gt;background-repeat&lt;/h3&gt;
+
+&lt;p&gt;Ничего сверхъестественного, просто &lt;a href=&#39;https://css-tricks.com/almanac/properties/b/background-repeat/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;качественная статья&lt;/a&gt;
+ о том, как можно использовать CSS-свойство &amp;ldquo;background-repeat&amp;rdquo;. Про &amp;ldquo;round&amp;rdquo; и &amp;ldquo;space&amp;rdquo; не слышал, а они поддерживаются аж с IE9 (и нормальными браузерами).&lt;/p&gt;
+
+&lt;h3 id=&#34;проблемы-с-производительностью-base64-для-картинок&#34;&gt;Проблемы с производительностью base64 для картинок&lt;/h3&gt;
+
+&lt;p&gt;Это две статьи:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://csswizardry.com/2017/02/base64-encoding-and-performance/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Base64 Encoding &amp;amp; Performance, Part 1: What’s Up with Base64?&lt;/a&gt;&lt;br /&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://csswizardry.com/2017/02/base64-encoding-and-performance-part-2/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Base64 Encoding &amp;amp; Performance, Part 2: Gathering Data&lt;/a&gt; &amp;mdash; в этой части приводятся тесты и дополнительные выводы.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Согласен с автором &amp;mdash; &lt;strong&gt;использование base64 чаще всего не оправдано&lt;/strong&gt; (если это не пара-другая мелких картинок).
+Запихнув картинки в стили, мы получаем: блокировку отрисовки, отсутствие кэширования отдельных картинок, более длительный парсинг стилей.&lt;/p&gt;
+
+&lt;p&gt;Ещё узнал, что можно делать так (чтобы грузить картинки параллельно с загрузкой CSS):&lt;/p&gt;
+
+&lt;p&gt;&lt;code&gt;&amp;lt;link rel=&amp;quot;preload&amp;quot; href=&amp;quot;masthead.jpg&amp;quot; as=&amp;quot;image&amp;quot; /&amp;gt;&lt;/code&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;краткая-запись-css-как-антипаттерн&#34;&gt;Краткая запись CSS как антипаттерн&lt;/h3&gt;
+
+&lt;p&gt;Статья-предостережение о том, что не стоит увлекаться записями вида &lt;code&gt;background: red;&lt;/code&gt;.
+Есть и оригинал и перевод:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;CSS Shorthand Syntax Considered an Anti-Pattern&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://prgssr.ru/development/kratkaya-zapis-css-kak-antipattern.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Краткая запись CSS как антипаттерн&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;о-стилях-для-печати&#34;&gt;О стилях для печати&lt;/h3&gt;
+
+&lt;p&gt;Напоминание о том, что они есть и несколько полезных техник. Аналогично, оригинал и перевод:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://uxdesign.cc/i-totally-forgot-about-print-style-sheets-f1e6604cfd6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;I totally forgot about print style sheets&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;http://prgssr.ru/development/ya-sovsem-zabyl-o-stilyah-dlya-pechati.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Я совсем забыл о стилях для печати&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>NameSilo - оптимальный способ регистрации доменных имён</title>
@@ -548,55 +600,6 @@ Microsoft сделал фреймворк для кросcплатформенн
 В частности, какую-то последовательность событий (даже необязательно давнюю) вы можете помнить немного по-другому. Не говоря уже про зрительные образы.&lt;/p&gt;
 
 &lt;p&gt;Подробнее в &lt;a href=&#39;http://www.ted.com/talks/elizabeth_loftus_the_fiction_of_memory&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выступлении Elizabeth Loftus на TED&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Про руководства по стилю (style guides)</title>
-      <link>https://yarfullstack.com/post/2016-12/style-guides/</link>
-      <pubDate>Fri, 09 Dec 2016 14:07:59 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-12/style-guides/</guid>
-      <description>
-
-&lt;p&gt;Хочу поделиться подборкой статей про руководства по стилю (или как говорят наши зарубежные коллеги, style guides).&lt;/p&gt;
-
-&lt;p&gt;На случай, если вы сталкиваетесь с этим понятием впервые, подобные руководства упрощают жизнь дизайнеров, верстальщиков, разработчиков и тестировщиков.
-А для крупных компаний, которые каждый год по несколько дизайнеров нанимают, я бы сказал &amp;mdash; значительно упрощают жизнь.&lt;/p&gt;
-
-&lt;p&gt;Что ж, начну с отечественных наработок.&lt;/p&gt;
-
-&lt;h3 id=&#34;контур-гайды&#34;&gt;Контур.Гайды&lt;/h3&gt;
-
-&lt;p&gt;Недавно Алексей Рякин прислал мне ссылку &lt;a href=&#39;https://guides.kontur.ru/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Контур.Гайды&lt;/a&gt;.
-До конца пока не прочитал, но в целом, впечатление положительное. Тем, кому намного проще читать подобные материалы на русском &amp;mdash; рекомендую.&lt;/p&gt;
-
-&lt;h3 id=&#34;material-design&#34;&gt;Material Design&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://material.google.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Material Design&lt;/a&gt; &amp;mdash; если мне не изменяет память, это первое опубликованное и детально проработанное руководство.
-Да, в Google не все и не всегда ему следуют, с &amp;ldquo;иконкой-гамбургером&amp;rdquo; и &amp;ldquo;троеточием&amp;rdquo; у них вообще беда в их же приложениях&amp;hellip; Но само руководство крутое.&lt;/p&gt;
-
-&lt;h3 id=&#34;styleguides-io&#34;&gt;StyleGuides.io&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#39;http://styleguides.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;StyleGuides.io&lt;/a&gt; &amp;mdash; наиболее полное и удобное, из мне известных, собрание материалов по style guides.
-Там есть и статьи, и примеры (тех же руководств от разных компаний там десятки). Если вам интересна эта тема, то StyleGuides.io, безусловно, отличная отправная точка.
-Причём, как с точки зрения первого ознакомления с темой, так и с развитием в этом направлении.&lt;/p&gt;
-
-&lt;h3 id=&#34;разное&#34;&gt;Разное&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://www.nngroup.com/articles/front-end-style-guides/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Front-End Style-Guides: Definition, Requirements, Component Checklist&lt;/a&gt; от
-Nielsen Norman Group &amp;mdash; довольно неплохая статья небольшого объёма, которая объясняет что это и зачем, а также дарит короткий чеклист.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#39;http://airbnb.design/the-way-we-build/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The Way We Build (How rethinking the Airbnb app changed the way we approach design)&lt;/a&gt; &amp;mdash; просто интересно почитать.&lt;/p&gt;
-
-&lt;h3 id=&#34;странное&#34;&gt;Странное&lt;/h3&gt;
-
-&lt;p&gt;Даже не знаю как характеризовать вот эту статью &lt;a href=&#39;https://vc.ru/p/accordion-and-tab-design&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Юзабилити веб-форм: Почему вкладки и «гармошки» вызывают проблемы у пользователей&lt;/a&gt;,
-ссылку на которую мне прислал Женя Кирьянов.&lt;/p&gt;
-
-&lt;p&gt;С одной стороны, наверное что-то полезное в ней есть.
-Но, с учётом того, что картинки там не подгружаются, а простой способ сообщить администрации ресурса о проблеме отсутствует (комментарии уже недоступны)&amp;hellip;
-Скорее, эта статья на данный хороший пример того, как не надо публиковать статьи :)&lt;/p&gt;
 </description>
     </item>
     
