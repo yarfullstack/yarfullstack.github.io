@@ -7,8 +7,37 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 10 Mar 2017 12:31:19 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 19 Apr 2017 21:50:12 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Анонс ReactXP, React Fiber и Relay Modern</title>
+      <link>https://yarfullstack.com/post/2017-04/react-fiber-reactxp-relay-modern/</link>
+      <pubDate>Wed, 19 Apr 2017 21:50:12 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-04/react-fiber-reactxp-relay-modern/</guid>
+      <description>
+
+&lt;h3 id=&#34;reactxp&#34;&gt;ReactXP&lt;/h3&gt;
+
+&lt;p&gt;Компания Microsoft удивила. На этот раз &amp;mdash; приятно удивила.
+&lt;a href=&#39;https://microsoft.github.io/reactxp/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Анонсирована библиотека ReactXP&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Подробности по ссылке. Если вкратце &amp;mdash; это надстройка для React Native.
+Декларируется, что с ней можно будет один раз написать весь UI, за исключением &amp;ldquo;platform-specific&amp;rdquo;.&lt;/p&gt;
+
+&lt;p&gt;Кстати, больше 4К звёзд на GitHub за 14 дней. Посмотрим, что будет дальше, и я не о звёздах :)&lt;/p&gt;
+
+&lt;h3 id=&#34;react-fiber&#34;&gt;React Fiber&lt;/h3&gt;
+
+&lt;p&gt;Месяц назад, в заметке &lt;a href=&#34;https://yarfullstack.com/post/2017-03/reactconf-2017/&#34;&gt;Новости ReactConf 2017&lt;/a&gt; я уже упоминал про React Fiber.
+Теперь про него &lt;a href=&#39;https://techcrunch.com/2017/04/18/facebook-announces-react-fiber-a-rewrite-of-its-react-framework/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;заговорил и TechCrunch&lt;/a&gt;.
+Напомню, Fiber &amp;mdash; это более продвинутая архитектура (на замену Reconciliation), делающая рендеринг инкрементальным.&lt;/p&gt;
+
+&lt;p&gt;Ещё TechCrunch упоминает Relay Modern &amp;mdash; новую версию Relay (это фреймворк для data-driven приложений, использующий GraphQL).
+Подробнее про него можно прочитать в статье &lt;a href=&#39;https://code.facebook.com/posts/1362748677097871/relay-modern-simpler-faster-more-extensible/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Relay Modern: Simpler, faster, more extensible&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Релизы Visual Studio 2017 и .NET Core</title>
