@@ -7,8 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 13 Nov 2016 18:32:37 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 19 Apr 2017 22:58:14 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Книга “High Performance Browser Networking” и TCP-прокси для тестирования сети</title>
+      <link>https://yarfullstack.com/post/2017-04/network-performance-and-testing/</link>
+      <pubDate>Wed, 19 Apr 2017 22:58:14 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-04/network-performance-and-testing/</guid>
+      <description>&lt;p&gt;Буквально пару слов об online-книге &lt;a href=&#39;https://hpbn.co/#toc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;High Performance Browser Networking&lt;/a&gt; &amp;mdash;
+не читал, но одобряю :) Точнее, посмотрел одну из глав (бегло). Познавательно и по делу.&lt;/p&gt;
+
+&lt;p&gt;А &lt;a href=&#39;https://github.com/shopify/toxiproxy&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;toxiproxy&lt;/a&gt; &amp;mdash; это набор от Shopify для тестирования сети в разнообразных условиях.
+Состоит из TCP-прокси (на Go) и клиентских библиотек для подключения (Ruby, Go, Python, .NET, PHP, Node, Java).&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Два простых способа сделать пользователей счастливее</title>
