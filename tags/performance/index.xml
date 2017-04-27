@@ -7,8 +7,45 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 19 Apr 2017 22:58:14 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 27 Apr 2017 23:02:28 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/performance/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Про производительность .NET, React, Regex</title>
+      <link>https://yarfullstack.com/post/2017-04/performance-dotnet-react-regex/</link>
+      <pubDate>Thu, 27 Apr 2017 23:02:28 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-04/performance-dotnet-react-regex/</guid>
+      <description>
+
+&lt;p&gt;С удовольствием прочитал статью &lt;a href=&#39;https://alexandrnikitin.github.io/blog/high-performance-dotnet-by-example/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;High-performance .NET by example: Filtering bot traffic&lt;/a&gt;.
+Кстати, к ботам статья почти не имеет отношения, а вот к улучшению производительности &amp;mdash; очень даже. В частности,
+есть примеры использования BenchmarkDotNet, PerfView, Intel VTune Amplifier, ILSpy, WinDbg и unsafe-кода.&lt;/p&gt;
+
+&lt;h3 id=&#34;react&#34;&gt;React&lt;/h3&gt;
+
+&lt;p&gt;На случай, если вас интересует производительность React &amp;mdash; почитайте статью &lt;a href=&#39;https://medium.com/dailyjs/react-is-slow-react-is-fast-optimizing-react-apps-in-practice-394176a11fba&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;React is Slow, React is Fast: Optimizing React Apps in Practice&lt;/a&gt;.
+Её недавно перевели на Хабре &amp;mdash; &lt;a href=&#39;https://habrahabr.ru/post/327364/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;React медленный, React быстрый: оптимизация React-приложения на практике&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;regex&#34;&gt;Regex&lt;/h3&gt;
+
+&lt;p&gt;И для тех, кто активно пользуется регулярными выражениями и заботится о производительности &amp;mdash; серия статей:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://swtch.com/~rsc/regexp/regexp1.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Regular Expression Matching Can Be Simple And Fast (but is slow in Java, Perl, PHP, Python, Ruby, ...)&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#39;https://research.swtch.com/glob&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Glob Matching Can Be Simple And Fast Too&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Насчёт серии я, может, погорячился &amp;ndash; между ними перерыв в 10 лет. У автора замечены и другие интересные статьи.&lt;/p&gt;
+
+&lt;h3 id=&#34;сюрприз&#34;&gt;Сюрприз&lt;/h3&gt;
+
+&lt;p&gt;В заголовке не упомянуто, но я просто оставлю это здесь :)&lt;/p&gt;
+
+&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Not only is declarative code more readable, it also produces beautiful byte code and is therefore faster. Thanks &lt;a href=&#34;https://twitter.com/bmeurer&#34;&gt;@bmeurer&lt;/a&gt; &lt;a href=&#34;https://twitter.com/munichnug&#34;&gt;@munichnug&lt;/a&gt; &lt;a href=&#34;https://t.co/Iae0s3e40W&#34;&gt;pic.twitter.com/Iae0s3e40W&lt;/a&gt;&lt;/p&gt;&amp;mdash; Michael Haeuslmann (@michaelhaeu) &lt;a href=&#34;https://twitter.com/michaelhaeu/status/845003383153025024&#34;&gt;March 23, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
+    </item>
     
     <item>
       <title>Книга “High Performance Browser Networking” и TCP-прокси для тестирования сети</title>
