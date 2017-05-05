@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Общее on YarFullStack</title>
-    <link>https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5/</link>
-    <description>Recent content in Общее on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 02 Apr 2017 19:42:19 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -22,12 +21,12 @@
 
 &lt;ul&gt;
 &lt;li&gt;В заголовке слово &amp;ldquo;оптимальный&amp;rdquo; относительно моей ситуации &amp;mdash; когда живёшь в России и временами регистрируешь домены в зоне &lt;strong&gt;.com&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Ссылки реферальные (глядишь, не придётся за продление этого домена платить). Если кто-то из принципа по ним не ходит, можете вырезать параметр из URL :)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;li&gt;Ссылки реферальные (глядишь, не придётся за продление этого домена платить). Если кто-то из принципа по ним не ходит, можете вырезать параметр из URL :)
 
-&lt;p&gt;Предыстория. Я не веду бизнес в сети, однако есть у меня пяток доменов, включая этот. Раньше я регистрировал их на GoDaddy.
+Предыстория. Я не веду бизнес в сети, однако есть у меня пяток доменов, включая этот. Раньше я регистрировал их на GoDaddy.
 Потом (безотносительно кампании по бойкотированию GoDaddy) мне надоело сталкиваться с тем, что стоимость регистрации у них маленькая (если найдёшь купон),
-а вот продление (renewal) &amp;mdash; достаточно дорогое.&lt;/p&gt;
+а вот продление (renewal) &amp;mdash; достаточно дорогое.&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Когда регистрировал этот домен, решил поискать альтернативы. На каком-то из форумов нашёл упоминание NameSilo.
 Условия мне понравились &amp;mdash; $8.99 как за регистрацию, так и за продление + бесплатный WHOIS Privacy.
@@ -54,8 +53,7 @@
 
 &lt;p&gt;P.S. Сам я свой купон (YARFS) попробовать не могу, надеюсь, что работает как надо.
 По идее, если вы делаете у них первый заказ (регистрация или трансфер) стоимостью дороже доллара &amp;mdash; должен примениться.
-В 2019 году будет недействителен, торопитесь :)&lt;/p&gt;
-</description>
+В 2019 году будет недействителен, торопитесь :)&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -64,9 +62,7 @@
       <pubDate>Fri, 16 Dec 2016 14:25:17 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-12/logic-and-cognitive-bias/</guid>
-      <description>
-
-&lt;p&gt;Сейчас буду говорить не совсем про технологии, но тема интересная.&lt;/p&gt;
+      <description>&lt;p&gt;Сейчас буду говорить не совсем про технологии, но тема интересная.&lt;/p&gt;
 
 &lt;p&gt;Для разработки ПО тема логики и когнитивных искажений, думаю, особенно важная. Ведь разработчики обычно считают себя и свои рассуждения более логичными, чем у большинства других.
 Всегда ли это так?&lt;/p&gt;
@@ -96,8 +92,7 @@
 &lt;p&gt;Не так давно узнал, что памяти тоже не стоит особо доверять. Со временем память искажается (причём, в том числе, без нашего ведома).
 В частности, какую-то последовательность событий (даже необязательно давнюю) вы можете помнить немного по-другому. Не говоря уже про зрительные образы.&lt;/p&gt;
 
-&lt;p&gt;Подробнее в &lt;a href=&#39;http://www.ted.com/talks/elizabeth_loftus_the_fiction_of_memory&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выступлении Elizabeth Loftus на TED&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;p&gt;Подробнее в &lt;a href=&#39;http://www.ted.com/talks/elizabeth_loftus_the_fiction_of_memory&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выступлении Elizabeth Loftus на TED&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -106,10 +101,10 @@
       <pubDate>Wed, 15 Jun 2016 20:13:07 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/about/</guid>
-      <description>
-
-&lt;p&gt;Проект YarFullStack прежде всего, про технологии, связанные с разработкой программного обеспечения.
+      <description>&lt;p&gt;Проект YarFullStack прежде всего, про технологии, связанные с разработкой программного обеспечения.
 Темы могут быть совершенно разными &amp;mdash; UX, CSS, JavaScript, Go, C#, SQL…&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;кто-эти-люди&#34;&gt;Кто эти люди?&lt;/h3&gt;
 
@@ -120,8 +115,7 @@
 &lt;h3 id=&#34;для-чего-всё-это&#34;&gt;Для чего всё это?&lt;/h3&gt;
 
 &lt;p&gt;Я довольно давно делаю &amp;ldquo;Пятничную технологическую подборку&amp;rdquo; для разработчиков компании.
-Подумалось, что в формате сайта это будет удобнее и, заодно, может быть полезно кому-то ещё.&lt;/p&gt;
-</description>
+Подумалось, что в формате сайта это будет удобнее и, заодно, может быть полезно кому-то ещё.&lt;/p&gt;</description>
     </item>
     
   </channel>

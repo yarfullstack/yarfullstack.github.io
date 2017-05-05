@@ -1,14 +1,70 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Node.js on YarFullStack</title>
-    <link>https://yarfullstack.com/tags/node/index.js/</link>
-    <description>Recent content in Node.js on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/tags/node.js/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sat, 06 Aug 2016 15:04:54 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Новости web</title>
+      <link>https://yarfullstack.com/post/2017-05/web-development-news/</link>
+      <pubDate>Fri, 05 May 2017 13:34:52 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-05/web-development-news/</guid>
+      <description>&lt;p&gt;Сегодня несколько новостей из мира web-разработки.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Chrome без chrome.&lt;/li&gt;
+&lt;li&gt;Node.js 8.0 задерживается.&lt;/li&gt;
+&lt;li&gt;Postal &amp;mdash; open source аналог MailChimp.&lt;/li&gt;
+&lt;li&gt;node-compiler &amp;mdash; open source компилятор для Node.js.&lt;/li&gt;
+&lt;li&gt;Prepack.io &amp;ndash; интеллектуальная минимизация JavaScript.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;
+
+&lt;h3 id=&#34;headless-chrome&#34;&gt;Headless Chrome&lt;/h3&gt;
+
+&lt;p&gt;Недавно я уже писал про завершение сопровождения Phantom.js. Сегодня предлагаю ознакомиться со статьёй
+&lt;a href=&#34;https://developers.google.com/web/updates/2017/04/headless-chrome&#34;&gt;Getting Started with Headless Chrome&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;node-js-8-0&#34;&gt;Node.js 8.0&lt;/h3&gt;
+
+&lt;p&gt;Релиз Node.js 8.0, ранее планировавшийся на апрель, отложен на конец мая. Об этом в статье &lt;a href=&#34;https://medium.com/the-node-js-collection/node-js-8-0-0-has-been-delayed-and-will-ship-on-or-around-may-30th-cd38ba96980d&#34;&gt;Node.js 8.0.0 has been delayed and will ship on or around May 30th&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Если вкратце, решили немного подождать более свежего V8.&lt;/p&gt;
+
+&lt;h3 id=&#34;postal&#34;&gt;Postal&lt;/h3&gt;
+
+&lt;p&gt;На случай, если вам захочется пользоваться преимуществами и недостатками своей инфраструктуры для отправки писем, имейте в виду &lt;a href=&#34;https://github.com/atech/postal&#34;&gt;Postal&lt;/a&gt;. Можете также почитать &lt;a href=&#34;https://news.ycombinator.com/item?id=14201562&#34;&gt;обсуждение на HackerNews&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;node-compiler&#34;&gt;node-compiler&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/pmq20/node-compiler&#34;&gt;node-compiler&lt;/a&gt; &amp;ndash; компилятор в бинарник для Node.js. Такие были и раньше, сравнение есть на сайте.&lt;/p&gt;
+
+&lt;h3 id=&#34;prepack&#34;&gt;Prepack&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://prepack.io/&#34;&gt;Prepack&lt;/a&gt; &amp;mdash; интеллектуальная минимизация JavaScript (пока BETA). Не путайте с минификацией.&lt;/p&gt;
+
+&lt;p&gt;Например,
+&lt;div class=&#34;microlight&#34;&gt;(function () {
+  function hello() { return &#39;hello&#39;; }
+  function world() { return &#39;world&#39;; }
+  global.s = hello() + &#39; &#39; + world();
+})();
+&lt;/div&gt;&lt;/p&gt;
+
+&lt;p&gt;превращается в&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;(function () {
+  s = &#34;hello world&#34;;
+})();
+&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>Улучшаем производительность npm-install нестандартным способом</title>
@@ -16,9 +72,7 @@
       <pubDate>Sat, 06 Aug 2016 15:04:54 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/improve-npm-performance-with-progress-bar/</guid>
-      <description>
-
-&lt;p&gt;В последнее время всё чаще сталкиваюсь с разработкой на node.js.
+      <description>&lt;p&gt;В последнее время всё чаще сталкиваюсь с разработкой на node.js.
 На работе использую версию LTS, по понятным причинам. Дома поставил 6.3.1.&lt;/p&gt;
 
 &lt;p&gt;Идеологически мне больше нравится третий npm &amp;mdash; всё-таки хранить дубликаты модулей, особенно когда их много &amp;mdash; не здорово.
@@ -66,8 +120,7 @@ time npm install
 rm -rf node_modules
 npm set progress=false
 time npm install
-&lt;/div&gt;
-</description>
+&lt;/div&gt;</description>
     </item>
     
     <item>
@@ -76,11 +129,9 @@ time npm install
       <pubDate>Thu, 04 Aug 2016 21:12:01 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/</guid>
-      <description>
-
-&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
+      <description>&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
 Сначала &amp;mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
-Затем &amp;mdash; методы правильной работы с target=&amp;rdquo;_blank&amp;rdquo;.&lt;/p&gt;
+Затем &amp;mdash; методы правильной работы с target=&amp;rdquo;_blank&amp;rdquo;. &lt;/p&gt;
 
 &lt;h3 id=&#34;broken-link-checker&#34;&gt;broken-link-checker&lt;/h3&gt;
 
@@ -128,8 +179,7 @@ otherWindow.location = targetUrl;
 &lt;h4 id=&#34;возможные-проблемы-с-указанными-решениями&#34;&gt;Возможные проблемы с указанными решениями&lt;/h4&gt;
 
 &lt;p&gt;Да, стоит понимать, что для каких-то сайтов важно передавать referrer.
-Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;
-</description>
+Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;</description>
     </item>
     
   </channel>
