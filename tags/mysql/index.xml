@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/mysql/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>MySQL on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/mysql/</link>
+    <description>Recent content in MySQL on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 29 Jul 2016 12:26:04 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/mysql/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,7 +16,9 @@
       <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</guid>
-      <description>&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
+      <description>
+
+&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
 Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;TL;DR Можете использовать любую СУБД, только знайте её сильные и слабые стороны.
@@ -58,7 +61,8 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
 
 &lt;p&gt;Как я уже говорил &amp;mdash; используйте любую СУБД, только знайте её сильные и слабые стороны.
 Зная это, вы сами решите, стоит ли использовать, например, Postgres для проекта с высокой нагрузкой на запись и множеством серверов, на которые
-реплицируются данные.&lt;/p&gt;</description>
+реплицируются данные.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

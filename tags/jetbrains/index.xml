@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/jetbrains/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>JetBrains on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/jetbrains/</link>
+    <description>Recent content in JetBrains on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 16 Sep 2016 14:32:24 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/jetbrains/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,13 +16,15 @@
       <pubDate>Fri, 16 Sep 2016 14:32:24 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/js-and-design-news/</guid>
-      <description>&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике.&lt;/p&gt;
 
 &lt;h3 id=&#34;angular2&#34;&gt;Angular2&lt;/h3&gt;
 
 &lt;p&gt;Думаю, многие ждали этого момента. Некоторые мои коллеги подшучивали &amp;mdash; &amp;ldquo;да они наверное уже никогда не зарелизятся&amp;rdquo;.
 Однако, &lt;a href=&#39;http://angularjs.blogspot.ru/2016/09/angular2-final.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;зарелизились&lt;/a&gt;.
-Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :) &lt;/p&gt;
+Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :)&lt;/p&gt;
 
 &lt;h3 id=&#34;node-js-v6-6-0&#34;&gt;Node.js v6.6.0&lt;/h3&gt;
 
@@ -38,7 +41,8 @@
 
 &lt;h3 id=&#34;variable-fonts&#34;&gt;Variable fonts&lt;/h3&gt;
 
-&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -47,9 +51,11 @@
       <pubDate>Wed, 10 Aug 2016 22:39:44 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/WebStorm-useful-options/</guid>
-      <description>&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
+      <description>
+
+&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
 Я пока ещё &lt;del&gt;не настоящий сварщик&lt;/del&gt; не особо опытный пользователь WebStorm, поэтому здесь вы не найдёте советов как в 10 раз ускорить
- разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее. &lt;/p&gt;
+ разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее.&lt;/p&gt;
 
 &lt;h3 id=&#34;вступление&#34;&gt;Вступление&lt;/h3&gt;
 
@@ -84,7 +90,8 @@
 &lt;p&gt;Есть одна маленькая тонкость. По умолчанию TODO показываются для всех исходников в папке проекта.
 Думаю, не всем хочется наблюдать сотни TODO из папки node_modules.
 Поэтому стоит в окне с TODO сверху выбрать Scope Based и настроить так, как вам удобнее. Обычно &amp;ldquo;Project Files&amp;rdquo; бывает достаточно,
-но если есть вложенные в подпроекты node_modules &amp;mdash; не работает (для таких случаев можно добавить свой Scope).&lt;/p&gt;</description>
+но если есть вложенные в подпроекты node_modules &amp;mdash; не работает (для таких случаев можно добавить свой Scope).&lt;/p&gt;
+</description>
     </item>
     
   </channel>

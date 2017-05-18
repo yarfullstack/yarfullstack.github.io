@@ -1,14 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Post-rsses on YarFullStack</title>
-    <link>https://yarfullstack.com/post/index.xml</link>
-    <description>Recent content in Post-rsses on YarFullStack</description>
+    <title>Posts on YarFullStack</title>
+    <link>https://yarfullstack.com/post/</link>
+    <description>Recent content in Posts on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 05 May 2017 13:34:52 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 18 May 2017 22:39:11 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/post/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Новости и ресурсы про MQ</title>
+      <link>https://yarfullstack.com/post/2017-05/message-queues/</link>
+      <pubDate>Thu, 18 May 2017 22:39:11 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-05/message-queues/</guid>
+      <description>
+
+&lt;p&gt;Сегодня про очереди. В контексте кроликов и ноликов, как мы обычно с Максом говорим.
+Ему, кстати, отдельное спасибо за &lt;a href=&#39;http://queues.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ссылку на Queues.io&lt;/a&gt;.
+Это сборник сведений по очередям как &lt;strong&gt;системам&lt;/strong&gt; (или, если сказать проще &amp;mdash; серверам очередей).
+То есть по тому, что можно запустить и начать использовать.&lt;/p&gt;
+
+&lt;p&gt;По этой причине там нет gRPC и Cap&amp;rsquo;n Proto (о котором далее). Зато там есть Кафка (и совсем не грефневая :).&lt;/p&gt;
+
+&lt;h3 id=&#34;релиз-cap-n-proto-0-6&#34;&gt;Релиз Cap&amp;rsquo;n Proto 0.6&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://capnproto.org/index.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Cap&amp;#39;n Proto&lt;/a&gt; немного похож на gRPC, &lt;a href=&#34;https://yarfullstack.com/post/2016-10/gRPC-first-impressions/&#34;&gt;о котором я писал ранее&lt;/a&gt;.
+Только, с одной стороны, у него нет хорошей поддержки большого набора платформ и языков, а с другой, есть достаточно интересные оптимизации.&lt;/p&gt;
+
+&lt;p&gt;Кстати, в &lt;a href=&#39;https://capnproto.org/news/2017-05-01-capnproto-0.6-msvc-json-http-more.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt;
+упоминается на этот раз полная поддержка Windows и Visual Studio. Только сразу огорчу любителей C# &amp;mdash; подразумевается C++.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Новости web</title>
@@ -16,7 +41,9 @@
       <pubDate>Fri, 05 May 2017 13:34:52 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-05/web-development-news/</guid>
-      <description>&lt;p&gt;Сегодня несколько новостей из мира web-разработки.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня несколько новостей из мира web-разработки.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Chrome без chrome.&lt;/li&gt;
@@ -25,8 +52,6 @@
 &lt;li&gt;node-compiler &amp;mdash; open source компилятор для Node.js.&lt;/li&gt;
 &lt;li&gt;Prepack.io &amp;ndash; интеллектуальная минимизация JavaScript.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;
 
 &lt;h3 id=&#34;headless-chrome&#34;&gt;Headless Chrome&lt;/h3&gt;
 
@@ -64,7 +89,8 @@
 &lt;div class=&#34;microlight&#34;&gt;(function () {
   s = &#34;hello world&#34;;
 })();
-&lt;/div&gt;</description>
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -73,7 +99,9 @@
       <pubDate>Thu, 27 Apr 2017 23:02:28 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-04/performance-dotnet-react-regex/</guid>
-      <description>&lt;p&gt;С удовольствием прочитал статью &lt;a href=&#39;https://alexandrnikitin.github.io/blog/high-performance-dotnet-by-example/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;High-performance .NET by example: Filtering bot traffic&lt;/a&gt;.
+      <description>
+
+&lt;p&gt;С удовольствием прочитал статью &lt;a href=&#39;https://alexandrnikitin.github.io/blog/high-performance-dotnet-by-example/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;High-performance .NET by example: Filtering bot traffic&lt;/a&gt;.
 Кстати, к ботам статья почти не имеет отношения, а вот к улучшению производительности &amp;mdash; очень даже. В частности,
 есть примеры использования BenchmarkDotNet, PerfView, Intel VTune Amplifier, ILSpy, WinDbg и unsafe-кода.&lt;/p&gt;
 
@@ -98,7 +126,8 @@
 &lt;p&gt;В заголовке не упомянуто, но я просто оставлю это здесь :)&lt;/p&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Not only is declarative code more readable, it also produces beautiful byte code and is therefore faster. Thanks &lt;a href=&#34;https://twitter.com/bmeurer&#34;&gt;@bmeurer&lt;/a&gt; &lt;a href=&#34;https://twitter.com/munichnug&#34;&gt;@munichnug&lt;/a&gt; &lt;a href=&#34;https://t.co/Iae0s3e40W&#34;&gt;pic.twitter.com/Iae0s3e40W&lt;/a&gt;&lt;/p&gt;&amp;mdash; Michael Haeuslmann (@michaelhaeu) &lt;a href=&#34;https://twitter.com/michaelhaeu/status/845003383153025024&#34;&gt;March 23, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;</description>
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
     </item>
     
     <item>
@@ -111,7 +140,8 @@
 не читал, но одобряю :) Точнее, посмотрел одну из глав (бегло). Познавательно и по делу.&lt;/p&gt;
 
 &lt;p&gt;А &lt;a href=&#39;https://github.com/shopify/toxiproxy&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;toxiproxy&lt;/a&gt; &amp;mdash; это набор от Shopify для тестирования сети в разнообразных условиях.
-Состоит из TCP-прокси (на Go) и клиентских библиотек для подключения (Ruby, Go, Python, .NET, PHP, Node, Java).&lt;/p&gt;</description>
+Состоит из TCP-прокси (на Go) и клиентских библиотек для подключения (Ruby, Go, Python, .NET, PHP, Node, Java).&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -120,14 +150,15 @@
       <pubDate>Wed, 19 Apr 2017 21:50:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-04/react-fiber-reactxp-relay-modern/</guid>
-      <description>&lt;h3 id=&#34;reactxp&#34;&gt;ReactXP&lt;/h3&gt;
+      <description>
+
+&lt;h3 id=&#34;reactxp&#34;&gt;ReactXP&lt;/h3&gt;
 
 &lt;p&gt;Компания Microsoft удивила. На этот раз &amp;mdash; приятно удивила.
 &lt;a href=&#39;https://microsoft.github.io/reactxp/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Анонсирована библиотека ReactXP&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Подробности по ссылке. Если вкратце &amp;mdash; это надстройка для React Native.
-Декларируется, что с ней можно будет один раз написать весь UI, за исключением &amp;ldquo;platform-specific&amp;rdquo;.&lt;br /&gt;
-&lt;/p&gt;
+Декларируется, что с ней можно будет один раз написать весь UI, за исключением &amp;ldquo;platform-specific&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Кстати, больше 4К звёзд на GitHub за 14 дней. Посмотрим, что будет дальше, и я не о звёздах :)&lt;/p&gt;
 
@@ -138,7 +169,8 @@
 Напомню, Fiber &amp;mdash; это более продвинутая архитектура (на замену Reconciliation), делающая рендеринг инкрементальным.&lt;/p&gt;
 
 &lt;p&gt;Ещё TechCrunch упоминает Relay Modern &amp;mdash; новую версию Relay (это фреймворк для data-driven приложений, использующий GraphQL).
-Подробнее про него можно прочитать в статье &lt;a href=&#39;https://code.facebook.com/posts/1362748677097871/relay-modern-simpler-faster-more-extensible/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Relay Modern: Simpler, faster, more extensible&lt;/a&gt;.&lt;/p&gt;</description>
+Подробнее про него можно прочитать в статье &lt;a href=&#39;https://code.facebook.com/posts/1362748677097871/relay-modern-simpler-faster-more-extensible/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Relay Modern: Simpler, faster, more extensible&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -147,13 +179,14 @@
       <pubDate>Wed, 12 Apr 2017 22:24:04 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-04/css/</guid>
-      <description>&lt;p&gt;Сегодня несколько интересных статей от css-tricks, csswizardry и uxdesign.cc.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня несколько интересных статей от css-tricks, csswizardry и uxdesign.cc.&lt;/p&gt;
 
 &lt;h3 id=&#34;background-repeat&#34;&gt;background-repeat&lt;/h3&gt;
 
 &lt;p&gt;Ничего сверхъестественного, просто &lt;a href=&#39;https://css-tricks.com/almanac/properties/b/background-repeat/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;качественная статья&lt;/a&gt;
- о том, как можно использовать CSS-свойство &amp;ldquo;background-repeat&amp;rdquo;. Про &amp;ldquo;round&amp;rdquo; и &amp;ldquo;space&amp;rdquo; не слышал, а они поддерживаются аж с IE9 (и нормальными браузерами).
-&lt;/p&gt;
+ о том, как можно использовать CSS-свойство &amp;ldquo;background-repeat&amp;rdquo;. Про &amp;ldquo;round&amp;rdquo; и &amp;ldquo;space&amp;rdquo; не слышал, а они поддерживаются аж с IE9 (и нормальными браузерами).&lt;/p&gt;
 
 &lt;h3 id=&#34;проблемы-с-производительностью-base64-для-картинок&#34;&gt;Проблемы с производительностью base64 для картинок&lt;/h3&gt;
 
@@ -188,7 +221,8 @@
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#39;https://uxdesign.cc/i-totally-forgot-about-print-style-sheets-f1e6604cfd6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;I totally forgot about print style sheets&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;http://prgssr.ru/development/ya-sovsem-zabyl-o-stilyah-dlya-pechati.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Я совсем забыл о стилях для печати&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -203,12 +237,12 @@
 
 &lt;ul&gt;
 &lt;li&gt;В заголовке слово &amp;ldquo;оптимальный&amp;rdquo; относительно моей ситуации &amp;mdash; когда живёшь в России и временами регистрируешь домены в зоне &lt;strong&gt;.com&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Ссылки реферальные (глядишь, не придётся за продление этого домена платить). Если кто-то из принципа по ним не ходит, можете вырезать параметр из URL :)
-
-Предыстория. Я не веду бизнес в сети, однако есть у меня пяток доменов, включая этот. Раньше я регистрировал их на GoDaddy.
-Потом (безотносительно кампании по бойкотированию GoDaddy) мне надоело сталкиваться с тем, что стоимость регистрации у них маленькая (если найдёшь купон),
-а вот продление (renewal) &amp;mdash; достаточно дорогое.&lt;/li&gt;
+&lt;li&gt;Ссылки реферальные (глядишь, не придётся за продление этого домена платить). Если кто-то из принципа по ним не ходит, можете вырезать параметр из URL :)&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Предыстория. Я не веду бизнес в сети, однако есть у меня пяток доменов, включая этот. Раньше я регистрировал их на GoDaddy.
+Потом (безотносительно кампании по бойкотированию GoDaddy) мне надоело сталкиваться с тем, что стоимость регистрации у них маленькая (если найдёшь купон),
+а вот продление (renewal) &amp;mdash; достаточно дорогое.&lt;/p&gt;
 
 &lt;p&gt;Когда регистрировал этот домен, решил поискать альтернативы. На каком-то из форумов нашёл упоминание NameSilo.
 Условия мне понравились &amp;mdash; $8.99 как за регистрацию, так и за продление + бесплатный WHOIS Privacy.
@@ -235,7 +269,8 @@
 
 &lt;p&gt;P.S. Сам я свой купон (YARFS) попробовать не могу, надеюсь, что работает как надо.
 По идее, если вы делаете у них первый заказ (регистрация или трансфер) стоимостью дороже доллара &amp;mdash; должен примениться.
-В 2019 году будет недействителен, торопитесь :)&lt;/p&gt;</description>
+В 2019 году будет недействителен, торопитесь :)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -256,7 +291,8 @@
 &lt;p&gt;Что тут можно сказать &amp;mdash; будьте бдительны :) В принципе, если у вас всегда один уровень изоляции, вы в относительной безопасности. А чаще всего так и бывает &amp;mdash; мало кто задумывается об уровнях изоляции, отличных от дефолтных.
 А вот если уровней может быть несколько &amp;mdash; лучше их указывать явно всегда (одним из способов, перечисленных в KB).&lt;/p&gt;
 
-&lt;p&gt;Из забавного. В MSSQL 2014 это поведение починили, но потом спохватились и &lt;a href=&#39;https://support.microsoft.com/en-us/help/3025845/fix-the-transaction-isolation-level-is-reset-incorrectly-when-the-sql-server-connection-is-released-in-sql-server-2014&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;назвали такое изменение поведения ошибкой&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Из забавного. В MSSQL 2014 это поведение починили, но потом спохватились и &lt;a href=&#39;https://support.microsoft.com/en-us/help/3025845/fix-the-transaction-isolation-level-is-reset-incorrectly-when-the-sql-server-connection-is-released-in-sql-server-2014&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;назвали такое изменение поведения ошибкой&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -279,7 +315,8 @@
 (по концепции &lt;a href=&#39;https://jamstack.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;JAMstack&lt;/a&gt;).
 Подробности можно прочитать в &lt;a href=&#39;https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;оригинальной статье&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;В общем-то идея JAMstack мне импонирует &amp;mdash; читателям приятно, когда сайт не тормозит. А что-то быстрее статики придумать сложновато.&lt;/p&gt;</description>
+&lt;p&gt;В общем-то идея JAMstack мне импонирует &amp;mdash; читателям приятно, когда сайт не тормозит. А что-то быстрее статики придумать сложновато.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -288,11 +325,12 @@
       <pubDate>Thu, 16 Mar 2017 23:09:38 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-03/reactconf-2017/</guid>
-      <description>&lt;p&gt;Сегодня коротенько про новости &lt;a href=&#39;http://conf.reactjs.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ReactConf 2017&lt;/a&gt;, проходившей 13 и 14 марта.
+      <description>
+
+&lt;p&gt;Сегодня коротенько про новости &lt;a href=&#39;http://conf.reactjs.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ReactConf 2017&lt;/a&gt;, проходившей 13 и 14 марта.
 Основная новость &amp;mdash; в React 16 будет реализован алгоритм &lt;a href=&#39;https://github.com/acdlite/react-fiber-architecture/blob/master/README.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;React Fiber&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;И, что немаловажно, не придётся переписывать приложения на предыдущих версиях React под новую архитектуру. Привет, Angular 2 :)
-&lt;/p&gt;
+&lt;p&gt;И, что немаловажно, не придётся переписывать приложения на предыдущих версиях React под новую архитектуру. Привет, Angular 2 :)&lt;/p&gt;
 
 &lt;h3 id=&#34;вкратце-о-fiber&#34;&gt;Вкратце о Fiber&lt;/h3&gt;
 
@@ -322,7 +360,8 @@
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;render() can now return multiple components. Lots of applause for this. &lt;a href=&#34;https://twitter.com/hashtag/reactconf?src=hash&#34;&gt;#reactconf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rey Bango (@reybango) &lt;a href=&#34;https://twitter.com/reybango/status/841343678052368384&#34;&gt;March 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;</description>
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+</description>
     </item>
     
     <item>
@@ -331,7 +370,9 @@
       <pubDate>Fri, 10 Mar 2017 12:31:19 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-03/visual-studio-2017-and-dotnetcore/</guid>
-      <description>&lt;p&gt;Вы наверняка в курсе про &lt;a href=&#39;https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Visual Studio 2017&lt;/a&gt;.
+      <description>
+
+&lt;p&gt;Вы наверняка в курсе про &lt;a href=&#39;https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Visual Studio 2017&lt;/a&gt;.
 Если хочется читать на русском &amp;mdash; на Хабре есть более короткая статья &lt;a href=&#39;https://habrahabr.ru/company/microsoft/blog/323452/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Visual Studio 2017 и новые возможности инструментов от Microsoft&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Давайте сначала расскажу про позитивные вещи, про негатив потом.&lt;/p&gt;
@@ -366,7 +407,8 @@
 &lt;li&gt;Workloads &amp;mdash; &amp;ldquo;наборы инструментов&amp;rdquo;, для того, чтобы не устанавливать лишнее. Пока не попробовал, сложно судить насколько это полезнее того, что было раньше.&lt;/li&gt;
 &lt;li&gt;Attach to Process Filter и Reattach to Process &amp;mdash; удобно для отладки, когда приходиться аттачиться к процессу.&lt;/li&gt;
 &lt;li&gt;Run to Click &amp;mdash; возможно я чего-то не понимаю, но Ctrl+F10 делает то же самое. Для мышелюбов?&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -379,8 +421,7 @@
 Схема &amp;mdash; открыть &amp;ldquo;text visualizer&amp;rdquo;, выделить код, скопировать, вставить (по ситуации) в Notepad++ или Visual Studio &amp;mdash; надоела мне где-то через час.
 Вариант напрямую копировать значение не подходил из-за эскейпинга.&lt;/p&gt;
 
-&lt;p&gt;И я нашёл &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/e514eeby%28v=vs.140%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;приемлемое решение проблемы&lt;/a&gt;.
-&lt;/p&gt;
+&lt;p&gt;И я нашёл &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/e514eeby%28v=vs.140%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;приемлемое решение проблемы&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Всё, что нужно сделать &amp;mdash; добавить в Watch после переменной &amp;ldquo;,nq&amp;rdquo; &amp;mdash; после этого можно копировать текст по правой кнопке на значении в Watch (пункт Copy Value).
 Остальные варианты можно прочитать по ссылке выше. Вот то, что лично мне показалось полезным:&lt;/p&gt;
@@ -388,7 +429,8 @@
 &lt;ul&gt;
 &lt;li&gt;hidden &amp;mdash; сразу показывает и приватные поля/свойства;&lt;/li&gt;
 &lt;li&gt;results &amp;mdash; для IEnumerable показывает результат выполнения, то есть не потребуется разворачивать &amp;ldquo;Results View&amp;rdquo;, скажем, для результата Enumerable.Take.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -402,8 +444,7 @@
 
 &lt;p&gt;Вы наверняка слышали про &lt;a href=&#39;http://www.material-ui.com/#/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Material UI&lt;/a&gt; &amp;mdash; библиотеку, которая реализует принципы Material Design для React.
 Аналогично, есть реализация Ant Design &amp;mdash; &lt;a href=&#39;https://ant.design/docs/react/introduce&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ant Design of React&lt;/a&gt;.
-Подробно не смотрел, но выглядит красиво. Далее несколько восторженных отзывов про табличное представление.
-&lt;/p&gt;
+Подробно не смотрел, но выглядит красиво. Далее несколько восторженных отзывов про табличное представление.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#39;https://ant.design/components/table/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Компонент Table&lt;/a&gt; внешне мне весьма понравился.
 Лучше просто перейти по ссылке и посмотреть. Если вкратце, вот неполный список вкусняшек:&lt;/p&gt;
@@ -416,7 +457,8 @@
 &lt;li&gt;строки с детализацией, иерархические строки, вложенные таблицы.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;P.S. Возможно, вам будет интересно кто поддерживает разработку и использует Ant Design &amp;mdash; это, в первую очередь, Alibaba и Ant Financial (AliPay).&lt;/p&gt;</description>
+&lt;p&gt;P.S. Возможно, вам будет интересно кто поддерживает разработку и использует Ant Design &amp;mdash; это, в первую очередь, Alibaba и Ant Financial (AliPay).&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -425,9 +467,9 @@
       <pubDate>Fri, 17 Feb 2017 13:18:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/interesting-releases/</guid>
-      <description>&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
 
 &lt;h3 id=&#34;tensorflow-1-0&#34;&gt;TensorFlow 1.0&lt;/h3&gt;
 
@@ -465,7 +507,8 @@
 А в целом про нововведения для RC &lt;a href=&#39;https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-in-visual-studio&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Ещё, возможно, вам будет интересен &lt;a href=&#39;https://github.com/dotnet/core/blob/master/roadmap.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core Roadmap&lt;/a&gt;.
-В частности, в планах на третий квартал этого года .NET Core 2.0 и .NET Standard 2.0.&lt;/p&gt;</description>
+В частности, в планах на третий квартал этого года .NET Core 2.0 и .NET Standard 2.0.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -481,36 +524,8 @@
 &lt;p&gt;От себя могу добавить немного.&lt;/p&gt;
 
 &lt;p&gt;Если вкратце &amp;mdash; я рад. Было грустно читать об их проблемах, потому что сама концепция хорошая.
-Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>GVFS (Git Virtual File System)</title>
-      <link>https://yarfullstack.com/post/2017-02/gvfs/</link>
-      <pubDate>Mon, 06 Feb 2017 13:38:03 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2017-02/gvfs/</guid>
-      <description>&lt;p&gt;Microsoft &lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudioalm/2017/02/03/announcing-gvfs-git-virtual-file-system/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;анонсировала GVFS&lt;/a&gt;.&lt;br /&gt;
-Можно просто почитать статью по ссылке, далее просто короткое описание.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; В Microsoft обнаружили, что на больших репозиториях (пара сотен гигабайт) Git подтормаживает :)
-И написали виртуальную файловую систему, которая забирает файл только тогда, когда он действительно нужен.&lt;/p&gt;
-
-&lt;p&gt;Disclaimer: Холивар по поводу того, Git тормозит или NTFS оставим любителям холиваров.&lt;/p&gt;
-
-&lt;p&gt;В статье приводятся замеры &lt;strong&gt;для описанного кейса&lt;/strong&gt; (было/стало):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;clone: 12 часов/5 минут&lt;/li&gt;
-&lt;li&gt;checkout: 3 часа/30 секунд&lt;/li&gt;
-&lt;li&gt;status: 8 минут/4 секунды&lt;/li&gt;
-&lt;li&gt;commit: 30 минут/13 секунд&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
-
-&lt;p&gt;Если у вас похожий кейс с огромным репозиторием, рекомендую попробовать.
-Правда, сначала рекомендую задуматься &amp;mdash; правильно ли у вас организован репозиторий.&lt;/p&gt;</description>
+Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

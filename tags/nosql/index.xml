@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/nosql/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>NoSQL on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/nosql/</link>
+    <description>Recent content in NoSQL on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 08 Feb 2017 12:50:11 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/nosql/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -22,7 +23,8 @@
 &lt;p&gt;От себя могу добавить немного.&lt;/p&gt;
 
 &lt;p&gt;Если вкратце &amp;mdash; я рад. Было грустно читать об их проблемах, потому что сама концепция хорошая.
-Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;</description>
+Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

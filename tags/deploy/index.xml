@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/deploy/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>Deploy on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/deploy/</link>
+    <description>Recent content in Deploy on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 02 Apr 2017 19:42:19 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/deploy/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -21,12 +22,12 @@
 
 &lt;ul&gt;
 &lt;li&gt;В заголовке слово &amp;ldquo;оптимальный&amp;rdquo; относительно моей ситуации &amp;mdash; когда живёшь в России и временами регистрируешь домены в зоне &lt;strong&gt;.com&lt;/strong&gt;.&lt;/li&gt;
-&lt;li&gt;Ссылки реферальные (глядишь, не придётся за продление этого домена платить). Если кто-то из принципа по ним не ходит, можете вырезать параметр из URL :)
-
-Предыстория. Я не веду бизнес в сети, однако есть у меня пяток доменов, включая этот. Раньше я регистрировал их на GoDaddy.
-Потом (безотносительно кампании по бойкотированию GoDaddy) мне надоело сталкиваться с тем, что стоимость регистрации у них маленькая (если найдёшь купон),
-а вот продление (renewal) &amp;mdash; достаточно дорогое.&lt;/li&gt;
+&lt;li&gt;Ссылки реферальные (глядишь, не придётся за продление этого домена платить). Если кто-то из принципа по ним не ходит, можете вырезать параметр из URL :)&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;p&gt;Предыстория. Я не веду бизнес в сети, однако есть у меня пяток доменов, включая этот. Раньше я регистрировал их на GoDaddy.
+Потом (безотносительно кампании по бойкотированию GoDaddy) мне надоело сталкиваться с тем, что стоимость регистрации у них маленькая (если найдёшь купон),
+а вот продление (renewal) &amp;mdash; достаточно дорогое.&lt;/p&gt;
 
 &lt;p&gt;Когда регистрировал этот домен, решил поискать альтернативы. На каком-то из форумов нашёл упоминание NameSilo.
 Условия мне понравились &amp;mdash; $8.99 как за регистрацию, так и за продление + бесплатный WHOIS Privacy.
@@ -53,7 +54,8 @@
 
 &lt;p&gt;P.S. Сам я свой купон (YARFS) попробовать не могу, надеюсь, что работает как надо.
 По идее, если вы делаете у них первый заказ (регистрация или трансфер) стоимостью дороже доллара &amp;mdash; должен примениться.
-В 2019 году будет недействителен, торопитесь :)&lt;/p&gt;</description>
+В 2019 году будет недействителен, торопитесь :)&lt;/p&gt;
+</description>
     </item>
     
   </channel>

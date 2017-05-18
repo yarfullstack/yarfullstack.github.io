@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/html/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>HTML on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/html/</link>
+    <description>Recent content in HTML on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 04 Aug 2016 21:12:01 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,9 +16,11 @@
       <pubDate>Thu, 04 Aug 2016 21:12:01 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/</guid>
-      <description>&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
+      <description>
+
+&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
 Сначала &amp;mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
-Затем &amp;mdash; методы правильной работы с target=&amp;rdquo;_blank&amp;rdquo;. &lt;/p&gt;
+Затем &amp;mdash; методы правильной работы с target=&amp;rdquo;_blank&amp;rdquo;.&lt;/p&gt;
 
 &lt;h3 id=&#34;broken-link-checker&#34;&gt;broken-link-checker&lt;/h3&gt;
 
@@ -65,7 +68,8 @@ otherWindow.location = targetUrl;
 &lt;h4 id=&#34;возможные-проблемы-с-указанными-решениями&#34;&gt;Возможные проблемы с указанными решениями&lt;/h4&gt;
 
 &lt;p&gt;Да, стоит понимать, что для каких-то сайтов важно передавать referrer.
-Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;</description>
+Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
