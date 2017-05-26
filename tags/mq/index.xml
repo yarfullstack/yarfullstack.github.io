@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>MQ on YarFullStack</title>
-    <link>https://yarfullstack.com/tags/mq/</link>
-    <description>Recent content in MQ on YarFullStack</description>
+    <title>YarFullStack</title>
+    <link>https://yarfullstack.com/tags/mq/index.xml</link>
+    <description>Recent content on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 18 May 2017 22:39:11 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/mq/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -16,14 +15,12 @@
       <pubDate>Thu, 18 May 2017 22:39:11 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-05/message-queues/</guid>
-      <description>
-
-&lt;p&gt;Сегодня про очереди. В контексте кроликов и ноликов, как мы обычно с Максом говорим.
+      <description>&lt;p&gt;Сегодня про очереди. В контексте кроликов и ноликов, как мы обычно с Максом говорим.
 Ему, кстати, отдельное спасибо за &lt;a href=&#39;http://queues.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ссылку на Queues.io&lt;/a&gt;.
 Это сборник сведений по очередям как &lt;strong&gt;системам&lt;/strong&gt; (или, если сказать проще &amp;mdash; серверам очередей).
-То есть по тому, что можно запустить и начать использовать.&lt;/p&gt;
+То есть по тому, что можно запустить и начать использовать.
 
-&lt;p&gt;По этой причине там нет gRPC и Cap&amp;rsquo;n Proto (о котором далее). Зато там есть Кафка (и совсем не грефневая :).&lt;/p&gt;
+По этой причине там нет gRPC и Cap&amp;rsquo;n Proto (о котором далее). Зато там есть Кафка (и совсем не грефневая :).&lt;/p&gt;
 
 &lt;h3 id=&#34;релиз-cap-n-proto-0-6&#34;&gt;Релиз Cap&amp;rsquo;n Proto 0.6&lt;/h3&gt;
 
@@ -31,8 +28,7 @@
 Только, с одной стороны, у него нет хорошей поддержки большого набора платформ и языков, а с другой, есть достаточно интересные оптимизации.&lt;/p&gt;
 
 &lt;p&gt;Кстати, в &lt;a href=&#39;https://capnproto.org/news/2017-05-01-capnproto-0.6-msvc-json-http-more.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt;
-упоминается на этот раз полная поддержка Windows и Visual Studio. Только сразу огорчу любителей C# &amp;mdash; подразумевается C++.&lt;/p&gt;
-</description>
+упоминается на этот раз полная поддержка Windows и Visual Studio. Только сразу огорчу любителей C# &amp;mdash; подразумевается C++.&lt;/p&gt;</description>
     </item>
     
   </channel>

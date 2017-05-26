@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta name="generator" content="Hugo 0.16" />
+	<meta name="generator" content="Hugo 0.17" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
@@ -220,6 +220,57 @@
 	
 	<article>
 	<header>
+		<h2><a href="https://yarfullstack.com/post/2016-08/improve-npm-performance-with-progress-bar/">Улучшаем производительность npm-install нестандартным способом</a></h2>
+		<p>
+    <small class="u-m-right">
+        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
+        <time datetime='2016-08-06 15:04&#43;03:00'>06.08.2016, 15:04</time>
+    </small>
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Производительность</a>
+            
+        </small>
+        
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/tags/node.js">Node.js</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/performance">Performance</a>
+            
+        </small>
+        
+    
+</p>
+	</header>
+	<p>В последнее время всё чаще сталкиваюсь с разработкой на node.js.
+На работе использую версию LTS, по понятным причинам. Дома поставил 6.3.1.</p>
+
+<p>Идеологически мне больше нравится третий npm &mdash; всё-таки хранить дубликаты модулей, особенно когда их много &mdash; не здорово.
+Кстати, для старой версии ноды есть <a href='https://www.npmjs.com/package/npm3' rel="nofollow noopener noreferrer" target="_blank">модуль npm3</a> &mdash; позволяет
+(в лучших традициях партизан) использовать новый npm при установленном старом (только команды будут npm3 install и т.п.). Но сегодня речь не об этом.</p>
+	
+	<footer>
+		<a href="/post/2016-08/improve-npm-performance-with-progress-bar/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+			<use xlink:href="#angle-double-right-icon"></use>
+		</svg></a>
+	</footer>
+	
+</article>
+
+	
+	<article>
+	<header>
 		<h2><a href="https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/">Ищем битые ссылки и чиним target=&#34;_blank&#34;</a></h2>
 		<p>
     <small class="u-m-right">
@@ -255,8 +306,7 @@
 	</header>
 	<p>Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
 Сначала &mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
-Затем &mdash; методы правильной работы с target=&rdquo;_blank&rdquo;.</p>
-
+Затем &mdash; методы правильной работы с target=&rdquo;_blank&rdquo;. </p>
 	
 	<footer>
 		<a href="/post/2016-08/find-broken-links-and-fix-target-blank/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -308,9 +358,6 @@
 	</header>
 	<p>На этой неделе прочитал интереснейшую статью от инженеров Uber: <a href='https://eng.uber.com/mysql-migration/' rel="nofollow noopener noreferrer" target="_blank">Why Uber Engineering Switched from Postgres to MySQL</a>.
 Ayende, чуть позже, написал <a href='https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql' rel="nofollow noopener noreferrer" target="_blank">неплохие комментарии по этой теме</a>.</p>
-
-<p>TL;DR Можете использовать любую СУБД, только знайте её сильные и слабые стороны.</p>
-
 	
 	<footer>
 		<a href="/post/2016-07/Uber-Postgres&#43;MySQL/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -360,8 +407,8 @@ Ayende, чуть позже, написал <a href='https://ayende.com/blog/175
 Напомню, он, с помощью PhantomJS, рендерит страницы и выполняет JavaScript, ищет используемые классы и удаляет остальные.</p>
 
 <p>Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
-Также можно использовать его API из Node.js или вызывать из командной строки.</p>
-
+Также можно использовать его API из Node.js или вызывать из командной строки.
+Подробности есть на <a href='https://github.com/giakki/uncss' rel="nofollow noopener noreferrer" target="_blank">странице проекта</a>.</p>
 	
 	<footer>
 		<a href="/post/2016-07/uncss/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -374,7 +421,7 @@ Ayende, чуть позже, написал <a href='https://ayende.com/blog/175
 	
 	<article>
 	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/">Обновление Microsoft Visual Studio (KB3165756)</a></h2>
+		<h2><a href="https://yarfullstack.com/post/2016-07/visual-studio/">Обновление Microsoft Visual Studio (KB3165756)</a></h2>
 		<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
@@ -413,10 +460,9 @@ Ayende, чуть позже, написал <a href='https://ayende.com/blog/175
 
 <p>Про мои впечатления от апдейта можно прочитать далее (что совсем необязательно, признаюсь &mdash; есть небольшой баг в настройке движка для блога,
 если я не поставлю эту ссылку &mdash; с главной пропадёт форматирование :)</p>
-
 	
 	<footer>
-		<a href="/post/2016-07/visual-studio.KB3165756/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+		<a href="/post/2016-07/visual-studio/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 			<use xlink:href="#angle-double-right-icon"></use>
 		</svg></a>
 	</footer>
@@ -463,14 +509,7 @@ Ayende, чуть позже, написал <a href='https://ayende.com/blog/175
     
 </p>
 	</header>
-	<p>Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.</p>
-
-<ul>
-<li>Рекомендации по дизайну хороших и удобных форм;</li>
-<li>Визуальные отличия грядущего Bootstrap 4 от Bootstrap 3;</li>
-<li>Интересное исследование впечатлений пользователей мобильных устройств о сайтах.</li>
-</ul>
-
+	
 	
 	<footer>
 		<a href="/post/2016-07/design-recommendations-and-bootstrap4/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -523,7 +562,6 @@ Ayende, чуть позже, написал <a href='https://ayende.com/blog/175
 
 <p>Да, вероятно я перфекционист, однако я не могу спокойно смотреть на мегабайтные картинки и сайты, загружающиеся дольше секунды при нормальном соединении.
 Правда, этот сайт я пока не оптимизировал на все 100%, но в этом случае я рисковал начать писать сюда в следующем году :)</p>
-
 	
 	<footer>
 		<a href="/post/2016-07/site-optimization-tools/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -571,15 +609,6 @@ Ayende, чуть позже, написал <a href='https://ayende.com/blog/175
 Для тех, кто впервые слышит это странное слово &mdash; речь про библиотеку для визуализации в браузере.
 Строго говоря, это больше чем библиотека для визуализации &mdash; с помощью D3 можно манипулировать DOM (можно сказать, что в ней есть подмножество функциональности jQuery).
 Однако, в основном, её используют именно для визуализации.</p>
-
-<p>Итак, сегодня:</p>
-
-<ul>
-<li>Немного про NVD3;</li>
-<li>Кратко об изменениях в четвёртой версии D3;</li>
-<li>Интересная библиотека MetricsGraphics.js</li>
-</ul>
-
 	
 	<footer>
 		<a href="/post/2016-06/d3/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -636,9 +665,9 @@ Ayende, чуть позже, написал <a href='https://ayende.com/blog/175
 <ul>
 <li>Основные анонсы dotnetConf 2016;</li>
 <li>Статья с хорошим примером и описанием подхода к оптимизации производительности от Джона Скита;</li>
-<li>Немного про тёмную сторону async/await :)</li>
-</ul>
 
+<li><p>Немного про тёмную сторону async/await :)
+</p>
 	
 	<footer>
 		<a href="/post/2016-06/dotNET/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
@@ -688,56 +717,9 @@ Ayende, чуть позже, написал <a href='https://ayende.com/blog/175
 
 <p>Прочитал на днях статью <a href='http://csswizardry.com/2016/05/the-importance-of-important/' rel="nofollow noopener noreferrer" target="_blank">The Importance of !important: Forcing Immutability in CSS</a>.
 Если вкратце &mdash; не так уж бесполезен и вреден !important.</p>
-
 	
 	<footer>
 		<a href="/post/2016-06/css/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/about/">О проекте YarFullStack</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-06-15 20:13&#43;03:00'>15.06.2016, 20:13</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5">Общее</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/yarfullstack">YarFullStack</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Проект YarFullStack прежде всего, про технологии, связанные с разработкой программного обеспечения.
-Темы могут быть совершенно разными &mdash; UX, CSS, JavaScript, Go, C#, SQL…</p>
-
-	
-	<footer>
-		<a href="/post/about/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 			<use xlink:href="#angle-double-right-icon"></use>
 		</svg></a>
 	</footer>
@@ -751,10 +733,10 @@ Ayende, чуть позже, написал <a href='https://ayende.com/blog/175
 	<a href="/page/4/"><svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 		<use xlink:href="#chevron-left-icon"></use>
 	</svg></a>
-	&nbsp;5 / 5&nbsp;
-	<svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+	&nbsp;5 / 6&nbsp;
+	<a href="/page/6/"><svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 		<use xlink:href="#chevron-right-icon"></use>
-	</svg>
+	</svg></a>
 	
 </nav>
 
