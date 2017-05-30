@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/csharp/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>CSharp on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/csharp/</link>
+    <description>Recent content in CSharp on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 03 Feb 2017 12:31:41 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/csharp/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,9 +16,11 @@
       <pubDate>Fri, 03 Feb 2017 12:31:41 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/news/</guid>
-      <description>&lt;p&gt;Немного новостей про Visual Studio Code, .NET, Go и прочее.&lt;/p&gt;
+      <description>
 
-&lt;h3 id=&#34;vs-code-net&#34;&gt;VS Code + .NET&lt;/h3&gt;
+&lt;p&gt;Немного новостей про Visual Studio Code, .NET, Go и прочее.&lt;/p&gt;
+
+&lt;h2 id=&#34;vs-code-net&#34;&gt;VS Code + .NET&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#39;https://code.visualstudio.com/updates/v1_9&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз VS Code 1.9&lt;/a&gt; &amp;mdash; много доработок, в т.ч. для TypeScript.&lt;/li&gt;
@@ -25,21 +28,20 @@
 &lt;li&gt;&lt;a href=&#39;https://github.com/dotnet/csharplang&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The official repo for the design of the C# programming language&lt;/a&gt; &amp;mdash; теперь здесь.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;go&#34;&gt;Go&lt;/h3&gt;
+&lt;h2 id=&#34;go&#34;&gt;Go&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#39;https://groups.google.com/forum/#!msg/golang-dev/G09HaWfMl6g/74v1cFGlAwAJ&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Go 1.8 / Go 1.9 Schedule Update&lt;/a&gt; &amp;mdash; выпуск 1.8 планируется на 14-16 февраля.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;https://blog.codeship.com/comparing-elixir-go/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Comparing Elixir and Go&lt;/a&gt; &amp;mdash; автор без фанатизма и достаточно качественно сравнивает оба языка (вкупе с инфраструктурой).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;прочее&#34;&gt;Прочее&lt;/h3&gt;
+&lt;h2 id=&#34;прочее&#34;&gt;Прочее&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#39;https://nodejs.org/en/blog/release/v7.5.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз Node.js 7.5&lt;/a&gt; (на всякий случай напомню, что не LTS).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;http://mithril.js.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз Mithril 1.0&lt;/a&gt; &amp;mdash; кто не в курсе, это небольшой и шустрый фреймворк для SPA (самому не доводилось пробовать).&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -48,13 +50,15 @@
       <pubDate>Thu, 13 Oct 2016 21:46:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</guid>
-      <description>&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
+      <description>
+
+&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
 Довелось. Сейчас поделюсь. Только уточню, что пока это впечатления с хакатона, там не будет махрового энтерпрайза, повального контроля с аудитом и тому подобного.&lt;/p&gt;
 
 &lt;p&gt;В вопросу о хакатоне. Делал небольшую инфраструктуру для того, чтобы сделать немного счастливее наших тестировщиков.
 И разработчиков, конечно, но в исторической перспективе.&lt;/p&gt;
 
-&lt;h3 id=&#34;техническая-концепция&#34;&gt;Техническая концепция&lt;/h3&gt;
+&lt;h2 id=&#34;техническая-концепция&#34;&gt;Техническая концепция&lt;/h2&gt;
 
 &lt;p&gt;Концепция была простая &amp;mdash; плагины к браузерам для упрощения заведения багов и набор сервисов (строго говоря &amp;mdash; пока это консольные приложения).
 Цели &amp;mdash; быстро сделать прототип, получив при этом удовольствие от исследования сравнительно новых для меня технологий.
@@ -70,7 +74,7 @@
 &lt;li&gt;&lt;strong&gt;Deployer&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на компьютере разработчика. Умеет восстанавливать бэкапы (без PackDb тоже не обошлось).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;что-было-использовано&#34;&gt;Что было использовано&lt;/h3&gt;
+&lt;h2 id=&#34;что-было-использовано&#34;&gt;Что было использовано&lt;/h2&gt;
 
 &lt;p&gt;Как видите, у меня был небольшой зоопарк из плагина к Chrome (сейчас в процессе плагин к IE), три приложения на Go и три на .NET.
 Всем им, естественно, хотелось между собой общаться (ладно, не всем, но я заставил почти всех :)&lt;/p&gt;
@@ -80,7 +84,7 @@
 По большому счёту, это потребовалось только для &amp;ldquo;session&amp;rdquo; (чтобы плагин мог получать и записывать необходимые данные) и для &amp;ldquo;bot&amp;rdquo;
 (Rocket.Chat пока тоже не умеет gRPC).&lt;/p&gt;
 
-&lt;h3 id=&#34;что-понравилось&#34;&gt;Что понравилось&lt;/h3&gt;
+&lt;h2 id=&#34;что-понравилось&#34;&gt;Что понравилось&lt;/h2&gt;
 
 &lt;p&gt;Описание сервисов в proto-файлах. Действительно, описание &amp;ldquo;как бы контракта&amp;rdquo; в отдельном файле мотивирует думать над API, пока его пишешь
 (хотя protobuf v3 сравнительно толерантен к изменению API). Нравится, что есть в явном виде &amp;ldquo;сообщение&amp;rdquo;, а не набор параметров. Маленький пример:
@@ -121,7 +125,7 @@ central.Register(new Agent
 &lt;p&gt;И ещё (это субъективно, конечно) &amp;mdash; эстетическое удовольствие от названия командного файла generate_&lt;strong&gt;protos&lt;/strong&gt;.bat :)
 С ним, пожалуй, сравнится разве что использование хранилища &amp;ldquo;bolt&amp;rdquo; для &amp;ldquo;session&amp;rdquo;.&lt;/p&gt;
 
-&lt;h3 id=&#34;что-не-понравилось&#34;&gt;Что не понравилось&lt;/h3&gt;
+&lt;h2 id=&#34;что-не-понравилось&#34;&gt;Что не понравилось&lt;/h2&gt;
 
 &lt;p&gt;Не понравилось то, что падает в runtime, когда передаёшь null в поле сообщения. Столкнулся с этим, когда передавал строки на C#
 (в Go строки и так по умолчанию &amp;ldquo;&amp;rdquo; &amp;mdash; там такой проблемы нет). Лечится, конечно, инциализацией в пустую строку. Но осадок остался.&lt;/p&gt;
@@ -129,9 +133,10 @@ central.Register(new Agent
 &lt;p&gt;Не столкнулся, но заочно не нравится &lt;a href=&#39;http://www.grpc.io/docs/guides/auth.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;скудный набор вариантов аутентификации из коробки&lt;/a&gt; (либо SSL/TLS, либо гугловый OAuth2).
 Понятно, что можно реализовать свой (возможно сейчас уже плодятся проекты на GitHub, которые это делают), но хотелось бы что-то &lt;del&gt;тёплое, ламповое&lt;/del&gt; коробочное&amp;hellip;&lt;/p&gt;
 
-&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
 
-&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;</description>
+&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -140,13 +145,15 @@ central.Register(new Agent
       <pubDate>Sun, 18 Sep 2016 14:54:10 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/grpc-first-steps/</guid>
-      <description>&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
+      <description>
+
+&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
 Сегодня я расскажу о том, что это такое и почему стоит, как минимум, обратить на это внимание.
 А потом расскажу, как посмотреть его в работе, используя стандартные примеры.&lt;/p&gt;
 
 &lt;p&gt;Чтобы не было скучно от слова &amp;ldquo;стандартные&amp;rdquo;, мы будем обращаться к серверу на Go из клиента на C#.
 В принципе, можно реализовать любые комбинации из языков программирования, которые поддерживаются gRPC.
-Кстати, вот список поддерживаемых платформ и ЯП: &lt;/p&gt;
+Кстати, вот список поддерживаемых платформ и ЯП:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;C++&lt;/li&gt;
@@ -330,7 +337,8 @@ RouteGuideClient.exe
 &lt;p&gt;Моё личное мнение &amp;mdash; gRPC обязательно стоит попробовать, если вы делаете микросервисы и не сильно привязаны к альтернативам.
 Альтернативы, на мой взгляд &amp;ndash; Apache Thrift и Cap&amp;rsquo;n Proto. Правда, слышал, что некоторые мигрируют с Apache Thrift на gRPC&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;</description>
+&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -339,7 +347,9 @@ RouteGuideClient.exe
       <pubDate>Thu, 18 Aug 2016 22:36:28 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</guid>
-      <description>&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
 
 &lt;p&gt;Вообще говоря, я раньше много раз сталкивался с распределёнными транзакциями.
 В какой-то момент я окончательно сформировал своё мнение по этой теме. Получилось что-то вроде: &amp;ldquo;хватит, я не буду их использовать вообще, разве что в ход со стороны оппонента пойдут огнестрельное оружие и прочие нечестные аргументы&amp;rdquo;.&lt;/p&gt;
@@ -348,14 +358,14 @@ RouteGuideClient.exe
 свелось к его использованию в интеграционных тестах (без распределённой составляющей, просто для удобного отката транзакций)
  и редким спорам с коллегами. Но сегодня, внезапно&amp;hellip;&lt;/p&gt;
 
-&lt;h3 id=&#34;разговор-на-работе&#34;&gt;Разговор на работе&lt;/h3&gt;
+&lt;h2 id=&#34;разговор-на-работе&#34;&gt;Разговор на работе&lt;/h2&gt;
 
 &lt;p&gt;Вообще говоря, в появлении этого текста на свет основная заслуга Макса (&lt;a href=&#39;https://twitter.com/force_net&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;@force_net&lt;/a&gt;).
 С ним сегодня сначала говорили про &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/tcbchxcb%28v=vs.110%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Snapshot Isolation&lt;/a&gt;,
 потом перешли на TransactionScope. И говорит Макс &amp;mdash; &lt;strong&gt;&amp;ldquo;там ведь Serializable по умолчанию&amp;rdquo;.&lt;/strong&gt;&lt;br /&gt;
 Я говорю &amp;mdash; &amp;ldquo;да ладно, нелогично же &amp;mdash; без него Read Committed по умолчанию&amp;rdquo;. Так, слово за слово, решили проверить.&lt;/p&gt;
 
-&lt;h3 id=&#34;лирическое-отступление&#34;&gt;Лирическое отступление&lt;/h3&gt;
+&lt;h2 id=&#34;лирическое-отступление&#34;&gt;Лирическое отступление&lt;/h2&gt;
 
 &lt;p&gt;На случай, если вы мало сталкивались с БД, про уровни изоляции есть вполне сносная, хотя не всем с первого раза понятная документация.
 Поэтому лучше дам ссылку на &lt;a href=&#39;https://en.wikipedia.org/wiki/Isolation_%28database_systems%29&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;общее описание от википедии&lt;/a&gt;.&lt;/p&gt;
@@ -366,7 +376,7 @@ RouteGuideClient.exe
 
 &lt;p&gt;Постараюсь чуть позже написать более подробную статью на тему уровней изоляции.&lt;/p&gt;
 
-&lt;h3 id=&#34;результаты-проверки&#34;&gt;Результаты проверки&lt;/h3&gt;
+&lt;h2 id=&#34;результаты-проверки&#34;&gt;Результаты проверки&lt;/h2&gt;
 
 &lt;p&gt;Как я уже говорил, TransactionScope пользовался давно и редко. Поэтому я несколько удивился, увидев подтверждение упомянутому феномену.
 Сказал я Максу что-то вроде &amp;mdash; &amp;ldquo;с чего-бы высокомудрые архитекторы и разработчики такой нетрадиционный способ обратной совместимости выбрали?&amp;rdquo;.&lt;/p&gt;
@@ -377,7 +387,7 @@ RouteGuideClient.exe
 слов &amp;ldquo;по умолчанию использует уровень изоляции Serializable&amp;rdquo; большими красными буквами?
 &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/system.transactions.transactionscope%28v=vs.110%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;В документации класса &lt;/a&gt; вообще Serializable не упомянули :(&lt;/p&gt;
 
-&lt;h3 id=&#34;выводы&#34;&gt;Выводы&lt;/h3&gt;
+&lt;h2 id=&#34;выводы&#34;&gt;Выводы&lt;/h2&gt;
 
 &lt;p&gt;Если вы подсели на &amp;ldquo;синтаксическое сладкое&amp;rdquo;, любите async/await (предпочитая не погружаться в детали его работы) и используете
 TransactionScope из коробки в production &amp;mdash; ваше дело. Я больше скажу, даже MS DTC вы можете использовать из приложения в ASP.NET.
@@ -385,7 +395,8 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
 
 &lt;p&gt;Однако, &lt;strong&gt;подумайте над переопределением уровня изоляции транзакций для TransactionScope.&lt;/strong&gt;
 Разумеется, я согласен, что для каких-то решений Serializable будет правильным выбором.
-Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;</description>
+Главное, чтобы выбор был осознанным&amp;hellip;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -394,17 +405,17 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
       <pubDate>Fri, 24 Jun 2016 12:31:11 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-06/dotNET/</guid>
-      <description>&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Основные анонсы dotnetConf 2016;&lt;/li&gt;
 &lt;li&gt;Статья с хорошим примером и описанием подхода к оптимизации производительности от Джона Скита;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Немного про тёмную сторону async/await :)
-&lt;/p&gt;
-
-&lt;h3 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;Немного про тёмную сторону async/await :)&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h2&gt;
 
 &lt;p&gt;Для многих самым ожидаемым событием июня будет релиз .NET Core и ASP.NET Core 1.0 &lt;strong&gt;27 июня 2016 года.&lt;/strong&gt;
 Для тех, кто использует .NET и вообще не в курсе что это такое &amp;mdash; &lt;a href=&#39;https://dotnet.github.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;рекомендую ознакомиться&lt;/a&gt;.&lt;/p&gt;
@@ -415,12 +426,12 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
 &lt;p&gt;Скотт Хансельман рассказал про &lt;a href=&#39;http://www.dotnetfoundation.org/blog/cake-welcome&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Cake&lt;/a&gt; &amp;mdash;
 новую систему для билдов. Я пока не вижу, где лично мне было бы полезно на неё перейти, однако, может и приживётся. Наверняка понравится тем, кому нравится Powershell.&lt;/p&gt;
 
-&lt;h3 id=&#34;джон-скит-о-производительности&#34;&gt;Джон Скит о производительности&lt;/h3&gt;
+&lt;h2 id=&#34;джон-скит-о-производительности&#34;&gt;Джон Скит о производительности&lt;/h2&gt;
 
 &lt;p&gt;В статье &lt;a href=&#39;https://codeblog.jonskeet.uk/2016/06/09/tracking-down-a-performance-hit/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tracking down a performance hit&lt;/a&gt;
 Джон Скит подробно описывает подход к поиску &amp;ldquo;бутылочных горлышек&amp;rdquo; и улучшению производительности. Заодно он нашёл баг в .NET Core и NUnit :)&lt;/p&gt;
 
-&lt;h3 id=&#34;тёмная-сторона-async-await&#34;&gt;Тёмная сторона async/await&lt;/h3&gt;
+&lt;h2 id=&#34;тёмная-сторона-async-await&#34;&gt;Тёмная сторона async/await&lt;/h2&gt;
 
 &lt;p&gt;Если вы активно используете async/await проверьте себя и скажите, что выведет следующий код:&lt;/p&gt;
 
@@ -431,7 +442,8 @@ TransactionScope из коробки в production &amp;mdash; ваше дело
 Console.WriteLine(&#34;B&#34;);
 &lt;/div&gt;
 
-&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

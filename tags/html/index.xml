@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/html/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>HTML on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/html/</link>
+    <description>Recent content in HTML on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 04 Aug 2016 21:12:01 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,11 +16,13 @@
       <pubDate>Thu, 04 Aug 2016 21:12:01 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/</guid>
-      <description>&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
-Сначала &amp;mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
-Затем &amp;mdash; методы правильной работы с target=&amp;rdquo;_blank&amp;rdquo;. &lt;/p&gt;
+      <description>
 
-&lt;h3 id=&#34;broken-link-checker&#34;&gt;broken-link-checker&lt;/h3&gt;
+&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
+Сначала &amp;mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
+Затем &amp;mdash; методы правильной работы с target=&amp;rdquo;_blank&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;broken-link-checker&#34;&gt;broken-link-checker&lt;/h2&gt;
 
 &lt;p&gt;На днях прочитал  &lt;a href=&#39;https://davidwalsh.name/broken-link-checker&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью Дэвида Уолша&lt;/a&gt;
  про &lt;a href=&#39;https://github.com/stevenvachon/broken-link-checker&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;broken-link-checker&lt;/a&gt;.
@@ -28,9 +31,9 @@
 &lt;p&gt;Если вкратце, это утилита (на Node.js), которую можно натравить на сайт и найти битые ссылки.
 Можно использовать либо через Javascript API, либо из командной строки.&lt;/p&gt;
 
-&lt;h3 id=&#34;как-сделать-target-blank-безопасным-и-производительным&#34;&gt;Как сделать target=&amp;rdquo;_blank&amp;rdquo; безопасным и производительным&lt;/h3&gt;
+&lt;h2 id=&#34;как-сделать-target-blank-безопасным-и-производительным&#34;&gt;Как сделать target=&amp;rdquo;_blank&amp;rdquo; безопасным и производительным&lt;/h2&gt;
 
-&lt;h4 id=&#34;про-безопасность&#34;&gt;Про безопасность&lt;/h4&gt;
+&lt;h3 id=&#34;про-безопасность&#34;&gt;Про безопасность&lt;/h3&gt;
 
 &lt;p&gt;Скорее всего, вы уже прочитали &lt;a href=&#39;https://habrahabr.ru/post/282880/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью Опасный target=&amp;#34;_blank&amp;#34;&lt;/a&gt;
  про проблемы с ним с точки зрения безопасности. Ежели нет, то, в двух словах, вредоносный (или взломанный) сайт
@@ -54,7 +57,7 @@ otherWindow.location = targetUrl;
 
 &lt;p&gt;Лично я для этого сайта выбрал первый вариант.&lt;/p&gt;
 
-&lt;h4 id=&#34;про-производительность&#34;&gt;Про производительность&lt;/h4&gt;
+&lt;h3 id=&#34;про-производительность&#34;&gt;Про производительность&lt;/h3&gt;
 
 &lt;p&gt;Однако на этом история не заканчивается.
 &lt;a href=&#39;https://jakearchibald.com/2016/performance-benefits-of-rel-noopener/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Статья Джейка Арчибальда&lt;/a&gt; рассказывает о том,
@@ -62,10 +65,11 @@ otherWindow.location = targetUrl;
 
 &lt;p&gt;Думаю, ваши пользователи оценят вашу заботу и об их комфорте, и об их безопасности.&lt;/p&gt;
 
-&lt;h4 id=&#34;возможные-проблемы-с-указанными-решениями&#34;&gt;Возможные проблемы с указанными решениями&lt;/h4&gt;
+&lt;h3 id=&#34;возможные-проблемы-с-указанными-решениями&#34;&gt;Возможные проблемы с указанными решениями&lt;/h3&gt;
 
 &lt;p&gt;Да, стоит понимать, что для каких-то сайтов важно передавать referrer.
-Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;</description>
+Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

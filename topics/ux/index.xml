@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/topics/ux/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>UX on YarFullStack</title>
+    <link>https://yarfullstack.com/topics/ux/</link>
+    <description>Recent content in UX on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 27 Jan 2017 11:22:58 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/ux/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,10 +16,12 @@
       <pubDate>Fri, 27 Jan 2017 11:22:58 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-01/ux-articles/</guid>
-      <description>&lt;p&gt;У меня накопилось много интересных ссылок, подробно описывать каждую утомительно.
+      <description>
+
+&lt;p&gt;У меня накопилось много интересных ссылок, подробно описывать каждую утомительно.
 Поэтому, я просто оставлю это здесь.&lt;/p&gt;
 
-&lt;h3 id=&#34;фундаментальное&#34;&gt;Фундаментальное&lt;/h3&gt;
+&lt;h2 id=&#34;фундаментальное&#34;&gt;Фундаментальное&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Основы и отличия персонализации и кастомизации: &lt;a href=&#39;https://www.nngroup.com/articles/customization-personalization/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Customization vs. Personalization in the User Experience&lt;/a&gt;.&lt;/li&gt;
@@ -26,14 +29,14 @@
 &lt;li&gt;&lt;a href=&#39;https://habrahabr.ru/company/mailru/blog/307556/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Планирование юзабилити-тестирования. Часть 1&lt;/a&gt;, &lt;a href=&#39;https://habrahabr.ru/company/mailru/blog/308054/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Планирование юзабилити-тестирования. Часть 2&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;прикладное&#34;&gt;Прикладное&lt;/h3&gt;
+&lt;h2 id=&#34;прикладное&#34;&gt;Прикладное&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Полезные советы по использованию иконок: &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Краткий обзор процессов и инструментов для прототипирования: &lt;a href=&#39;https://blog.prototypr.io/14-prototyping-tools-how-each-can-be-used-1c804fab33a6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;16 Prototyping Tools &amp;amp; How Each Can Be Used&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;css-feature-queries&#34;&gt;CSS feature queries&lt;/h3&gt;
+&lt;h2 id=&#34;css-feature-queries&#34;&gt;CSS feature queries&lt;/h2&gt;
 
 &lt;p&gt;А вы знаете, что в свежих браузерах можно определять, поддерживают ли они фичи CSS?
 Встречайте CSS feature queries (@supports):&lt;/p&gt;
@@ -44,12 +47,13 @@
 &lt;li&gt;&lt;a href=&#39;https://hacks.mozilla.org/2016/08/using-feature-queries-in-css/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Using Feature Queries in CSS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;оригинальное&#34;&gt;Оригинальное&lt;/h3&gt;
+&lt;h2 id=&#34;оригинальное&#34;&gt;Оригинальное&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Где может быть удобен интерфейс командной строки: &lt;a href=&#39;http://boxesandarrows.com/heres-what-may-sound-like-a-crazy-idea/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Here’s What May Sound Like a Crazy Idea&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;http://www.heydonworks.com/article/on-writing-less-damn-code&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Writing Less Damn Code&lt;/a&gt; (перевод: &lt;a href=&#39;https://habrahabr.ru/post/308308/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Пишите меньше кода, блин&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -58,16 +62,17 @@
       <pubDate>Sun, 13 Nov 2016 18:32:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</guid>
-      <description>&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
 
 &lt;p&gt;Как вы уже знаете, мне нравятся быстрые сайты. Летом я уже делился &lt;a href=&#34;https://yarfullstack.com/post/2016-07/site-optimization-tools/&#34;&gt;набором инструментов для оптимизации сайтов&lt;/a&gt;.
 Однако, есть пара несложных приёмов, первый из которых эти инструменты вряд ли когда-нибудь догадаются посоветовать.&lt;/p&gt;
 
 &lt;p&gt;Начнём с самого простого в &lt;em&gt;реализации&lt;/em&gt; способа.
-Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.
-&lt;/p&gt;
+Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.&lt;/p&gt;
 
-&lt;h3 id=&#34;быстрая-загрузка-шрифтов&#34;&gt;Быстрая загрузка шрифтов&lt;/h3&gt;
+&lt;h2 id=&#34;быстрая-загрузка-шрифтов&#34;&gt;Быстрая загрузка шрифтов&lt;/h2&gt;
 
 &lt;p&gt;Безусловно, вам может пригодиться статья &lt;a href=&#39;https://www.filamentgroup.com/lab/font-events.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;How We Load Web Fonts Progressively&lt;/a&gt;.
 Или, более фундаментальная &lt;a href=&#39;https://www.zachleat.com/web/comprehensive-webfonts/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;A Comprehensive Guide to Font Loading Strategies&lt;/a&gt;.
@@ -108,7 +113,7 @@
 &amp;mdash; с учётом частоты смены системных шрифтов и критичности этой задачи.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;загрузка-картинок-в-зависимости-от-разрешения-с-помощью-srcset&#34;&gt;Загрузка картинок в зависимости от разрешения с помощью srcset&lt;/h3&gt;
+&lt;h2 id=&#34;загрузка-картинок-в-зависимости-от-разрешения-с-помощью-srcset&#34;&gt;Загрузка картинок в зависимости от разрешения с помощью srcset&lt;/h2&gt;
 
 &lt;p&gt;Если вкратце, этот способ позволяет не грузить на маленькие смартфончики ваши картинища, оптимизированные для Retina :)&lt;/p&gt;
 
@@ -144,7 +149,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 
 &lt;p&gt;Да, чуть не забыл, вроде в HTML 5.1 для &amp;lt;picture&amp;gt; тоже будет нормально работать srscset. Just FYI.&lt;/p&gt;
 
-&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
 
 &lt;p&gt;Подумайте, что ещё вы можете сделать для ваших пользователей. Может, есть что-то, что не особо нужно никому кроме вас самих,
 а без этого сайт станет немного легче и удобнее?&lt;/p&gt;
@@ -152,7 +157,8 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Например, я лично стараюсь держать себя в руках и, несмотря на многочисленные рекомендации, не добавлять КПДВ к статьям :)&lt;/p&gt;
 
 &lt;p&gt;Ещё в планах выбрать другой вариант обратной связи и отстрелить этот тормозной Disqus&amp;hellip;
-Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;</description>
+Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -161,7 +167,9 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Thu, 20 Oct 2016 21:46:43 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</guid>
-      <description>&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
+      <description>
+
+&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
 Сначала увидел ссылку в комментарии к другой статье на хабре, потом ещё пара человек мне ссылку на перевод прислали.&lt;/p&gt;
 
 &lt;p&gt;Что характерно, поскольку сама статья и анимация достаточно грамотная, у многих возникает ощущение &amp;ldquo;круто! давайте &lt;strong&gt;всё&lt;/strong&gt; так сделаем&amp;rdquo;.
@@ -170,9 +178,9 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Собственно, о чём речь? Речь о том, что в идеале, пользователь должен быть избавлен от лишней информации и &amp;ldquo;визуального шума&amp;rdquo;.
 С этим я согласен более чем абсолютно. Только всё хорошо в меру. Что предлагают авторы?&lt;/p&gt;
 
-&lt;p&gt;Давайте посмотрим.
+&lt;p&gt;Давайте посмотрим.&lt;/p&gt;
 
-&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
+&lt;p&gt;&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
     srcset=&#34;https://yarfullstack.com/img/clear-off-the-table.gif 800w, https://yarfullstack.com/img/clear-off-the-table-small.gif 400w&#34;
     sizes=&#34;(min-width: 1280px) 800px, (max-width: 1280px) and (min-width: 1024px) 600px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
 
@@ -190,7 +198,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 
 &lt;p&gt;Что касается &amp;ldquo;зебры&amp;rdquo; и линий &amp;mdash; иногда что-то из этого придётся оставить, особенно когда много столбцов и строк (и не всегда работает вариант &amp;ldquo;не делайте много столбцов и строк&amp;rdquo;).&lt;/p&gt;
 
-&lt;h3 id=&#34;про-диаграммы-и-графики&#34;&gt;Про диаграммы и графики&lt;/h3&gt;
+&lt;h2 id=&#34;про-диаграммы-и-графики&#34;&gt;Про диаграммы и графики&lt;/h2&gt;
 
 &lt;p&gt;В том же блоге есть не менее впечатляющая статья &lt;a href=&#39;http://blog.darkhorseanalytics.com/data-looks-better-naked&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Data Looks Better Naked&lt;/a&gt;.
 Всё сказанное выше применимо и к этой статье (быть может, в чуть меньшей степени).&lt;/p&gt;
@@ -199,12 +207,13 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
     srcset=&#34;https://yarfullstack.com/img/data-ink.gif 640w, https://yarfullstack.com/img/data-ink-small.gif 320w&#34;
     sizes=&#34;(min-width: 1024px) 640px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;мои-личные-рекомендации&#34;&gt;Мои личные рекомендации&lt;/h3&gt;
+&lt;h2 id=&#34;мои-личные-рекомендации&#34;&gt;Мои личные рекомендации&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Думайте :)&lt;/li&gt;
 &lt;li&gt;Если интересно глубокое погружение в тему &amp;mdash; почитайте Тафти. Потом мне расскажете :)&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
@@ -214,7 +223,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       
       <guid>https://yarfullstack.com/post/2016-10/ux-icons/</guid>
       <description>&lt;p&gt;Недавно прочитал статью &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.
-Понравилась. Вроде всё по делу. Делюсь кратким содержанием. &lt;/p&gt;
+Понравилась. Вроде всё по делу. Делюсь кратким содержанием.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Чтобы иконки были полезными, их назначение должно быть понятно пользователю. Рекомендуется правило 5 секунд (если дольше думаешь над тем, что она значит =&amp;gt; не подходит).&lt;/li&gt;
@@ -223,7 +232,8 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;На иконки должно быть удобно нажимать (должны быть достаточно большими и с хорошими отступами).&lt;/li&gt;
 &lt;li&gt;Если есть иконки для платформы, не надо придумывать свои.&lt;/li&gt;
 &lt;li&gt;Тестируйте иконки! Тестировать стоит как понятность, так и запоминаемость.&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
@@ -232,20 +242,22 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Fri, 23 Sep 2016 14:28:45 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/ux-buttons/</guid>
-      <description>&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
+      <description>
 
-&lt;h3 id=&#34;best-practices-types-and-states&#34;&gt;Best Practices, Types and States&lt;/h3&gt;
+&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
+
+&lt;h2 id=&#34;best-practices-types-and-states&#34;&gt;Best Practices, Types and States&lt;/h2&gt;
 
 &lt;p&gt;В статье &lt;a href=&#39;https://uxplanet.org/button-ux-design-best-practices-types-and-states-647cf4ae0fc6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Button UX Design: Best Practices, Types and States&lt;/a&gt;
 есть как всем известные рекомендации, так и не очень. Для меня было интересно почитать про Ghost Buttons, да и многое другое полезно было в памяти освежить.&lt;/p&gt;
 
-&lt;h3 id=&#34;primary-secondary-action-buttons&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/h3&gt;
+&lt;h2 id=&#34;primary-secondary-action-buttons&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/h2&gt;
 
-&lt;p&gt;
-Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
+&lt;p&gt;Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
 внимание на то, что в разных ситуациях кнопки могут и должны выглядеть по-разному. Пример &amp;mdash; кнопка &amp;ldquo;безвозвратного&amp;rdquo; удаления чего-либо.&lt;/p&gt;
 
-&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;</description>
+&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -254,7 +266,9 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Sun, 04 Sep 2016 12:42:32 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/ux-psychology/</guid>
-      <description>&lt;p&gt;Сначала хотел сделать подборку статей по UX, но одна статья достойна отдельного поста.
+      <description>
+
+&lt;p&gt;Сначала хотел сделать подборку статей по UX, но одна статья достойна отдельного поста.
 Это &lt;a href=&#39;https://uxmag.com/articles/the-psychologists-view-of-ux-design&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;отличная статья Susan Weinschenk&lt;/a&gt;
 о том, как можно применить знания психолога к UX-проектированию.&lt;/p&gt;
 
@@ -264,7 +278,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Я попробую сжать информацию из этой статьи ещё больше, сократив или убрав некоторые пункты.
 А вы уже сами решайте насколько вам полезно будет прочитать оригинал.&lt;/p&gt;
 
-&lt;h3 id=&#34;1-люди-не-хотят-делать-или-думать-больше-чем-должны&#34;&gt;1. Люди не хотят делать или думать больше чем должны&lt;/h3&gt;
+&lt;h2 id=&#34;1-люди-не-хотят-делать-или-думать-больше-чем-должны&#34;&gt;1. Люди не хотят делать или думать больше чем должны&lt;/h2&gt;
 
 &lt;p&gt;Что может помочь:&lt;/p&gt;
 
@@ -274,7 +288,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;Проводите исследования пользователей вместо &amp;ldquo;волевых решений&amp;rdquo; на тему &amp;ldquo;нужна ли фича&amp;rdquo;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;2-у-людей-есть-ограничения&#34;&gt;2. У людей есть ограничения&lt;/h3&gt;
+&lt;h2 id=&#34;2-у-людей-есть-ограничения&#34;&gt;2. У людей есть ограничения&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Подавайте информацию так, чтобы её было легко &amp;ldquo;сканировать&amp;rdquo;;&lt;/li&gt;
@@ -282,7 +296,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;Люди &lt;strong&gt;не&lt;/strong&gt; многозадачны.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;3-люди-делают-ошибки&#34;&gt;3. Люди делают ошибки&lt;/h3&gt;
+&lt;h2 id=&#34;3-люди-делают-ошибки&#34;&gt;3. Люди делают ошибки&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ошибки лучше предотвращать, а не красиво обрабатывать;&lt;/li&gt;
@@ -290,7 +304,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;Имейте в виду, что UX-проектировщики тоже делают ошибки :)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;4-человеческая-память-сложна&#34;&gt;4. Человеческая память сложна&lt;/h3&gt;
+&lt;h2 id=&#34;4-человеческая-память-сложна&#34;&gt;4. Человеческая память сложна&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Память это не бэкап с контрольной суммой &amp;mdash; мы реконструируем воспоминания;&lt;/li&gt;
@@ -298,7 +312,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;Несмотря на распространённое мнение о 7±2, люди в среднем могут удержать в &amp;ldquo;кэше&amp;rdquo; памяти &lt;strong&gt;3-4&lt;/strong&gt; вещи.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;5-люди-социальны&#34;&gt;5. Люди социальны&lt;/h3&gt;
+&lt;h2 id=&#34;5-люди-социальны&#34;&gt;5. Люди социальны&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Для человека важно социальное подтверждение, вот почему популярны рейтинги и ревью;&lt;/li&gt;
@@ -306,7 +320,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;Люди запрограммированы на имитацию. Можно им показать, как кто-то другой делает то, что вы хотите от них.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;7-внимание&#34;&gt;7. Внимание&lt;/h3&gt;
+&lt;h2 id=&#34;7-внимание&#34;&gt;7. Внимание&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Люди обращают внимание на новое или &lt;strong&gt;отличающееся&lt;/strong&gt; от остального;&lt;/li&gt;
@@ -315,14 +329,14 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 
 &lt;p&gt;Кстати, вы обратили внимание, что я &amp;ldquo;сломал&amp;rdquo; в этом разделе нумерацию заголовков? :)&lt;/p&gt;
 
-&lt;h3 id=&#34;6-люди-жаждут-информации&#34;&gt;6. Люди жаждут информации&lt;/h3&gt;
+&lt;h2 id=&#34;6-люди-жаждут-информации&#34;&gt;6. Люди жаждут информации&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Поглощение большего объёма информации, чем человек может обработать, стимулируется дофамином;&lt;/li&gt;
 &lt;li&gt;Людям нужна обратная связь о том, что происходит.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;8-большая-часть-умственной-деятельности-бессознательная&#34;&gt;8. Большая часть умственной деятельности &amp;mdash; бессознательная&lt;/h3&gt;
+&lt;h2 id=&#34;8-большая-часть-умственной-деятельности-бессознательная&#34;&gt;8. Большая часть умственной деятельности &amp;mdash; бессознательная&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Лучше подтвердить маленькое действие, чем большой набор действий;&lt;/li&gt;
@@ -330,7 +344,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;Часто &amp;ldquo;сознательный мозг&amp;rdquo; вообще не принимает участия в принятии решений.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;9-люди-создают-ментальные-модели&#34;&gt;9. Люди создают ментальные модели&lt;/h3&gt;
+&lt;h2 id=&#34;9-люди-создают-ментальные-модели&#34;&gt;9. Люди создают ментальные модели&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Ментальная модель, которая есть у человека относительно текущей задачи, делает использование вашего интерфейса проще или сложнее.&lt;/li&gt;
@@ -339,12 +353,13 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;Метафоры помогают пользователю понять вашу модель.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;10-визуальная-система&#34;&gt;10. Визуальная система&lt;/h3&gt;
+&lt;h2 id=&#34;10-визуальная-система&#34;&gt;10. Визуальная система&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Делайте размер шрифта достаточно большим, а количество декоративных деталей достаточно маленьким, чтобы было удобно читать;&lt;/li&gt;
 &lt;li&gt;Люди активно используют периферическое зрение, поэтому не стоит слепо полагаться на eye-tracking в исследованиях.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -353,14 +368,16 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Fri, 26 Aug 2016 14:12:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/ux-best-tweets/</guid>
-      <description>&lt;p&gt;Сегодня предлагаю вашему вниманию несколько наиболее полезных, на мой взгляд, недавних твитов
+      <description>
+
+&lt;p&gt;Сегодня предлагаю вашему вниманию несколько наиболее полезных, на мой взгляд, недавних твитов
  &lt;a href=&#39;https://twitter.com/lukew&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Luke Wroblewski&lt;/a&gt; на тему Usability и UX.
 Если вы не в курсе о том, кто это, &lt;del&gt;вы серьёзно?&lt;/del&gt; крайне рекомендую посмотреть, как минимум, эти твиты&lt;/p&gt;
 
 &lt;p&gt;Скажу сразу, спорить на тему границ UX и Usability считаю неблагодарным занятием,
- поэтому просто оставлю эти два термина вместе :) &lt;/p&gt;
+ поэтому просто оставлю эти два термина вместе :)&lt;/p&gt;
 
-&lt;h3 id=&#34;про-нарушение-apple-своих-же-правил-ради-понятности-интерфейса&#34;&gt;Про нарушение Apple своих же правил ради понятности интерфейса&lt;/h3&gt;
+&lt;h2 id=&#34;про-нарушение-apple-своих-же-правил-ради-понятности-интерфейса&#34;&gt;Про нарушение Apple своих же правил ради понятности интерфейса&lt;/h2&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Even Apple “breaks” their guidelines for improved clarity/usability. Consistency isn’t the goal. Predictability is. &lt;a href=&#34;https://t.co/tDtnSeVg5M&#34;&gt;pic.twitter.com/tDtnSeVg5M&lt;/a&gt;&lt;/p&gt;&amp;mdash; Luke Wroblewski (@lukew) &lt;a href=&#34;https://twitter.com/lukew/status/765603800862167041&#34;&gt;August 16, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
@@ -368,7 +385,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Полностью согласен. Джентельмены следуют правилам, но если правила не устраивают джентельменов&amp;hellip; :)
 Обратите внимание на изменения (стоит открыть картинку полностью). Возможно, в одном из ваших проектов стоит сделать то же самое.&lt;/p&gt;
 
-&lt;h3 id=&#34;про-преимущество-текста-над-иконками&#34;&gt;Про преимущество текста над иконками&lt;/h3&gt;
+&lt;h2 id=&#34;про-преимущество-текста-над-иконками&#34;&gt;Про преимущество текста над иконками&lt;/h2&gt;
 
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Words always beat icons for clarity. &lt;br&gt;So why are there still so many icons in software/UI design? [1/2] &lt;a href=&#34;https://t.co/qLvpCjZ6NG&#34;&gt;pic.twitter.com/qLvpCjZ6NG&lt;/a&gt;&lt;/p&gt;&amp;mdash; Luke Wroblewski (@lukew) &lt;a href=&#34;https://twitter.com/lukew/status/760951363291353088&#34;&gt;August 3, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
@@ -376,7 +393,8 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Top two excuses: not enough room on screen for words &amp;amp; difficulty localizing text. [2/2] &lt;a href=&#34;https://t.co/MVJdyiXBW4&#34;&gt;pic.twitter.com/MVJdyiXBW4&lt;/a&gt;&lt;/p&gt;&amp;mdash; Luke Wroblewski (@lukew) &lt;a href=&#34;https://twitter.com/lukew/status/760951449337499653&#34;&gt;August 3, 2016&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
 
-&lt;p&gt;Тоже извечная тема, особенно учитывая, что у продукта всегда будут пользователи-новички (если им, конечно, вообще будут пользоваться).&lt;/p&gt;</description>
+&lt;p&gt;Тоже извечная тема, особенно учитывая, что у продукта всегда будут пользователи-новички (если им, конечно, вообще будут пользоваться).&lt;/p&gt;
+</description>
     </item>
     
   </channel>

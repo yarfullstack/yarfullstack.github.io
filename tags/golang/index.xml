@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/golang/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>Golang on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/golang/</link>
+    <description>Recent content in Golang on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 17 Feb 2017 13:18:12 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/golang/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,11 +16,11 @@
       <pubDate>Fri, 17 Feb 2017 13:18:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/interesting-releases/</guid>
-      <description>&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
 
-&lt;h3 id=&#34;tensorflow-1-0&#34;&gt;TensorFlow 1.0&lt;/h3&gt;
+&lt;h2 id=&#34;tensorflow-1-0&#34;&gt;TensorFlow 1.0&lt;/h2&gt;
 
 &lt;p&gt;15 февраля вышел релиз &lt;a href=&#39;https://developers.googleblog.com/2017/02/announcing-tensorflow-10.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TensorFlow 1.0&lt;/a&gt;.&lt;/p&gt;
 
@@ -33,7 +34,7 @@
 &lt;li&gt;Появился &lt;a href=&#39;https://www.tensorflow.org/programmers_guide/debugger&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;отладчик tfdbg&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;go-1-8&#34;&gt;Go 1.8&lt;/h3&gt;
+&lt;h2 id=&#34;go-1-8&#34;&gt;Go 1.8&lt;/h2&gt;
 
 &lt;p&gt;16 февраля был &lt;a href=&#39;https://blog.golang.org/go1.8&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Go 1.8&lt;/a&gt;.&lt;br /&gt;
 Коротко о главном (в основном это касается производительности):&lt;/p&gt;
@@ -46,7 +47,7 @@
 &lt;li&gt;Изменение в языке одно &amp;ndash; теперь можно привести одну структуру к другой, &lt;a href=&#39;https://golang.org/doc/go1.8#language&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;если отличия только в тэгах&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;visual-studio-2017&#34;&gt;Visual Studio 2017&lt;/h3&gt;
+&lt;h2 id=&#34;visual-studio-2017&#34;&gt;Visual Studio 2017&lt;/h2&gt;
 
 &lt;p&gt;Недавно анонсировали &lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudio/2017/02/09/visual-studio-2017-launch-event-and-20th-anniversary/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз VS 2017 седьмого марта&lt;/a&gt;.&lt;/p&gt;
 
@@ -55,7 +56,8 @@
 А в целом про нововведения для RC &lt;a href=&#39;https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-in-visual-studio&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Ещё, возможно, вам будет интересен &lt;a href=&#39;https://github.com/dotnet/core/blob/master/roadmap.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core Roadmap&lt;/a&gt;.
-В частности, в планах на третий квартал этого года .NET Core 2.0 и .NET Standard 2.0.&lt;/p&gt;</description>
+В частности, в планах на третий квартал этого года .NET Core 2.0 и .NET Standard 2.0.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -64,9 +66,11 @@
       <pubDate>Fri, 03 Feb 2017 12:31:41 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/news/</guid>
-      <description>&lt;p&gt;Немного новостей про Visual Studio Code, .NET, Go и прочее.&lt;/p&gt;
+      <description>
 
-&lt;h3 id=&#34;vs-code-net&#34;&gt;VS Code + .NET&lt;/h3&gt;
+&lt;p&gt;Немного новостей про Visual Studio Code, .NET, Go и прочее.&lt;/p&gt;
+
+&lt;h2 id=&#34;vs-code-net&#34;&gt;VS Code + .NET&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#39;https://code.visualstudio.com/updates/v1_9&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз VS Code 1.9&lt;/a&gt; &amp;mdash; много доработок, в т.ч. для TypeScript.&lt;/li&gt;
@@ -74,21 +78,20 @@
 &lt;li&gt;&lt;a href=&#39;https://github.com/dotnet/csharplang&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The official repo for the design of the C# programming language&lt;/a&gt; &amp;mdash; теперь здесь.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;go&#34;&gt;Go&lt;/h3&gt;
+&lt;h2 id=&#34;go&#34;&gt;Go&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#39;https://groups.google.com/forum/#!msg/golang-dev/G09HaWfMl6g/74v1cFGlAwAJ&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Go 1.8 / Go 1.9 Schedule Update&lt;/a&gt; &amp;mdash; выпуск 1.8 планируется на 14-16 февраля.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;https://blog.codeship.com/comparing-elixir-go/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Comparing Elixir and Go&lt;/a&gt; &amp;mdash; автор без фанатизма и достаточно качественно сравнивает оба языка (вкупе с инфраструктурой).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;прочее&#34;&gt;Прочее&lt;/h3&gt;
+&lt;h2 id=&#34;прочее&#34;&gt;Прочее&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#39;https://nodejs.org/en/blog/release/v7.5.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз Node.js 7.5&lt;/a&gt; (на всякий случай напомню, что не LTS).&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;http://mithril.js.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз Mithril 1.0&lt;/a&gt; &amp;mdash; кто не в курсе, это небольшой и шустрый фреймворк для SPA (самому не доводилось пробовать).&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -97,13 +100,15 @@
       <pubDate>Thu, 13 Oct 2016 21:46:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</guid>
-      <description>&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
+      <description>
+
+&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
 Довелось. Сейчас поделюсь. Только уточню, что пока это впечатления с хакатона, там не будет махрового энтерпрайза, повального контроля с аудитом и тому подобного.&lt;/p&gt;
 
 &lt;p&gt;В вопросу о хакатоне. Делал небольшую инфраструктуру для того, чтобы сделать немного счастливее наших тестировщиков.
 И разработчиков, конечно, но в исторической перспективе.&lt;/p&gt;
 
-&lt;h3 id=&#34;техническая-концепция&#34;&gt;Техническая концепция&lt;/h3&gt;
+&lt;h2 id=&#34;техническая-концепция&#34;&gt;Техническая концепция&lt;/h2&gt;
 
 &lt;p&gt;Концепция была простая &amp;mdash; плагины к браузерам для упрощения заведения багов и набор сервисов (строго говоря &amp;mdash; пока это консольные приложения).
 Цели &amp;mdash; быстро сделать прототип, получив при этом удовольствие от исследования сравнительно новых для меня технологий.
@@ -119,7 +124,7 @@
 &lt;li&gt;&lt;strong&gt;Deployer&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на компьютере разработчика. Умеет восстанавливать бэкапы (без PackDb тоже не обошлось).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;что-было-использовано&#34;&gt;Что было использовано&lt;/h3&gt;
+&lt;h2 id=&#34;что-было-использовано&#34;&gt;Что было использовано&lt;/h2&gt;
 
 &lt;p&gt;Как видите, у меня был небольшой зоопарк из плагина к Chrome (сейчас в процессе плагин к IE), три приложения на Go и три на .NET.
 Всем им, естественно, хотелось между собой общаться (ладно, не всем, но я заставил почти всех :)&lt;/p&gt;
@@ -129,7 +134,7 @@
 По большому счёту, это потребовалось только для &amp;ldquo;session&amp;rdquo; (чтобы плагин мог получать и записывать необходимые данные) и для &amp;ldquo;bot&amp;rdquo;
 (Rocket.Chat пока тоже не умеет gRPC).&lt;/p&gt;
 
-&lt;h3 id=&#34;что-понравилось&#34;&gt;Что понравилось&lt;/h3&gt;
+&lt;h2 id=&#34;что-понравилось&#34;&gt;Что понравилось&lt;/h2&gt;
 
 &lt;p&gt;Описание сервисов в proto-файлах. Действительно, описание &amp;ldquo;как бы контракта&amp;rdquo; в отдельном файле мотивирует думать над API, пока его пишешь
 (хотя protobuf v3 сравнительно толерантен к изменению API). Нравится, что есть в явном виде &amp;ldquo;сообщение&amp;rdquo;, а не набор параметров. Маленький пример:
@@ -170,7 +175,7 @@ central.Register(new Agent
 &lt;p&gt;И ещё (это субъективно, конечно) &amp;mdash; эстетическое удовольствие от названия командного файла generate_&lt;strong&gt;protos&lt;/strong&gt;.bat :)
 С ним, пожалуй, сравнится разве что использование хранилища &amp;ldquo;bolt&amp;rdquo; для &amp;ldquo;session&amp;rdquo;.&lt;/p&gt;
 
-&lt;h3 id=&#34;что-не-понравилось&#34;&gt;Что не понравилось&lt;/h3&gt;
+&lt;h2 id=&#34;что-не-понравилось&#34;&gt;Что не понравилось&lt;/h2&gt;
 
 &lt;p&gt;Не понравилось то, что падает в runtime, когда передаёшь null в поле сообщения. Столкнулся с этим, когда передавал строки на C#
 (в Go строки и так по умолчанию &amp;ldquo;&amp;rdquo; &amp;mdash; там такой проблемы нет). Лечится, конечно, инциализацией в пустую строку. Но осадок остался.&lt;/p&gt;
@@ -178,9 +183,10 @@ central.Register(new Agent
 &lt;p&gt;Не столкнулся, но заочно не нравится &lt;a href=&#39;http://www.grpc.io/docs/guides/auth.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;скудный набор вариантов аутентификации из коробки&lt;/a&gt; (либо SSL/TLS, либо гугловый OAuth2).
 Понятно, что можно реализовать свой (возможно сейчас уже плодятся проекты на GitHub, которые это делают), но хотелось бы что-то &lt;del&gt;тёплое, ламповое&lt;/del&gt; коробочное&amp;hellip;&lt;/p&gt;
 
-&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
 
-&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;</description>
+&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -189,13 +195,15 @@ central.Register(new Agent
       <pubDate>Sun, 18 Sep 2016 14:54:10 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/grpc-first-steps/</guid>
-      <description>&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
+      <description>
+
+&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
 Сегодня я расскажу о том, что это такое и почему стоит, как минимум, обратить на это внимание.
 А потом расскажу, как посмотреть его в работе, используя стандартные примеры.&lt;/p&gt;
 
 &lt;p&gt;Чтобы не было скучно от слова &amp;ldquo;стандартные&amp;rdquo;, мы будем обращаться к серверу на Go из клиента на C#.
 В принципе, можно реализовать любые комбинации из языков программирования, которые поддерживаются gRPC.
-Кстати, вот список поддерживаемых платформ и ЯП: &lt;/p&gt;
+Кстати, вот список поддерживаемых платформ и ЯП:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;C++&lt;/li&gt;
@@ -379,18 +387,21 @@ RouteGuideClient.exe
 &lt;p&gt;Моё личное мнение &amp;mdash; gRPC обязательно стоит попробовать, если вы делаете микросервисы и не сильно привязаны к альтернативам.
 Альтернативы, на мой взгляд &amp;ndash; Apache Thrift и Cap&amp;rsquo;n Proto. Правда, слышал, что некоторые мигрируют с Apache Thrift на gRPC&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;</description>
+&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Релиз Go 1.7</title>
-      <link>https://yarfullstack.com/post/2016-08/go-1/</link>
+      <link>https://yarfullstack.com/post/2016-08/go-1.7-release/</link>
       <pubDate>Tue, 16 Aug 2016 21:15:58 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-08/go-1/</guid>
-      <description>&lt;p&gt;15 августа &lt;a href=&#39;https://blog.golang.org/go1.7&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;состоялся релиз Go 1.7&lt;/a&gt;. Улучшен компилятор, сборщик мусора, размер бинарников уменьшен на 20-30%.&lt;/p&gt;
+      <guid>https://yarfullstack.com/post/2016-08/go-1.7-release/</guid>
+      <description>
 
-&lt;h3 id=&#34;концептуальная-оптимизация-компилятора&#34;&gt;Концептуальная оптимизация компилятора&lt;/h3&gt;
+&lt;p&gt;15 августа &lt;a href=&#39;https://blog.golang.org/go1.7&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;состоялся релиз Go 1.7&lt;/a&gt;. Улучшен компилятор, сборщик мусора, размер бинарников уменьшен на 20-30%.&lt;/p&gt;
+
+&lt;h2 id=&#34;концептуальная-оптимизация-компилятора&#34;&gt;Концептуальная оптимизация компилятора&lt;/h2&gt;
 
 &lt;p&gt;За счёт использования SSA стало проще осуществлять многие оптимизации. Бенчмарки говорят о приросте производительности 5-35%.
 Пока новый back-end для компилятора доступен только для 64-битной платформы x86.
@@ -399,17 +410,17 @@ RouteGuideClient.exe
 &lt;p&gt;На этом хорошие новости про компилятор не заканчиваются :)
 За счёт нового формата бинарники похудели на 20-30%.&lt;/p&gt;
 
-&lt;h3 id=&#34;оптимизация-стандартной-библиотеки-и-сборщика-мусора&#34;&gt;Оптимизация стандартной библиотеки и сборщика мусора&lt;/h3&gt;
+&lt;h2 id=&#34;оптимизация-стандартной-библиотеки-и-сборщика-мусора&#34;&gt;Оптимизация стандартной библиотеки и сборщика мусора&lt;/h2&gt;
 
 &lt;p&gt;Приложения запускаются быстрее. Для случая с большим количеством простаивающих горутин паузы при сборке мусора уменьшились.&lt;/p&gt;
 
-&lt;h3 id=&#34;контексты-перенесли-уровнем-выше&#34;&gt;Контексты перенесли уровнем выше&lt;/h3&gt;
+&lt;h2 id=&#34;контексты-перенесли-уровнем-выше&#34;&gt;Контексты перенесли уровнем выше&lt;/h2&gt;
 
 &lt;p&gt;Теперь &lt;a href=&#39;https://godoc.org/golang.org/x/net/context/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;пакет golang.org/x/net/context&lt;/a&gt; перенесён в
 &lt;a href=&#39;https://golang.org/pkg/context/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;стандартную библиотеку&lt;/a&gt;.
 Подробнее про контексты &lt;a href=&#39;https://blog.golang.org/context&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;остальные-изменения&#34;&gt;Остальные изменения&lt;/h3&gt;
+&lt;h2 id=&#34;остальные-изменения&#34;&gt;Остальные изменения&lt;/h2&gt;
 
 &lt;p&gt;Подробнее про остальные изменения &lt;a href=&#39;https://golang.org/doc/go1.7&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
 
@@ -419,7 +430,8 @@ RouteGuideClient.exe
 &lt;li&gt;&lt;a href=&#39;https://golang.org/s/go15vendor&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Vendoring support&lt;/a&gt; стал мейнстримом.&lt;/li&gt;
 &lt;li&gt;&amp;ldquo;Немного&amp;rdquo; оптимизирован go trace (оверхед стал порядка 25% против 400% ранее).&lt;/li&gt;
 &lt;li&gt;Увеличена производительность многих пакетов, и, как заверяют создатели, они на этом не остановятся.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

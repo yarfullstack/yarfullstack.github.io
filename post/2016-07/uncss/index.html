@@ -240,14 +240,17 @@
         
     
 </p>
+
+
 <p>Ранее я уже <a href="/post/2016-06/css/">немного упоминал UnCSS</a>, а сегодня расскажу о нем подробнее.
 Напомню, он, с помощью PhantomJS, рендерит страницы и выполняет JavaScript, ищет используемые классы и удаляет остальные.</p>
 
 <p>Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
-Также можно использовать его API из Node.js или вызывать из командной строки.
-Подробности есть на <a href='https://github.com/giakki/uncss' rel="nofollow noopener noreferrer" target="_blank">странице проекта</a>.</p>
+Также можно использовать его API из Node.js или вызывать из командной строки.</p>
 
-<h3 id="важные-замечания">Важные замечания</h3>
+<p>Подробности есть на <a href='https://github.com/giakki/uncss' rel="nofollow noopener noreferrer" target="_blank">странице проекта</a>.</p>
+
+<h2 id="важные-замечания">Важные замечания</h2>
 
 <p>Что нужно иметь в виду, при использовании UnCSS.</p>
 
@@ -261,7 +264,7 @@
 <p>Во-вторых, что следует из первого пункта &mdash; доверяйте, но проверяйте &mdash; стоит периодически проверять что необходимые стили на месте.
 В зависимости от масштаба проекта это можно делать либо визуально, либо с помощью автоматических тестов.</p>
 
-<h3 id="опыт-использования">Опыт использования</h3>
+<h2 id="опыт-использования">Опыт использования</h2>
 
 <p>Пока могу сказать, что опыт использования небольшой, но положительный. Поскольку я использую его вместе с PostCSS, всё просто.
 Сначала ставится плагин <a href='https://www.npmjs.com/package/postcss-uncss' rel="nofollow noopener noreferrer" target="_blank">postcss-uncss</a>:
@@ -277,6 +280,7 @@
 
 <p>Если требуется, задаются исключения (в строчке выше или комментариями, как в предыдущем разделе. Вот, собственно, и всё.
 В результате, CSS избавляется от неиспользуемых стилей, а пользователи наслаждаются чуть более быстрой загрузкой страниц :)</p>
+
 <p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
@@ -312,7 +316,7 @@
 	<div class="mb-content-nav">
 	
 	<nav class="mb-prev-next">
-		<a href="https://yarfullstack.com/post/2016-07/visual-studio/"><svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+		<a href="https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/"><svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 			<use xlink:href="#chevron-left-icon"></use>
 		</svg>&nbsp;Обновление Microsoft Visual Studio (KB3165756)</a></nav>&nbsp;/
 		<nav class="mb-prev-next"><a href="https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/">Uber-Postgres&#43;MySQL&nbsp;<svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">

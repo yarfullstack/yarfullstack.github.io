@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/design/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>Design on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/design/</link>
+    <description>Recent content in Design on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 24 Mar 2017 00:40:16 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -29,7 +30,8 @@
 (по концепции &lt;a href=&#39;https://jamstack.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;JAMstack&lt;/a&gt;).
 Подробности можно прочитать в &lt;a href=&#39;https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;оригинальной статье&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;В общем-то идея JAMstack мне импонирует &amp;mdash; читателям приятно, когда сайт не тормозит. А что-то быстрее статики придумать сложновато.&lt;/p&gt;</description>
+&lt;p&gt;В общем-то идея JAMstack мне импонирует &amp;mdash; читателям приятно, когда сайт не тормозит. А что-то быстрее статики придумать сложновато.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -43,8 +45,7 @@
 
 &lt;p&gt;Вы наверняка слышали про &lt;a href=&#39;http://www.material-ui.com/#/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Material UI&lt;/a&gt; &amp;mdash; библиотеку, которая реализует принципы Material Design для React.
 Аналогично, есть реализация Ant Design &amp;mdash; &lt;a href=&#39;https://ant.design/docs/react/introduce&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ant Design of React&lt;/a&gt;.
-Подробно не смотрел, но выглядит красиво. Далее несколько восторженных отзывов про табличное представление.
-&lt;/p&gt;
+Подробно не смотрел, но выглядит красиво. Далее несколько восторженных отзывов про табличное представление.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#39;https://ant.design/components/table/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Компонент Table&lt;/a&gt; внешне мне весьма понравился.
 Лучше просто перейти по ссылке и посмотреть. Если вкратце, вот неполный список вкусняшек:&lt;/p&gt;
@@ -57,7 +58,8 @@
 &lt;li&gt;строки с детализацией, иерархические строки, вложенные таблицы.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;P.S. Возможно, вам будет интересно кто поддерживает разработку и использует Ant Design &amp;mdash; это, в первую очередь, Alibaba и Ant Financial (AliPay).&lt;/p&gt;</description>
+&lt;p&gt;P.S. Возможно, вам будет интересно кто поддерживает разработку и использует Ant Design &amp;mdash; это, в первую очередь, Alibaba и Ant Financial (AliPay).&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -66,10 +68,12 @@
       <pubDate>Fri, 27 Jan 2017 11:22:58 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-01/ux-articles/</guid>
-      <description>&lt;p&gt;У меня накопилось много интересных ссылок, подробно описывать каждую утомительно.
+      <description>
+
+&lt;p&gt;У меня накопилось много интересных ссылок, подробно описывать каждую утомительно.
 Поэтому, я просто оставлю это здесь.&lt;/p&gt;
 
-&lt;h3 id=&#34;фундаментальное&#34;&gt;Фундаментальное&lt;/h3&gt;
+&lt;h2 id=&#34;фундаментальное&#34;&gt;Фундаментальное&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Основы и отличия персонализации и кастомизации: &lt;a href=&#39;https://www.nngroup.com/articles/customization-personalization/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Customization vs. Personalization in the User Experience&lt;/a&gt;.&lt;/li&gt;
@@ -77,14 +81,14 @@
 &lt;li&gt;&lt;a href=&#39;https://habrahabr.ru/company/mailru/blog/307556/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Планирование юзабилити-тестирования. Часть 1&lt;/a&gt;, &lt;a href=&#39;https://habrahabr.ru/company/mailru/blog/308054/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Планирование юзабилити-тестирования. Часть 2&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;прикладное&#34;&gt;Прикладное&lt;/h3&gt;
+&lt;h2 id=&#34;прикладное&#34;&gt;Прикладное&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Полезные советы по использованию иконок: &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;Краткий обзор процессов и инструментов для прототипирования: &lt;a href=&#39;https://blog.prototypr.io/14-prototyping-tools-how-each-can-be-used-1c804fab33a6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;16 Prototyping Tools &amp;amp; How Each Can Be Used&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;css-feature-queries&#34;&gt;CSS feature queries&lt;/h3&gt;
+&lt;h2 id=&#34;css-feature-queries&#34;&gt;CSS feature queries&lt;/h2&gt;
 
 &lt;p&gt;А вы знаете, что в свежих браузерах можно определять, поддерживают ли они фичи CSS?
 Встречайте CSS feature queries (@supports):&lt;/p&gt;
@@ -95,12 +99,13 @@
 &lt;li&gt;&lt;a href=&#39;https://hacks.mozilla.org/2016/08/using-feature-queries-in-css/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Using Feature Queries in CSS&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;оригинальное&#34;&gt;Оригинальное&lt;/h3&gt;
+&lt;h2 id=&#34;оригинальное&#34;&gt;Оригинальное&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Где может быть удобен интерфейс командной строки: &lt;a href=&#39;http://boxesandarrows.com/heres-what-may-sound-like-a-crazy-idea/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Here’s What May Sound Like a Crazy Idea&lt;/a&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#39;http://www.heydonworks.com/article/on-writing-less-damn-code&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Writing Less Damn Code&lt;/a&gt; (перевод: &lt;a href=&#39;https://habrahabr.ru/post/308308/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Пишите меньше кода, блин&lt;/a&gt;).&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -109,46 +114,47 @@
       <pubDate>Fri, 09 Dec 2016 14:07:59 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-12/style-guides/</guid>
-      <description>&lt;p&gt;Хочу поделиться подборкой статей про руководства по стилю (или как говорят наши зарубежные коллеги, style guides).&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Хочу поделиться подборкой статей про руководства по стилю (или как говорят наши зарубежные коллеги, style guides).&lt;/p&gt;
 
 &lt;p&gt;На случай, если вы сталкиваетесь с этим понятием впервые, подобные руководства упрощают жизнь дизайнеров, верстальщиков, разработчиков и тестировщиков.
 А для крупных компаний, которые каждый год по несколько дизайнеров нанимают, я бы сказал &amp;mdash; значительно упрощают жизнь.&lt;/p&gt;
 
 &lt;p&gt;Что ж, начну с отечественных наработок.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;контур-гайды&#34;&gt;Контур.Гайды&lt;/h3&gt;
+&lt;h2 id=&#34;контур-гайды&#34;&gt;Контур.Гайды&lt;/h2&gt;
 
 &lt;p&gt;Недавно Алексей Рякин прислал мне ссылку &lt;a href=&#39;https://guides.kontur.ru/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Контур.Гайды&lt;/a&gt;.
 До конца пока не прочитал, но в целом, впечатление положительное. Тем, кому намного проще читать подобные материалы на русском &amp;mdash; рекомендую.&lt;/p&gt;
 
-&lt;h3 id=&#34;material-design&#34;&gt;Material Design&lt;/h3&gt;
+&lt;h2 id=&#34;material-design&#34;&gt;Material Design&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#39;https://material.google.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Material Design&lt;/a&gt; &amp;mdash; если мне не изменяет память, это первое опубликованное и детально проработанное руководство.
 Да, в Google не все и не всегда ему следуют, с &amp;ldquo;иконкой-гамбургером&amp;rdquo; и &amp;ldquo;троеточием&amp;rdquo; у них вообще беда в их же приложениях&amp;hellip; Но само руководство крутое.&lt;/p&gt;
 
-&lt;h3 id=&#34;styleguides-io&#34;&gt;StyleGuides.io&lt;/h3&gt;
+&lt;h2 id=&#34;styleguides-io&#34;&gt;StyleGuides.io&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#39;http://styleguides.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;StyleGuides.io&lt;/a&gt; &amp;mdash; наиболее полное и удобное, из мне известных, собрание материалов по style guides.
 Там есть и статьи, и примеры (тех же руководств от разных компаний там десятки). Если вам интересна эта тема, то StyleGuides.io, безусловно, отличная отправная точка.
 Причём, как с точки зрения первого ознакомления с темой, так и с развитием в этом направлении.&lt;/p&gt;
 
-&lt;h3 id=&#34;разное&#34;&gt;Разное&lt;/h3&gt;
+&lt;h2 id=&#34;разное&#34;&gt;Разное&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#39;https://www.nngroup.com/articles/front-end-style-guides/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Front-End Style-Guides: Definition, Requirements, Component Checklist&lt;/a&gt; от
 Nielsen Norman Group &amp;mdash; довольно неплохая статья небольшого объёма, которая объясняет что это и зачем, а также дарит короткий чеклист.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&#39;http://airbnb.design/the-way-we-build/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The Way We Build (How rethinking the Airbnb app changed the way we approach design)&lt;/a&gt; &amp;mdash; просто интересно почитать.&lt;/p&gt;
 
-&lt;h3 id=&#34;странное&#34;&gt;Странное&lt;/h3&gt;
+&lt;h2 id=&#34;странное&#34;&gt;Странное&lt;/h2&gt;
 
 &lt;p&gt;Даже не знаю как характеризовать вот эту статью &lt;a href=&#39;https://vc.ru/p/accordion-and-tab-design&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Юзабилити веб-форм: Почему вкладки и «гармошки» вызывают проблемы у пользователей&lt;/a&gt;,
 ссылку на которую мне прислал Женя Кирьянов.&lt;/p&gt;
 
 &lt;p&gt;С одной стороны, наверное что-то полезное в ней есть.
 Но, с учётом того, что картинки там не подгружаются, а простой способ сообщить администрации ресурса о проблеме отсутствует (комментарии уже недоступны)&amp;hellip;
-Скорее, эта статья на данный хороший пример того, как не надо публиковать статьи :)&lt;/p&gt;</description>
+Скорее, эта статья на данный хороший пример того, как не надо публиковать статьи :)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -157,16 +163,17 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
       <pubDate>Sun, 13 Nov 2016 18:32:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</guid>
-      <description>&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
 
 &lt;p&gt;Как вы уже знаете, мне нравятся быстрые сайты. Летом я уже делился &lt;a href=&#34;https://yarfullstack.com/post/2016-07/site-optimization-tools/&#34;&gt;набором инструментов для оптимизации сайтов&lt;/a&gt;.
 Однако, есть пара несложных приёмов, первый из которых эти инструменты вряд ли когда-нибудь догадаются посоветовать.&lt;/p&gt;
 
 &lt;p&gt;Начнём с самого простого в &lt;em&gt;реализации&lt;/em&gt; способа.
-Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.
-&lt;/p&gt;
+Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.&lt;/p&gt;
 
-&lt;h3 id=&#34;быстрая-загрузка-шрифтов&#34;&gt;Быстрая загрузка шрифтов&lt;/h3&gt;
+&lt;h2 id=&#34;быстрая-загрузка-шрифтов&#34;&gt;Быстрая загрузка шрифтов&lt;/h2&gt;
 
 &lt;p&gt;Безусловно, вам может пригодиться статья &lt;a href=&#39;https://www.filamentgroup.com/lab/font-events.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;How We Load Web Fonts Progressively&lt;/a&gt;.
 Или, более фундаментальная &lt;a href=&#39;https://www.zachleat.com/web/comprehensive-webfonts/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;A Comprehensive Guide to Font Loading Strategies&lt;/a&gt;.
@@ -207,7 +214,7 @@ Nielsen Norman Group &amp;mdash; довольно неплохая статья 
 &amp;mdash; с учётом частоты смены системных шрифтов и критичности этой задачи.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;загрузка-картинок-в-зависимости-от-разрешения-с-помощью-srcset&#34;&gt;Загрузка картинок в зависимости от разрешения с помощью srcset&lt;/h3&gt;
+&lt;h2 id=&#34;загрузка-картинок-в-зависимости-от-разрешения-с-помощью-srcset&#34;&gt;Загрузка картинок в зависимости от разрешения с помощью srcset&lt;/h2&gt;
 
 &lt;p&gt;Если вкратце, этот способ позволяет не грузить на маленькие смартфончики ваши картинища, оптимизированные для Retina :)&lt;/p&gt;
 
@@ -243,7 +250,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 
 &lt;p&gt;Да, чуть не забыл, вроде в HTML 5.1 для &amp;lt;picture&amp;gt; тоже будет нормально работать srscset. Just FYI.&lt;/p&gt;
 
-&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
 
 &lt;p&gt;Подумайте, что ещё вы можете сделать для ваших пользователей. Может, есть что-то, что не особо нужно никому кроме вас самих,
 а без этого сайт станет немного легче и удобнее?&lt;/p&gt;
@@ -251,7 +258,8 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Например, я лично стараюсь держать себя в руках и, несмотря на многочисленные рекомендации, не добавлять КПДВ к статьям :)&lt;/p&gt;
 
 &lt;p&gt;Ещё в планах выбрать другой вариант обратной связи и отстрелить этот тормозной Disqus&amp;hellip;
-Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;</description>
+Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -260,7 +268,9 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Thu, 20 Oct 2016 21:46:43 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</guid>
-      <description>&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
+      <description>
+
+&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
 Сначала увидел ссылку в комментарии к другой статье на хабре, потом ещё пара человек мне ссылку на перевод прислали.&lt;/p&gt;
 
 &lt;p&gt;Что характерно, поскольку сама статья и анимация достаточно грамотная, у многих возникает ощущение &amp;ldquo;круто! давайте &lt;strong&gt;всё&lt;/strong&gt; так сделаем&amp;rdquo;.
@@ -269,9 +279,9 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Собственно, о чём речь? Речь о том, что в идеале, пользователь должен быть избавлен от лишней информации и &amp;ldquo;визуального шума&amp;rdquo;.
 С этим я согласен более чем абсолютно. Только всё хорошо в меру. Что предлагают авторы?&lt;/p&gt;
 
-&lt;p&gt;Давайте посмотрим.
+&lt;p&gt;Давайте посмотрим.&lt;/p&gt;
 
-&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
+&lt;p&gt;&lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; style=&#34;overflow-x:hidden&#34; 
     srcset=&#34;https://yarfullstack.com/img/clear-off-the-table.gif 800w, https://yarfullstack.com/img/clear-off-the-table-small.gif 400w&#34;
     sizes=&#34;(min-width: 1280px) 800px, (max-width: 1280px) and (min-width: 1024px) 600px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
 
@@ -289,7 +299,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 
 &lt;p&gt;Что касается &amp;ldquo;зебры&amp;rdquo; и линий &amp;mdash; иногда что-то из этого придётся оставить, особенно когда много столбцов и строк (и не всегда работает вариант &amp;ldquo;не делайте много столбцов и строк&amp;rdquo;).&lt;/p&gt;
 
-&lt;h3 id=&#34;про-диаграммы-и-графики&#34;&gt;Про диаграммы и графики&lt;/h3&gt;
+&lt;h2 id=&#34;про-диаграммы-и-графики&#34;&gt;Про диаграммы и графики&lt;/h2&gt;
 
 &lt;p&gt;В том же блоге есть не менее впечатляющая статья &lt;a href=&#39;http://blog.darkhorseanalytics.com/data-looks-better-naked&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Data Looks Better Naked&lt;/a&gt;.
 Всё сказанное выше применимо и к этой статье (быть может, в чуть меньшей степени).&lt;/p&gt;
@@ -298,12 +308,13 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
     srcset=&#34;https://yarfullstack.com/img/data-ink.gif 640w, https://yarfullstack.com/img/data-ink-small.gif 320w&#34;
     sizes=&#34;(min-width: 1024px) 640px, (max-width: 1024px) and (min-width: 800px) 520px, (max-width:800px) 90vw, 90vw&#34;&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;мои-личные-рекомендации&#34;&gt;Мои личные рекомендации&lt;/h3&gt;
+&lt;h2 id=&#34;мои-личные-рекомендации&#34;&gt;Мои личные рекомендации&lt;/h2&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Думайте :)&lt;/li&gt;
 &lt;li&gt;Если интересно глубокое погружение в тему &amp;mdash; почитайте Тафти. Потом мне расскажете :)&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
@@ -313,7 +324,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       
       <guid>https://yarfullstack.com/post/2016-10/ux-icons/</guid>
       <description>&lt;p&gt;Недавно прочитал статью &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.
-Понравилась. Вроде всё по делу. Делюсь кратким содержанием. &lt;/p&gt;
+Понравилась. Вроде всё по делу. Делюсь кратким содержанием.&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;Чтобы иконки были полезными, их назначение должно быть понятно пользователю. Рекомендуется правило 5 секунд (если дольше думаешь над тем, что она значит =&amp;gt; не подходит).&lt;/li&gt;
@@ -322,7 +333,8 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;На иконки должно быть удобно нажимать (должны быть достаточно большими и с хорошими отступами).&lt;/li&gt;
 &lt;li&gt;Если есть иконки для платформы, не надо придумывать свои.&lt;/li&gt;
 &lt;li&gt;Тестируйте иконки! Тестировать стоит как понятность, так и запоминаемость.&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;/ol&gt;
+</description>
     </item>
     
     <item>
@@ -331,20 +343,22 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Fri, 23 Sep 2016 14:28:45 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/ux-buttons/</guid>
-      <description>&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
+      <description>
 
-&lt;h3 id=&#34;best-practices-types-and-states&#34;&gt;Best Practices, Types and States&lt;/h3&gt;
+&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
+
+&lt;h2 id=&#34;best-practices-types-and-states&#34;&gt;Best Practices, Types and States&lt;/h2&gt;
 
 &lt;p&gt;В статье &lt;a href=&#39;https://uxplanet.org/button-ux-design-best-practices-types-and-states-647cf4ae0fc6&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Button UX Design: Best Practices, Types and States&lt;/a&gt;
 есть как всем известные рекомендации, так и не очень. Для меня было интересно почитать про Ghost Buttons, да и многое другое полезно было в памяти освежить.&lt;/p&gt;
 
-&lt;h3 id=&#34;primary-secondary-action-buttons&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/h3&gt;
+&lt;h2 id=&#34;primary-secondary-action-buttons&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/h2&gt;
 
-&lt;p&gt;
-Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
+&lt;p&gt;Статья &lt;a href=&#39;https://uxplanet.org/primary-secondary-action-buttons-c16df9b36150&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Primary &amp;amp; Secondary Action Buttons&lt;/a&gt; обращает
 внимание на то, что в разных ситуациях кнопки могут и должны выглядеть по-разному. Пример &amp;mdash; кнопка &amp;ldquo;безвозвратного&amp;rdquo; удаления чего-либо.&lt;/p&gt;
 
-&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;</description>
+&lt;p&gt;Также, мне понравилась глава &amp;ldquo;Secondary Actions as Disabled Buttons&amp;rdquo; &amp;mdash; сам недавно думал над схожими вопросами.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -353,20 +367,29 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Fri, 16 Sep 2016 14:32:24 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/js-and-design-news/</guid>
-      <description>&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике.&lt;/p&gt;
+      <description>
 
-&lt;h3 id=&#34;angular2&#34;&gt;Angular2&lt;/h3&gt;
+&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Angular2;&lt;/li&gt;
+&lt;li&gt;Node.js v6.6.0;&lt;/li&gt;
+&lt;li&gt;WebStorm 2016.3 EAP;&lt;/li&gt;
+&lt;li&gt;Variable fonts.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;angular2&#34;&gt;Angular2&lt;/h2&gt;
 
 &lt;p&gt;Думаю, многие ждали этого момента. Некоторые мои коллеги подшучивали &amp;mdash; &amp;ldquo;да они наверное уже никогда не зарелизятся&amp;rdquo;.
 Однако, &lt;a href=&#39;http://angularjs.blogspot.ru/2016/09/angular2-final.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;зарелизились&lt;/a&gt;.
-Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :) &lt;/p&gt;
+Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :)&lt;/p&gt;
 
-&lt;h3 id=&#34;node-js-v6-6-0&#34;&gt;Node.js v6.6.0&lt;/h3&gt;
+&lt;h2 id=&#34;node-js-v6-6-0&#34;&gt;Node.js v6.6.0&lt;/h2&gt;
 
 &lt;p&gt;На фоне предыдущей новости, &lt;a href=&#39;https://nodejs.org/en/blog/release/v6.6.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;этот релиз&lt;/a&gt; прошёл,
 можно сказать, незаметно.&lt;/p&gt;
 
-&lt;h3 id=&#34;webstorm-2016-3-eap&#34;&gt;WebStorm 2016.3 EAP&lt;/h3&gt;
+&lt;h2 id=&#34;webstorm-2016-3-eap&#34;&gt;WebStorm 2016.3 EAP&lt;/h2&gt;
 
 &lt;p&gt;В WebStorm 2016.3 EAP &lt;a href=&#39;https://blog.jetbrains.com/webstorm/2016/09/webstorm-2016-3-eap-163-4396/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;добавлена поддержка Create React app и улучшена поддержка Angular2&lt;/a&gt;.
 Также там &lt;a href=&#39;https://blog.jetbrains.com/webstorm/2016/08/webstorm-2016-3-early-access-preview/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;добавлена поддержка Flow и PostCSS&lt;/a&gt;.&lt;/p&gt;
@@ -374,9 +397,10 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;p&gt;Про PostCSS &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;я уже немного писал&lt;/a&gt;, а &lt;a href=&#39;https://blog.aria.ai/post/why-use-flow/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Flow&lt;/a&gt; вещь интересная,
 но пока не довелось попробовать. Если есть опыт &amp;mdash; напишите в комментариях.&lt;/p&gt;
 
-&lt;h3 id=&#34;variable-fonts&#34;&gt;Variable fonts&lt;/h3&gt;
+&lt;h2 id=&#34;variable-fonts&#34;&gt;Variable fonts&lt;/h2&gt;
 
-&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -385,7 +409,9 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Fri, 08 Jul 2016 00:27:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/</guid>
-      <description>&lt;p&gt;Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Рекомендации по дизайну хороших и удобных форм;&lt;/li&gt;
@@ -393,7 +419,7 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;Интересное исследование впечатлений пользователей мобильных устройств о сайтах.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;рекомендации-по-дизайну-хороших-и-удобных-форм&#34;&gt;Рекомендации по дизайну хороших и удобных форм&lt;/h3&gt;
+&lt;h2 id=&#34;рекомендации-по-дизайну-хороших-и-удобных-форм&#34;&gt;Рекомендации по дизайну хороших и удобных форм&lt;/h2&gt;
 
 &lt;p&gt;В статье &lt;a href=&#39;https://uxdesign.cc/design-better-forms-96fadca0f49c&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Design Better Forms (Common mistakes designers make and how to fix them)&lt;/a&gt;,
 Эндрю Коул на наглядных примерах рассказывает, как надо делать и как не надо делать формы.
@@ -401,13 +427,13 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 Ранее читал похожую статью &lt;a href=&#39;http://mono.company/journal/design-practice/the-10-commandments-of-good-form-design-on-the-web/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The 10 Commandments of Good Form Design on the Web&lt;/a&gt;,
 но эта мне понравилась значительно больше.&lt;/p&gt;
 
-&lt;h3 id=&#34;визуальные-отличия-грядущего-bootstrap-4-от-bootstrap-3&#34;&gt;Визуальные отличия грядущего Bootstrap 4 от Bootstrap 3&lt;/h3&gt;
+&lt;h2 id=&#34;визуальные-отличия-грядущего-bootstrap-4-от-bootstrap-3&#34;&gt;Визуальные отличия грядущего Bootstrap 4 от Bootstrap 3&lt;/h2&gt;
 
 &lt;p&gt;Для тех, кто очень далёк от web-разработки &amp;mdash; речь про этот &lt;a href=&#39;http://getbootstrap.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Bootstrap&lt;/a&gt;.
 Вероятно вы в курсе, что сейчас четвёртая версия пока только в альфе. Но поинтересоваться какие будут изменения можно и сейчас.
 А Кэрол Скелли поможет достаточно просто увидеть это в статье &lt;a href=&#39;https://medium.com/wdstack/bootstrap-4-whats-new-visual-guide-c84dd81d8387&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Bootstrap 4: A Visual Guide to What’s New&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;интересное-исследование-впечатлений-пользователей-мобильных-устройств-о-сайтах&#34;&gt;Интересное исследование впечатлений пользователей мобильных устройств о сайтах&lt;/h3&gt;
+&lt;h2 id=&#34;интересное-исследование-впечатлений-пользователей-мобильных-устройств-о-сайтах&#34;&gt;Интересное исследование впечатлений пользователей мобильных устройств о сайтах&lt;/h2&gt;
 
 &lt;p&gt;По заголовку статьи &lt;a href=&#39;http://blog.marginmedia.com.au/Our-Blog/bid/87385/10-Mobile-Web-Design-Statistics-All-Marketers-Should-Know-About&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;10 Mobile Web Design Statistics All Marketers Should Know About&lt;/a&gt;
 может показаться, что она для маркетологов. Но нет. Точнее не только для них. Статья древняя &amp;mdash; 2012 года.
@@ -429,7 +455,8 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
 &lt;li&gt;Найти всё что нужно за пару кликов;&lt;/li&gt;
 &lt;li&gt;Кнопки побольше;&lt;/li&gt;
 &lt;li&gt;Отсутствие горизонтального скроллинга.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
   </channel>

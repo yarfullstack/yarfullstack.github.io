@@ -242,6 +242,8 @@
         
     
 </p>
+
+
 <p>Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.</p>
 
 <p>Вообще говоря, я раньше много раз сталкивался с распределёнными транзакциями.
@@ -251,14 +253,14 @@
 свелось к его использованию в интеграционных тестах (без распределённой составляющей, просто для удобного отката транзакций)
  и редким спорам с коллегами. Но сегодня, внезапно&hellip;</p>
 
-<h3 id="разговор-на-работе">Разговор на работе</h3>
+<h2 id="разговор-на-работе">Разговор на работе</h2>
 
 <p>Вообще говоря, в появлении этого текста на свет основная заслуга Макса (<a href='https://twitter.com/force_net' rel="nofollow noopener noreferrer" target="_blank">@force_net</a>).
 С ним сегодня сначала говорили про <a href='https://msdn.microsoft.com/en-us/library/tcbchxcb%28v=vs.110%29.aspx' rel="nofollow noopener noreferrer" target="_blank">Snapshot Isolation</a>,
 потом перешли на TransactionScope. И говорит Макс &mdash; <strong>&ldquo;там ведь Serializable по умолчанию&rdquo;.</strong><br />
 Я говорю &mdash; &ldquo;да ладно, нелогично же &mdash; без него Read Committed по умолчанию&rdquo;. Так, слово за слово, решили проверить.</p>
 
-<h3 id="лирическое-отступление">Лирическое отступление</h3>
+<h2 id="лирическое-отступление">Лирическое отступление</h2>
 
 <p>На случай, если вы мало сталкивались с БД, про уровни изоляции есть вполне сносная, хотя не всем с первого раза понятная документация.
 Поэтому лучше дам ссылку на <a href='https://en.wikipedia.org/wiki/Isolation_%28database_systems%29' rel="nofollow noopener noreferrer" target="_blank">общее описание от википедии</a>.</p>
@@ -269,7 +271,7 @@
 
 <p>Постараюсь чуть позже написать более подробную статью на тему уровней изоляции.</p>
 
-<h3 id="результаты-проверки">Результаты проверки</h3>
+<h2 id="результаты-проверки">Результаты проверки</h2>
 
 <p>Как я уже говорил, TransactionScope пользовался давно и редко. Поэтому я несколько удивился, увидев подтверждение упомянутому феномену.
 Сказал я Максу что-то вроде &mdash; &ldquo;с чего-бы высокомудрые архитекторы и разработчики такой нетрадиционный способ обратной совместимости выбрали?&rdquo;.</p>
@@ -280,7 +282,7 @@
 слов &ldquo;по умолчанию использует уровень изоляции Serializable&rdquo; большими красными буквами?
 <a href='https://msdn.microsoft.com/en-us/library/system.transactions.transactionscope%28v=vs.110%29.aspx' rel="nofollow noopener noreferrer" target="_blank">В документации класса </a> вообще Serializable не упомянули :(</p>
 
-<h3 id="выводы">Выводы</h3>
+<h2 id="выводы">Выводы</h2>
 
 <p>Если вы подсели на &ldquo;синтаксическое сладкое&rdquo;, любите async/await (предпочитая не погружаться в детали его работы) и используете
 TransactionScope из коробки в production &mdash; ваше дело. Я больше скажу, даже MS DTC вы можете использовать из приложения в ASP.NET.
@@ -289,6 +291,7 @@ TransactionScope из коробки в production &mdash; ваше дело. Я
 <p>Однако, <strong>подумайте над переопределением уровня изоляции транзакций для TransactionScope.</strong>
 Разумеется, я согласен, что для каких-то решений Serializable будет правильным выбором.
 Главное, чтобы выбор был осознанным&hellip;</p>
+
 <p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
@@ -326,7 +329,7 @@ TransactionScope из коробки в production &mdash; ваше дело. Я
 	<div class="mb-content-nav">
 	
 	<nav class="mb-prev-next">
-		<a href="https://yarfullstack.com/post/2016-08/go-1/"><svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+		<a href="https://yarfullstack.com/post/2016-08/go-1.7-release/"><svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 			<use xlink:href="#chevron-left-icon"></use>
 		</svg>&nbsp;Релиз Go 1.7</a></nav>&nbsp;/
 		<nav class="mb-prev-next"><a href="https://yarfullstack.com/post/2016-08/ux-best-tweets/">Подборка из 3 интереснейших твитов по UX и Usability&nbsp;<svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">

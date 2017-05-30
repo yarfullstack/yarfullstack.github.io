@@ -1,13 +1,52 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/node.js/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>Node.js on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/node/index.js/</link>
+    <description>Recent content in Node.js on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 30 May 2017 21:22:14 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>О релизе Node.js 8 и npm 5</title>
+      <link>https://yarfullstack.com/post/2017-05/node.js-8-npm-5/</link>
+      <pubDate>Tue, 30 May 2017 21:22:14 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-05/node.js-8-npm-5/</guid>
+      <description>
+
+&lt;p&gt;Этот месяц, как вы уже знаете (или догадались) порадовал нас новыми релизами Node.js и npm.
+Про &lt;a href=&#34;https://yarfullstack.com/post/2017-05/web-development-news/&#34;&gt;сдвиг релиза Node.js 8 я уже писал&lt;/a&gt;, как и обещали &amp;ndash; выпустили в конце мая.&lt;/p&gt;
+
+&lt;h2 id=&#34;node-js-8&#34;&gt;Node.js 8&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&#39;https://nodejs.org/en/blog/release/v8.0.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Сегодня вышел Node.js 8&lt;/a&gt;. Он будет LTS с октября.&lt;/p&gt;
+
+&lt;p&gt;Подробности по ссылке выше. Основные новшества:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#39;https://developers.google.com/v8/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;V8&lt;/a&gt; 5.8 обещает нам значительное улучшение производительности, а также совместимость с V8 6.0 (ради чего и откладывался релиз Node.js 8).&lt;/li&gt;
+&lt;li&gt;Конструктор &lt;code&gt;Buffer(num)&lt;/code&gt; (deprecated), теперь принудительно заполняет буфер нулями (более безопасно, но менее производительно). Есть &lt;a href=&#39;https://medium.com/@jasnell/node-js-buffer-api-changes-3c21f1048f97&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статья с подробностями&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Вроде бы теперь стало лучше с отладкой (подробно не смотрел).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;npm-5&#34;&gt;npm@5&lt;/h2&gt;
+
+&lt;p&gt;Пять дней назад вышел &lt;a href=&#39;https://github.com/npm/npm/releases/tag/v5.0.0&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз npm 5.0.0&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Подробности по ссылке выше, из основного, на мой взгляд:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Поменялась схема блокировки. Теперь всегда будет присутствовать файл &lt;code&gt;package-lock.json&lt;/code&gt; (публиковаться не будет).
+Есть &lt;a href=&#39;https://github.com/npm/npm/blob/iarna/shrinkwrap-rfc/doc/spec/package-lock.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;спецификация&lt;/a&gt;, но она пока дописывается.&lt;/li&gt;
+&lt;li&gt;Он больше не будет долбить отсутствующую сеть &amp;mdash; попытается достать из кэша или сфэйлится.&lt;/li&gt;
+&lt;li&gt;Кэш изрядно переписан, стал более &lt;del&gt;мягким и шелковистым&lt;/del&gt; быстрым и отказоустойчивым.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Новости web</title>
@@ -15,7 +54,9 @@
       <pubDate>Fri, 05 May 2017 13:34:52 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-05/web-development-news/</guid>
-      <description>&lt;p&gt;Сегодня несколько новостей из мира web-разработки.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня несколько новостей из мира web-разработки.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Chrome без chrome.&lt;/li&gt;
@@ -25,28 +66,26 @@
 &lt;li&gt;Prepack.io &amp;ndash; интеллектуальная минимизация JavaScript.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
-&lt;h3 id=&#34;headless-chrome&#34;&gt;Headless Chrome&lt;/h3&gt;
+&lt;h2 id=&#34;headless-chrome&#34;&gt;Headless Chrome&lt;/h2&gt;
 
 &lt;p&gt;Недавно я уже писал про завершение сопровождения Phantom.js. Сегодня предлагаю ознакомиться со статьёй
 &lt;a href=&#34;https://developers.google.com/web/updates/2017/04/headless-chrome&#34;&gt;Getting Started with Headless Chrome&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;node-js-8-0&#34;&gt;Node.js 8.0&lt;/h3&gt;
+&lt;h2 id=&#34;node-js-8-0&#34;&gt;Node.js 8.0&lt;/h2&gt;
 
 &lt;p&gt;Релиз Node.js 8.0, ранее планировавшийся на апрель, отложен на конец мая. Об этом в статье &lt;a href=&#34;https://medium.com/the-node-js-collection/node-js-8-0-0-has-been-delayed-and-will-ship-on-or-around-may-30th-cd38ba96980d&#34;&gt;Node.js 8.0.0 has been delayed and will ship on or around May 30th&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Если вкратце, решили немного подождать более свежего V8.&lt;/p&gt;
 
-&lt;h3 id=&#34;postal&#34;&gt;Postal&lt;/h3&gt;
+&lt;h2 id=&#34;postal&#34;&gt;Postal&lt;/h2&gt;
 
 &lt;p&gt;На случай, если вам захочется пользоваться преимуществами и недостатками своей инфраструктуры для отправки писем, имейте в виду &lt;a href=&#34;https://github.com/atech/postal&#34;&gt;Postal&lt;/a&gt;. Можете также почитать &lt;a href=&#34;https://news.ycombinator.com/item?id=14201562&#34;&gt;обсуждение на HackerNews&lt;/a&gt;.&lt;/p&gt;
 
-&lt;h3 id=&#34;node-compiler&#34;&gt;node-compiler&lt;/h3&gt;
+&lt;h2 id=&#34;node-compiler&#34;&gt;node-compiler&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://github.com/pmq20/node-compiler&#34;&gt;node-compiler&lt;/a&gt; &amp;ndash; компилятор в бинарник для Node.js. Такие были и раньше, сравнение есть на сайте.&lt;/p&gt;
 
-&lt;h3 id=&#34;prepack&#34;&gt;Prepack&lt;/h3&gt;
+&lt;h2 id=&#34;prepack&#34;&gt;Prepack&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#34;https://prepack.io/&#34;&gt;Prepack&lt;/a&gt; &amp;mdash; интеллектуальная минимизация JavaScript (пока BETA). Не путайте с минификацией.&lt;/p&gt;
 
@@ -63,7 +102,8 @@
 &lt;div class=&#34;microlight&#34;&gt;(function () {
   s = &#34;hello world&#34;;
 })();
-&lt;/div&gt;</description>
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -72,14 +112,16 @@
       <pubDate>Sat, 06 Aug 2016 15:04:54 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/improve-npm-performance-with-progress-bar/</guid>
-      <description>&lt;p&gt;В последнее время всё чаще сталкиваюсь с разработкой на node.js.
+      <description>
+
+&lt;p&gt;В последнее время всё чаще сталкиваюсь с разработкой на node.js.
 На работе использую версию LTS, по понятным причинам. Дома поставил 6.3.1.&lt;/p&gt;
 
 &lt;p&gt;Идеологически мне больше нравится третий npm &amp;mdash; всё-таки хранить дубликаты модулей, особенно когда их много &amp;mdash; не здорово.
 Кстати, для старой версии ноды есть &lt;a href=&#39;https://www.npmjs.com/package/npm3&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;модуль npm3&lt;/a&gt; &amp;mdash; позволяет
 (в лучших традициях партизан) использовать новый npm при установленном старом (только команды будут npm3 install и т.п.). Но сегодня речь не об этом.&lt;/p&gt;
 
-&lt;h3 id=&#34;progress-bar&#34;&gt;Progress bar&lt;/h3&gt;
+&lt;h2 id=&#34;progress-bar&#34;&gt;Progress bar&lt;/h2&gt;
 
 &lt;p&gt;Не знаю, насколько для вас это сюрприз, но, таки-да &amp;mdash; этот симпатичный (в третьем npm) зверёк ощутимо влияет на производительность npm install.
 Я, конечно, не буду разводить драму в стиле газетных заголовков и сразу скажу, что, по моим замерам, разница в пределах 20%.
@@ -120,7 +162,8 @@ time npm install
 rm -rf node_modules
 npm set progress=false
 time npm install
-&lt;/div&gt;</description>
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
@@ -129,11 +172,13 @@ time npm install
       <pubDate>Thu, 04 Aug 2016 21:12:01 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/find-broken-links-and-fix-target-blank/</guid>
-      <description>&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
-Сначала &amp;mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
-Затем &amp;mdash; методы правильной работы с target=&amp;rdquo;_blank&amp;rdquo;. &lt;/p&gt;
+      <description>
 
-&lt;h3 id=&#34;broken-link-checker&#34;&gt;broken-link-checker&lt;/h3&gt;
+&lt;p&gt;Сегодняшний выпуск чуть более чем полностью посвящён ссылкам.
+Сначала &amp;mdash; небольшое знакомство с broken-link-checker (инструментом для поиска битых ссылок).
+Затем &amp;mdash; методы правильной работы с target=&amp;rdquo;_blank&amp;rdquo;.&lt;/p&gt;
+
+&lt;h2 id=&#34;broken-link-checker&#34;&gt;broken-link-checker&lt;/h2&gt;
 
 &lt;p&gt;На днях прочитал  &lt;a href=&#39;https://davidwalsh.name/broken-link-checker&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью Дэвида Уолша&lt;/a&gt;
  про &lt;a href=&#39;https://github.com/stevenvachon/broken-link-checker&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;broken-link-checker&lt;/a&gt;.
@@ -142,9 +187,9 @@ time npm install
 &lt;p&gt;Если вкратце, это утилита (на Node.js), которую можно натравить на сайт и найти битые ссылки.
 Можно использовать либо через Javascript API, либо из командной строки.&lt;/p&gt;
 
-&lt;h3 id=&#34;как-сделать-target-blank-безопасным-и-производительным&#34;&gt;Как сделать target=&amp;rdquo;_blank&amp;rdquo; безопасным и производительным&lt;/h3&gt;
+&lt;h2 id=&#34;как-сделать-target-blank-безопасным-и-производительным&#34;&gt;Как сделать target=&amp;rdquo;_blank&amp;rdquo; безопасным и производительным&lt;/h2&gt;
 
-&lt;h4 id=&#34;про-безопасность&#34;&gt;Про безопасность&lt;/h4&gt;
+&lt;h3 id=&#34;про-безопасность&#34;&gt;Про безопасность&lt;/h3&gt;
 
 &lt;p&gt;Скорее всего, вы уже прочитали &lt;a href=&#39;https://habrahabr.ru/post/282880/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью Опасный target=&amp;#34;_blank&amp;#34;&lt;/a&gt;
  про проблемы с ним с точки зрения безопасности. Ежели нет, то, в двух словах, вредоносный (или взломанный) сайт
@@ -168,7 +213,7 @@ otherWindow.location = targetUrl;
 
 &lt;p&gt;Лично я для этого сайта выбрал первый вариант.&lt;/p&gt;
 
-&lt;h4 id=&#34;про-производительность&#34;&gt;Про производительность&lt;/h4&gt;
+&lt;h3 id=&#34;про-производительность&#34;&gt;Про производительность&lt;/h3&gt;
 
 &lt;p&gt;Однако на этом история не заканчивается.
 &lt;a href=&#39;https://jakearchibald.com/2016/performance-benefits-of-rel-noopener/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Статья Джейка Арчибальда&lt;/a&gt; рассказывает о том,
@@ -176,10 +221,11 @@ otherWindow.location = targetUrl;
 
 &lt;p&gt;Думаю, ваши пользователи оценят вашу заботу и об их комфорте, и об их безопасности.&lt;/p&gt;
 
-&lt;h4 id=&#34;возможные-проблемы-с-указанными-решениями&#34;&gt;Возможные проблемы с указанными решениями&lt;/h4&gt;
+&lt;h3 id=&#34;возможные-проблемы-с-указанными-решениями&#34;&gt;Возможные проблемы с указанными решениями&lt;/h3&gt;
 
 &lt;p&gt;Да, стоит понимать, что для каких-то сайтов важно передавать referrer.
-Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;</description>
+Вероятно, в этом случае правильнее просто отказаться от открытия в новой вкладке вообще.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

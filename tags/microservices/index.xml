@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/microservices/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>Microservices on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/microservices/</link>
+    <description>Recent content in Microservices on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 18 May 2017 22:39:11 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,20 +16,23 @@
       <pubDate>Thu, 18 May 2017 22:39:11 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-05/message-queues/</guid>
-      <description>&lt;p&gt;Сегодня про очереди. В контексте кроликов и ноликов, как мы обычно с Максом говорим.
+      <description>
+
+&lt;p&gt;Сегодня про очереди. В контексте кроликов и ноликов, как мы обычно с Максом говорим.
 Ему, кстати, отдельное спасибо за &lt;a href=&#39;http://queues.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ссылку на Queues.io&lt;/a&gt;.
 Это сборник сведений по очередям как &lt;strong&gt;системам&lt;/strong&gt; (или, если сказать проще &amp;mdash; серверам очередей).
-То есть по тому, что можно запустить и начать использовать.
+То есть по тому, что можно запустить и начать использовать.&lt;/p&gt;
 
-По этой причине там нет gRPC и Cap&amp;rsquo;n Proto (о котором далее). Зато там есть Кафка (и совсем не грефневая :).&lt;/p&gt;
+&lt;p&gt;По этой причине там нет gRPC и Cap&amp;rsquo;n Proto (о котором далее). Зато там есть Кафка (и совсем не грефневая :).&lt;/p&gt;
 
-&lt;h3 id=&#34;релиз-cap-n-proto-0-6&#34;&gt;Релиз Cap&amp;rsquo;n Proto 0.6&lt;/h3&gt;
+&lt;h2 id=&#34;релиз-cap-n-proto-0-6&#34;&gt;Релиз Cap&amp;rsquo;n Proto 0.6&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&#39;https://capnproto.org/index.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Cap&amp;#39;n Proto&lt;/a&gt; немного похож на gRPC, &lt;a href=&#34;https://yarfullstack.com/post/2016-10/gRPC-first-impressions/&#34;&gt;о котором я писал ранее&lt;/a&gt;.
 Только, с одной стороны, у него нет хорошей поддержки большого набора платформ и языков, а с другой, есть достаточно интересные оптимизации.&lt;/p&gt;
 
 &lt;p&gt;Кстати, в &lt;a href=&#39;https://capnproto.org/news/2017-05-01-capnproto-0.6-msvc-json-http-more.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt;
-упоминается на этот раз полная поддержка Windows и Visual Studio. Только сразу огорчу любителей C# &amp;mdash; подразумевается C++.&lt;/p&gt;</description>
+упоминается на этот раз полная поддержка Windows и Visual Studio. Только сразу огорчу любителей C# &amp;mdash; подразумевается C++.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -37,13 +41,15 @@
       <pubDate>Thu, 13 Oct 2016 21:46:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</guid>
-      <description>&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
+      <description>
+
+&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
 Довелось. Сейчас поделюсь. Только уточню, что пока это впечатления с хакатона, там не будет махрового энтерпрайза, повального контроля с аудитом и тому подобного.&lt;/p&gt;
 
 &lt;p&gt;В вопросу о хакатоне. Делал небольшую инфраструктуру для того, чтобы сделать немного счастливее наших тестировщиков.
 И разработчиков, конечно, но в исторической перспективе.&lt;/p&gt;
 
-&lt;h3 id=&#34;техническая-концепция&#34;&gt;Техническая концепция&lt;/h3&gt;
+&lt;h2 id=&#34;техническая-концепция&#34;&gt;Техническая концепция&lt;/h2&gt;
 
 &lt;p&gt;Концепция была простая &amp;mdash; плагины к браузерам для упрощения заведения багов и набор сервисов (строго говоря &amp;mdash; пока это консольные приложения).
 Цели &amp;mdash; быстро сделать прототип, получив при этом удовольствие от исследования сравнительно новых для меня технологий.
@@ -59,7 +65,7 @@
 &lt;li&gt;&lt;strong&gt;Deployer&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на компьютере разработчика. Умеет восстанавливать бэкапы (без PackDb тоже не обошлось).&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;что-было-использовано&#34;&gt;Что было использовано&lt;/h3&gt;
+&lt;h2 id=&#34;что-было-использовано&#34;&gt;Что было использовано&lt;/h2&gt;
 
 &lt;p&gt;Как видите, у меня был небольшой зоопарк из плагина к Chrome (сейчас в процессе плагин к IE), три приложения на Go и три на .NET.
 Всем им, естественно, хотелось между собой общаться (ладно, не всем, но я заставил почти всех :)&lt;/p&gt;
@@ -69,7 +75,7 @@
 По большому счёту, это потребовалось только для &amp;ldquo;session&amp;rdquo; (чтобы плагин мог получать и записывать необходимые данные) и для &amp;ldquo;bot&amp;rdquo;
 (Rocket.Chat пока тоже не умеет gRPC).&lt;/p&gt;
 
-&lt;h3 id=&#34;что-понравилось&#34;&gt;Что понравилось&lt;/h3&gt;
+&lt;h2 id=&#34;что-понравилось&#34;&gt;Что понравилось&lt;/h2&gt;
 
 &lt;p&gt;Описание сервисов в proto-файлах. Действительно, описание &amp;ldquo;как бы контракта&amp;rdquo; в отдельном файле мотивирует думать над API, пока его пишешь
 (хотя protobuf v3 сравнительно толерантен к изменению API). Нравится, что есть в явном виде &amp;ldquo;сообщение&amp;rdquo;, а не набор параметров. Маленький пример:
@@ -110,7 +116,7 @@ central.Register(new Agent
 &lt;p&gt;И ещё (это субъективно, конечно) &amp;mdash; эстетическое удовольствие от названия командного файла generate_&lt;strong&gt;protos&lt;/strong&gt;.bat :)
 С ним, пожалуй, сравнится разве что использование хранилища &amp;ldquo;bolt&amp;rdquo; для &amp;ldquo;session&amp;rdquo;.&lt;/p&gt;
 
-&lt;h3 id=&#34;что-не-понравилось&#34;&gt;Что не понравилось&lt;/h3&gt;
+&lt;h2 id=&#34;что-не-понравилось&#34;&gt;Что не понравилось&lt;/h2&gt;
 
 &lt;p&gt;Не понравилось то, что падает в runtime, когда передаёшь null в поле сообщения. Столкнулся с этим, когда передавал строки на C#
 (в Go строки и так по умолчанию &amp;ldquo;&amp;rdquo; &amp;mdash; там такой проблемы нет). Лечится, конечно, инциализацией в пустую строку. Но осадок остался.&lt;/p&gt;
@@ -118,9 +124,10 @@ central.Register(new Agent
 &lt;p&gt;Не столкнулся, но заочно не нравится &lt;a href=&#39;http://www.grpc.io/docs/guides/auth.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;скудный набор вариантов аутентификации из коробки&lt;/a&gt; (либо SSL/TLS, либо гугловый OAuth2).
 Понятно, что можно реализовать свой (возможно сейчас уже плодятся проекты на GitHub, которые это делают), но хотелось бы что-то &lt;del&gt;тёплое, ламповое&lt;/del&gt; коробочное&amp;hellip;&lt;/p&gt;
 
-&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
 
-&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;</description>
+&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -129,13 +136,15 @@ central.Register(new Agent
       <pubDate>Sun, 18 Sep 2016 14:54:10 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/grpc-first-steps/</guid>
-      <description>&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
+      <description>
+
+&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
 Сегодня я расскажу о том, что это такое и почему стоит, как минимум, обратить на это внимание.
 А потом расскажу, как посмотреть его в работе, используя стандартные примеры.&lt;/p&gt;
 
 &lt;p&gt;Чтобы не было скучно от слова &amp;ldquo;стандартные&amp;rdquo;, мы будем обращаться к серверу на Go из клиента на C#.
 В принципе, можно реализовать любые комбинации из языков программирования, которые поддерживаются gRPC.
-Кстати, вот список поддерживаемых платформ и ЯП: &lt;/p&gt;
+Кстати, вот список поддерживаемых платформ и ЯП:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;C++&lt;/li&gt;
@@ -319,7 +328,8 @@ RouteGuideClient.exe
 &lt;p&gt;Моё личное мнение &amp;mdash; gRPC обязательно стоит попробовать, если вы делаете микросервисы и не сильно привязаны к альтернативам.
 Альтернативы, на мой взгляд &amp;ndash; Apache Thrift и Cap&amp;rsquo;n Proto. Правда, слышал, что некоторые мигрируют с Apache Thrift на gRPC&amp;hellip;&lt;/p&gt;
 
-&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;</description>
+&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;
+</description>
     </item>
     
   </channel>

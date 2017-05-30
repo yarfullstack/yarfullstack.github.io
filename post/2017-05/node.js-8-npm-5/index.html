@@ -4,8 +4,8 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-	      content="CSS">
-	<title>CSS</title>
+	      content="О релизе Node.js 8 и npm 5">
+	<title>О релизе Node.js 8 и npm 5</title>
 	
 	<style>
 	html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,select,textarea{font:inherit;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}#mb-container,body,html{min-height:100%;height:100%;width:100%}html{font-size:calc(16px + 6 * ((100vw - 800px) / 480))}@media screen and (min-width:1280px){html{font-size:22px}}@media screen and (max-width:800px){html{font-size:16px}}ul{vertical-align:baseline;list-style-position:outside}#mb-container{float:left;background-color:#fff}#mb-content{color:#282828}#mb-menu{box-sizing:border-box;background-color:#203040;color:#ababab}.mb-mh{font-weight:700}.mb-none{display:none}article,ol,p,ul{line-height:24px;line-height:1.5rem;margin-bottom:24px;margin-bottom:1.5rem}small{font-size:.694em;line-height:16.672px;line-height:1.042rem}h1{font-size:33.184px;font-size:2.074rem;line-height:33.184px;line-height:2.074rem}h1,h2{margin-bottom:24px;margin-bottom:1.5rem}h2{font-size:27.648px;font-size:1.728rem;line-height:27.648px;line-height:1.728rem;margin-top:44.352px;margin-top:2.772rem}h3{font-size:23.04px;font-size:1.44rem;line-height:23.04px;line-height:1.44rem;margin-top:48.96px;margin-top:3.06rem}h3,h4{margin-bottom:24px;margin-bottom:1.5rem}h4{font-size:19.2px;font-size:1.2rem;line-height:19.2px;line-height:1.2rem;margin-top:52.8px;margin-top:3.3rem}h5{font-size:16px;font-size:1rem;line-height:16px;line-height:1rem;margin-top:56px;margin-top:3.5rem;margin-bottom:24px;margin-bottom:1.5rem}a{text-decoration:none;color:#2098d1}.mb-ml-color,a.mb-mh,a.mb-ml,a.mb-mt{color:#ababab}a.mb-mh,a.mb-ml,a.mb-mt{margin-right:12px;margin-top:6px;margin:.375rem .75rem 0 0}.u-m-right{margin-right:.5em}.mb-icon-menu{height:.833em;width:.833em;vertical-align:baseline}.mb-icon-content{height:1em;width:1em;vertical-align:baseline}.u-icon-meta{position:relative;top:.033em;left:0}svg{fill:currentColor}.mb-content-nav{display:block;font-size:1em;line-height:1em;margin-top:calc(1.5rem - 1em + 1.5rem);margin-bottom:1em}.mb-prev-next{display:inline}.microlight{font-family:monospace;font-size:.75em;white-space:pre;background-color:#203040;color:#fafafa;overflow:auto;padding:.5em}@media screen and (max-width:820px){#mb-content,#mb-menu{width:100%;margin:0;box-sizing:border-box}#mb-menu{padding:12px;padding:.75rem}#mb-content{height:auto;padding:0 12px;padding:0 .75rem}h1{margin-top:14.816px;margin-top:.926rem}a.mb-mh,a.mb-ml,a.mb-mt{display:inline-block}.mb-mhh{font-size:23.04px;font-size:1.44rem;font-weight:700;display:block}.u-icon-top-big{top:.033em!important}.u-icon-top-huge{top:.1em!important}.u-hide-s-vw{display:none!important}}@media screen and (min-width:420px) and (max-width:819px){#mb-content,#mb-menu{padding:4%}}@media screen and (min-width:820px){body{height:100%}#mb-menu{position:fixed;top:0;left:0;width:199.872px;width:12.492rem;height:100%;font-size:11.104px;font-size:.694rem;padding-top:16.672px;padding-bottom:16.672px;padding-left:24px;padding:1.042rem 1.5rem;padding-right:24px;overflow:auto}#mb-content{position:absolute;top:0;left:199.872px;left:12.492rem;right:0;bottom:0;padding-top:24px;padding-left:24px;padding:1.5rem 1.5rem 0;padding-right:24px}h1{margin-top:-9.184px;margin-top:-.574rem}.mb-mh,a.mb-mh,a.mb-ml,a.mb-mt{line-height:16.672px;line-height:1.042rem}.mb-mh,a.mb-mh,a.mb-ml{margin-left:0;margin-right:0}.u-menu-vmargin{margin-top:11.12px;margin-top:.695rem;margin-bottom:11.12px;margin-bottom:.695rem}.mb-mh,a.mb-mh{margin-top:16.672px;margin-top:1.042rem;margin-bottom:5.568px;margin-bottom:.348rem}a.mb-mt{display:inline-block}.u-block-l-vw{display:block}.mb-mhh{font-size:16px;font-size:1rem;font-weight:700}.u-icon-top-big{top:.1em!important}.u-icon-top-huge{top:.133em!important}.u-hide-l-vw{display:none!important}}@media screen and (min-width:1280px){#mb-menu{width:calc((100vw - 1280px)/5 + 12.492rem)}#mb-content{left:calc((100vw - 1280px)/5 + 12.492rem);padding-top:24px;padding-bottom:24px;padding:1.5rem calc(1.5rem + (100vw - 1280px) / 3)}}
@@ -36,9 +36,6 @@
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
-	
-	<link href="https://yarfullstack.com/tags/css/index.xml" rel="alternate" type="application/rss+xml" title="YarFullStack" />
-	<link href="https://yarfullstack.com/tags/css/index.xml" rel="feed" type="application/rss+xml" title="YarFullStack" />
 	
 </head>
 
@@ -101,10 +98,6 @@
 	</defs>
 </svg>
 
-<a href="https://yarfullstack.com/tags/css/index.xml" class="mb-ml u-block-l-vw" type="application/rss+xml" target="_blank">
-	<svg class="mb-icon-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414"><use xlink:href="#rss-icon"></use></svg>
-	Подпишитесь на RSS
-</a>
 	<a class="mb-mh u-block-l-vw" href="https://yarfullstack.com/topics">
 		<svg class="mb-icon-menu u-icon-meta" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
 		Категории
@@ -215,16 +208,11 @@
 
 	<div id="mb-content">
 
-	<h1><svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tag-icon"></use></svg>
-		CSS</h1>
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2017-05/cssstats/">CSS Stats - сбор статистики по вашему CSS</a></h2>
-		<p>
+<h1>О релизе Node.js 8 и npm 5</h1>
+<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2017-05-26 12:20&#43;03:00'>26.05.2017, 12:20</time>
+        <time datetime='2017-05-30 21:22&#43;03:00'>30.05.2017, 21:22</time>
     </small>
     
     
@@ -233,7 +221,7 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
+            <a href="https://yarfullstack.com/topics/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">Новости</a>
             
         </small>
         
@@ -244,242 +232,48 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/tags/css">CSS</a>
+            <a href="https://yarfullstack.com/tags/node.js">Node.js</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/javascript">JavaScript</a>
             
         </small>
         
     
 </p>
-	</header>
-	<p>Недавно обнаружил <a href='http://cssstats.com' rel="nofollow noopener noreferrer" target="_blank">cssstats.com</a> &mdash; сайт для визуализации статистики по CSS.
-Как оказалось, ему уже несколько лет. Рекомендаций они не дают, просто дают информацию к размышлению.</p>
 
-<p>В статье &ldquo;<a href='https://webdesign.tutsplus.com/tutorials/understanding-css-stats-how-to-make-the-most-of-the-numbers--cms-22756' rel="nofollow noopener noreferrer" target="_blank">Understanding CSS Stats: How to Make the Most of the Numbers</a>&rdquo;,
-предложено несколько способов анализа этой информации.</p>
 
-	
-	<footer>
-		<a href="/post/2017-05/cssstats/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
+<p>Этот месяц, как вы уже знаете (или догадались) порадовал нас новыми релизами Node.js и npm.
+Про <a href="/post/2017-05/web-development-news/">сдвиг релиза Node.js 8 я уже писал</a>, как и обещали &ndash; выпустили в конце мая.</p>
 
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2017-04/css/">Немного про CSS и вёрстку</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2017-04-12 22:24&#43;03:00'>12.04.2017, 22:24</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/css">CSS</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Сегодня несколько интересных статей от css-tricks, csswizardry и uxdesign.cc.</p>
+<h2 id="node-js-8">Node.js 8</h2>
+
+<p><a href='https://nodejs.org/en/blog/release/v8.0.0/' rel="nofollow noopener noreferrer" target="_blank">Сегодня вышел Node.js 8</a>. Он будет LTS с октября.</p>
+
+<p>Подробности по ссылке выше. Основные новшества:</p>
 
 <ul>
-<li>background-repeat;</li>
-<li>Проблемы с производительностью base64 для картинок;</li>
-<li>Краткая запись CSS как антипаттерн;</li>
-<li>О стилях для печати.</li>
+<li><a href='https://developers.google.com/v8/' rel="nofollow noopener noreferrer" target="_blank">V8</a> 5.8 обещает нам значительное улучшение производительности, а также совместимость с V8 6.0 (ради чего и откладывался релиз Node.js 8).</li>
+<li>Конструктор <code>Buffer(num)</code> (deprecated), теперь принудительно заполняет буфер нулями (более безопасно, но менее производительно). Есть <a href='https://medium.com/@jasnell/node-js-buffer-api-changes-3c21f1048f97' rel="nofollow noopener noreferrer" target="_blank">статья с подробностями</a>.</li>
+<li>Вроде бы теперь стало лучше с отладкой (подробно не смотрел).</li>
 </ul>
 
-	
-	<footer>
-		<a href="/post/2017-04/css/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
+<h2 id="npm-5">npm@5</h2>
 
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-11/css-debug-and-testing/">Отладка и тестирование вёрстки</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-11-25 12:59&#43;03:00'>25.11.2016, 12:59</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/css">CSS</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Сегодня небольшая подборка информации для тех, кому интересна тема тестирования и отладки вёрстки.
-Disclaimer: некоторые статьи читал давно (возможно что-то устарело), не всеми советами пользовался, однако статьи, безусловно, полезные.</p>
+<p>Пять дней назад вышел <a href='https://github.com/npm/npm/releases/tag/v5.0.0' rel="nofollow noopener noreferrer" target="_blank">релиз npm 5.0.0</a>.</p>
 
-	
-	<footer>
-		<a href="/post/2016-11/css-debug-and-testing/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-07/uncss/">Подробности про UnCSS</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-07-15 15:24&#43;03:00'>15.07.2016, 15:24</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/css">CSS</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/tools">Tools</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Ранее я уже <a href="/post/2016-06/css/">немного упоминал UnCSS</a>, а сегодня расскажу о нем подробнее.
-Напомню, он, с помощью PhantomJS, рендерит страницы и выполняет JavaScript, ищет используемые классы и удаляет остальные.</p>
-
-<p>Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
-Также можно использовать его API из Node.js или вызывать из командной строки.</p>
-
-	
-	<footer>
-		<a href="/post/2016-07/uncss/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/">Рекомендации по дизайну и про Bootstrap 4</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-07-08 00:27&#43;03:00'>08.07.2016, 00:27</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8">Дизайн и юзабилити</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/design">Design</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/usability">Usability</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/css">CSS</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Недавно прочитал несколько полезных статей про дизайн и вёрстку, хочу с вами поделиться.</p>
+<p>Подробности по ссылке выше, из основного, на мой взгляд:</p>
 
 <ul>
-<li>Рекомендации по дизайну хороших и удобных форм;</li>
-<li>Визуальные отличия грядущего Bootstrap 4 от Bootstrap 3;</li>
-<li>Интересное исследование впечатлений пользователей мобильных устройств о сайтах.</li>
+<li>Поменялась схема блокировки. Теперь всегда будет присутствовать файл <code>package-lock.json</code> (публиковаться не будет).
+Есть <a href='https://github.com/npm/npm/blob/iarna/shrinkwrap-rfc/doc/spec/package-lock.md' rel="nofollow noopener noreferrer" target="_blank">спецификация</a>, но она пока дописывается.</li>
+<li>Он больше не будет долбить отсутствующую сеть &mdash; попытается достать из кэша или сфэйлится.</li>
+<li>Кэш изрядно переписан, стал более <del>мягким и шелковистым</del> быстрым и отказоустойчивым.</li>
 </ul>
 
-	
-	<footer>
-		<a href="/post/2016-07/design-recommendations-and-bootstrap4/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-06/css/">Подборка интересного о CSS</a></h2>
-		<p>
+<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-06-20 22:28&#43;03:00'>20.06.2016, 22:28</time>
+        <time datetime='2017-05-30 21:22&#43;03:00'>30.05.2017, 21:22</time>
     </small>
     
     
@@ -488,7 +282,7 @@ Disclaimer: некоторые статьи читал давно (возмож�
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
+            <a href="https://yarfullstack.com/topics/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">Новости</a>
             
         </small>
         
@@ -499,31 +293,43 @@ Disclaimer: некоторые статьи читал давно (возмож�
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-huge" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/tags/css">CSS</a>
+            <a href="https://yarfullstack.com/tags/node.js">Node.js</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/javascript">JavaScript</a>
             
         </small>
         
     
 </p>
-	</header>
-	<p>Сегодня немного интересностей про CSS. В фокусе !important, PostCSS и UnCss.</p>
 
-<ul>
-<li>Так ли страшен important, как его малюют?</li>
-<li>PostCSS.</li>
-<li>UnCSS.</li>
-</ul>
+	<div class="mb-content-nav">
+	
+	<nav class="mb-prev-next">
+		<a href="https://yarfullstack.com/post/2017-05/cssstats/"><svg class="mb-icon-content u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+			<use xlink:href="#chevron-left-icon"></use>
+		</svg>&nbsp;CSS Stats - сбор статистики по вашему CSS</a></nav>&nbsp;
+		
+	</div>
 
-	
-	<footer>
-		<a href="/post/2016-06/css/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-huge" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
+<script src="/js/microlight.min.js"></script>
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+	(function () {
+		
+		if (window.location.hostname == "localhost") {
+			return;
+		}
 
-	
+		var dsq = document.createElement('script');
+		dsq.type = 'text/javascript';
+		dsq.async = true;
+		var disqus_shortname = 'yarfullstackcom';
+		dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+		(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+	})();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a>
+</noscript>
 </div> 
 </div> 
 

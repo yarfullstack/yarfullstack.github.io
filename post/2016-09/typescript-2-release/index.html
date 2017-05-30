@@ -244,19 +244,28 @@
         
     
 </p>
-<p>Команда разработки TypeScript радует своими темпами &mdash; в начале месяца я <a href="/post/2016-09/typescript-2/">писал про TypeScript 2.0 RC</a>,
+
+
+<p>Команда разработки TypeScript радует своими темпами &mdash; в начале месяца я <a href="/post/2016-09/typescript-2.0-RC/">писал про TypeScript 2.0 RC</a>,
 а сегодня они <a href='https://blogs.msdn.microsoft.com/typescript/2016/09/22/announcing-typescript-2-0/' rel="nofollow noopener noreferrer" target="_blank">сделали релиз 2.0</a>.</p>
 
-<p>В общем-то, на этом можно и закончить, но кому интересно &mdash; можете почитать краткий пересказ анонса про основные фичи.</p>
+<p>В общем-то, на этом можно и закончить, но кому интересно &mdash; можете почитать краткий пересказ анонса про основные фичи:</p>
 
-<h3 id="урощённое-подключение-d-ts">Урощённое подключение .d.ts</h3>
+<ul>
+<li>Упрощёно подключение .d.ts;</li>
+<li>Запрет null для значений (&mdash;strictNullChecks);</li>
+<li>Добавлен анализ ветвлений;</li>
+<li>Свойства только для чтения.</li>
+</ul>
+
+<h2 id="упрощённое-подключение-d-ts">Упрощённое подключение .d.ts</h2>
 
 <p>Вот так просто можно теперь &ldquo;типизировать&rdquo; пакет из npm:</p>
 
 <div class="microlight">npm install -s @types/lodash
 </div>
 
-<h3 id="запрет-null-для-значений">Запрет null для значений</h3>
+<h2 id="запрет-null-для-значений">Запрет null для значений</h2>
 
 <p>Добавлен режим &ldquo;&mdash;strictNullChecks&rdquo;, при включении которого необходимо явно указывать для типа, что значения могут быть
 null или undefined, например так:</p>
@@ -266,7 +275,7 @@ null или undefined, например так:</p>
 
 <p>Зачем это сделано, думаю, вы и сами догадались.</p>
 
-<h3 id="добавлен-анализ-ветвлений">Добавлен анализ ветвлений</h3>
+<h2 id="добавлен-анализ-ветвлений">Добавлен анализ ветвлений</h2>
 
 <p>Пример:</p>
 
@@ -279,7 +288,7 @@ if (condition) {
 return result;
 </div>
 
-<h3 id="свойства-только-для-чтения">Свойства только для чтения</h3>
+<h2 id="свойства-только-для-чтения">Свойства только для чтения</h2>
 
 <p>Раньше не было, теперь добавили:</p>
 
@@ -294,6 +303,7 @@ return result;
 // Error! 'name' is read-only.
 new Person("Daniel").name = "Dan";
 </div>
+
 <p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>

@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>YarFullStack</title>
-    <link>https://yarfullstack.com/tags/microsoft/index.xml</link>
-    <description>Recent content on YarFullStack</description>
+    <title>Microsoft on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/microsoft/</link>
+    <description>Recent content in Microsoft on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 19 Apr 2017 21:50:12 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/microsoft/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
@@ -15,25 +16,25 @@
       <pubDate>Wed, 19 Apr 2017 21:50:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-04/react-fiber-reactxp-relay-modern/</guid>
-      <description>&lt;h3 id=&#34;reactxp&#34;&gt;ReactXP&lt;/h3&gt;
+      <description>
 
 &lt;p&gt;Компания Microsoft удивила. На этот раз &amp;mdash; приятно удивила.
 &lt;a href=&#39;https://microsoft.github.io/reactxp/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Анонсирована библиотека ReactXP&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Подробности по ссылке. Если вкратце &amp;mdash; это надстройка для React Native.
-Декларируется, что с ней можно будет один раз написать весь UI, за исключением &amp;ldquo;platform-specific&amp;rdquo;.&lt;br /&gt;
-&lt;/p&gt;
+Декларируется, что с ней можно будет один раз написать весь UI, за исключением &amp;ldquo;platform-specific&amp;rdquo;.&lt;/p&gt;
 
 &lt;p&gt;Кстати, больше 4К звёзд на GitHub за 14 дней. Посмотрим, что будет дальше, и я не о звёздах :)&lt;/p&gt;
 
-&lt;h3 id=&#34;react-fiber&#34;&gt;React Fiber&lt;/h3&gt;
+&lt;h2 id=&#34;react-fiber&#34;&gt;React Fiber&lt;/h2&gt;
 
 &lt;p&gt;Месяц назад, в заметке &lt;a href=&#34;https://yarfullstack.com/post/2017-03/reactconf-2017/&#34;&gt;Новости ReactConf 2017&lt;/a&gt; я уже упоминал про React Fiber.
 Теперь про него &lt;a href=&#39;https://techcrunch.com/2017/04/18/facebook-announces-react-fiber-a-rewrite-of-its-react-framework/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;заговорил и TechCrunch&lt;/a&gt;.
 Напомню, Fiber &amp;mdash; это более продвинутая архитектура (на замену Reconciliation), делающая рендеринг инкрементальным.&lt;/p&gt;
 
 &lt;p&gt;Ещё TechCrunch упоминает Relay Modern &amp;mdash; новую версию Relay (это фреймворк для data-driven приложений, использующий GraphQL).
-Подробнее про него можно прочитать в статье &lt;a href=&#39;https://code.facebook.com/posts/1362748677097871/relay-modern-simpler-faster-more-extensible/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Relay Modern: Simpler, faster, more extensible&lt;/a&gt;.&lt;/p&gt;</description>
+Подробнее про него можно прочитать в статье &lt;a href=&#39;https://code.facebook.com/posts/1362748677097871/relay-modern-simpler-faster-more-extensible/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Relay Modern: Simpler, faster, more extensible&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -42,12 +43,14 @@
       <pubDate>Fri, 10 Mar 2017 12:31:19 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-03/visual-studio-2017-and-dotnetcore/</guid>
-      <description>&lt;p&gt;Вы наверняка в курсе про &lt;a href=&#39;https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Visual Studio 2017&lt;/a&gt;.
+      <description>
+
+&lt;p&gt;Вы наверняка в курсе про &lt;a href=&#39;https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Visual Studio 2017&lt;/a&gt;.
 Если хочется читать на русском &amp;mdash; на Хабре есть более короткая статья &lt;a href=&#39;https://habrahabr.ru/company/microsoft/blog/323452/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Visual Studio 2017 и новые возможности инструментов от Microsoft&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Давайте сначала расскажу про позитивные вещи, про негатив потом.&lt;/p&gt;
 
-&lt;h3 id=&#34;основные-новшества-на-мой-взгляд&#34;&gt;Основные новшества (на мой взгляд)&lt;/h3&gt;
+&lt;h2 id=&#34;основные-новшества-на-мой-взгляд&#34;&gt;Основные новшества (на мой взгляд)&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Поддержка &lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2016/08/24/whats-new-in-csharp-7-0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;C# 7.0&lt;/a&gt;.&lt;/li&gt;
@@ -56,7 +59,7 @@
 &lt;li&gt;.NET Core Tools &amp;mdash; об этом ниже.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;net-core-tools&#34;&gt;.NET Core Tools&lt;/h3&gt;
+&lt;h2 id=&#34;net-core-tools&#34;&gt;.NET Core Tools&lt;/h2&gt;
 
 &lt;p&gt;Теперь про чашку дёгтя в бочке мёда. &lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2017/03/07/announcing-net-core-tools-1-0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выпустили .NET Core Tools 1.0&lt;/a&gt;.
 Есть несколько фишечек, в статье перечислены.&lt;/p&gt;
@@ -69,7 +72,7 @@
 
 &lt;p&gt;У меня есть ещё несколько более крепких слов по этому поводу, однако оставлю их при себе :)&lt;/p&gt;
 
-&lt;h3 id=&#34;мелкие-улучшения&#34;&gt;Мелкие улучшения&lt;/h3&gt;
+&lt;h2 id=&#34;мелкие-улучшения&#34;&gt;Мелкие улучшения&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudio/2016/10/11/shorter-solution-load-time-in-visual-studio-15/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Lightweight Solution Load&lt;/a&gt; &amp;mdash; фича для более быстрой загрузки больших solution (по умолчанию отключена).&lt;/li&gt;
@@ -77,7 +80,8 @@
 &lt;li&gt;Workloads &amp;mdash; &amp;ldquo;наборы инструментов&amp;rdquo;, для того, чтобы не устанавливать лишнее. Пока не попробовал, сложно судить насколько это полезнее того, что было раньше.&lt;/li&gt;
 &lt;li&gt;Attach to Process Filter и Reattach to Process &amp;mdash; удобно для отладки, когда приходиться аттачиться к процессу.&lt;/li&gt;
 &lt;li&gt;Run to Click &amp;mdash; возможно я чего-то не понимаю, но Ctrl+F10 делает то же самое. Для мышелюбов?&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -90,8 +94,7 @@
 Схема &amp;mdash; открыть &amp;ldquo;text visualizer&amp;rdquo;, выделить код, скопировать, вставить (по ситуации) в Notepad++ или Visual Studio &amp;mdash; надоела мне где-то через час.
 Вариант напрямую копировать значение не подходил из-за эскейпинга.&lt;/p&gt;
 
-&lt;p&gt;И я нашёл &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/e514eeby%28v=vs.140%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;приемлемое решение проблемы&lt;/a&gt;.
-&lt;/p&gt;
+&lt;p&gt;И я нашёл &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/e514eeby%28v=vs.140%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;приемлемое решение проблемы&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Всё, что нужно сделать &amp;mdash; добавить в Watch после переменной &amp;ldquo;,nq&amp;rdquo; &amp;mdash; после этого можно копировать текст по правой кнопке на значении в Watch (пункт Copy Value).
 Остальные варианты можно прочитать по ссылке выше. Вот то, что лично мне показалось полезным:&lt;/p&gt;
@@ -99,7 +102,8 @@
 &lt;ul&gt;
 &lt;li&gt;hidden &amp;mdash; сразу показывает и приватные поля/свойства;&lt;/li&gt;
 &lt;li&gt;results &amp;mdash; для IEnumerable показывает результат выполнения, то есть не потребуется разворачивать &amp;ldquo;Results View&amp;rdquo;, скажем, для результата Enumerable.Take.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -108,11 +112,11 @@
       <pubDate>Fri, 17 Feb 2017 13:18:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/interesting-releases/</guid>
-      <description>&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
+      <description>
 
-&lt;p&gt;&lt;/p&gt;
+&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
 
-&lt;h3 id=&#34;tensorflow-1-0&#34;&gt;TensorFlow 1.0&lt;/h3&gt;
+&lt;h2 id=&#34;tensorflow-1-0&#34;&gt;TensorFlow 1.0&lt;/h2&gt;
 
 &lt;p&gt;15 февраля вышел релиз &lt;a href=&#39;https://developers.googleblog.com/2017/02/announcing-tensorflow-10.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TensorFlow 1.0&lt;/a&gt;.&lt;/p&gt;
 
@@ -126,7 +130,7 @@
 &lt;li&gt;Появился &lt;a href=&#39;https://www.tensorflow.org/programmers_guide/debugger&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;отладчик tfdbg&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;go-1-8&#34;&gt;Go 1.8&lt;/h3&gt;
+&lt;h2 id=&#34;go-1-8&#34;&gt;Go 1.8&lt;/h2&gt;
 
 &lt;p&gt;16 февраля был &lt;a href=&#39;https://blog.golang.org/go1.8&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Go 1.8&lt;/a&gt;.&lt;br /&gt;
 Коротко о главном (в основном это касается производительности):&lt;/p&gt;
@@ -139,7 +143,7 @@
 &lt;li&gt;Изменение в языке одно &amp;ndash; теперь можно привести одну структуру к другой, &lt;a href=&#39;https://golang.org/doc/go1.8#language&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;если отличия только в тэгах&lt;/a&gt;.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;visual-studio-2017&#34;&gt;Visual Studio 2017&lt;/h3&gt;
+&lt;h2 id=&#34;visual-studio-2017&#34;&gt;Visual Studio 2017&lt;/h2&gt;
 
 &lt;p&gt;Недавно анонсировали &lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudio/2017/02/09/visual-studio-2017-launch-event-and-20th-anniversary/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз VS 2017 седьмого марта&lt;/a&gt;.&lt;/p&gt;
 
@@ -148,7 +152,8 @@
 А в целом про нововведения для RC &lt;a href=&#39;https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-in-visual-studio&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Ещё, возможно, вам будет интересен &lt;a href=&#39;https://github.com/dotnet/core/blob/master/roadmap.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core Roadmap&lt;/a&gt;.
-В частности, в планах на третий квартал этого года .NET Core 2.0 и .NET Standard 2.0.&lt;/p&gt;</description>
+В частности, в планах на третий квартал этого года .NET Core 2.0 и .NET Standard 2.0.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -157,7 +162,9 @@
       <pubDate>Mon, 06 Feb 2017 13:38:03 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/gvfs/</guid>
-      <description>&lt;p&gt;Microsoft &lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudioalm/2017/02/03/announcing-gvfs-git-virtual-file-system/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;анонсировала GVFS&lt;/a&gt;.&lt;br /&gt;
+      <description>
+
+&lt;p&gt;Microsoft &lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudioalm/2017/02/03/announcing-gvfs-git-virtual-file-system/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;анонсировала GVFS&lt;/a&gt;.&lt;br /&gt;
 Можно просто почитать статью по ссылке, далее просто короткое описание.&lt;/p&gt;
 
 &lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; В Microsoft обнаружили, что на больших репозиториях (пара сотен гигабайт) Git подтормаживает :)
@@ -174,10 +181,11 @@
 &lt;li&gt;commit: 30 минут/13 секунд&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
 
 &lt;p&gt;Если у вас похожий кейс с огромным репозиторием, рекомендую попробовать.
-Правда, сначала рекомендую задуматься &amp;mdash; правильно ли у вас организован репозиторий.&lt;/p&gt;</description>
+Правда, сначала рекомендую задуматься &amp;mdash; правильно ли у вас организован репозиторий.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -186,7 +194,9 @@
       <pubDate>Thu, 19 Jan 2017 22:09:44 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-01/dotnet-core-and-visual-studio/</guid>
-      <description>&lt;p&gt;Сегодня про опыт (мой и моих коллег) и впечатления о .NET Core.&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня про опыт (мой и моих коллег) и впечатления о .NET Core.&lt;/p&gt;
 
 &lt;p&gt;На всякий (почти невероятный) случай кратко о том, что это такое.
 Microsoft сделал фреймворк для кросcплатформенной разработки. Построил его на немного других принципах &amp;mdash; сделал более
@@ -201,7 +211,7 @@ Microsoft сделал фреймворк для кросcплатформенн
 
 &lt;p&gt;&lt;em&gt;TL;DR&lt;/em&gt; В целом, новые проекты можно аккуратно пробовать делать на .NET Core, старые и большие я бы поостерёгся мигрировать.&lt;/p&gt;
 
-&lt;h3 id=&#34;установка&#34;&gt;Установка&lt;/h3&gt;
+&lt;h2 id=&#34;установка&#34;&gt;Установка&lt;/h2&gt;
 
 &lt;p&gt;&lt;strong&gt;Disclaimer:&lt;/strong&gt; у меня Windows 10 + Visual Studio 2015, так что рассматриваю только этот случай и на данный момент времени.
 Поэтому через месяц-другой лучше свериться с сайтом.&lt;/p&gt;
@@ -217,7 +227,7 @@ Microsoft сделал фреймворк для кросcплатформенн
 Или &lt;a href=&#39;https://go.microsoft.com/fwlink/?LinkID=835014&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core 1.1 SDK&lt;/a&gt;. Не факт, что потребуется, но вероятность хорошая.&lt;/li&gt;
 &lt;/ol&gt;
 
-&lt;h3 id=&#34;зрелость-экосистемы&#34;&gt;&amp;ldquo;Зрелость&amp;rdquo; экосистемы&lt;/h3&gt;
+&lt;h2 id=&#34;зрелость-экосистемы&#34;&gt;&amp;ldquo;Зрелость&amp;rdquo; экосистемы&lt;/h2&gt;
 
 &lt;p&gt;Казалось бы, &amp;ldquo;это же .NET, что может случиться?&amp;rdquo; :)
 Как вам отсутствие в нём отправки писем? Да, есть сторонний пакет &amp;mdash; &lt;a href=&#39;https://github.com/jstedfast/MailKit&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MailKit&lt;/a&gt;.
@@ -234,7 +244,7 @@ Microsoft сделал фреймворк для кросcплатформенн
 &lt;p&gt;В общем, ощущение, что очень уж хотелось сделать местами всё с нуля и круто и немного поторопились. Обратная совместимость? Ну, вы поняли.
 И с project.json как-то неудобно получилось&amp;hellip;&lt;/p&gt;
 
-&lt;h3 id=&#34;мелкие-грабли-с-нашей-инфраструктурой&#34;&gt;Мелкие грабли с нашей инфраструктурой&lt;/h3&gt;
+&lt;h2 id=&#34;мелкие-грабли-с-нашей-инфраструктурой&#34;&gt;Мелкие грабли с нашей инфраструктурой&lt;/h2&gt;
 
 &lt;p&gt;Исторически сложилось, что мы используем TeamCity для билдов и NUnit для тестов.
 Мне, лично, ещё нравится, когда тесты можно из ReSharper запускать.&lt;/p&gt;
@@ -253,12 +263,13 @@ Microsoft сделал фреймворк для кросcплатформенн
 &lt;div class=&#34;microlight&#34;&gt;Install-Package dotnet-test-nunit-teamcity -Pre
 &lt;/div&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
 
 &lt;p&gt;Повторюсь. В целом, новые проекты можно аккуратно пробовать делать на .NET Core. Старые и большие проекты я бы поостерёгся мигрировать.&lt;/p&gt;
 
 &lt;p&gt;И да, в микросервисной архитектуре будет немного проще сгладить некоторые &amp;ldquo;углы&amp;rdquo;.
-А для тех, кто никуда не торопится, можно попробовать подождать, когда .NET Core будет поддерживать .NET Standard 2.0.&lt;/p&gt;</description>
+А для тех, кто никуда не торопится, можно попробовать подождать, когда .NET Core будет поддерживать .NET Standard 2.0.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -267,21 +278,22 @@ Microsoft сделал фреймворк для кросcплатформенн
       <pubDate>Thu, 17 Nov 2016 13:10:32 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-11/sql-2016-sp1-enterprise-features/</guid>
-      <description>&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &lt;a href=&#39;https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MSSQL on Linux&lt;/a&gt; , а про
+      <description>
+
+&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &lt;a href=&#39;https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MSSQL on Linux&lt;/a&gt; , а про
 &lt;a href=&#39;https://blogs.msdn.microsoft.com/sqlreleaseservices/sql-server-2016-service-pack-1-sp1-released/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выход Microsoft SQL Server 2016 SP1&lt;/a&gt;.
 Они просто взяли и включили большинство enterprise-фич во &lt;strong&gt;все&lt;/strong&gt; редакции MSSQL! Можете просто прочитать статью по ссылке,
 ниже табличка с фичами и ещё несколько слов о паре других интересных нововведений.&lt;/p&gt;
 
-&lt;p&gt;&lt;/p&gt;
-
 &lt;p&gt;&lt;img src=&#34;https://msdnshared.blob.core.windows.net/media/2016/11/111616_0403_SQLServer201.png&#34; /&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;прочие-нововведения&#34;&gt;Прочие нововведения&lt;/h3&gt;
+&lt;h2 id=&#34;прочие-нововведения&#34;&gt;Прочие нововведения&lt;/h2&gt;
 
 &lt;ul&gt;
 &lt;li&gt;CREATE OR ALTER &amp;mdash; давно пора! Думаю все поняли о чём речь :)&lt;/li&gt;
 &lt;li&gt;DBCC CLONEDATABASE &amp;mdash; копирование схемы БД (без данных). Не подразумевается использование клонов в продакшн.&lt;/li&gt;
-&lt;/ul&gt;</description>
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -290,19 +302,28 @@ Microsoft сделал фреймворк для кросcплатформенн
       <pubDate>Thu, 22 Sep 2016 23:12:42 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/typescript-2-release/</guid>
-      <description>&lt;p&gt;Команда разработки TypeScript радует своими темпами &amp;mdash; в начале месяца я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/typescript-2/&#34;&gt;писал про TypeScript 2.0 RC&lt;/a&gt;,
+      <description>
+
+&lt;p&gt;Команда разработки TypeScript радует своими темпами &amp;mdash; в начале месяца я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/typescript-2.0-RC/&#34;&gt;писал про TypeScript 2.0 RC&lt;/a&gt;,
 а сегодня они &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/09/22/announcing-typescript-2-0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;сделали релиз 2.0&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;В общем-то, на этом можно и закончить, но кому интересно &amp;mdash; можете почитать краткий пересказ анонса про основные фичи.&lt;/p&gt;
+&lt;p&gt;В общем-то, на этом можно и закончить, но кому интересно &amp;mdash; можете почитать краткий пересказ анонса про основные фичи:&lt;/p&gt;
 
-&lt;h3 id=&#34;урощённое-подключение-d-ts&#34;&gt;Урощённое подключение .d.ts&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Упрощёно подключение .d.ts;&lt;/li&gt;
+&lt;li&gt;Запрет null для значений (&amp;mdash;strictNullChecks);&lt;/li&gt;
+&lt;li&gt;Добавлен анализ ветвлений;&lt;/li&gt;
+&lt;li&gt;Свойства только для чтения.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;упрощённое-подключение-d-ts&#34;&gt;Упрощённое подключение .d.ts&lt;/h2&gt;
 
 &lt;p&gt;Вот так просто можно теперь &amp;ldquo;типизировать&amp;rdquo; пакет из npm:&lt;/p&gt;
 
 &lt;div class=&#34;microlight&#34;&gt;npm install -s @types/lodash
 &lt;/div&gt;
 
-&lt;h3 id=&#34;запрет-null-для-значений&#34;&gt;Запрет null для значений&lt;/h3&gt;
+&lt;h2 id=&#34;запрет-null-для-значений&#34;&gt;Запрет null для значений&lt;/h2&gt;
 
 &lt;p&gt;Добавлен режим &amp;ldquo;&amp;mdash;strictNullChecks&amp;rdquo;, при включении которого необходимо явно указывать для типа, что значения могут быть
 null или undefined, например так:&lt;/p&gt;
@@ -312,7 +333,7 @@ null или undefined, например так:&lt;/p&gt;
 
 &lt;p&gt;Зачем это сделано, думаю, вы и сами догадались.&lt;/p&gt;
 
-&lt;h3 id=&#34;добавлен-анализ-ветвлений&#34;&gt;Добавлен анализ ветвлений&lt;/h3&gt;
+&lt;h2 id=&#34;добавлен-анализ-ветвлений&#34;&gt;Добавлен анализ ветвлений&lt;/h2&gt;
 
 &lt;p&gt;Пример:&lt;/p&gt;
 
@@ -325,7 +346,7 @@ if (condition) {
 return result;
 &lt;/div&gt;
 
-&lt;h3 id=&#34;свойства-только-для-чтения&#34;&gt;Свойства только для чтения&lt;/h3&gt;
+&lt;h2 id=&#34;свойства-только-для-чтения&#34;&gt;Свойства только для чтения&lt;/h2&gt;
 
 &lt;p&gt;Раньше не было, теперь добавили:&lt;/p&gt;
 
@@ -339,21 +360,29 @@ return result;
 
 // Error! &#39;name&#39; is read-only.
 new Person(&#34;Daniel&#34;).name = &#34;Dan&#34;;
-&lt;/div&gt;</description>
+&lt;/div&gt;
+</description>
     </item>
     
     <item>
       <title>TypeScript 2.0 RC</title>
-      <link>https://yarfullstack.com/post/2016-09/typescript-2/</link>
+      <link>https://yarfullstack.com/post/2016-09/typescript-2.0-RC/</link>
       <pubDate>Thu, 01 Sep 2016 20:35:25 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-09/typescript-2/</guid>
-      <description>&lt;p&gt;Недавно прочитал про выход &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/08/30/announcing-typescript-2-0-rc/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TypeScript 2.0 RC&lt;/a&gt;.
-Делюсь фичами, которые мне понравились.&lt;/p&gt;
+      <guid>https://yarfullstack.com/post/2016-09/typescript-2.0-RC/</guid>
+      <description>
 
-&lt;h3 id=&#34;tagged-unions&#34;&gt;Tagged Unions&lt;/h3&gt;
+&lt;p&gt;Недавно прочитал про выход &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/08/30/announcing-typescript-2-0-rc/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TypeScript 2.0 RC&lt;/a&gt;.
+Делюсь фичами, которые мне понравились:&lt;/p&gt;
 
-&lt;p&gt;Интереснейшая фишка, которая, в том числе, позволяет делать другие интересные фишки. 
+&lt;ul&gt;
+&lt;li&gt;Tagged Unions;&lt;/li&gt;
+&lt;li&gt;Новые литеральные типы;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;tagged-unions&#34;&gt;Tagged Unions&lt;/h2&gt;
+
+&lt;p&gt;Интереснейшая фишка, которая, в том числе, позволяет делать другие интересные фишки.
 Давайте посмотрим на примере.
 &lt;div class=&#34;microlight&#34;&gt;interface Circle {
     kind: &#34;circle&#34;;
@@ -385,7 +414,7 @@ type Shape = Circle | Square;
 
 &lt;p&gt;Неплохо?&lt;/p&gt;
 
-&lt;h3 id=&#34;новые-литеральные-типы&#34;&gt;Новые литеральные типы&lt;/h3&gt;
+&lt;h2 id=&#34;новые-литеральные-типы&#34;&gt;Новые литеральные типы&lt;/h2&gt;
 
 &lt;p&gt;В TypeScript 1.8 были добавлены строковые литеральные типы. Теперь можно сделать литеральными boolean, number и enum.
 Помимо таких забавных применений:
@@ -426,19 +455,20 @@ else {
 }
 &lt;/div&gt;&lt;/p&gt;
 
-&lt;h3 id=&#34;резюме&#34;&gt;Резюме&lt;/h3&gt;
+&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
 
 &lt;p&gt;Это, на мой взгляд, наиболее интересные нововведения в TypeScript 2.0 после беты.
 Полный &lt;a href=&#39;https://github.com/Microsoft/TypeScript/wiki/What%27s-new-in-TypeScript&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;список новых фич в TypeScript 2.0&lt;/a&gt;,
-разумеется, более впечатляющий.&lt;/p&gt;</description>
+разумеется, более впечатляющий.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Обновление Microsoft Visual Studio (KB3165756)</title>
-      <link>https://yarfullstack.com/post/2016-07/visual-studio/</link>
+      <link>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</link>
       <pubDate>Wed, 13 Jul 2016 08:46:18 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-07/visual-studio/</guid>
+      <guid>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</guid>
       <description>&lt;p&gt;Недавно вышло новое обновление для Visual Studio: &lt;a href=&#39;https://msdn.microsoft.com/library/mt752379&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Update for Microsoft Visual Studio 2015 Update 3 (KB3165756)&lt;/a&gt;.
 Тем, кто пользуется студией &amp;mdash; крайне рекомендую поставить &amp;mdash; исправлено с десяток багов (подробности по ссылке выше), ставится быстро, перезагрузка не требуется.
 Проще всего поставить, скачав с &lt;a href=&#39;http://go.microsoft.com/fwlink/?LinkID=816878&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Microsoft Download Center&lt;/a&gt;.&lt;/p&gt;
@@ -448,7 +478,8 @@ else {
 
 &lt;p&gt;Как обещал &amp;mdash; впечатления. Загружается и ставится быстро. На моём компьютере субъективно заняло минуты 2.
 &lt;del&gt;После этого студия работает в 4 раза быстрее, а мои волосы стали крепкими и шелковистыми.&lt;/del&gt;
-Естественно, за несколько минут работы эффект незаметен. Однако, утечкам памяти это свойственно.&lt;/p&gt;</description>
+Естественно, за несколько минут работы эффект незаметен. Однако, утечкам памяти это свойственно.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -457,17 +488,17 @@ else {
       <pubDate>Fri, 24 Jun 2016 12:31:11 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-06/dotNET/</guid>
-      <description>&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
+      <description>
+
+&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Основные анонсы dotnetConf 2016;&lt;/li&gt;
 &lt;li&gt;Статья с хорошим примером и описанием подхода к оптимизации производительности от Джона Скита;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Немного про тёмную сторону async/await :)
-&lt;/p&gt;
-
-&lt;h3 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h3&gt;&lt;/li&gt;
+&lt;li&gt;Немного про тёмную сторону async/await :)&lt;/li&gt;
 &lt;/ul&gt;
+
+&lt;h2 id=&#34;dotnetconf-2016&#34;&gt;dotnetConf 2016&lt;/h2&gt;
 
 &lt;p&gt;Для многих самым ожидаемым событием июня будет релиз .NET Core и ASP.NET Core 1.0 &lt;strong&gt;27 июня 2016 года.&lt;/strong&gt;
 Для тех, кто использует .NET и вообще не в курсе что это такое &amp;mdash; &lt;a href=&#39;https://dotnet.github.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;рекомендую ознакомиться&lt;/a&gt;.&lt;/p&gt;
@@ -478,12 +509,12 @@ else {
 &lt;p&gt;Скотт Хансельман рассказал про &lt;a href=&#39;http://www.dotnetfoundation.org/blog/cake-welcome&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Cake&lt;/a&gt; &amp;mdash;
 новую систему для билдов. Я пока не вижу, где лично мне было бы полезно на неё перейти, однако, может и приживётся. Наверняка понравится тем, кому нравится Powershell.&lt;/p&gt;
 
-&lt;h3 id=&#34;джон-скит-о-производительности&#34;&gt;Джон Скит о производительности&lt;/h3&gt;
+&lt;h2 id=&#34;джон-скит-о-производительности&#34;&gt;Джон Скит о производительности&lt;/h2&gt;
 
 &lt;p&gt;В статье &lt;a href=&#39;https://codeblog.jonskeet.uk/2016/06/09/tracking-down-a-performance-hit/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tracking down a performance hit&lt;/a&gt;
 Джон Скит подробно описывает подход к поиску &amp;ldquo;бутылочных горлышек&amp;rdquo; и улучшению производительности. Заодно он нашёл баг в .NET Core и NUnit :)&lt;/p&gt;
 
-&lt;h3 id=&#34;тёмная-сторона-async-await&#34;&gt;Тёмная сторона async/await&lt;/h3&gt;
+&lt;h2 id=&#34;тёмная-сторона-async-await&#34;&gt;Тёмная сторона async/await&lt;/h2&gt;
 
 &lt;p&gt;Если вы активно используете async/await проверьте себя и скажите, что выведет следующий код:&lt;/p&gt;
 
@@ -494,7 +525,8 @@ else {
 Console.WriteLine(&#34;B&#34;);
 &lt;/div&gt;
 
-&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;</description>
+&lt;p&gt;Ещё одна загадка по теме и ответы в &lt;a href=&#39;https://github.com/ljw1004/blog/blob/master/Analyzers/MissingAwaitAnalyzer/MissingAwaitAnalyzer/readme.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;блоге автора MissingAwaitAnalyzer&lt;/a&gt;.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

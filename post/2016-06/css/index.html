@@ -238,9 +238,17 @@
         
     
 </p>
+
+
 <p>Сегодня немного интересностей про CSS. В фокусе !important, PostCSS и UnCss.</p>
 
-<h3 id="так-ли-страшен-important-как-его-малюют">Так ли страшен important, как его малюют?</h3>
+<ul>
+<li>Так ли страшен important, как его малюют?</li>
+<li>PostCSS.</li>
+<li>UnCSS.</li>
+</ul>
+
+<h2 id="так-ли-страшен-important-как-его-малюют">Так ли страшен important, как его малюют?</h2>
 
 <p>Прочитал на днях статью <a href='http://csswizardry.com/2016/05/the-importance-of-important/' rel="nofollow noopener noreferrer" target="_blank">The Importance of !important: Forcing Immutability in CSS</a>.
 Если вкратце &mdash; не так уж бесполезен и вреден !important.</p>
@@ -248,9 +256,9 @@
 <p>Есть вполне жизненные и правильные варианты использования &mdash; например, для утилитных классов с &ldquo;text-align: center&rdquo;.
 Похоже, это теперь такая же &ldquo;потому что так нельзя&rdquo; страшилка среди верстальщиков, как GOTO среди программистов :)</p>
 
-<h3 id="рекомендуемые-инструменты-для-css">Рекомендуемые инструменты для CSS</h3>
+<h2 id="рекомендуемые-инструменты-для-css">Рекомендуемые инструменты для CSS</h2>
 
-<h4 id="postcss">PostCSS</h4>
+<h3 id="postcss">PostCSS</h3>
 
 <p>Мой любимый процессор CSS. Важно: пусть вас не путает название, это не пост-процессор :)
 Подробнее об этом есть неплохая статья
@@ -260,11 +268,12 @@
 <p>Думаю, что позже поделюсь подробными впечатлениями об его использовании. Пока скажу, что весьма понравилась идея
 использовать следующую версию CSS прямо сейчас с помощью <a href='http://cssnext.io/' rel="nofollow noopener noreferrer" target="_blank">postcss-cssnext</a>.</p>
 
-<h4 id="uncss">UnCSS</h4>
+<h3 id="uncss">UnCSS</h3>
 
 <p><a href='https://github.com/giakki/uncss' rel="nofollow noopener noreferrer" target="_blank">UnCSS</a> &mdash; утилита для уничтожения неиспользуемого CSS.
 С помощью <a href='https://github.com/Obvious/phantomjs' rel="nofollow noopener noreferrer" target="_blank">PhantomJS</a> рендерит страницы и выполняет JavaScript,
 ищет используемые классы и удаляет остальные. Можно прицепить к Node.js, вызывать из командной строки или добавить плагин к PostCSS.</p>
+
 <p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-big" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
