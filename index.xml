@@ -7,8 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 02 Jun 2017 12:05:57 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2017 23:39:52 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Манифест UX in Motion</title>
+      <link>https://yarfullstack.com/post/2017-06/the-ux-in-motion-manifesto/</link>
+      <pubDate>Thu, 22 Jun 2017 23:39:52 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-06/the-ux-in-motion-manifesto/</guid>
+      <description>&lt;p&gt;Сегодня хочу рассказать про впечатления о статье &lt;a href=&#39;https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Creating Usability with Motion: The UX in Motion Manifesto&lt;/a&gt;.
+Ссылку прислал мне Женя Кирьянов, за что ему отдельное спасибо.
+Есть перевод первой половины этой статьи, но ссылку не дам :) Просто тот случай, когда лучше прочитать оригинал, подглядывая в словарь.&lt;/p&gt;
+
+&lt;p&gt;Если вкратце, статья отличная. К сожалению, идеальный вариант &amp;mdash; сразу всё это попробовать реализовать в реальных приложениях, а у меня такой возможности нет.&lt;/p&gt;
+
+&lt;p&gt;Сразу предупреждаю:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Статья большая.&lt;/li&gt;
+&lt;li&gt;Тем, кто проектирует десктопные интерфейсы статья может показаться &amp;ldquo;слишком для мобильных&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Однако рекомендую приложить некоторые усилия и прочитать (может, не за один раз).
+Мне понравилось. Обязательно прочитаю ещё раз, когда будет возможность применить на практике.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Полезные статьи для web-разработчиков (Хабрахабр)</title>
@@ -490,28 +514,6 @@
 &lt;li&gt;Workloads &amp;mdash; &amp;ldquo;наборы инструментов&amp;rdquo;, для того, чтобы не устанавливать лишнее. Пока не попробовал, сложно судить насколько это полезнее того, что было раньше.&lt;/li&gt;
 &lt;li&gt;Attach to Process Filter и Reattach to Process &amp;mdash; удобно для отладки, когда приходиться аттачиться к процессу.&lt;/li&gt;
 &lt;li&gt;Run to Click &amp;mdash; возможно я чего-то не понимаю, но Ctrl+F10 делает то же самое. Для мышелюбов?&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Visual Studio - несколько трюков для Watch</title>
-      <link>https://yarfullstack.com/post/2017-02/visual-studio-watch-tricks/</link>
-      <pubDate>Fri, 03 Mar 2017 14:10:00 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2017-02/visual-studio-watch-tricks/</guid>
-      <description>&lt;p&gt;На этой неделе я столкнулся с тем, что пришлось часто проверять сгенерированный код при отладке в Visual Studio.
-Схема &amp;mdash; открыть &amp;ldquo;text visualizer&amp;rdquo;, выделить код, скопировать, вставить (по ситуации) в Notepad++ или Visual Studio &amp;mdash; надоела мне где-то через час.
-Вариант напрямую копировать значение не подходил из-за эскейпинга.&lt;/p&gt;
-
-&lt;p&gt;И я нашёл &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/e514eeby%28v=vs.140%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;приемлемое решение проблемы&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Всё, что нужно сделать &amp;mdash; добавить в Watch после переменной &amp;ldquo;,nq&amp;rdquo; &amp;mdash; после этого можно копировать текст по правой кнопке на значении в Watch (пункт Copy Value).
-Остальные варианты можно прочитать по ссылке выше. Вот то, что лично мне показалось полезным:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;hidden &amp;mdash; сразу показывает и приватные поля/свойства;&lt;/li&gt;
-&lt;li&gt;results &amp;mdash; для IEnumerable показывает результат выполнения, то есть не потребуется разворачивать &amp;ldquo;Results View&amp;rdquo;, скажем, для результата Enumerable.Take.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
     </item>

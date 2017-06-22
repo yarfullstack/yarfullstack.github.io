@@ -7,8 +7,32 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 27 Jan 2017 11:22:58 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 22 Jun 2017 23:39:52 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Манифест UX in Motion</title>
+      <link>https://yarfullstack.com/post/2017-06/the-ux-in-motion-manifesto/</link>
+      <pubDate>Thu, 22 Jun 2017 23:39:52 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-06/the-ux-in-motion-manifesto/</guid>
+      <description>&lt;p&gt;Сегодня хочу рассказать про впечатления о статье &lt;a href=&#39;https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Creating Usability with Motion: The UX in Motion Manifesto&lt;/a&gt;.
+Ссылку прислал мне Женя Кирьянов, за что ему отдельное спасибо.
+Есть перевод первой половины этой статьи, но ссылку не дам :) Просто тот случай, когда лучше прочитать оригинал, подглядывая в словарь.&lt;/p&gt;
+
+&lt;p&gt;Если вкратце, статья отличная. К сожалению, идеальный вариант &amp;mdash; сразу всё это попробовать реализовать в реальных приложениях, а у меня такой возможности нет.&lt;/p&gt;
+
+&lt;p&gt;Сразу предупреждаю:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Статья большая.&lt;/li&gt;
+&lt;li&gt;Тем, кто проектирует десктопные интерфейсы статья может показаться &amp;ldquo;слишком для мобильных&amp;rdquo;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Однако рекомендую приложить некоторые усилия и прочитать (может, не за один раз).
+Мне понравилось. Обязательно прочитаю ещё раз, когда будет возможность применить на практике.&lt;/p&gt;
+</description>
+    </item>
     
     <item>
       <title>Подборка статей по UX, дизайну, CSS</title>
