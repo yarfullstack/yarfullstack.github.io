@@ -8,7 +8,9 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 18 May 2017 22:39:11 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/tags/microservices/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Новости и ресурсы про MQ</title>
@@ -16,118 +18,25 @@
       <pubDate>Thu, 18 May 2017 22:39:11 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-05/message-queues/</guid>
-      <description>
-
-&lt;p&gt;Сегодня про очереди. В контексте кроликов и ноликов, как мы обычно с Максом говорим.
+      <description>&lt;p&gt;Сегодня про очереди. В контексте кроликов и ноликов, как мы обычно с Максом говорим.
 Ему, кстати, отдельное спасибо за &lt;a href=&#39;http://queues.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ссылку на Queues.io&lt;/a&gt;.
 Это сборник сведений по очередям как &lt;strong&gt;системам&lt;/strong&gt; (или, если сказать проще &amp;mdash; серверам очередей).
-То есть по тому, что можно запустить и начать использовать.&lt;/p&gt;
+То есть по тому, что можно запустить и начать использовать.
 
-&lt;p&gt;По этой причине там нет gRPC и Cap&amp;rsquo;n Proto (о котором далее). Зато там есть Кафка (и совсем не грефневая :).&lt;/p&gt;
-
-&lt;h2 id=&#34;релиз-cap-n-proto-0-6&#34;&gt;Релиз Cap&amp;rsquo;n Proto 0.6&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://capnproto.org/index.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Cap&amp;#39;n Proto&lt;/a&gt; немного похож на gRPC, &lt;a href=&#34;https://yarfullstack.com/post/2016-10/gRPC-first-impressions/&#34;&gt;о котором я писал ранее&lt;/a&gt;.
-Только, с одной стороны, у него нет хорошей поддержки большого набора платформ и языков, а с другой, есть достаточно интересные оптимизации.&lt;/p&gt;
-
-&lt;p&gt;Кстати, в &lt;a href=&#39;https://capnproto.org/news/2017-05-01-capnproto-0.6-msvc-json-http-more.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt;
-упоминается на этот раз полная поддержка Windows и Visual Studio. Только сразу огорчу любителей C# &amp;mdash; подразумевается C++.&lt;/p&gt;
-</description>
+По этой причине там нет gRPC и Cap&amp;rsquo;n Proto (о котором далее). Зато там есть Кафка (и совсем не грефневая :).&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Первые впечатления о gRPC</title>
-      <link>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</link>
+      <link>https://yarfullstack.com/post/2016-10/grpc-first-impressions/</link>
       <pubDate>Thu, 13 Oct 2016 21:46:12 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</guid>
-      <description>
-
-&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
+      <guid>https://yarfullstack.com/post/2016-10/grpc-first-impressions/</guid>
+      <description>&lt;p&gt;Помните, я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/grpc-first-steps/&#34;&gt;обещал поделиться впечатлениями о gRPC&lt;/a&gt;, когда доведётся попробовать в деле?
 Довелось. Сейчас поделюсь. Только уточню, что пока это впечатления с хакатона, там не будет махрового энтерпрайза, повального контроля с аудитом и тому подобного.&lt;/p&gt;
 
 &lt;p&gt;В вопросу о хакатоне. Делал небольшую инфраструктуру для того, чтобы сделать немного счастливее наших тестировщиков.
-И разработчиков, конечно, но в исторической перспективе.&lt;/p&gt;
-
-&lt;h2 id=&#34;техническая-концепция&#34;&gt;Техническая концепция&lt;/h2&gt;
-
-&lt;p&gt;Концепция была простая &amp;mdash; плагины к браузерам для упрощения заведения багов и набор сервисов (строго говоря &amp;mdash; пока это консольные приложения).
-Цели &amp;mdash; быстро сделать прототип, получив при этом удовольствие от исследования сравнительно новых для меня технологий.
-Исходя из целей, отметены были всякие консулы, grpc-gateway (для REST) &amp;mdash; в основном, всё реализовывалось &amp;ldquo;в лоб&amp;rdquo;. В тот же лес ушла &amp;ldquo;безопасность&amp;rdquo;.
-Сервисы получились такие:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Central&lt;/strong&gt; &amp;mdash; серверное приложение на Go. Основная ответственность &amp;mdash; реестр подключённых сервисов (агентов). Или как модно говорить &amp;mdash; service discovery.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Bot&lt;/strong&gt; &amp;mdash; серверное приложение на Go. Принимает сообщения из Rocket.Chat и может отвечать на них или отправлять новые.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Session&lt;/strong&gt; &amp;mdash; приложение на Go. Запускается на компьютере тестировщика. Помогает плагину получать дополнительную информацию (например, из Redmine) и перенаправлять команды другим агентам.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Redmine&lt;/strong&gt; &amp;mdash; серверное приложение на .NET. Предоставляет необходимые данные из Redmine (например, список проектов).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Archiver&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на сервере БД. Умеет делать бэкапы. Юзает наш замечательный &lt;a href=&#39;http://sparesync.com/downloads.htm&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PackDb&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Deployer&lt;/strong&gt; &amp;mdash; приложение на .NET. Запускается на компьютере разработчика. Умеет восстанавливать бэкапы (без PackDb тоже не обошлось).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;что-было-использовано&#34;&gt;Что было использовано&lt;/h2&gt;
-
-&lt;p&gt;Как видите, у меня был небольшой зоопарк из плагина к Chrome (сейчас в процессе плагин к IE), три приложения на Go и три на .NET.
-Всем им, естественно, хотелось между собой общаться (ладно, не всем, но я заставил почти всех :)&lt;/p&gt;
-
-&lt;p&gt;В такой ситуации gRPC показал себя крайне положительно, за исключением того, что в браузере он пока из коробки не работает.
-С другой стороны, написать на Go простенький HTTP API Server&amp;hellip; Даже для такого ненастоящего гофера как я &amp;mdash; дело 5 минут.
-По большому счёту, это потребовалось только для &amp;ldquo;session&amp;rdquo; (чтобы плагин мог получать и записывать необходимые данные) и для &amp;ldquo;bot&amp;rdquo;
-(Rocket.Chat пока тоже не умеет gRPC).&lt;/p&gt;
-
-&lt;h2 id=&#34;что-понравилось&#34;&gt;Что понравилось&lt;/h2&gt;
-
-&lt;p&gt;Описание сервисов в proto-файлах. Действительно, описание &amp;ldquo;как бы контракта&amp;rdquo; в отдельном файле мотивирует думать над API, пока его пишешь
-(хотя protobuf v3 сравнительно толерантен к изменению API). Нравится, что есть в явном виде &amp;ldquo;сообщение&amp;rdquo;, а не набор параметров. Маленький пример:
-&lt;div class=&#34;microlight&#34;&gt;service CentralService {
-// Registers specified Agent.
-rpc Register(Agent) returns (RegisterResponse) {}
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Есть поддержка перечислений:
-&lt;div class=&#34;microlight&#34;&gt;enum AgentType {
-    ...
-    // Redmine watching (singleton)
-    Redmine		=	4;
-    ...
-}
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Понравилось что относительно быстро генерируются прокси (что на Go, что на .NET). Прокси достаточно удобно использовать.
-Так выглядит сигнатура описанного выше метода на Go:
-&lt;div class=&#34;microlight&#34;&gt;func (s *centralServer) Register(ctx context.Context, agent *a.Agent) 
-    (*a.RegisterResponse, error) { ...
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;А так вызов этого метода на .NET:
-&lt;div class=&#34;microlight&#34;&gt;var channel = new Channel(
-    Environment.GetEnvironmentVariable(&#34;MULTIDASH&#34;), ChannelCredentials.Insecure);
-var central = new CentralService.CentralServiceClient(channel);
-...
-central.Register(new Agent
-{
-    Type = AgentType.Redmine,
-    Host = Environment.MachineName,
-    Port = port,
-    ...
-});
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;И ещё (это субъективно, конечно) &amp;mdash; эстетическое удовольствие от названия командного файла generate_&lt;strong&gt;protos&lt;/strong&gt;.bat :)
-С ним, пожалуй, сравнится разве что использование хранилища &amp;ldquo;bolt&amp;rdquo; для &amp;ldquo;session&amp;rdquo;.&lt;/p&gt;
-
-&lt;h2 id=&#34;что-не-понравилось&#34;&gt;Что не понравилось&lt;/h2&gt;
-
-&lt;p&gt;Не понравилось то, что падает в runtime, когда передаёшь null в поле сообщения. Столкнулся с этим, когда передавал строки на C#
-(в Go строки и так по умолчанию &amp;ldquo;&amp;rdquo; &amp;mdash; там такой проблемы нет). Лечится, конечно, инциализацией в пустую строку. Но осадок остался.&lt;/p&gt;
-
-&lt;p&gt;Не столкнулся, но заочно не нравится &lt;a href=&#39;http://www.grpc.io/docs/guides/auth.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;скудный набор вариантов аутентификации из коробки&lt;/a&gt; (либо SSL/TLS, либо гугловый OAuth2).
-Понятно, что можно реализовать свой (возможно сейчас уже плодятся проекты на GitHub, которые это делают), но хотелось бы что-то &lt;del&gt;тёплое, ламповое&lt;/del&gt; коробочное&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
-
-&lt;p&gt;В целом скорее понравилось, чем не понравилось. При случае, буду пробовать дальше.&lt;/p&gt;
-</description>
+И разработчиков, конечно, но в исторической перспективе.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -136,200 +45,13 @@ central.Register(new Agent
       <pubDate>Sun, 18 Sep 2016 14:54:10 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/grpc-first-steps/</guid>
-      <description>
-
-&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
+      <description>&lt;p&gt;Недавно вышел релиз &lt;a href=&#39;http://www.grpc.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;gRPC&lt;/a&gt;.
 Сегодня я расскажу о том, что это такое и почему стоит, как минимум, обратить на это внимание.
 А потом расскажу, как посмотреть его в работе, используя стандартные примеры.&lt;/p&gt;
 
 &lt;p&gt;Чтобы не было скучно от слова &amp;ldquo;стандартные&amp;rdquo;, мы будем обращаться к серверу на Go из клиента на C#.
 В принципе, можно реализовать любые комбинации из языков программирования, которые поддерживаются gRPC.
-Кстати, вот список поддерживаемых платформ и ЯП:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;C++&lt;/li&gt;
-&lt;li&gt;C#&lt;/li&gt;
-&lt;li&gt;Go&lt;/li&gt;
-&lt;li&gt;Java (включая Android)&lt;/li&gt;
-&lt;li&gt;Node.js&lt;/li&gt;
-&lt;li&gt;Objective-C&lt;/li&gt;
-&lt;li&gt;PHP&lt;/li&gt;
-&lt;li&gt;Python&lt;/li&gt;
-&lt;li&gt;Ruby&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;что-такое-grpc&#34;&gt;Что такое gRPC&lt;/h2&gt;
-
-&lt;p&gt;Цитата: &lt;em&gt;A high performance, open-source universal RPC framework.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Что такое Remote Procedure Call объяснять не буду, давайте разберёмся с высокой производительностью и универсальностью. Но сначала немного истории.&lt;/p&gt;
-
-&lt;p&gt;Жил да был в Stubby &amp;mdash; инфраструктура Google для связи между большим количеством микросервисов. Шли годы, то что
-было специфично для Google становилось общедоступными стандартами (вроде HTTP/2). Поэтому в Google решили переработать
-Stubby и открыть код. Как вы уже догадались, gRPC использует HTTP/2, что позволяет выполнять много мелких запросов быстро
- (без открытия нового TCP-соединения).&lt;/p&gt;
-
-&lt;p&gt;Для справки, в проекте etcd &lt;a href=&#39;https://blog.gopheracademy.com/advent-2015/etcd-distributed-key-value-store-with-grpc-http2/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;переход на gRPC&lt;/a&gt;
- дал прирост производительности приблизительно в 42 раза :) Правда, они честно признаются, что сравнимых результатов можно добиться
- и при использовании большого количества TCP-соединений на HTTP/1.x (если при этом не упрёшься в количество дескрипторов Linux или перегруз сети).&lt;/p&gt;
-
-&lt;p&gt;Что касается универсальности, одним из объявленных принципов является применимость ко многим вариантам использования
-(и незначительным отличиям в производительности относительно заточенных под этот кейс решений). Сейчас про это рано говорить,
- однако, моя интуиция говорит о том, что у них получится.&lt;/p&gt;
-
-&lt;h2 id=&#34;принципы-и-концепция&#34;&gt;Принципы и концепция&lt;/h2&gt;
-
-&lt;p&gt;Мотивация и принципы &lt;a href=&#39;http://www.grpc.io/blog/principles&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;описаны в документации&lt;/a&gt;, я перечислю только некоторые из них (про универсальность уже сказал выше).&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;strong&gt;Сервисы (не объекты), Сообщения (не ссылки)&lt;/strong&gt; &amp;mdash; если вкратце, то сдизайнено для микросервисов (а не аналог .NET Remoting).
-Более подробно о мотивации этого решения &lt;a href=&#39;http://martinfowler.com/articles/distributed-objects-microservices.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;здесь&lt;/a&gt;
-и &lt;a href=&#39;https://en.wikipedia.org/wiki/Fallacies_of_distributed_computing&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;здесь&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Широкая применимость и простота&lt;/strong&gt; &amp;mdash; поддерживаются все популярные платформы для разработки. Должно приемлемо работать на &amp;ldquo;слабых&amp;rdquo; устройствах.&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Многоуровневость&lt;/strong&gt; &amp;mdash; уровни как можно более независимые (изменения в формате данных не должны ломать вызовы в приложении).&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Гибкость протокола&lt;/strong&gt; &amp;mdash; концептуальная возможность замены формата сообщений (JSON, XML, Thrift, FlatBuffers), подключаемый механизм сжатия сообщений.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;protobuf-v3&#34;&gt;Protobuf v3&lt;/h2&gt;
-
-&lt;p&gt;В gRPC используется protobuf как формат для обмена сообщениями (я уже отмечал выше, что концептуально можно использовать
-что-то другое). Protobuf используется как IDL, на основе которого генерируется клиентский и серверный код на выбранном ЯП.&lt;/p&gt;
-
-&lt;p&gt;К слову, в третьей версии (я так понял, они сделали её в основном для gRPC) protobuf получил несколько приятных плюшек:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Все поля по умолчанию опциональны.&lt;/li&gt;
-&lt;li&gt;Поддерживается тип MapType (ключ+значение). Ведётся разработка по поддержке типа Any (вместо Extensions).&lt;/li&gt;
-&lt;li&gt;Улучшена поддержка JSON и популярных ЯП.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;что-мне-понравилось-в-grpc-и-где-он-может-быть-эффективно-использован&#34;&gt;Что мне понравилось в gRPC и где он может быть эффективно использован&lt;/h2&gt;
-
-&lt;p&gt;Что мне понравилось в gRPC, помимо того, что он активно используется в инфраструктуре Google (даже в TensorFlow):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Возможность использования разных платформ.&lt;/li&gt;
-&lt;li&gt;Достаточно простое определение сервиса (IDL в proto-файлах).&lt;/li&gt;
-&lt;li&gt;Двунаправленный стриминг, поддержка HTTP/2.&lt;/li&gt;
-&lt;li&gt;Возможность подключения разных реализаций аутентификации, трассировки, балансировки и т.п. Жаль, что пока готовые реализации не очень разнообразны.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;По поводу удачных вариантов использования (если отбросить рекламные лозунги), я вижу два основных:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Эффективное объединение сервисов (особенно на разных ЯП) в микросервисной архитектуре.&lt;/li&gt;
-&lt;li&gt;Мобильные клиенты, общающиеся с сервером.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;чего-нет-в-grpc&#34;&gt;Чего нет в gRPC&lt;/h2&gt;
-
-&lt;p&gt;Как водится, серебряных пуль не бывает и gRPC не исключение. Правда, правильнее было бы добавить к заголовку &amp;ldquo;пока нет&amp;rdquo;.
-Для gRPC уже достаточно много сторонних проектов и наверняка скоро станет ещё больше.&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Нет поддержки работы из браузера (по крайней мере, из коробки). Всё-таки основное назначение gRPC &amp;mdash; обеспечение взаимодействия
-сервисов (микросервисов). Хотя, сами понимаете, добавить поддержку gRPC в браузер, поддерживающий HTTP/2 не должно быть слишком сложно.&lt;/li&gt;
-&lt;li&gt;Пока нет законченного решения для балансировки. Подробнее &lt;a href=&#39;https://github.com/grpc/grpc/blob/master/doc/load-balancing.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;здесь&lt;/a&gt;
-и &lt;a href=&#39;https://godoc.org/google.golang.org/grpc#Balancer&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;здесь&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;В C#, например, нет стандартной возможности перехватывать вызовы (скажем, для единообразной обработки Exception).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;варианты-вызовов&#34;&gt;Варианты вызовов&lt;/h2&gt;
-
-&lt;p&gt;В gRPC поддерживаются четыре варианта вызовов.&lt;/p&gt;
-
-&lt;h3 id=&#34;unary-rpc&#34;&gt;Unary RPC&lt;/h3&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Клиент вызывает (через сгенерированный код) метод на сервере, предоставляя метаданные и, если требуется &lt;a href=&#39;http://www.grpc.io/docs/guides/concepts.html#deadlines&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;deadline&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Сервер отвечает, отослав метаданные (или сначала ожидает запроса с клиента).&lt;/li&gt;
-&lt;li&gt;Сервер, получив сообщение-запрос от клиента, вызывает необходимый метод и затем отсылает клиенту результат (помимо прочего, передавая статус &amp;mdash; код статуса и сообщение).&lt;/li&gt;
-&lt;li&gt;Если всё в порядке, клиент получает ответ и вызов завершается. Если код статуса соответствует ошибке, она обрабатывается в зависимости от ЯП (в C# &amp;mdash; RpcException).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&#34;server-streaming-rpc&#34;&gt;Server streaming RPC&lt;/h3&gt;
-
-&lt;p&gt;В отличие от предыдущего случая, сервер возвращает &amp;ldquo;поток ответов&amp;rdquo;, и возвращает статус, когда все они отправлены.&lt;/p&gt;
-
-&lt;h3 id=&#34;client-streaming-rpc&#34;&gt;Client streaming RPC&lt;/h3&gt;
-
-&lt;p&gt;В этом случае всё наоборот &amp;mdash; клиент шлёт поток запросов, а сервер отсылает один ответ
-(обычно, но необязательно, после того как получены все клиентские запросы).&lt;/p&gt;
-
-&lt;h3 id=&#34;bidirectional-streaming-rpc&#34;&gt;Bidirectional streaming RPC&lt;/h3&gt;
-
-&lt;p&gt;Всё как в предыдущих вариантах, только потоки у сервера и клиента независимы. И уже вам решать, как они будут взаимодействовать.
-Быть может, сервер будет ждать всех запросов, чтобы начать выдавать ответы, а сервер будет играть в &amp;ldquo;пинг-понг&amp;rdquo; с клиентом&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;настройка-окружения&#34;&gt;Настройка окружения&lt;/h2&gt;
-
-&lt;p&gt;Поскольку я работаю в Windows, дальнейшее подразумевает эту операционку. Думаю, для других ОС разница будет невелика.
-Из набора примеров выбран Route Guide, как наиболее полно охватывающий все варианты вызовов.&lt;/p&gt;
-
-&lt;h3 id=&#34;go&#34;&gt;Go&lt;/h3&gt;
-
-&lt;p&gt;Если вы ни разу не писали на Go (или у вас версия младше 1.5) &amp;mdash; установите его, следуя &lt;a href=&#39;https://golang.org/doc/install&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;инструкциям&lt;/a&gt;.
-Не забудьте установить переменную GOPATH &amp;mdash; она нам понадобится.&lt;/p&gt;
-
-&lt;p&gt;Установите &lt;a href=&#39;https://github.com/google/protobuf/releases&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;компилятор proto-файлов — protoc&lt;/a&gt;.
-Он обычно в конце списка файлов релиза с постфиксом &amp;ldquo;-win32.zip&amp;rdquo;. Затем скопируйте бинарник (protoc.exe) в папку, которая присутствует в PATH.
-Я подобные приложения и небольшие утилиты обычно складываю в папку &amp;ldquo;Programs&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Итак, Go у вас установлен, теперь установите необходимые пакеты:
-&lt;div class=&#34;microlight&#34;&gt;go get google.golang.org/grpc
-go get -u github.com/golang/protobuf/proto
-go get -u github.com/golang/protobuf/protoc-gen-go
-
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Важно:&lt;/strong&gt; добавьте к PATH папку %GOPATH%\bin (в ней находится плагин protoc-gen-go.exe) и не забудьте перезапустить консоль.
-В принципе, и для Go и для C# исходный код уже сгенерирован, но вдруг вы захотите добавить что-то к proto-файлам.&lt;/p&gt;
-
-&lt;p&gt;После этого перейдите в папку c серверным кодом:
-&lt;div class=&#34;microlight&#34;&gt;cd %GOPATH%\src\google.golang.org\grpc\examples\route_guide\server
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;И поменяйте порт на 50052 (в примерах на разных языках временами используются разные порты, а нам нужно подружить C# и Go):
-&lt;div class=&#34;microlight&#34;&gt;var (
-    ...
-    port       = flag.Int(&#34;port&#34;, 50052, &#34;The server port&#34;)
-)
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Теперь можно проверить, что proto-файлы компилируются и запустить сервер:
-&lt;div class=&#34;microlight&#34;&gt;cd %GOPATH%\src\google.golang.org\grpc\examples\route_guide
-protoc -I routeguide/ routeguide/route_guide.proto --go_out=plugins=grpc:routeguide
-go run server/server.go
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Если ваш firewall забьёт тревогу, успокойте его и переходите к следующему разделу.&lt;/p&gt;
-
-&lt;h3 id=&#34;c&#34;&gt;C#&lt;/h3&gt;
-
-&lt;p&gt;Я использую классическую версию .NET и Visual Studio, для .NET Core всё будет немного отличаться.&lt;/p&gt;
-
-&lt;p&gt;Выберите папку, в которую вы хотите добавить папку &amp;ldquo;grpc&amp;rdquo; с примерами и запустите в ней:
-&lt;div class=&#34;microlight&#34;&gt;git clone -b v1.0.x https://github.com/grpc/grpc
-cd grpc\examples\csharp\route_guide
-RouteGuide.sln
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Когда студия загрузится, скомпилируйте solution. Затем запустите RouteGuideClient &amp;mdash; проще всего это сделать из студии.
-Но можно и из командной строки:
-&lt;div class=&#34;microlight&#34;&gt;cd RouteGuideClient/bin/Debug
-RouteGuideClient.exe
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;На случай, если вы захотите добавить что-то к proto-файлам, сгенерировать исходный код по ним можно с помощью командного
-файла generate_protos.bat.&lt;/p&gt;
-
-&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
-
-&lt;p&gt;Моё личное мнение &amp;mdash; gRPC обязательно стоит попробовать, если вы делаете микросервисы и не сильно привязаны к альтернативам.
-Альтернативы, на мой взгляд &amp;ndash; Apache Thrift и Cap&amp;rsquo;n Proto. Правда, слышал, что некоторые мигрируют с Apache Thrift на gRPC&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Если удастся плотно попробовать gRPC для реальной разработки &amp;mdash; обязательно расскажу. Вы тоже делитесь :)&lt;/p&gt;
-</description>
+Кстати, вот список поддерживаемых платформ и ЯП: &lt;/p&gt;</description>
     </item>
     
   </channel>

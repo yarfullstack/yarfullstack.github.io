@@ -8,7 +8,9 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 27 Apr 2017 23:02:28 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Про производительность .NET, React, Regex</title>
@@ -16,35 +18,9 @@
       <pubDate>Thu, 27 Apr 2017 23:02:28 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-04/performance-dotnet-react-regex/</guid>
-      <description>
-
-&lt;p&gt;С удовольствием прочитал статью &lt;a href=&#39;https://alexandrnikitin.github.io/blog/high-performance-dotnet-by-example/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;High-performance .NET by example: Filtering bot traffic&lt;/a&gt;.
+      <description>&lt;p&gt;С удовольствием прочитал статью &lt;a href=&#39;https://alexandrnikitin.github.io/blog/high-performance-dotnet-by-example/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;High-performance .NET by example: Filtering bot traffic&lt;/a&gt;.
 Кстати, к ботам статья почти не имеет отношения, а вот к улучшению производительности &amp;mdash; очень даже. В частности,
-есть примеры использования BenchmarkDotNet, PerfView, Intel VTune Amplifier, ILSpy, WinDbg и unsafe-кода.&lt;/p&gt;
-
-&lt;h2 id=&#34;react&#34;&gt;React&lt;/h2&gt;
-
-&lt;p&gt;На случай, если вас интересует производительность React &amp;mdash; почитайте статью &lt;a href=&#39;https://medium.com/dailyjs/react-is-slow-react-is-fast-optimizing-react-apps-in-practice-394176a11fba&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;React is Slow, React is Fast: Optimizing React Apps in Practice&lt;/a&gt;.
-Её недавно перевели на Хабре &amp;mdash; &lt;a href=&#39;https://habrahabr.ru/post/327364/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;React медленный, React быстрый: оптимизация React-приложения на практике&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;regex&#34;&gt;Regex&lt;/h2&gt;
-
-&lt;p&gt;И для тех, кто активно пользуется регулярными выражениями и заботится о производительности &amp;mdash; серия статей:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#39;https://swtch.com/~rsc/regexp/regexp1.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Regular Expression Matching Can Be Simple And Fast (but is slow in Java, Perl, PHP, Python, Ruby, ...)&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;https://research.swtch.com/glob&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Glob Matching Can Be Simple And Fast Too&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Насчёт серии я, может, погорячился &amp;ndash; между ними перерыв в 10 лет. У автора замечены и другие интересные статьи.&lt;/p&gt;
-
-&lt;h2 id=&#34;сюрприз&#34;&gt;Сюрприз&lt;/h2&gt;
-
-&lt;p&gt;В заголовке не упомянуто, но я просто оставлю это здесь :)&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Not only is declarative code more readable, it also produces beautiful byte code and is therefore faster. Thanks &lt;a href=&#34;https://twitter.com/bmeurer&#34;&gt;@bmeurer&lt;/a&gt; &lt;a href=&#34;https://twitter.com/munichnug&#34;&gt;@munichnug&lt;/a&gt; &lt;a href=&#34;https://t.co/Iae0s3e40W&#34;&gt;pic.twitter.com/Iae0s3e40W&lt;/a&gt;&lt;/p&gt;&amp;mdash; Michael Haeuslmann (@michaelhaeu) &lt;a href=&#34;https://twitter.com/michaelhaeu/status/845003383153025024&#34;&gt;March 23, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-</description>
+есть примеры использования BenchmarkDotNet, PerfView, Intel VTune Amplifier, ILSpy, WinDbg и unsafe-кода.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -57,8 +33,7 @@
 не читал, но одобряю :) Точнее, посмотрел одну из глав (бегло). Познавательно и по делу.&lt;/p&gt;
 
 &lt;p&gt;А &lt;a href=&#39;https://github.com/shopify/toxiproxy&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;toxiproxy&lt;/a&gt; &amp;mdash; это набор от Shopify для тестирования сети в разнообразных условиях.
-Состоит из TCP-прокси (на Go) и клиентских библиотек для подключения (Ruby, Go, Python, .NET, PHP, Node, Java).&lt;/p&gt;
-</description>
+Состоит из TCP-прокси (на Go) и клиентских библиотек для подключения (Ruby, Go, Python, .NET, PHP, Node, Java).&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -67,103 +42,14 @@
       <pubDate>Sun, 13 Nov 2016 18:32:37 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</guid>
-      <description>
-
-&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
 
 &lt;p&gt;Как вы уже знаете, мне нравятся быстрые сайты. Летом я уже делился &lt;a href=&#34;https://yarfullstack.com/post/2016-07/site-optimization-tools/&#34;&gt;набором инструментов для оптимизации сайтов&lt;/a&gt;.
 Однако, есть пара несложных приёмов, первый из которых эти инструменты вряд ли когда-нибудь догадаются посоветовать.&lt;/p&gt;
 
 &lt;p&gt;Начнём с самого простого в &lt;em&gt;реализации&lt;/em&gt; способа.
-Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.&lt;/p&gt;
-
-&lt;h2 id=&#34;быстрая-загрузка-шрифтов&#34;&gt;Быстрая загрузка шрифтов&lt;/h2&gt;
-
-&lt;p&gt;Безусловно, вам может пригодиться статья &lt;a href=&#39;https://www.filamentgroup.com/lab/font-events.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;How We Load Web Fonts Progressively&lt;/a&gt;.
-Или, более фундаментальная &lt;a href=&#39;https://www.zachleat.com/web/comprehensive-webfonts/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;A Comprehensive Guide to Font Loading Strategies&lt;/a&gt;.
-Но подождите тратить 15-30 минут вашего времени на увлекательное чтение! Я успел? :)&lt;/p&gt;
-
-&lt;p&gt;Давайте подумаем, в чём может быть цель загрузки шрифта?&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;В вашей компании есть корпоративный стиль, брендбук, строгие рекомендации и использование особенных шрифтов. Тогда читайте статьи выше и переходите к следующему разделу.&lt;/li&gt;
-&lt;li&gt;Вам сказали &amp;ldquo;этот шрифт такой клёвый, лишние 100КБ никто не заметит&amp;hellip;&amp;rdquo;. Здесь ещё есть варианты на что-то повлиять. Читайте дальше.&lt;/li&gt;
-&lt;li&gt;Вы выбираете какой шрифт использовать и у вас нет ярко выраженной антипатии к системным шрифтам (Segoe UI, Roboto,..). Тогда этот способ точно для вас.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;p&gt;Способ простой до невозможности. Что может быть быстрее загрузки шрифта, который не надо загружать? :)
-Я увидел этот способ в статье &lt;a href=&#39;https://www.smashingmagazine.com/2015/11/using-system-ui-fonts-practical-guide/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Using System UI Fonts In Web Design: A Quick Practical Guide&lt;/a&gt;
-как раз, когда я занимался CSS для YarFullStack. И он мне, конечно же, понравился. Справедливости ради стоит отметить, что Medium уже
-не использует этот подход. Так что решайте сами.&lt;/p&gt;
-
-&lt;p&gt;Как выглядит определение шрифтов для YarFullStack? Да очень просто:&lt;/p&gt;
-
-&lt;div class=&#34;microlight&#34;&gt;font-family: -apple-system, BlinkMacSystemFont, &#34;Segoe UI&#34;, &#34;Roboto&#34;, &#34;Oxygen&#34;,
-&#34;Ubuntu&#34;, &#34;Cantarell&#34;, &#34;Fira Sans&#34;, &#34;Droid Sans&#34;, &#34;Helvetica Neue&#34;, sans-serif;
-&lt;/div&gt;
-
-&lt;p&gt;Как это работает? Тоже просто. Если вы работаете на Mac OS X или iOS &amp;mdash; у вас сработает один из первых двух вариантов. Для Windows [Phone] &amp;mdash; третий и т.д.
-Естественно, если вы умудрились установить всевозможные шрифты на Android &amp;mdash; тогда шрифт будет не совсем &amp;ldquo;родной&amp;rdquo;, но тоже симпатичный.&lt;/p&gt;
-
-&lt;p&gt;Плюсы понятные &amp;mdash; грузится быстро, никаких &amp;ldquo;морганий&amp;rdquo;, никакого чтения статей на тему &amp;ldquo;а вот сейчас-то мы совсем хорошо загрузим шрифт&amp;rdquo;.
-Ещё немаловажный плюс &amp;mdash; пользователь читает текст на сайте, набранный тем же шрифтом, что и остальной интерфейс.
-Думаю, это должно быть приятно большинству ваших пользователей. Да, вы можете тащиться от Open Sans или Noto, однако у людей разные вкусы и это прекрасно.&lt;/p&gt;
-
-&lt;p&gt;Какие минусы?&lt;/p&gt;
-
-&lt;ol&gt;
-&lt;li&gt;Брэнд &amp;mdash; если для вас &lt;strong&gt;действительно&lt;/strong&gt; критичен какой-то особенный шрифт &amp;mdash; большого выбора у вас нет.&lt;/li&gt;
-&lt;li&gt;В разных системах сайт будет выглядеть немного по-разному. Однако, если вы не фанат попиксельного выравнивания табличек&amp;hellip; Да и, будем честными, чаще всего в разных системах сайт и без этого будет выглядеть немного по-разному.&lt;/li&gt;
-&lt;li&gt;Вероятно, в будущем вам может захотеться добавить шрифты в список. Правда, лично я это и минусом не считаю
-&amp;mdash; с учётом частоты смены системных шрифтов и критичности этой задачи.&lt;/li&gt;
-&lt;/ol&gt;
-
-&lt;h2 id=&#34;загрузка-картинок-в-зависимости-от-разрешения-с-помощью-srcset&#34;&gt;Загрузка картинок в зависимости от разрешения с помощью srcset&lt;/h2&gt;
-
-&lt;p&gt;Если вкратце, этот способ позволяет не грузить на маленькие смартфончики ваши картинища, оптимизированные для Retina :)&lt;/p&gt;
-
-&lt;p&gt;Когда я писал статью &lt;a href=&#34;https://yarfullstack.com/post/2016-10/tables-and-charts-ux/&#34;&gt;Удобное представление таблиц и диаграмм&lt;/a&gt;, понадобилось добавить довольно большие анимированные гифки.
-Когда я подумал про тех, кто может читать эту статью с телефона и не на самом удачном тарифе или соединении&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;В общем, я слышал раньше про srcset, но как-то не доводилось применять &amp;mdash; картинки обычно использовал довольно мелкие, а тут, суммарно, 3МБ&amp;hellip;
-Почитал пару статей: &lt;a href=&#39;https://bitsofco.de/the-srcset-and-sizes-attributes/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Responsive Images - The srcset and sizes Attributes&lt;/a&gt;
-и &lt;a href=&#39;https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Responsive Images: If you’re just changing resolutions, use srcset&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Сделал:
-&lt;div class=&#34;microlight&#34;&gt;
-&amp;lt;img src=&#34;https://yarfullstack.com/img/clear-off-the-table-small.gif&#34; alt=&#34;clear-off-the-table.gif&#34; 
-    style=&#34;overflow-x:hidden&#34; 
-    srcset=&#34;https://yarfullstack.com/img/clear-off-the-table.gif 800w, https://yarfullstack.com/img/clear-off-the-table-small.gif 400w&#34;
-    sizes=&#34;(min-width: 1280px) 800px,
-    (max-width: 1280px) and (min-width: 1024px) 600px,
-    (max-width: 1024px) and (min-width: 800px) 520px, 
-    (max-width:800px) 90vw, 90vw&#34;&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Принцип работы такой: вы указываете отдельно набор картинок с шириной и на каких разрешениях какая ширина предпочтительнее.
-Браузер учитывает ваши пожелания (но может их немного оптимизировать, на своё усмотрение). В простых случаях sizes можно не указывать.
-Мне пригодилось, потому что на малых разрешениях дефолтные 100vw выглядели не очень хорошо.&lt;/p&gt;
-
-&lt;p&gt;В упрощённом варианте без sizes выглядит так:
-&lt;div class=&#34;microlight&#34;&gt;&amp;lt;img src=&#34;one.png&#34;  
-srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;По большому счёту, результатом я доволен. В IE не работает, но полифил прикручивать не стал из-за потенциальных проблем.
-Открытой остаётся более сложная тема &amp;mdash; как, помимо ширины окна, определить, действительно ли нужна маленькая картинка.&lt;/p&gt;
-
-&lt;p&gt;Да, чуть не забыл, вроде в HTML 5.1 для &amp;lt;picture&amp;gt; тоже будет нормально работать srscset. Just FYI.&lt;/p&gt;
-
-&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
-
-&lt;p&gt;Подумайте, что ещё вы можете сделать для ваших пользователей. Может, есть что-то, что не особо нужно никому кроме вас самих,
-а без этого сайт станет немного легче и удобнее?&lt;/p&gt;
-
-&lt;p&gt;Например, я лично стараюсь держать себя в руках и, несмотря на многочисленные рекомендации, не добавлять КПДВ к статьям :)&lt;/p&gt;
-
-&lt;p&gt;Ещё в планах выбрать другой вариант обратной связи и отстрелить этот тормозной Disqus&amp;hellip;
-Есть идеи? Может в соцсетях обсуждать? Пишите комментарии в &lt;del&gt;этот тормозной&lt;/del&gt; Disqus или в &lt;a href=&#39;https://twitter.com/yarfs/status/797845954800078848&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Twitter&lt;/a&gt; :)&lt;/p&gt;
-</description>
+Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -172,114 +58,23 @@ srcset=&#34;two.png 2x, three.png 3x, four.png 4x&#34;&gt;
       <pubDate>Sat, 06 Aug 2016 15:04:54 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-08/improve-npm-performance-with-progress-bar/</guid>
-      <description>
-
-&lt;p&gt;В последнее время всё чаще сталкиваюсь с разработкой на node.js.
+      <description>&lt;p&gt;В последнее время всё чаще сталкиваюсь с разработкой на node.js.
 На работе использую версию LTS, по понятным причинам. Дома поставил 6.3.1.&lt;/p&gt;
 
 &lt;p&gt;Идеологически мне больше нравится третий npm &amp;mdash; всё-таки хранить дубликаты модулей, особенно когда их много &amp;mdash; не здорово.
 Кстати, для старой версии ноды есть &lt;a href=&#39;https://www.npmjs.com/package/npm3&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;модуль npm3&lt;/a&gt; &amp;mdash; позволяет
-(в лучших традициях партизан) использовать новый npm при установленном старом (только команды будут npm3 install и т.п.). Но сегодня речь не об этом.&lt;/p&gt;
-
-&lt;h2 id=&#34;progress-bar&#34;&gt;Progress bar&lt;/h2&gt;
-
-&lt;p&gt;Не знаю, насколько для вас это сюрприз, но, таки-да &amp;mdash; этот симпатичный (в третьем npm) зверёк ощутимо влияет на производительность npm install.
-Я, конечно, не буду разводить драму в стиле газетных заголовков и сразу скажу, что, по моим замерам, разница в пределах 20%.
-И да, progress bar можно отключить глобально в &lt;a href=&#39;https://docs.npmjs.com/files/npmrc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;файле .npmrc&lt;/a&gt; с помощью одной строчки:
-&lt;div class=&#34;microlight&#34;&gt;progress=false
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Отключать или нет? Хм. Решайте сами :) Я просто дам чуть больше информации.
-В моём подопытном проекте папка node_modules занимает 160 мегабайт. Проект на стареньком SSD, интернет не самый быстрый.
-Да, у меня Windows 10, проверял в cmd, ConEmu, Git Bash. Разница между консольками в пределах погрешности. Есть только визуальная разница &amp;mdash; в
-Git Bash прогресс не рисуется, даже если включен :)&lt;/p&gt;
-
-&lt;p&gt;С включённым progress bar полный npm install занимает в среднем &lt;strong&gt;25 секунд&lt;/strong&gt;, без него &amp;ndash; &lt;strong&gt;21 секунду&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Лично я себе его отключил, хотя и понимаю, что не так уж часто делаю полный npm install.
-Для билдов, которые могут идти &amp;ldquo;начисто&amp;rdquo; наверное это отключение будет более востребовано.
-За &lt;a href=&#39;https://github.com/npm/npm/issues/11283&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;судьбой баги&lt;/a&gt; (да, она уже давно оформлена и горячо обсуждалась)
-можете последить на GitHub.&lt;/p&gt;
-
-&lt;p&gt;Если хотите проверить разницу для своих проектов, вот скрипт для Windows:&lt;/p&gt;
-
-&lt;div class=&#34;microlight&#34;&gt;npm set progress=true
-rmdir node_modules /s /q
-echo %TIME%
-npm install
-echo %TIME%
-npm set progress=false
-rmdir node_modules /s /q
-echo %TIME%
-npm install
-&lt;/div&gt;
-
-&lt;p&gt;А вот скрипт для Linux (запускал у себя на Git Bash):&lt;/p&gt;
-
-&lt;div class=&#34;microlight&#34;&gt;rm -rf node_modules
-npm set progress=true
-time npm install
-rm -rf node_modules
-npm set progress=false
-time npm install
-&lt;/div&gt;
-</description>
+(в лучших традициях партизан) использовать новый npm при установленном старом (только команды будут npm3 install и т.п.). Но сегодня речь не об этом.
+&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Uber-Postgres&#43;MySQL</title>
-      <link>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</link>
+      <link>https://yarfullstack.com/post/2016-07/uber-postgres&#43;mysql/</link>
       <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</guid>
-      <description>
-
-&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
-Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;TL;DR Можете использовать любую СУБД, только знайте её сильные и слабые стороны.&lt;/p&gt;
-
-&lt;p&gt;А если выбор будет неправильным &amp;mdash; можно будет мигрировать на другую (с разным количеством боли, в зависимости от ситуации).
-Postgres хорош в чтении, но проигрывает в записи. MySQL хорош в записи, но (хотя в статьях об этом не говорится &amp;mdash; это уже мой личный опыт)
-оптимизатора запросов у него просто нет.&lt;/p&gt;
-
-&lt;p&gt;Да, раз уж я говорю про личный опыт &amp;mdash; MSSQL сделает по производительности и то и другое :)
-Disclaimer: я не работал активно с Postgres, с MySQL &amp;mdash; немного.&lt;/p&gt;
-
-&lt;h2 id=&#34;забавное&#34;&gt;Забавное&lt;/h2&gt;
-
-&lt;p&gt;Uber в 2013 опубликовал &lt;a href=&#39;https://www.yumpu.com/en/document/view/53683323/migrating-uber-from-mysql-to-postgresql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статью про переход с MySQL на Postgres&lt;/a&gt;.
-Основная причина перехода, насколько я понял &amp;mdash; в Postgres больше функциональности и &amp;ldquo;плагинов&amp;rdquo; вроде PostGIS.&lt;/p&gt;
-
-&lt;h2 id=&#34;подробности&#34;&gt;Подробности&lt;/h2&gt;
-
-&lt;p&gt;Исходная статья реально интересная, авторы достаточно подробно описали концептуальные проблемы, которыми их встретил Postgres.&lt;/p&gt;
-
-&lt;h3 id=&#34;одно-соединение-один-процесс&#34;&gt;Одно соединение &amp;ndash; один процесс&lt;/h3&gt;
-
-&lt;p&gt;Самым шокирующим для меня стало то, что каждое соединение с базой обрабатывается в отдельном &lt;strong&gt;процессе&lt;/strong&gt;. Серьёзно? Пул потоков разве сложно было сделать?&lt;/p&gt;
-
-&lt;h3 id=&#34;репликация&#34;&gt;Репликация&lt;/h3&gt;
-
-&lt;p&gt;Довольно противоречивая проблема с репликацией. С одной стороны, я согласен, что концептуально могут быть проблемы с трансляцией записей на диск на низком уровне.
-С другой стороны &amp;mdash; занимаешься репликацией &amp;mdash; будь готов к проблемам в любом случае. А вот проблемы с совместимостью даже минорных версий серверов при репликации &amp;mdash;
- это печаль. Хотя вроде ситуация исправляется.&lt;/p&gt;
-
-&lt;h3 id=&#34;обновление-индексов&#34;&gt;Обновление индексов&lt;/h3&gt;
-
-&lt;p&gt;Однако самая интересная штука &amp;mdash; это устройство индексов. В MSSQL и MySQL вторичные индексы ссылаются на первичный ключ.
-При обновлении, которое не затрагивает индекс, никаких дополнительных телодвижений не совершается.&lt;/p&gt;
-
-&lt;p&gt;В Postgres строки неизменяемые, а индексы хранят ссылки на конкретное место на диске. При чтении это даёт выигрыш.
-Однако, при обновлении Postgres вынужден создавать копию строки с новыми значениями и обновлять &lt;strong&gt;все&lt;/strong&gt; индексы обновляемой таблицы.
-&amp;ldquo;Старая&amp;rdquo; строка при этом продолжает занимать место, что уже менее критично (освобождается авто-вакуумом).&lt;/p&gt;
-
-&lt;h2 id=&#34;выводы&#34;&gt;Выводы&lt;/h2&gt;
-
-&lt;p&gt;Как я уже говорил &amp;mdash; используйте любую СУБД, только знайте её сильные и слабые стороны.
-Зная это, вы сами решите, стоит ли использовать, например, Postgres для проекта с высокой нагрузкой на запись и множеством серверов, на которые
-реплицируются данные.&lt;/p&gt;
-</description>
+      <guid>https://yarfullstack.com/post/2016-07/uber-postgres&#43;mysql/</guid>
+      <description>&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
+Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -288,49 +83,12 @@ Disclaimer: я не работал активно с Postgres, с MySQL &amp;mda
       <pubDate>Fri, 01 Jul 2016 13:18:17 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/site-optimization-tools/</guid>
-      <description>
-
-&lt;p&gt;Сегодня поделюсь набором инструментов для оптимизации сайтов. Это больше про скорость, чем про SEO, хотя и для SEO там тоже есть много полезного.
+      <description>&lt;p&gt;Сегодня поделюсь набором инструментов для оптимизации сайтов. Это больше про скорость, чем про SEO, хотя и для SEO там тоже есть много полезного.
 К счастью, поисковики начали учитывать заодно и скорость загрузки сайтов при индексации.&lt;/p&gt;
 
 &lt;p&gt;Да, вероятно я перфекционист, однако я не могу спокойно смотреть на мегабайтные картинки и сайты, загружающиеся дольше секунды при нормальном соединении.
-Правда, этот сайт я пока не оптимизировал на все 100%, но в этом случае я рисковал начать писать сюда в следующем году :)&lt;/p&gt;
-
-&lt;h2 id=&#34;varvy-seo-tool&#34;&gt;Varvy SEO tool&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://varvy.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Varvy SEO tool&lt;/a&gt; &amp;mdash; лучший, на мой взгляд, бесплатный многофункциональный сервис проверки сайтов.
-Крайне рекомендую. В отличие от других сервисов, он и на валидность HTML посмотрит, и Accessibility проверит&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;pingdom-website-speed-test&#34;&gt;Pingdom Website Speed Test&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://tools.pingdom.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Pingdom Website Speed Test&lt;/a&gt; &amp;mdash; ориентирован на проверку скорости и типовых проблем.
-Попроще, чем Varvy, чуть посложнее, чем PageSpeed.&lt;/p&gt;
-
-&lt;h2 id=&#34;pagespeed&#34;&gt;PageSpeed&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://developers.google.com/speed/pagespeed/?hl=ru&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PageSpeed&lt;/a&gt; &amp;mdash; инструмент от Google, тоже ориентирован на проверку скорости и типовых проблем.
-Иногда рассказывает меньше, чем Pingdom. Есть модуль для Nginx и Apache, который обеспечивает выполнение многих рекомендаций в автоматическом режиме.
-Также есть плагины для Chrome, правда, не вижу я в них особой пользы.&lt;/p&gt;
-
-&lt;h2 id=&#34;testmysite-thinkwithgoogle-com&#34;&gt;TestMySite (thinkwithgoogle.com)&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://testmysite.thinkwithgoogle.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TestMySite&lt;/a&gt; &amp;mdash; ещё один инструмент от Google,
-я бы сказал, что это максимально простой и красиво оформленный фасад для PageSpeed.&lt;/p&gt;
-
-&lt;h2 id=&#34;webpagetest&#34;&gt;WebPageTest&lt;/h2&gt;
-
-&lt;p&gt;И последний, но отнюдь не по полезности &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;WebPageTest&lt;/a&gt;.
-Этот замечательный инструмент позволяет проверить загрузку сайта в разных условиях:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Несколько десятков вариантов расположение клиента;&lt;/li&gt;
-&lt;li&gt;Десяток вариантов выбора качества internet-соединения;&lt;/li&gt;
-&lt;li&gt;И ещё с десяток разных настроек, но лучше я не буду про них рассказывать, чтобы у вас был стимул посмотреть на этот сервис самим.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;На выходе получаем подробный отчёт с логом и аналогом результатов вкладки Network в Chrome. Плюс к этому, он ещё и записывает видео, на котором видно, как открывается сайт.
-В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
-</description>
+Правда, этот сайт я пока не оптимизировал на все 100%, но в этом случае я рисковал начать писать сюда в следующем году :)
+&lt;/p&gt;</description>
     </item>
     
   </channel>

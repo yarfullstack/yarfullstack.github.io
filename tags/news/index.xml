@@ -8,7 +8,9 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 24 Mar 2017 00:40:16 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/tags/news/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Smashing Magazine - редизайн и переход с WordPress на Hugo</title>
@@ -21,17 +23,7 @@
 
 &lt;p&gt;Мне лично они нравятся. Недавно они затеяли &lt;a href=&#39;https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;редизайн сайта&lt;/a&gt;.
 И, что вдвойне приятно, наряду с редизайном они перешли с &lt;del&gt;глючного решета&lt;/del&gt; WordPress на &lt;a href=&#39;https://gohugo.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Hugo&lt;/a&gt;.
-Чуть больше подробностей далее.&lt;/p&gt;
-
-&lt;p&gt;Почему меня радует их переход на Hugo? Потому что, когда я выбирал движок для этого сайта тоже остановился на нём.
-Есть много генераторов статики, есть те, кто популярнее и/или лучше настраивается. Однако Hugo просто на порядок быстрее работает.&lt;/p&gt;
-
-&lt;p&gt;Да, у Smashing Magazine не только статика &amp;mdash; есть комментарии и магазин. Но это дополнительные вещи, которые они реализовали с помощью сервисов Netlify
-(по концепции &lt;a href=&#39;https://jamstack.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;JAMstack&lt;/a&gt;).
-Подробности можно прочитать в &lt;a href=&#39;https://next.smashingmagazine.com/2017/03/a-little-surprise-is-waiting-for-you-here--meet-the-next-smashing-magazine/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;оригинальной статье&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;В общем-то идея JAMstack мне импонирует &amp;mdash; читателям приятно, когда сайт не тормозит. А что-то быстрее статики придумать сложновато.&lt;/p&gt;
-</description>
+Чуть больше подробностей далее.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -40,48 +32,9 @@
       <pubDate>Fri, 17 Feb 2017 13:18:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/interesting-releases/</guid>
-      <description>
+      <description>&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
 
-&lt;p&gt;Краткий рассказ про недавние релизы Go 1.8 и TensorFlow 1.0, а также предстоящий релиз Visual Studio 2017.&lt;/p&gt;
-
-&lt;h2 id=&#34;tensorflow-1-0&#34;&gt;TensorFlow 1.0&lt;/h2&gt;
-
-&lt;p&gt;15 февраля вышел релиз &lt;a href=&#39;https://developers.googleblog.com/2017/02/announcing-tensorflow-10.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TensorFlow 1.0&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Важно:&lt;/strong&gt; API изменился, потребуется миграция. Но обещают, что теперь для Python будет очень стабильное API.
-Прочие новшества:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Многое стало в разы быстрее.&lt;/li&gt;
-&lt;li&gt;Появилось экспериментальное API для Go и Java.&lt;/li&gt;
-&lt;li&gt;Совместимость с Keras.&lt;/li&gt;
-&lt;li&gt;Появился &lt;a href=&#39;https://www.tensorflow.org/programmers_guide/debugger&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;отладчик tfdbg&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;go-1-8&#34;&gt;Go 1.8&lt;/h2&gt;
-
-&lt;p&gt;16 февраля был &lt;a href=&#39;https://blog.golang.org/go1.8&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Go 1.8&lt;/a&gt;.&lt;br /&gt;
-Коротко о главном (в основном это касается производительности):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Паузы при сборке мусора теперь ещё меньше (10-100 микросекунд).&lt;/li&gt;
-&lt;li&gt;Компиляция по сравнению с 1.7 быстрее на 15%.&lt;/li&gt;
-&lt;li&gt;Накладные расходы на defer меньше в два раза.&lt;/li&gt;
-&lt;li&gt;HTTP-сервер теперь можно погасить гуманно.&lt;/li&gt;
-&lt;li&gt;Изменение в языке одно &amp;ndash; теперь можно привести одну структуру к другой, &lt;a href=&#39;https://golang.org/doc/go1.8#language&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;если отличия только в тэгах&lt;/a&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;visual-studio-2017&#34;&gt;Visual Studio 2017&lt;/h2&gt;
-
-&lt;p&gt;Недавно анонсировали &lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudio/2017/02/09/visual-studio-2017-launch-event-and-20th-anniversary/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз VS 2017 седьмого марта&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Для интересующихся &amp;mdash; &lt;a href=&#39;https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ссылка на release notes&lt;/a&gt;.
-Если вкратце, то из ближайших изменений &amp;mdash; в основном улучшения и исправления багов для .NET Core, например &amp;mdash; &lt;a href=&#39;https://github.com/dotnet/templating&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;новый движок шаблонов&lt;/a&gt; для &lt;code&gt;dotnet new&lt;/code&gt;.
-А в целом про нововведения для RC &lt;a href=&#39;https://docs.microsoft.com/en-us/visualstudio/ide/whats-new-in-visual-studio&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;можно прочитать здесь&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Ещё, возможно, вам будет интересен &lt;a href=&#39;https://github.com/dotnet/core/blob/master/roadmap.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core Roadmap&lt;/a&gt;.
-В частности, в планах на третий квартал этого года .NET Core 2.0 и .NET Standard 2.0.&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -94,11 +47,7 @@
 Подробнее можно прочитать &lt;a href=&#39;https://rethinkdb.com/blog/rethinkdb-joins-linux-foundation/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;в их блоге&lt;/a&gt;.
 Есть также &lt;a href=&#39;https://habrahabr.ru/post/321380/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;перевод на Хабре&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;От себя могу добавить немного.&lt;/p&gt;
-
-&lt;p&gt;Если вкратце &amp;mdash; я рад. Было грустно читать об их проблемах, потому что сама концепция хорошая.
-Про практическое применение пока ничего не могу сказать. Однако теперь, думаю, что доведётся попробовать.&lt;/p&gt;
-</description>
+&lt;p&gt;От себя могу добавить немного.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -107,32 +56,8 @@
       <pubDate>Fri, 03 Feb 2017 12:31:41 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/news/</guid>
-      <description>
-
-&lt;p&gt;Немного новостей про Visual Studio Code, .NET, Go и прочее.&lt;/p&gt;
-
-&lt;h2 id=&#34;vs-code-net&#34;&gt;VS Code + .NET&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#39;https://code.visualstudio.com/updates/v1_9&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз VS Code 1.9&lt;/a&gt; &amp;mdash; много доработок, в т.ч. для TypeScript.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2017/02/01/the-net-language-strategy/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The .NET Language Strategy&lt;/a&gt; &amp;mdash; о стратегии развития C#, VB.NET, F#.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;https://github.com/dotnet/csharplang&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;The official repo for the design of the C# programming language&lt;/a&gt; &amp;mdash; теперь здесь.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;go&#34;&gt;Go&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#39;https://groups.google.com/forum/#!msg/golang-dev/G09HaWfMl6g/74v1cFGlAwAJ&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Go 1.8 / Go 1.9 Schedule Update&lt;/a&gt; &amp;mdash; выпуск 1.8 планируется на 14-16 февраля.&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;https://blog.codeship.com/comparing-elixir-go/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Comparing Elixir and Go&lt;/a&gt; &amp;mdash; автор без фанатизма и достаточно качественно сравнивает оба языка (вкупе с инфраструктурой).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;прочее&#34;&gt;Прочее&lt;/h2&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#39;https://nodejs.org/en/blog/release/v7.5.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз Node.js 7.5&lt;/a&gt; (на всякий случай напомню, что не LTS).&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;http://mithril.js.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Релиз Mithril 1.0&lt;/a&gt; &amp;mdash; кто не в курсе, это небольшой и шустрый фреймворк для SPA (самому не доводилось пробовать).&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>&lt;p&gt;Немного новостей про Visual Studio Code, .NET, Go и прочее.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -141,9 +66,7 @@
       <pubDate>Thu, 01 Dec 2016 22:05:35 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-12/interesting/</guid>
-      <description>
-
-&lt;p&gt;Немного странное название для декабрьской статьи, однако, ссылки я собирал давно :)
+      <description>&lt;p&gt;Немного странное название для декабрьской статьи, однако, ссылки я собирал давно :)
 Сегодня ссылки и краткое описание следующих статей:&lt;/p&gt;
 
 &lt;ul&gt;
@@ -153,28 +76,7 @@
 &lt;li&gt;TANK &amp;mdash; быстрый распределённый лог&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;net-portability-analyzer&#34;&gt;.NET Portability Analyzer&lt;/h2&gt;
-
-&lt;p&gt;Вчера прочитал на Хабре про &lt;a href=&#39;https://habrahabr.ru/post/312506/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Portability Analyzer&lt;/a&gt;.
-Лично мне она пока не сильно пригодиться, а вот коллегам, которые переводят один из наших продуктов под Linux &amp;mdash; имеет смысл посмотреть.&lt;/p&gt;
-
-&lt;h2 id=&#34;как-дизайнить-слова&#34;&gt;Как дизайнить слова&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://medium.com/@jsaito/how-to-design-words-63d6965051e9&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;How to design words&lt;/a&gt; &amp;mdash; очень полезная статья!
-Советы, вроде бы, несложные, некоторые &amp;mdash; даже очевидные&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Но поймал себя на том, что надо через пару месяцев ещё раз перечитать. А потом подумать, как сделать некоторые наши продукты ещё лучше.&lt;/p&gt;
-
-&lt;h2 id=&#34;aws-snowmobile&#34;&gt;AWS Snowmobile&lt;/h2&gt;
-
-&lt;p&gt;Помните старую задачу, как быстрее организовать передачу большого объёма данных (с ответом &amp;mdash; грузовик с дисками)?
-Amazon &lt;a href=&#39;https://aws.amazon.com/ru/snowmobile/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;решает её аналогичным образом&lt;/a&gt; (и это не шутка).&lt;/p&gt;
-
-&lt;h2 id=&#34;tank-быстрый-распределённый-лог&#34;&gt;TANK &amp;mdash; быстрый распределённый лог&lt;/h2&gt;
-
-&lt;p&gt;Не пробовал, да и подходящих задач пока нет. Но чем-то меня зацепило &lt;a href=&#39;https://github.com/phaistos-networks/TANK&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;описание этого проекта на GitHub&lt;/a&gt;.
-Говорят, что в пару раз быстрее Кафки на одном источнике и в 10 раз на трёх.&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -183,34 +85,9 @@ Amazon &lt;a href=&#39;https://aws.amazon.com/ru/snowmobile/&#39; rel=&#34;nofol
       <pubDate>Fri, 28 Oct 2016 09:56:03 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-10/interesting/</guid>
-      <description>
-
-&lt;p&gt;Сегодня &lt;del&gt;бессвязная&lt;/del&gt; подборка слабо связанных между собой новостей и заметок, которые мне показались мне интересными.
-Про повторное использование кода, Next.js и Yarn.&lt;/p&gt;
-
-&lt;h2 id=&#34;о-мифическом-повторном-использовании-кода&#34;&gt;О мифическом повторном использовании кода&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://plus.google.com/&amp;#43;SergeyTeplyakov/posts/D6EnwcjUaW4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Заметка Сергея Теплякова&lt;/a&gt; понравилась.
-В принципе, мы с ним сходимся на том, что увлекаться &amp;ldquo;высокими материями&amp;rdquo; при проектировании далеко не всегда полезно :)&lt;/p&gt;
-
-&lt;h2 id=&#34;next-js&#34;&gt;Next.js&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://zeit.co/blog/next&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Интересный фреймворк от интересных людей.&lt;/a&gt;
-Отзывов написать не могу, пока ещё не пробовал. Однако, описание интересное.
-Предвосхищая ваши вопросы вида &amp;ldquo;ещё один шаблон для старта?&amp;rdquo;, &lt;a href=&#39;https://github.com/zeit/next.js&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;рекомендую посмотреть в FAQ&lt;/a&gt; раздел &amp;ldquo;Is this like create-react-app?&amp;rdquo;.&lt;/p&gt;
-
-&lt;h2 id=&#34;yarn&#34;&gt;Yarn&lt;/h2&gt;
-
-&lt;p&gt;Более быстрая и (вроде бы) удобная альтернатива npm. Кто-то пищит от радости, кто-то настроен скептически&amp;hellip;
-Я пока остался на npm, но, вероятно, немного позже попробую yarn. А пока набор ссылок по теме:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#39;https://yarnpkg.com/en/docs/usage&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Документация о том, как использовать&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;http://yehudakatz.com/2016/10/11/im-excited-to-work-on-yarn-the-new-js-package-manager-2/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Мнение Yehuda Katz&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;https://shift.infinite.red/npm-vs-yarn-cheat-sheet-8755b092e5cc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Сравнение&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#39;https://www.sitepoint.com/yarn-vs-npm/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ещё одно сравнение&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+      <description>&lt;p&gt;Сегодня &lt;del&gt;бессвязная&lt;/del&gt; подборка слабо связанных между собой новостей и заметок, которые мне показались мне интересными.
+Про повторное использование кода, Next.js и Yarn.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

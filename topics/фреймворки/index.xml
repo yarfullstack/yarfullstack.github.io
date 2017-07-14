@@ -8,7 +8,9 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 19 Apr 2017 21:50:12 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/topics/%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/topics/%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA%D0%B8/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Анонс ReactXP, React Fiber и Relay Modern</title>
@@ -16,25 +18,12 @@
       <pubDate>Wed, 19 Apr 2017 21:50:12 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-04/react-fiber-reactxp-relay-modern/</guid>
-      <description>
-
-&lt;p&gt;Компания Microsoft удивила. На этот раз &amp;mdash; приятно удивила.
+      <description>&lt;p&gt;Компания Microsoft удивила. На этот раз &amp;mdash; приятно удивила.
 &lt;a href=&#39;https://microsoft.github.io/reactxp/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Анонсирована библиотека ReactXP&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Подробности по ссылке. Если вкратце &amp;mdash; это надстройка для React Native.
-Декларируется, что с ней можно будет один раз написать весь UI, за исключением &amp;ldquo;platform-specific&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Кстати, больше 4К звёзд на GitHub за 14 дней. Посмотрим, что будет дальше, и я не о звёздах :)&lt;/p&gt;
-
-&lt;h2 id=&#34;react-fiber&#34;&gt;React Fiber&lt;/h2&gt;
-
-&lt;p&gt;Месяц назад, в заметке &lt;a href=&#34;https://yarfullstack.com/post/2017-03/reactconf-2017/&#34;&gt;Новости ReactConf 2017&lt;/a&gt; я уже упоминал про React Fiber.
-Теперь про него &lt;a href=&#39;https://techcrunch.com/2017/04/18/facebook-announces-react-fiber-a-rewrite-of-its-react-framework/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;заговорил и TechCrunch&lt;/a&gt;.
-Напомню, Fiber &amp;mdash; это более продвинутая архитектура (на замену Reconciliation), делающая рендеринг инкрементальным.&lt;/p&gt;
-
-&lt;p&gt;Ещё TechCrunch упоминает Relay Modern &amp;mdash; новую версию Relay (это фреймворк для data-driven приложений, использующий GraphQL).
-Подробнее про него можно прочитать в статье &lt;a href=&#39;https://code.facebook.com/posts/1362748677097871/relay-modern-simpler-faster-more-extensible/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Relay Modern: Simpler, faster, more extensible&lt;/a&gt;.&lt;/p&gt;
-</description>
+Декларируется, что с ней можно будет один раз написать весь UI, за исключением &amp;ldquo;platform-specific&amp;rdquo;.&lt;br /&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -43,43 +32,11 @@
       <pubDate>Thu, 16 Mar 2017 23:09:38 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-03/reactconf-2017/</guid>
-      <description>
-
-&lt;p&gt;Сегодня коротенько про новости &lt;a href=&#39;http://conf.reactjs.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ReactConf 2017&lt;/a&gt;, проходившей 13 и 14 марта.
+      <description>&lt;p&gt;Сегодня коротенько про новости &lt;a href=&#39;http://conf.reactjs.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ReactConf 2017&lt;/a&gt;, проходившей 13 и 14 марта.
 Основная новость &amp;mdash; в React 16 будет реализован алгоритм &lt;a href=&#39;https://github.com/acdlite/react-fiber-architecture/blob/master/README.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;React Fiber&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;И, что немаловажно, не придётся переписывать приложения на предыдущих версиях React под новую архитектуру. Привет, Angular 2 :)&lt;/p&gt;
-
-&lt;h2 id=&#34;вкратце-о-fiber&#34;&gt;Вкратце о Fiber&lt;/h2&gt;
-
-&lt;p&gt;Если вы пишете на React, то вы наверняка в курсе про &lt;a href=&#39;https://facebook.github.io/react/docs/reconciliation.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Reconciliation&lt;/a&gt;
-(архитектура diff-алгоритма React). А Fiber &amp;mdash; это более продвинутая архитекура, делающая рендеринг инкрементальным.&lt;/p&gt;
-
-&lt;p&gt;Это позволяет задавать приоритеты &amp;ldquo;задачам&amp;rdquo; по отрисовке. Соответственно, долгоиграющая и малоприоритетная фоновая отрисовка данных
- может быть &amp;ldquo;пропущена&amp;rdquo;. Зачем? Чтобы не мешать отрисовке того, на чём в данный момент должен быть сосредоточен пользователей.&lt;/p&gt;
-
-&lt;p&gt;За подробностями можно сходить по ссылке выше, есть ещё &lt;a href=&#39;https://github.com/facebook/react/issues/7942&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;немного деталей&lt;/a&gt;.
-А ещё есть занимательное поясняющее видео (сам пока не смотрел):&lt;/p&gt;
-
-
-&lt;div style=&#34;position: relative; padding-bottom: 56.25%; padding-top: 30px; height: 0; overflow: hidden;&#34;&gt;
-  &lt;iframe src=&#34;//www.youtube.com/embed/ZCuYPiUIONs&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34; allowfullscreen frameborder=&#34;0&#34;&gt;&lt;/iframe&gt;
- &lt;/div&gt;
-
-
-&lt;p&gt;Если вы меня спросите, когда всё это будет, я отправлю вас на сайт &lt;a href=&#39;http://isfiberreadyyet.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;http://isfiberreadyyet.com/&lt;/a&gt;.
-А потом добавлю, что на той же конференции было озвучено, что Facebook уже использует его в продакшн.&lt;/p&gt;
-
-&lt;h2 id=&#34;возврат-нескольких-компонентов-из-render&#34;&gt;Возврат нескольких компонентов из render&lt;/h2&gt;
-
-&lt;p&gt;Я просто оставлю это здесь :)&lt;/p&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;...also, we&amp;#39;ll be able to return multiple components from render() 🎉&lt;/p&gt;&amp;mdash; Jed Watson (@JedWatson) &lt;a href=&#34;https://twitter.com/JedWatson/status/841343773225308165&#34;&gt;March 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-
-&lt;blockquote class=&#34;twitter-tweet&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;render() can now return multiple components. Lots of applause for this. &lt;a href=&#34;https://twitter.com/hashtag/reactconf?src=hash&#34;&gt;#reactconf&lt;/a&gt;&lt;/p&gt;&amp;mdash; Rey Bango (@reybango) &lt;a href=&#34;https://twitter.com/reybango/status/841343678052368384&#34;&gt;March 13, 2017&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
-</description>
+&lt;p&gt;И, что немаловажно, не придётся переписывать приложения на предыдущих версиях React под новую архитектуру. Привет, Angular 2 :)
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -93,21 +50,8 @@
 
 &lt;p&gt;Вы наверняка слышали про &lt;a href=&#39;http://www.material-ui.com/#/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Material UI&lt;/a&gt; &amp;mdash; библиотеку, которая реализует принципы Material Design для React.
 Аналогично, есть реализация Ant Design &amp;mdash; &lt;a href=&#39;https://ant.design/docs/react/introduce&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Ant Design of React&lt;/a&gt;.
-Подробно не смотрел, но выглядит красиво. Далее несколько восторженных отзывов про табличное представление.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://ant.design/components/table/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Компонент Table&lt;/a&gt; внешне мне весьма понравился.
-Лучше просто перейти по ссылке и посмотреть. Если вкратце, вот неполный список вкусняшек:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;freeze для столбцов и заголовков;&lt;/li&gt;
-&lt;li&gt;объединение нескольких заголовков в группу;&lt;/li&gt;
-&lt;li&gt;объединение ячеек (colspan/rowspan);&lt;/li&gt;
-&lt;li&gt;inline-редактирование в строках;&lt;/li&gt;
-&lt;li&gt;строки с детализацией, иерархические строки, вложенные таблицы.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;P.S. Возможно, вам будет интересно кто поддерживает разработку и использует Ant Design &amp;mdash; это, в первую очередь, Alibaba и Ant Financial (AliPay).&lt;/p&gt;
-</description>
+Подробно не смотрел, но выглядит красиво. Далее несколько восторженных отзывов про табличное представление.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -116,9 +60,7 @@
       <pubDate>Fri, 16 Sep 2016 14:32:24 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/js-and-design-news/</guid>
-      <description>
-
-&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике:&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Angular2;&lt;/li&gt;
@@ -127,29 +69,7 @@
 &lt;li&gt;Variable fonts.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;angular2&#34;&gt;Angular2&lt;/h2&gt;
-
-&lt;p&gt;Думаю, многие ждали этого момента. Некоторые мои коллеги подшучивали &amp;mdash; &amp;ldquo;да они наверное уже никогда не зарелизятся&amp;rdquo;.
-Однако, &lt;a href=&#39;http://angularjs.blogspot.ru/2016/09/angular2-final.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;зарелизились&lt;/a&gt;.
-Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :)&lt;/p&gt;
-
-&lt;h2 id=&#34;node-js-v6-6-0&#34;&gt;Node.js v6.6.0&lt;/h2&gt;
-
-&lt;p&gt;На фоне предыдущей новости, &lt;a href=&#39;https://nodejs.org/en/blog/release/v6.6.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;этот релиз&lt;/a&gt; прошёл,
-можно сказать, незаметно.&lt;/p&gt;
-
-&lt;h2 id=&#34;webstorm-2016-3-eap&#34;&gt;WebStorm 2016.3 EAP&lt;/h2&gt;
-
-&lt;p&gt;В WebStorm 2016.3 EAP &lt;a href=&#39;https://blog.jetbrains.com/webstorm/2016/09/webstorm-2016-3-eap-163-4396/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;добавлена поддержка Create React app и улучшена поддержка Angular2&lt;/a&gt;.
-Также там &lt;a href=&#39;https://blog.jetbrains.com/webstorm/2016/08/webstorm-2016-3-early-access-preview/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;добавлена поддержка Flow и PostCSS&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Про PostCSS &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;я уже немного писал&lt;/a&gt;, а &lt;a href=&#39;https://blog.aria.ai/post/why-use-flow/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Flow&lt;/a&gt; вещь интересная,
-но пока не довелось попробовать. Если есть опыт &amp;mdash; напишите в комментариях.&lt;/p&gt;
-
-&lt;h2 id=&#34;variable-fonts&#34;&gt;Variable fonts&lt;/h2&gt;
-
-&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

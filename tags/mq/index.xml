@@ -8,7 +8,9 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Thu, 18 May 2017 22:39:11 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/mq/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/tags/mq/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Новости и ресурсы про MQ</title>
@@ -16,23 +18,12 @@
       <pubDate>Thu, 18 May 2017 22:39:11 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-05/message-queues/</guid>
-      <description>
-
-&lt;p&gt;Сегодня про очереди. В контексте кроликов и ноликов, как мы обычно с Максом говорим.
+      <description>&lt;p&gt;Сегодня про очереди. В контексте кроликов и ноликов, как мы обычно с Максом говорим.
 Ему, кстати, отдельное спасибо за &lt;a href=&#39;http://queues.io/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;ссылку на Queues.io&lt;/a&gt;.
 Это сборник сведений по очередям как &lt;strong&gt;системам&lt;/strong&gt; (или, если сказать проще &amp;mdash; серверам очередей).
-То есть по тому, что можно запустить и начать использовать.&lt;/p&gt;
+То есть по тому, что можно запустить и начать использовать.
 
-&lt;p&gt;По этой причине там нет gRPC и Cap&amp;rsquo;n Proto (о котором далее). Зато там есть Кафка (и совсем не грефневая :).&lt;/p&gt;
-
-&lt;h2 id=&#34;релиз-cap-n-proto-0-6&#34;&gt;Релиз Cap&amp;rsquo;n Proto 0.6&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://capnproto.org/index.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Cap&amp;#39;n Proto&lt;/a&gt; немного похож на gRPC, &lt;a href=&#34;https://yarfullstack.com/post/2016-10/gRPC-first-impressions/&#34;&gt;о котором я писал ранее&lt;/a&gt;.
-Только, с одной стороны, у него нет хорошей поддержки большого набора платформ и языков, а с другой, есть достаточно интересные оптимизации.&lt;/p&gt;
-
-&lt;p&gt;Кстати, в &lt;a href=&#39;https://capnproto.org/news/2017-05-01-capnproto-0.6-msvc-json-http-more.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;release notes&lt;/a&gt;
-упоминается на этот раз полная поддержка Windows и Visual Studio. Только сразу огорчу любителей C# &amp;mdash; подразумевается C++.&lt;/p&gt;
-</description>
+По этой причине там нет gRPC и Cap&amp;rsquo;n Proto (о котором далее). Зато там есть Кафка (и совсем не грефневая :).&lt;/p&gt;</description>
     </item>
     
   </channel>

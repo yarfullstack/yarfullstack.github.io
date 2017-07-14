@@ -8,7 +8,9 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Tue, 30 May 2017 21:22:14 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/tags/javascript/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>О релизе Node.js 8 и npm 5</title>
@@ -16,36 +18,10 @@
       <pubDate>Tue, 30 May 2017 21:22:14 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-05/node.js-8-npm-5/</guid>
-      <description>
-
-&lt;p&gt;Этот месяц, как вы уже знаете (или догадались) порадовал нас новыми релизами Node.js и npm.
+      <description>&lt;p&gt;Этот месяц, как вы уже знаете (или догадались) порадовал нас новыми релизами Node.js и npm.
 Про &lt;a href=&#34;https://yarfullstack.com/post/2017-05/web-development-news/&#34;&gt;сдвиг релиза Node.js 8 я уже писал&lt;/a&gt;, как и обещали &amp;ndash; выпустили в конце мая.&lt;/p&gt;
 
-&lt;h2 id=&#34;node-js-8&#34;&gt;Node.js 8&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://nodejs.org/en/blog/release/v8.0.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Сегодня вышел Node.js 8&lt;/a&gt;. Он будет LTS с октября.&lt;/p&gt;
-
-&lt;p&gt;Подробности по ссылке выше. Основные новшества:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#39;https://developers.google.com/v8/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;V8&lt;/a&gt; 5.8 обещает нам значительное улучшение производительности, а также совместимость с V8 6.0 (ради чего и откладывался релиз Node.js 8).&lt;/li&gt;
-&lt;li&gt;Конструктор &lt;code&gt;Buffer(num)&lt;/code&gt; (deprecated), теперь принудительно заполняет буфер нулями (более безопасно, но менее производительно). Есть &lt;a href=&#39;https://medium.com/@jasnell/node-js-buffer-api-changes-3c21f1048f97&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;статья с подробностями&lt;/a&gt;.&lt;/li&gt;
-&lt;li&gt;Вроде бы теперь стало лучше с отладкой (подробно не смотрел).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;npm-5&#34;&gt;npm@5&lt;/h2&gt;
-
-&lt;p&gt;Пять дней назад вышел &lt;a href=&#39;https://github.com/npm/npm/releases/tag/v5.0.0&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз npm 5.0.0&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Подробности по ссылке выше, из основного, на мой взгляд:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Поменялась схема блокировки. Теперь всегда будет присутствовать файл &lt;code&gt;package-lock.json&lt;/code&gt; (публиковаться не будет).
-Есть &lt;a href=&#39;https://github.com/npm/npm/blob/iarna/shrinkwrap-rfc/doc/spec/package-lock.md&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;спецификация&lt;/a&gt;, но она пока дописывается.&lt;/li&gt;
-&lt;li&gt;Он больше не будет долбить отсутствующую сеть &amp;mdash; попытается достать из кэша или сфэйлится.&lt;/li&gt;
-&lt;li&gt;Кэш изрядно переписан, стал более &lt;del&gt;мягким и шелковистым&lt;/del&gt; быстрым и отказоустойчивым.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -54,9 +30,7 @@
       <pubDate>Fri, 05 May 2017 13:34:52 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-05/web-development-news/</guid>
-      <description>
-
-&lt;p&gt;Сегодня несколько новостей из мира web-разработки.&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня несколько новостей из мира web-разработки.&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Chrome без chrome.&lt;/li&gt;
@@ -66,44 +40,7 @@
 &lt;li&gt;Prepack.io &amp;ndash; интеллектуальная минимизация JavaScript.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;headless-chrome&#34;&gt;Headless Chrome&lt;/h2&gt;
-
-&lt;p&gt;Недавно я уже писал про завершение сопровождения Phantom.js. Сегодня предлагаю ознакомиться со статьёй
-&lt;a href=&#34;https://developers.google.com/web/updates/2017/04/headless-chrome&#34;&gt;Getting Started with Headless Chrome&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;node-js-8-0&#34;&gt;Node.js 8.0&lt;/h2&gt;
-
-&lt;p&gt;Релиз Node.js 8.0, ранее планировавшийся на апрель, отложен на конец мая. Об этом в статье &lt;a href=&#34;https://medium.com/the-node-js-collection/node-js-8-0-0-has-been-delayed-and-will-ship-on-or-around-may-30th-cd38ba96980d&#34;&gt;Node.js 8.0.0 has been delayed and will ship on or around May 30th&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Если вкратце, решили немного подождать более свежего V8.&lt;/p&gt;
-
-&lt;h2 id=&#34;postal&#34;&gt;Postal&lt;/h2&gt;
-
-&lt;p&gt;На случай, если вам захочется пользоваться преимуществами и недостатками своей инфраструктуры для отправки писем, имейте в виду &lt;a href=&#34;https://github.com/atech/postal&#34;&gt;Postal&lt;/a&gt;. Можете также почитать &lt;a href=&#34;https://news.ycombinator.com/item?id=14201562&#34;&gt;обсуждение на HackerNews&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;node-compiler&#34;&gt;node-compiler&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://github.com/pmq20/node-compiler&#34;&gt;node-compiler&lt;/a&gt; &amp;ndash; компилятор в бинарник для Node.js. Такие были и раньше, сравнение есть на сайте.&lt;/p&gt;
-
-&lt;h2 id=&#34;prepack&#34;&gt;Prepack&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://prepack.io/&#34;&gt;Prepack&lt;/a&gt; &amp;mdash; интеллектуальная минимизация JavaScript (пока BETA). Не путайте с минификацией.&lt;/p&gt;
-
-&lt;p&gt;Например,
-&lt;div class=&#34;microlight&#34;&gt;(function () {
-  function hello() { return &#39;hello&#39;; }
-  function world() { return &#39;world&#39;; }
-  global.s = hello() + &#39; &#39; + world();
-})();
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;превращается в&lt;/p&gt;
-
-&lt;div class=&#34;microlight&#34;&gt;(function () {
-  s = &#34;hello world&#34;;
-})();
-&lt;/div&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -112,9 +49,7 @@
       <pubDate>Fri, 16 Sep 2016 14:32:24 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/js-and-design-news/</guid>
-      <description>
-
-&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике:&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Angular2;&lt;/li&gt;
@@ -123,29 +58,7 @@
 &lt;li&gt;Variable fonts.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;angular2&#34;&gt;Angular2&lt;/h2&gt;
-
-&lt;p&gt;Думаю, многие ждали этого момента. Некоторые мои коллеги подшучивали &amp;mdash; &amp;ldquo;да они наверное уже никогда не зарелизятся&amp;rdquo;.
-Однако, &lt;a href=&#39;http://angularjs.blogspot.ru/2016/09/angular2-final.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;зарелизились&lt;/a&gt;.
-Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :)&lt;/p&gt;
-
-&lt;h2 id=&#34;node-js-v6-6-0&#34;&gt;Node.js v6.6.0&lt;/h2&gt;
-
-&lt;p&gt;На фоне предыдущей новости, &lt;a href=&#39;https://nodejs.org/en/blog/release/v6.6.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;этот релиз&lt;/a&gt; прошёл,
-можно сказать, незаметно.&lt;/p&gt;
-
-&lt;h2 id=&#34;webstorm-2016-3-eap&#34;&gt;WebStorm 2016.3 EAP&lt;/h2&gt;
-
-&lt;p&gt;В WebStorm 2016.3 EAP &lt;a href=&#39;https://blog.jetbrains.com/webstorm/2016/09/webstorm-2016-3-eap-163-4396/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;добавлена поддержка Create React app и улучшена поддержка Angular2&lt;/a&gt;.
-Также там &lt;a href=&#39;https://blog.jetbrains.com/webstorm/2016/08/webstorm-2016-3-early-access-preview/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;добавлена поддержка Flow и PostCSS&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Про PostCSS &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;я уже немного писал&lt;/a&gt;, а &lt;a href=&#39;https://blog.aria.ai/post/why-use-flow/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Flow&lt;/a&gt; вещь интересная,
-но пока не довелось попробовать. Если есть опыт &amp;mdash; напишите в комментариях.&lt;/p&gt;
-
-&lt;h2 id=&#34;variable-fonts&#34;&gt;Variable fonts&lt;/h2&gt;
-
-&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
   </channel>

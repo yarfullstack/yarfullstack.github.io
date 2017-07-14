@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/</link>
+    <description>Recent content in Tags on YarFullStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 26 May 2017 12:20:23 +0300</lastBuildDate>
+    
+	<atom:link href="https://yarfullstack.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>CSS</title>
+      <link>https://yarfullstack.com/tags/css/</link>
+      <pubDate>Fri, 26 May 2017 12:20:23 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/css/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>CSharp</title>
+      <link>https://yarfullstack.com/tags/csharp/</link>
+      <pubDate>Fri, 03 Feb 2017 12:31:41 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/csharp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>D3</title>
+      <link>https://yarfullstack.com/tags/d3/</link>
+      <pubDate>Thu, 30 Jun 2016 14:28:22 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/d3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Deploy</title>
+      <link>https://yarfullstack.com/tags/deploy/</link>
+      <pubDate>Sun, 02 Apr 2017 19:42:19 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/deploy/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Design</title>
+      <link>https://yarfullstack.com/tags/design/</link>
+      <pubDate>Thu, 22 Jun 2017 23:39:52 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/design/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DotNET</title>
+      <link>https://yarfullstack.com/tags/dotnet/</link>
+      <pubDate>Thu, 27 Apr 2017 23:02:28 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Git</title>
+      <link>https://yarfullstack.com/tags/git/</link>
+      <pubDate>Mon, 06 Feb 2017 13:38:03 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/git/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://yarfullstack.com/tags/golang/</link>
+      <pubDate>Fri, 17 Feb 2017 13:18:12 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Google</title>
+      <link>https://yarfullstack.com/tags/google/</link>
+      <pubDate>Fri, 17 Feb 2017 13:18:12 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/google/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>HTML</title>
+      <link>https://yarfullstack.com/tags/html/</link>
+      <pubDate>Thu, 04 Aug 2016 21:12:01 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/html/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JavaScript</title>
+      <link>https://yarfullstack.com/tags/javascript/</link>
+      <pubDate>Tue, 30 May 2017 21:22:14 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/javascript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>JetBrains</title>
+      <link>https://yarfullstack.com/tags/jetbrains/</link>
+      <pubDate>Fri, 16 Sep 2016 14:32:24 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/jetbrains/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Languages</title>
+      <link>https://yarfullstack.com/tags/languages/</link>
+      <pubDate>Thu, 22 Sep 2016 23:12:42 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/languages/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Life</title>
+      <link>https://yarfullstack.com/tags/life/</link>
+      <pubDate>Fri, 16 Dec 2016 14:25:17 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/life/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MQ</title>
+      <link>https://yarfullstack.com/tags/mq/</link>
+      <pubDate>Thu, 18 May 2017 22:39:11 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/mq/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MSSQL</title>
+      <link>https://yarfullstack.com/tags/mssql/</link>
+      <pubDate>Tue, 28 Mar 2017 13:47:09 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/mssql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microservices</title>
+      <link>https://yarfullstack.com/tags/microservices/</link>
+      <pubDate>Thu, 18 May 2017 22:39:11 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/microservices/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Microsoft</title>
+      <link>https://yarfullstack.com/tags/microsoft/</link>
+      <pubDate>Wed, 19 Apr 2017 21:50:12 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/microsoft/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MySQL</title>
+      <link>https://yarfullstack.com/tags/mysql/</link>
+      <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/mysql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://yarfullstack.com/tags/network/</link>
+      <pubDate>Wed, 19 Apr 2017 22:58:14 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>News</title>
+      <link>https://yarfullstack.com/tags/news/</link>
+      <pubDate>Fri, 24 Mar 2017 00:40:16 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/news/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NoSQL</title>
+      <link>https://yarfullstack.com/tags/nosql/</link>
+      <pubDate>Wed, 08 Feb 2017 12:50:11 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/nosql/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Node.js</title>
+      <link>https://yarfullstack.com/tags/node.js/</link>
+      <pubDate>Fri, 02 Jun 2017 12:05:57 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/node.js/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Performance</title>
+      <link>https://yarfullstack.com/tags/performance/</link>
+      <pubDate>Thu, 27 Apr 2017 23:02:28 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/performance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Postgres</title>
+      <link>https://yarfullstack.com/tags/postgres/</link>
+      <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/postgres/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>React</title>
+      <link>https://yarfullstack.com/tags/react/</link>
+      <pubDate>Thu, 27 Apr 2017 23:02:28 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/react/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SEO</title>
+      <link>https://yarfullstack.com/tags/seo/</link>
+      <pubDate>Fri, 01 Jul 2016 13:18:17 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/seo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Security</title>
+      <link>https://yarfullstack.com/tags/security/</link>
+      <pubDate>Fri, 02 Jun 2017 12:05:57 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/security/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tools</title>
+      <link>https://yarfullstack.com/tags/tools/</link>
+      <pubDate>Wed, 10 Aug 2016 22:39:44 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/tools/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>TypeScript</title>
+      <link>https://yarfullstack.com/tags/typescript/</link>
+      <pubDate>Thu, 22 Sep 2016 23:12:42 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/typescript/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>UX</title>
+      <link>https://yarfullstack.com/tags/ux/</link>
+      <pubDate>Thu, 22 Jun 2017 23:39:52 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/ux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Usability</title>
+      <link>https://yarfullstack.com/tags/usability/</link>
+      <pubDate>Fri, 27 Jan 2017 11:22:58 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/usability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Visual Studio</title>
+      <link>https://yarfullstack.com/tags/visual-studio/</link>
+      <pubDate>Fri, 10 Mar 2017 12:31:19 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/visual-studio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>YarFullStack</title>
+      <link>https://yarfullstack.com/tags/yarfullstack/</link>
+      <pubDate>Fri, 14 Jul 2017 11:49:47 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/yarfullstack/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -8,7 +8,9 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 16 Dec 2016 14:25:17 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/tags/life/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Наша логика и насколько на неё можно полагаться</title>
@@ -16,40 +18,10 @@
       <pubDate>Fri, 16 Dec 2016 14:25:17 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-12/logic-and-cognitive-bias/</guid>
-      <description>
-
-&lt;p&gt;Сейчас буду говорить не совсем про технологии, но тема интересная.&lt;/p&gt;
+      <description>&lt;p&gt;Сейчас буду говорить не совсем про технологии, но тема интересная.&lt;/p&gt;
 
 &lt;p&gt;Для разработки ПО тема логики и когнитивных искажений, думаю, особенно важная. Ведь разработчики обычно считают себя и свои рассуждения более логичными, чем у большинства других.
-Всегда ли это так?&lt;/p&gt;
-
-&lt;h2 id=&#34;тест-на-логику&#34;&gt;Тест на логику&lt;/h2&gt;
-
-&lt;p&gt;Макс Высоких недавно прислал &lt;a href=&#39;http://www.hr-portal.ru/pages/hu/logika.php&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;отличный тест на логику&lt;/a&gt;. Юмор тамошний мне тоже понравился :)
-Рекомендую пройти. Тем более &amp;mdash; пятница.&lt;/p&gt;
-
-&lt;h2 id=&#34;две-крутые-книги&#34;&gt;Две крутые книги&lt;/h2&gt;
-
-&lt;p&gt;Тем, у кого не получилось везде ответить правильно, будет крайне полезна книга Канемана &lt;a href=&#39;https://ru.wikipedia.org/wiki/%D0%94%D1%83%D0%BC%D0%B0%D0%B9_%D0%BC%D0%B5%D0%B4%D0%BB%D0%B5%D0%BD%D0%BD%D0%BE..._%D1%80%D0%B5%D1%88%D0%B0%D0%B9_%D0%B1%D1%8B%D1%81%D1%82%D1%80%D0%BE&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Думай медленно. Решай быстро&lt;/a&gt;
-(там о том, как мы рассуждаем и принимаем решения, про когнитивные искажения и просто много интересного).&lt;/p&gt;
-
-&lt;p&gt;Ещё стоит почитать Талеба &lt;a href=&#39;https://ru.wikipedia.org/wiki/%D0%A7%D1%91%D1%80%D0%BD%D1%8B%D0%B9_%D0%BB%D0%B5%D0%B1%D0%B5%D0%B4%D1%8C_%28%D1%82%D0%B5%D0%BE%D1%80%D0%B8%D1%8F%29&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Чёрный лебедь&lt;/a&gt;.
-Там занимательно, хотя местами затянуто, описывается наше понимание теории вероятности (часто ошибочное).&lt;/p&gt;
-
-&lt;p&gt;Канеман мне понравился больше, можно сказать, что его книга входит в мои TOP 10 прочитанных книг.
-Но если Талеба не читали вообще &amp;mdash; стоит прочесть (я вот всё до его &amp;ldquo;Антихрупкости&amp;rdquo; никак не доберусь).&lt;/p&gt;
-
-&lt;p&gt;Разумеется, можно не пройти тест прочитав эти книги, равно как прохождение теста не отменяет их полезность :)&lt;/p&gt;
-
-&lt;h2 id=&#34;а-знаете-ли-вы&#34;&gt;А знаете ли вы?&lt;/h2&gt;
-
-&lt;p&gt;Бонусный раздел :)&lt;/p&gt;
-
-&lt;p&gt;Не так давно узнал, что памяти тоже не стоит особо доверять. Со временем память искажается (причём, в том числе, без нашего ведома).
-В частности, какую-то последовательность событий (даже необязательно давнюю) вы можете помнить немного по-другому. Не говоря уже про зрительные образы.&lt;/p&gt;
-
-&lt;p&gt;Подробнее в &lt;a href=&#39;http://www.ted.com/talks/elizabeth_loftus_the_fiction_of_memory&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выступлении Elizabeth Loftus на TED&lt;/a&gt;.&lt;/p&gt;
-</description>
+Всегда ли это так?&lt;/p&gt;</description>
     </item>
     
   </channel>

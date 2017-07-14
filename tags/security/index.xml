@@ -8,7 +8,9 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 02 Jun 2017 12:05:57 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/tags/security/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Полезные статьи для web-разработчиков (Хабрахабр)</title>
@@ -16,21 +18,9 @@
       <pubDate>Fri, 02 Jun 2017 12:05:57 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-06/from-habrahabr-with-web/</guid>
-      <description>
-
-&lt;p&gt;Недавно я писал про &lt;a href=&#34;https://yarfullstack.com/post/2017-05/node.js-8-npm-5/&#34;&gt;релиз Node.js 8 и npm 5&lt;/a&gt;, на Хабре опубликовали
+      <description>&lt;p&gt;Недавно я писал про &lt;a href=&#34;https://yarfullstack.com/post/2017-05/node.js-8-npm-5/&#34;&gt;релиз Node.js 8 и npm 5&lt;/a&gt;, на Хабре опубликовали
 &lt;a href=&#39;https://habrahabr.ru/post/329942/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;более подробную статью&lt;/a&gt;.
-Однако, как часто бывает, комментарии не менее полезны. В частности, там советуют не особо сильно торопиться с переходом на npm 5.&lt;/p&gt;
-
-&lt;p&gt;А по поводу использовать или нет &amp;ldquo;не-LTS&amp;rdquo; в продакшн &amp;mdash; это уже личное дело каждого. Мы пока на Node.js 6.&lt;/p&gt;
-
-&lt;h2 id=&#34;про-безопасность&#34;&gt;Про безопасность&lt;/h2&gt;
-
-&lt;p&gt;Ещё одна полезная статья &amp;mdash; &lt;a href=&#39;https://habrahabr.ru/company/netologyru/blog/329836/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Безопасность в веб-разработке: чек-лист&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;В комментариях ругают за то, что там больше для админов. Я считаю, что разработчики, как минимум, должны знать об основных проблемах.
-А лучше бы и уметь их квалифицированно решать, конечно :)&lt;/p&gt;
-</description>
+Однако, как часто бывает, комментарии не менее полезны. В частности, там советуют не особо сильно торопиться с переходом на npm 5.&lt;/p&gt;</description>
     </item>
     
   </channel>

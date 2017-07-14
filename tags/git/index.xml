@@ -8,7 +8,9 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Mon, 06 Feb 2017 13:38:03 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>GVFS (Git Virtual File System)</title>
@@ -16,30 +18,8 @@
       <pubDate>Mon, 06 Feb 2017 13:38:03 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2017-02/gvfs/</guid>
-      <description>
-
-&lt;p&gt;Microsoft &lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudioalm/2017/02/03/announcing-gvfs-git-virtual-file-system/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;анонсировала GVFS&lt;/a&gt;.&lt;br /&gt;
-Можно просто почитать статью по ссылке, далее просто короткое описание.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;TL;DR&lt;/strong&gt; В Microsoft обнаружили, что на больших репозиториях (пара сотен гигабайт) Git подтормаживает :)
-И написали виртуальную файловую систему, которая забирает файл только тогда, когда он действительно нужен.&lt;/p&gt;
-
-&lt;p&gt;Disclaimer: Холивар по поводу того, Git тормозит или NTFS оставим любителям холиваров.&lt;/p&gt;
-
-&lt;p&gt;В статье приводятся замеры &lt;strong&gt;для описанного кейса&lt;/strong&gt; (было/стало):&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;clone: 12 часов/5 минут&lt;/li&gt;
-&lt;li&gt;checkout: 3 часа/30 секунд&lt;/li&gt;
-&lt;li&gt;status: 8 минут/4 секунды&lt;/li&gt;
-&lt;li&gt;commit: 30 минут/13 секунд&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;резюме&#34;&gt;Резюме&lt;/h2&gt;
-
-&lt;p&gt;Если у вас похожий кейс с огромным репозиторием, рекомендую попробовать.
-Правда, сначала рекомендую задуматься &amp;mdash; правильно ли у вас организован репозиторий.&lt;/p&gt;
-</description>
+      <description>&lt;p&gt;Microsoft &lt;a href=&#39;https://blogs.msdn.microsoft.com/visualstudioalm/2017/02/03/announcing-gvfs-git-virtual-file-system/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;анонсировала GVFS&lt;/a&gt;.&lt;br /&gt;
+Можно просто почитать статью по ссылке, далее просто короткое описание.&lt;/p&gt;</description>
     </item>
     
   </channel>

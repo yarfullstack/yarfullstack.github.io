@@ -8,55 +8,20 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 10 Aug 2016 22:39:44 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/tags/tools/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Полезные настройки WebStorm</title>
-      <link>https://yarfullstack.com/post/2016-08/WebStorm-useful-options/</link>
+      <link>https://yarfullstack.com/post/2016-08/webstorm-useful-options/</link>
       <pubDate>Wed, 10 Aug 2016 22:39:44 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-08/WebStorm-useful-options/</guid>
-      <description>
-
-&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
+      <guid>https://yarfullstack.com/post/2016-08/webstorm-useful-options/</guid>
+      <description>&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
 Я пока ещё &lt;del&gt;не настоящий сварщик&lt;/del&gt; не особо опытный пользователь WebStorm, поэтому здесь вы не найдёте советов как в 10 раз ускорить
- разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее.&lt;/p&gt;
-
-&lt;h2 id=&#34;вступление&#34;&gt;Вступление&lt;/h2&gt;
-
-&lt;p&gt;На всякий случай, &lt;a href=&#39;https://www.jetbrains.com/webstorm/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;WebStorm&lt;/a&gt; &amp;mdash; это IDE для web-разработчиков от JetBrains.
-И разрабатывать на ней можно не только front-end &amp;mdash; для Node.js она тоже неплохо адаптирована. В ней много всяких полезных плюшек &amp;mdash;
-отладка node.js, простые рефакторинги, Emmet&amp;hellip; Однако, пересказывать то, что про неё и так постоянно пишут я не буду.&lt;/p&gt;
-
-&lt;h2 id=&#34;плагины&#34;&gt;Плагины&lt;/h2&gt;
-
-&lt;p&gt;Тут всё просто &amp;mdash; идёте в Settings / Plugins и подключаете или отключаете плагины.
-Этот текст, к примеру, я сейчас пишу в WebStorm c подключенным плагином для Markdown. И, раз уж речь зашла о тексте&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;проверка-орфографии&#34;&gt;Проверка орфографии&lt;/h2&gt;
-
-&lt;p&gt;WebStorm из коробки поддерживает проверку орфографии. Но английского языка. Несправедливость сия легко исправляется (пусть и не на 100%).
-Отдельная благодарность &lt;a href=&#39;https://dikmax.name/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;dikmax&lt;/a&gt; за
-&lt;a href=&#39;https://yadi.sk/d/DL05vxUaTdLrr&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;предоставленный словарь русского языка&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Словарь копируется в подходящую папку (у меня это Projects/.Settings), затем добавляется в настройках WebStorm.
-Если быть раздражающе точным &amp;mdash; в &amp;ldquo;File / Settings / Editor / Spelling / Dictionaries&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Да, в словаре не хватает некоторых слов, несмотря на его размер &amp;mdash; 49 мегабайт. Ситуации действительно встречаются неожиданные &amp;mdash;
-есть &amp;ldquo;канделябром&amp;rdquo; (ну куда же без этого, в приличном-то обществе :), но нет &amp;ldquo;коробки&amp;rdquo; из коробки&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Эти единичные случаи можно исправить самостоятельно или поискать другой, более полный словарь.
-Меня лично больше расстраивает отсутствие поддержки &amp;ldquo;ё&amp;rdquo;. Так что, если найдёте подходящую замену &amp;mdash; прошу отписаться в комментариях.&lt;/p&gt;
-
-&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
-
-&lt;p&gt;TODO сделано достаточно удобно. Если затрудняетесь в его поиске&amp;hellip; &amp;ldquo;View / Tool Windows / TODO&amp;rdquo; для визуалов, Alt+6 для кинестетиков.&lt;/p&gt;
-
-&lt;p&gt;Есть одна маленькая тонкость. По умолчанию TODO показываются для всех исходников в папке проекта.
-Думаю, не всем хочется наблюдать сотни TODO из папки node_modules.
-Поэтому стоит в окне с TODO сверху выбрать Scope Based и настроить так, как вам удобнее. Обычно &amp;ldquo;Project Files&amp;rdquo; бывает достаточно,
-но если есть вложенные в подпроекты node_modules &amp;mdash; не работает (для таких случаев можно добавить свой Scope).&lt;/p&gt;
-</description>
+ разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее.
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -65,47 +30,13 @@
       <pubDate>Fri, 15 Jul 2016 15:24:57 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/uncss/</guid>
-      <description>
-
-&lt;p&gt;Ранее я уже &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;немного упоминал UnCSS&lt;/a&gt;, а сегодня расскажу о нем подробнее.
+      <description>&lt;p&gt;Ранее я уже &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;немного упоминал UnCSS&lt;/a&gt;, а сегодня расскажу о нем подробнее.
 Напомню, он, с помощью PhantomJS, рендерит страницы и выполняет JavaScript, ищет используемые классы и удаляет остальные.&lt;/p&gt;
 
 &lt;p&gt;Лично мне удобнее всего использовать его вместе с PostCSS. При желании, можно подключить его к Grunt, Broccoli или Gulp.
-Также можно использовать его API из Node.js или вызывать из командной строки.&lt;/p&gt;
+Также можно использовать его API из Node.js или вызывать из командной строки.
 
-&lt;p&gt;Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h2 id=&#34;важные-замечания&#34;&gt;Важные замечания&lt;/h2&gt;
-
-&lt;p&gt;Что нужно иметь в виду, при использовании UnCSS.&lt;/p&gt;
-
-&lt;p&gt;Во-первых &amp;mdash; некоторые &amp;ldquo;динамические&amp;rdquo; стили могут быть незаслуженно выпилены.
-После того, как вы это обнаружите, решить проблему можно с помощью опции ignore или простым комментарием перед селектором:
-&lt;div class=&#34;microlight&#34;&gt;/* uncss:ignore */
-.js .input-file {
-...
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Во-вторых, что следует из первого пункта &amp;mdash; доверяйте, но проверяйте &amp;mdash; стоит периодически проверять что необходимые стили на месте.
-В зависимости от масштаба проекта это можно делать либо визуально, либо с помощью автоматических тестов.&lt;/p&gt;
-
-&lt;h2 id=&#34;опыт-использования&#34;&gt;Опыт использования&lt;/h2&gt;
-
-&lt;p&gt;Пока могу сказать, что опыт использования небольшой, но положительный. Поскольку я использую его вместе с PostCSS, всё просто.
-Сначала ставится плагин &lt;a href=&#39;https://www.npmjs.com/package/postcss-uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;postcss-uncss&lt;/a&gt;:
-&lt;div class=&#34;microlight&#34;&gt;npm install postcss-uncss uncss
-&lt;/div&gt;&lt;/p&gt;
-
-&lt;p&gt;Затем в набор плагинов для PostCSS прописывается этот (указан один файл для примера, в принципе можно задавать несколько файлов, маски файлов тоже допустимы):&lt;/p&gt;
-
-&lt;div class=&#34;microlight&#34;&gt;require(&#39;postcss-uncss&#39;)({
-	html: [ &#39;index.html&#39; ]
-}
-&lt;/div&gt;
-
-&lt;p&gt;Если требуется, задаются исключения (в строчке выше или комментариями, как в предыдущем разделе. Вот, собственно, и всё.
-В результате, CSS избавляется от неиспользуемых стилей, а пользователи наслаждаются чуть более быстрой загрузкой страниц :)&lt;/p&gt;
-</description>
+Подробности есть на &lt;a href=&#39;https://github.com/giakki/uncss&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;странице проекта&lt;/a&gt;.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -114,49 +45,12 @@
       <pubDate>Fri, 01 Jul 2016 13:18:17 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-07/site-optimization-tools/</guid>
-      <description>
-
-&lt;p&gt;Сегодня поделюсь набором инструментов для оптимизации сайтов. Это больше про скорость, чем про SEO, хотя и для SEO там тоже есть много полезного.
+      <description>&lt;p&gt;Сегодня поделюсь набором инструментов для оптимизации сайтов. Это больше про скорость, чем про SEO, хотя и для SEO там тоже есть много полезного.
 К счастью, поисковики начали учитывать заодно и скорость загрузки сайтов при индексации.&lt;/p&gt;
 
 &lt;p&gt;Да, вероятно я перфекционист, однако я не могу спокойно смотреть на мегабайтные картинки и сайты, загружающиеся дольше секунды при нормальном соединении.
-Правда, этот сайт я пока не оптимизировал на все 100%, но в этом случае я рисковал начать писать сюда в следующем году :)&lt;/p&gt;
-
-&lt;h2 id=&#34;varvy-seo-tool&#34;&gt;Varvy SEO tool&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://varvy.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Varvy SEO tool&lt;/a&gt; &amp;mdash; лучший, на мой взгляд, бесплатный многофункциональный сервис проверки сайтов.
-Крайне рекомендую. В отличие от других сервисов, он и на валидность HTML посмотрит, и Accessibility проверит&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;pingdom-website-speed-test&#34;&gt;Pingdom Website Speed Test&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://tools.pingdom.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Pingdom Website Speed Test&lt;/a&gt; &amp;mdash; ориентирован на проверку скорости и типовых проблем.
-Попроще, чем Varvy, чуть посложнее, чем PageSpeed.&lt;/p&gt;
-
-&lt;h2 id=&#34;pagespeed&#34;&gt;PageSpeed&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://developers.google.com/speed/pagespeed/?hl=ru&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;PageSpeed&lt;/a&gt; &amp;mdash; инструмент от Google, тоже ориентирован на проверку скорости и типовых проблем.
-Иногда рассказывает меньше, чем Pingdom. Есть модуль для Nginx и Apache, который обеспечивает выполнение многих рекомендаций в автоматическом режиме.
-Также есть плагины для Chrome, правда, не вижу я в них особой пользы.&lt;/p&gt;
-
-&lt;h2 id=&#34;testmysite-thinkwithgoogle-com&#34;&gt;TestMySite (thinkwithgoogle.com)&lt;/h2&gt;
-
-&lt;p&gt;&lt;a href=&#39;https://testmysite.thinkwithgoogle.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TestMySite&lt;/a&gt; &amp;mdash; ещё один инструмент от Google,
-я бы сказал, что это максимально простой и красиво оформленный фасад для PageSpeed.&lt;/p&gt;
-
-&lt;h2 id=&#34;webpagetest&#34;&gt;WebPageTest&lt;/h2&gt;
-
-&lt;p&gt;И последний, но отнюдь не по полезности &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;WebPageTest&lt;/a&gt;.
-Этот замечательный инструмент позволяет проверить загрузку сайта в разных условиях:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Несколько десятков вариантов расположение клиента;&lt;/li&gt;
-&lt;li&gt;Десяток вариантов выбора качества internet-соединения;&lt;/li&gt;
-&lt;li&gt;И ещё с десяток разных настроек, но лучше я не буду про них рассказывать, чтобы у вас был стимул посмотреть на этот сервис самим.&lt;br /&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;На выходе получаем подробный отчёт с логом и аналогом результатов вкладки Network в Chrome. Плюс к этому, он ещё и записывает видео, на котором видно, как открывается сайт.
-В общем &amp;mdash; &lt;a href=&#39;http://www.webpagetest.org/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;лучше один раз увидеть&lt;/a&gt; :)&lt;/p&gt;
-</description>
+Правда, этот сайт я пока не оптимизировал на все 100%, но в этом случае я рисковал начать писать сюда в следующем году :)
+&lt;/p&gt;</description>
     </item>
     
   </channel>

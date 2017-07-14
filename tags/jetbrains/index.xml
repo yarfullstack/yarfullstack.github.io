@@ -8,7 +8,9 @@
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 16 Sep 2016 14:32:24 +0300</lastBuildDate>
-    <atom:link href="https://yarfullstack.com/tags/jetbrains/index.xml" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://yarfullstack.com/tags/jetbrains/index.xml" rel="self" type="application/rss+xml" />
+    
     
     <item>
       <title>Новости дизайна и JavaScript</title>
@@ -16,9 +18,7 @@
       <pubDate>Fri, 16 Sep 2016 14:32:24 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/js-and-design-news/</guid>
-      <description>
-
-&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике:&lt;/p&gt;
+      <description>&lt;p&gt;Сегодня расскажу о релизах из мира JavaScript и немного про новые веяния в типографике:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Angular2;&lt;/li&gt;
@@ -27,78 +27,19 @@
 &lt;li&gt;Variable fonts.&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h2 id=&#34;angular2&#34;&gt;Angular2&lt;/h2&gt;
-
-&lt;p&gt;Думаю, многие ждали этого момента. Некоторые мои коллеги подшучивали &amp;mdash; &amp;ldquo;да они наверное уже никогда не зарелизятся&amp;rdquo;.
-Однако, &lt;a href=&#39;http://angularjs.blogspot.ru/2016/09/angular2-final.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;зарелизились&lt;/a&gt;.
-Те кто ждал релиза, чтобы начать использовать &amp;mdash; ваше время пришло :)&lt;/p&gt;
-
-&lt;h2 id=&#34;node-js-v6-6-0&#34;&gt;Node.js v6.6.0&lt;/h2&gt;
-
-&lt;p&gt;На фоне предыдущей новости, &lt;a href=&#39;https://nodejs.org/en/blog/release/v6.6.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;этот релиз&lt;/a&gt; прошёл,
-можно сказать, незаметно.&lt;/p&gt;
-
-&lt;h2 id=&#34;webstorm-2016-3-eap&#34;&gt;WebStorm 2016.3 EAP&lt;/h2&gt;
-
-&lt;p&gt;В WebStorm 2016.3 EAP &lt;a href=&#39;https://blog.jetbrains.com/webstorm/2016/09/webstorm-2016-3-eap-163-4396/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;добавлена поддержка Create React app и улучшена поддержка Angular2&lt;/a&gt;.
-Также там &lt;a href=&#39;https://blog.jetbrains.com/webstorm/2016/08/webstorm-2016-3-early-access-preview/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;добавлена поддержка Flow и PostCSS&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Про PostCSS &lt;a href=&#34;https://yarfullstack.com/post/2016-06/css/&#34;&gt;я уже немного писал&lt;/a&gt;, а &lt;a href=&#39;https://blog.aria.ai/post/why-use-flow/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Flow&lt;/a&gt; вещь интересная,
-но пока не довелось попробовать. Если есть опыт &amp;mdash; напишите в комментариях.&lt;/p&gt;
-
-&lt;h2 id=&#34;variable-fonts&#34;&gt;Variable fonts&lt;/h2&gt;
-
-&lt;p&gt;Пока это инициатива, а не реальность, но интересная. Лучше просто &lt;a href=&#39;http://blog.typekit.com/2016/09/14/variable-fonts-a-new-kind-of-font-for-flexible-design/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;почитать и посмотреть&lt;/a&gt;.&lt;/p&gt;
-</description>
+&lt;p&gt;&lt;/p&gt;</description>
     </item>
     
     <item>
       <title>Полезные настройки WebStorm</title>
-      <link>https://yarfullstack.com/post/2016-08/WebStorm-useful-options/</link>
+      <link>https://yarfullstack.com/post/2016-08/webstorm-useful-options/</link>
       <pubDate>Wed, 10 Aug 2016 22:39:44 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2016-08/WebStorm-useful-options/</guid>
-      <description>
-
-&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
+      <guid>https://yarfullstack.com/post/2016-08/webstorm-useful-options/</guid>
+      <description>&lt;p&gt;Некоторые свои проекты, не связанные с Microsoft.NET, я пишу в WebStorm, который мне любезно предоставила JetBrains.
 Я пока ещё &lt;del&gt;не настоящий сварщик&lt;/del&gt; не особо опытный пользователь WebStorm, поэтому здесь вы не найдёте советов как в 10 раз ускорить
- разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее.&lt;/p&gt;
-
-&lt;h2 id=&#34;вступление&#34;&gt;Вступление&lt;/h2&gt;
-
-&lt;p&gt;На всякий случай, &lt;a href=&#39;https://www.jetbrains.com/webstorm/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;WebStorm&lt;/a&gt; &amp;mdash; это IDE для web-разработчиков от JetBrains.
-И разрабатывать на ней можно не только front-end &amp;mdash; для Node.js она тоже неплохо адаптирована. В ней много всяких полезных плюшек &amp;mdash;
-отладка node.js, простые рефакторинги, Emmet&amp;hellip; Однако, пересказывать то, что про неё и так постоянно пишут я не буду.&lt;/p&gt;
-
-&lt;h2 id=&#34;плагины&#34;&gt;Плагины&lt;/h2&gt;
-
-&lt;p&gt;Тут всё просто &amp;mdash; идёте в Settings / Plugins и подключаете или отключаете плагины.
-Этот текст, к примеру, я сейчас пишу в WebStorm c подключенным плагином для Markdown. И, раз уж речь зашла о тексте&amp;hellip;&lt;/p&gt;
-
-&lt;h2 id=&#34;проверка-орфографии&#34;&gt;Проверка орфографии&lt;/h2&gt;
-
-&lt;p&gt;WebStorm из коробки поддерживает проверку орфографии. Но английского языка. Несправедливость сия легко исправляется (пусть и не на 100%).
-Отдельная благодарность &lt;a href=&#39;https://dikmax.name/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;dikmax&lt;/a&gt; за
-&lt;a href=&#39;https://yadi.sk/d/DL05vxUaTdLrr&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;предоставленный словарь русского языка&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Словарь копируется в подходящую папку (у меня это Projects/.Settings), затем добавляется в настройках WebStorm.
-Если быть раздражающе точным &amp;mdash; в &amp;ldquo;File / Settings / Editor / Spelling / Dictionaries&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;Да, в словаре не хватает некоторых слов, несмотря на его размер &amp;mdash; 49 мегабайт. Ситуации действительно встречаются неожиданные &amp;mdash;
-есть &amp;ldquo;канделябром&amp;rdquo; (ну куда же без этого, в приличном-то обществе :), но нет &amp;ldquo;коробки&amp;rdquo; из коробки&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;Эти единичные случаи можно исправить самостоятельно или поискать другой, более полный словарь.
-Меня лично больше расстраивает отсутствие поддержки &amp;ldquo;ё&amp;rdquo;. Так что, если найдёте подходящую замену &amp;mdash; прошу отписаться в комментариях.&lt;/p&gt;
-
-&lt;h2 id=&#34;todo&#34;&gt;TODO&lt;/h2&gt;
-
-&lt;p&gt;TODO сделано достаточно удобно. Если затрудняетесь в его поиске&amp;hellip; &amp;ldquo;View / Tool Windows / TODO&amp;rdquo; для визуалов, Alt+6 для кинестетиков.&lt;/p&gt;
-
-&lt;p&gt;Есть одна маленькая тонкость. По умолчанию TODO показываются для всех исходников в папке проекта.
-Думаю, не всем хочется наблюдать сотни TODO из папки node_modules.
-Поэтому стоит в окне с TODO сверху выбрать Scope Based и настроить так, как вам удобнее. Обычно &amp;ldquo;Project Files&amp;rdquo; бывает достаточно,
-но если есть вложенные в подпроекты node_modules &amp;mdash; не работает (для таких случаев можно добавить свой Scope).&lt;/p&gt;
-</description>
+ разработку и т.п. Просто три простых способа сделать работу в этой IDE ещё немного комфортнее.
+&lt;/p&gt;</description>
     </item>
     
   </channel>

@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  
-  <url>
-    <loc>https://yarfullstack.com/</loc>
-    <lastmod>2017-07-14T11:49:47+03:00</lastmod>
-  </url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>https://yarfullstack.com/post/2017-07/yarfullstack-release-notes/</loc>
@@ -167,7 +163,7 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/post/2016-10/gRPC-first-impressions/</loc>
+    <loc>https://yarfullstack.com/post/2016-10/grpc-first-impressions/</loc>
     <lastmod>2016-10-13T21:46:12+03:00</lastmod>
   </url>
   
@@ -202,7 +198,7 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/post/2016-09/typescript-2.0-RC/</loc>
+    <loc>https://yarfullstack.com/post/2016-09/typescript-2.0-rc/</loc>
     <lastmod>2016-09-01T20:35:25+03:00</lastmod>
   </url>
   
@@ -222,7 +218,7 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/post/2016-08/WebStorm-useful-options/</loc>
+    <loc>https://yarfullstack.com/post/2016-08/webstorm-useful-options/</loc>
     <lastmod>2016-08-10T22:39:44+03:00</lastmod>
   </url>
   
@@ -237,7 +233,7 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/post/2016-07/Uber-Postgres&#43;MySQL/</loc>
+    <loc>https://yarfullstack.com/post/2016-07/uber-postgres&#43;mysql/</loc>
     <lastmod>2016-07-29T12:26:04+03:00</lastmod>
   </url>
   
@@ -247,7 +243,7 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/post/2016-07/visual-studio.KB3165756/</loc>
+    <loc>https://yarfullstack.com/post/2016-07/visual-studio.kb3165756/</loc>
     <lastmod>2016-07-13T08:46:18+03:00</lastmod>
   </url>
   
@@ -267,7 +263,7 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/post/2016-06/dotNET/</loc>
+    <loc>https://yarfullstack.com/post/2016-06/dotnet/</loc>
     <lastmod>2016-06-24T12:31:11+03:00</lastmod>
   </url>
   
@@ -279,6 +275,318 @@
   <url>
     <loc>https://yarfullstack.com/post/about/</loc>
     <lastmod>2016-06-15T20:13:07+03:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/css/</loc>
+    <lastmod>2017-05-26T12:20:23+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/csharp/</loc>
+    <lastmod>2017-02-03T12:31:41+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/d3/</loc>
+    <lastmod>2016-06-30T14:28:22+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/deploy/</loc>
+    <lastmod>2017-04-02T19:42:19+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/design/</loc>
+    <lastmod>2017-06-22T23:39:52+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/dotnet/</loc>
+    <lastmod>2017-04-27T23:02:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/dotnet/</loc>
+    <lastmod>2017-03-10T12:31:19+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/git/</loc>
+    <lastmod>2017-02-06T13:38:03+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/golang/</loc>
+    <lastmod>2017-02-17T13:18:12+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/google/</loc>
+    <lastmod>2017-02-17T13:18:12+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/html/</loc>
+    <lastmod>2016-08-04T21:12:01+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/ide/</loc>
+    <lastmod>2017-03-10T12:31:19+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/javascript/</loc>
+    <lastmod>2017-05-30T21:22:14+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/jetbrains/</loc>
+    <lastmod>2016-09-16T14:32:24+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/languages/</loc>
+    <lastmod>2016-09-22T23:12:42+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/life/</loc>
+    <lastmod>2016-12-16T14:25:17+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/mq/</loc>
+    <lastmod>2017-05-18T22:39:11+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/mssql/</loc>
+    <lastmod>2017-03-28T13:47:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/microservices/</loc>
+    <lastmod>2017-05-18T22:39:11+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/microsoft/</loc>
+    <lastmod>2017-04-19T21:50:12+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/mysql/</loc>
+    <lastmod>2016-07-29T12:26:04+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/network/</loc>
+    <lastmod>2017-04-19T22:58:14+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/news/</loc>
+    <lastmod>2017-03-24T00:40:16+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/nosql/</loc>
+    <lastmod>2017-02-08T12:50:11+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/node.js/</loc>
+    <lastmod>2017-06-02T12:05:57+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/performance/</loc>
+    <lastmod>2017-04-27T23:02:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/postgres/</loc>
+    <lastmod>2016-07-29T12:26:04+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/post/</loc>
+    <lastmod>2017-07-14T11:49:47+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/react/</loc>
+    <lastmod>2017-04-27T23:02:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/seo/</loc>
+    <lastmod>2016-07-01T13:18:17+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/security/</loc>
+    <lastmod>2017-06-02T12:05:57+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/</loc>
+    <lastmod>2017-05-26T12:20:23+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/tools/</loc>
+    <lastmod>2016-08-10T22:39:44+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/</loc>
+    <lastmod>2017-03-10T12:31:19+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/typescript/</loc>
+    <lastmod>2016-09-22T23:12:42+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/ux/</loc>
+    <lastmod>2017-06-22T23:39:52+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/ux/</loc>
+    <lastmod>2017-06-22T23:39:52+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/usability/</loc>
+    <lastmod>2017-01-27T11:22:58+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/visual-studio/</loc>
+    <lastmod>2017-03-10T12:31:19+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/</loc>
+    <lastmod>2017-07-14T11:49:47+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/yarfullstack/</loc>
+    <lastmod>2017-07-14T11:49:47+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/</loc>
+    <lastmod>2017-03-28T13:47:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F/</loc>
+    <lastmod>2016-06-30T14:28:22+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D0%B2%D0%BD%D0%B5%D0%B7%D0%B0%D0%BF%D0%BD%D0%BE/</loc>
+    <lastmod>2017-03-28T13:47:09+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0/</loc>
+    <lastmod>2017-05-26T12:20:23+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8/</loc>
+    <lastmod>2017-03-24T00:40:16+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D0%BC%D0%B8%D0%BA%D1%80%D0%BE%D1%81%D0%B5%D1%80%D0%B2%D0%B8%D1%81%D1%8B/</loc>
+    <lastmod>2017-05-18T22:39:11+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/</loc>
+    <lastmod>2017-06-02T12:05:57+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5/</loc>
+    <lastmod>2017-07-14T11:49:47+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
+    <lastmod>2017-04-27T23:02:28+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D1%84%D1%80%D0%B5%D0%B9%D0%BC%D0%B2%D0%BE%D1%80%D0%BA%D0%B8/</loc>
+    <lastmod>2017-04-19T21:50:12+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/topics/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8/</loc>
+    <lastmod>2016-09-22T23:12:42+03:00</lastmod>
+    <priority>0</priority>
   </url>
   
 </urlset>
