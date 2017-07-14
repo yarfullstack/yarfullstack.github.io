@@ -7,8 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2016 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 02 Jun 2017 12:05:57 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 14 Jul 2017 11:49:47 +0300</lastBuildDate>
     <atom:link href="https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5/index.xml" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Небольшие изменения на сайте</title>
+      <link>https://yarfullstack.com/post/2017-07/yarfullstack-release-notes/</link>
+      <pubDate>Fri, 14 Jul 2017 11:49:47 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-07/yarfullstack-release-notes/</guid>
+      <description>&lt;p&gt;Сегодня обновил сайт. Изменения следующие:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Убрал disqus напрочь. Надоела мне эта хрень, которая тормозит и ещё собирает только ей нужную статистику.&lt;/li&gt;
+&lt;li&gt;Вместо disqus добавил в конце страницы ссылку на twitter. Если очень нужны другие способы обсуждения &amp;mdash; пишите в Twitter :) Ссылка в конце страницы.&lt;/li&gt;
+&lt;li&gt;Добавил &lt;a href=&#39;https://t.me/yarfullstack&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;канал Telegram&lt;/a&gt; для оповещения о статьях.&lt;/li&gt;
+&lt;li&gt;Немного поправил вертикальное выравнивание у иконок.&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
     
     <item>
       <title>Полезные статьи для web-разработчиков (Хабрахабр)</title>
