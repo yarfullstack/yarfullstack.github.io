@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 26 May 2017 12:20:23 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 17 Aug 2017 22:05:13 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SVG - интересные возможности</title>
+      <link>https://yarfullstack.com/post/2017-08/svg/</link>
+      <pubDate>Thu, 17 Aug 2017 22:05:13 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-08/svg/</guid>
+      <description>&lt;p&gt;Сегодня хочу поделиться ссылкой на презентацию &lt;a href=&#39;http://slides.com/sdrasner/svg-can-do-that#/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;SVG can do THAT?!&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Красиво сделано. Познавательно.&lt;/p&gt;
+
+&lt;p&gt;Ещё у меня накопился набор ссылок на статьи про SVG. Возможно, кого-то заинтересует.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>CSS Stats - сбор статистики по вашему CSS</title>
