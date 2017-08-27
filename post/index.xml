@@ -7,10 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 17 Aug 2017 22:05:13 +0300</lastBuildDate>
+    <lastBuildDate>Sun, 27 Aug 2017 21:21:13 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Одна задача на страницу</title>
+      <link>https://yarfullstack.com/post/2017-08/one-task-per-page/</link>
+      <pubDate>Sun, 27 Aug 2017 21:21:13 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-08/one-task-per-page/</guid>
+      <description>&lt;p&gt;Недавно я писал про &lt;a href=&#34;https://yarfullstack.com/post/2017-05/node.js-8-npm-5/&#34;&gt;слишком минималистичный интерфейс&lt;/a&gt;, а недавно увидел статью
+&lt;a href=&#39;https://www.smashingmagazine.com/2017/05/better-form-design-one-thing-per-page/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Better Form Design: One Thing Per Page (Case Study)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Мне понравилось в ней две вещи:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Всё хорошо структурировано и иллюстрировано удачными примерами.&lt;/li&gt;
+&lt;li&gt;Там нет призывов &amp;ldquo;измельчить формы до предела&amp;rdquo; :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>SVG - интересные возможности</title>
