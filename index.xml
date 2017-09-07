@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 27 Aug 2017 21:21:13 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 07 Sep 2017 21:51:50 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Делаем метки и формы лучше</title>
+      <link>https://yarfullstack.com/post/2017-09/a-better-forms-and-labels/</link>
+      <pubDate>Thu, 07 Sep 2017 21:51:50 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-09/a-better-forms-and-labels/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/&#34;&gt;Больше года назад&lt;/a&gt;, я рекомендовал почитать статью &lt;a href=&#39;https://uxdesign.cc/design-better-forms-96fadca0f49c&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Design Better Forms (Common mistakes designers make and how to fix them)&lt;/a&gt;.
+От своих слов я не отказываюсь и по-прежнему рекомендую :)
+Заодно, добавлю ещё пару статей, которые особенно полезны для тех, кого заботит вопрос правильного использования меток.&lt;/p&gt;
+
+&lt;p&gt;Почему я выделяю метки? Знаете, у меня есть мечта&amp;hellip; что в приложениях, в разработке которых я буду участвовать, инпуты будут расположены одним столбцом а метки &amp;mdash; сверху.
+Максимум &amp;mdash; внутри и всплывают наверх. Исключением может быть, разве что, &amp;ldquo;сурового ынтырпрайза&amp;rdquo;, хотя и в этом случае, что-нибудь можно придумать.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Одна задача на страницу</title>
