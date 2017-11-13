@@ -293,9 +293,9 @@
 </div> До кучи можно ещё и nofollow добавить, но это к уязвимости уже не имеет отношения.</li>
 <li>Открывать все внешние ссылки через свою, промежуточную страницу, на которой должен отработать код: <div class="microlight">window.opener = null;
 </div></li>
-<li>Открывать ссылки в новой вкладке через js: <div class="microlight">var otherWindow = window.open();
+<li>Открывать ссылки в новой вкладке через js (может работать в одних браузерах и не работать в других): <div class="microlight">var otherWindow = window.open();
 otherWindow.opener = null;
-otherWindow.location = targetUrl;
+otherWindow.location.href = targetUrl;
 </div></li>
 <li>Скрытый iframe (как вариант с помощью <a href='http://danielstjules.github.io/blankshield/' rel="nofollow noopener noreferrer" target="_blank">blankshield</a>).</li>
 </ul>
