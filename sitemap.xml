@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yarfullstack.com/post/2017-11/microsoft-news/</loc>
+    <lastmod>2017-11-24T14:19:15+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yarfullstack.com/post/2017-09/a-better-forms-and-labels/</loc>
     <lastmod>2017-09-07T21:51:50+03:00</lastmod>
   </url>
@@ -305,7 +310,7 @@
   
   <url>
     <loc>https://yarfullstack.com/tags/csharp/</loc>
-    <lastmod>2017-02-03T12:31:41+03:00</lastmod>
+    <lastmod>2017-11-24T14:19:15+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -335,7 +340,7 @@
   
   <url>
     <loc>https://yarfullstack.com/topics/dotnet/</loc>
-    <lastmod>2017-03-10T12:31:19+03:00</lastmod>
+    <lastmod>2017-11-24T14:19:15+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -413,7 +418,7 @@
   
   <url>
     <loc>https://yarfullstack.com/tags/microsoft/</loc>
-    <lastmod>2017-04-19T21:50:12+03:00</lastmod>
+    <lastmod>2017-11-24T14:19:15+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -461,7 +466,7 @@
   
   <url>
     <loc>https://yarfullstack.com/post/</loc>
-    <lastmod>2017-09-07T21:51:50+03:00</lastmod>
+    <lastmod>2017-11-24T14:19:15+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -497,7 +502,7 @@
   
   <url>
     <loc>https://yarfullstack.com/topics/</loc>
-    <lastmod>2017-03-10T12:31:19+03:00</lastmod>
+    <lastmod>2017-11-24T14:19:15+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -533,7 +538,7 @@
   
   <url>
     <loc>https://yarfullstack.com/</loc>
-    <lastmod>2017-09-07T21:51:50+03:00</lastmod>
+    <lastmod>2017-11-24T14:19:15+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -545,7 +550,7 @@
   
   <url>
     <loc>https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/</loc>
-    <lastmod>2017-03-28T13:47:09+03:00</lastmod>
+    <lastmod>2017-11-24T14:19:15+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -587,7 +592,7 @@
   
   <url>
     <loc>https://yarfullstack.com/topics/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8/</loc>
-    <lastmod>2017-06-02T12:05:57+03:00</lastmod>
+    <lastmod>2017-11-24T14:19:15+03:00</lastmod>
     <priority>0</priority>
   </url>
   
