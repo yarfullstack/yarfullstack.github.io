@@ -7,10 +7,22 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 27 Apr 2017 23:02:28 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 29 Dec 2017 13:28:32 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Дружим TeamCity, NUnit и .NET Core</title>
+      <link>https://yarfullstack.com/post/2017-12/teamcity-nunit-core/</link>
+      <pubDate>Fri, 29 Dec 2017 13:28:32 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-12/teamcity-nunit-core/</guid>
+      <description>&lt;p&gt;Недавно я долго и мучительно переходил с .NET Core 1.x на 2.0. Возможно, расскажу об этом позже. Признаться, об этом лучше рассказывать в удобном кресле психоаналитика :)&lt;/p&gt;
+
+&lt;p&gt;Сегодня о более прозаичном. В нашей компании мы привыкли использовать TeamCity и NUnit. Для предыдущей версии .NET Core работал пакет &amp;ldquo;dotnet-test-nunit-teamcity&amp;rdquo;, для новой аналога не нашлось&amp;hellip;
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Про производительность .NET, React, Regex</title>
