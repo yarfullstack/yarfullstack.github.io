@@ -316,13 +316,14 @@
 <ul>
 <li>Вовремя обновляйте ОС и браузеры.</li>
 <li>Лучше не использовать простые/браузерные менеджеры паролей. Keepass наше всё :) Может что-то ещё есть более защищённое. Ну а самые важные пароли можно и запомнить.</li>
-<li>Для интернет-банков и прочих критичных к безопасности сайтов лучше использовать отдельный браузер. Да, уязвимости могут читать память других процессов, но тырить куки проще из того же браузера&hellip;</li>
+<li>Для интернет-банков и прочих критичных к безопасности сайтов лучше использовать отдельный браузер. Пока, с помощью этих уязвимостей можно читать память только своего процесса.</li>
 </ul>
 
 <p>Скажу честно, мне самому лениво было заходить в интернет-банк в другом браузере, теперь постараюсь делать именно так.</p>
 
-<p>Что касается Meltdown, специфичен, пожалуй, одина момент.
-Если в вашем смартфоне процессор на основе &ldquo;ARM Cortex-A75&rdquo; &mdash; сочувствую. Хотя смартфоны на Android патчат неторопливо, но, может, вам повезет&hellip;</p>
+<p>Что касается Meltdown, специфичен, пожалуй, один момент.
+Если в вашем смартфоне процессор на основе &ldquo;ARM Cortex-A75&rdquo; &mdash; сочувствую. Хотя смартфоны на Android патчат неторопливо, но, может, вам повезет&hellip;
+По этой теме есть обновление, см. &ldquo;UPD&rdquo; в конце статьи.</p>
 
 <h3 id="для-web-разработчиков">Для web-разработчиков</h3>
 
@@ -388,6 +389,8 @@
 <li><a href='https://habrahabr.ru/post/346078/' rel="nofollow noopener noreferrer" target="_blank">Как именно работает Meltdown</a> &mdash; статья на Хабре с картинками</li>
 <li><a href='https://www.postgresql.org/message-id/20180102222354.qikjmf7dvnjgbkxe@alap3.anarazel.de' rel="nofollow noopener noreferrer" target="_blank">PostgreSQL: Fix for intel hardware bug will lead to performance regressions</a></li>
 </ul>
+
+<p><strong>UPD:</strong> <a href='https://geektimes.ru/company/pochtoy/blog/297081/' rel="nofollow noopener noreferrer" target="_blank">Говорят</a>, также, что подтверждена уязвимость Cortex-A15, Cortex A-17, Cortex A-72, а это процессоры Exynos 5, Exynos 7, Qualcomm Snapdragon 650, 652, 653, 808 и 810, Mediatek Helio X20. Samsung, LG, HTC, Xiaomi, Meizu&hellip;</p>
 <p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
