@@ -4,8 +4,8 @@
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-	      content="Немного про CSS и вёрстку - background-repeat, проблемы с производительностью base64 для картинок, прочее.">
-	<title>Немного про CSS и вёрстку</title>
+	      content="Meltdown, Spectre - о последних уязвимостях в процессорах. Что с ними делать людям, разработчикам и админам. И так ли все плохо...">
+	<title>Meltdown, Spectre и... npm</title>
 	
 	<style>
 	html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,select,textarea{font:inherit;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}#mb-container,body,html{min-height:100%;height:100%;width:100%}html{font-size:calc(16px + 6 * ((100vw - 800px) / 480))}@media screen and (min-width:1280px){html{font-size:22px}}@media screen and (max-width:800px){html{font-size:16px}}ul{vertical-align:baseline;list-style-position:outside}#mb-container{float:left;background-color:#fff}#mb-content{color:#282828}#mb-menu{box-sizing:border-box;background-color:#203040;color:#ababab}.mb-mh{font-weight:700}.mb-none{display:none}article,ol,p,ul{line-height:24px;line-height:1.5rem;margin-bottom:24px;margin-bottom:1.5rem}small{font-size:.694em;line-height:16.672px;line-height:1.042rem}h1{font-size:33.184px;font-size:2.074rem;line-height:33.184px;line-height:2.074rem}h1,h2{margin-bottom:24px;margin-bottom:1.5rem}h2{font-size:27.648px;font-size:1.728rem;line-height:27.648px;line-height:1.728rem;margin-top:44.352px;margin-top:2.772rem}h3{font-size:23.04px;font-size:1.44rem;line-height:23.04px;line-height:1.44rem;margin-top:48.96px;margin-top:3.06rem}h3,h4{margin-bottom:24px;margin-bottom:1.5rem}h4{font-size:19.2px;font-size:1.2rem;line-height:19.2px;line-height:1.2rem;margin-top:52.8px;margin-top:3.3rem}h5{font-size:16px;font-size:1rem;line-height:16px;line-height:1rem;margin-top:56px;margin-top:3.5rem;margin-bottom:24px;margin-bottom:1.5rem}a{text-decoration:none;color:#2098d1}.mb-ml-color,a.mb-mh,a.mb-ml,a.mb-mt{color:#ababab}a.mb-mh,a.mb-ml,a.mb-mt{margin-right:12px;margin-top:6px;margin:.375rem .75rem 0 0}.u-m-right{margin-right:.5em!important}.mb-icon-menu{height:.833em;width:.833em;vertical-align:baseline}.mb-icon-content{height:1em;width:1em;vertical-align:baseline}.u-icon-meta{position:relative;top:.033em;left:0}svg{fill:currentColor}.mb-content-nav,.mb-discuss{display:block;font-size:1em;margin-top:calc(1.5rem - 1em + 1.5rem)}.mb-prev-next{display:block}.microlight{font-family:monospace;font-size:.75em;white-space:pre;background-color:#203040;color:#fafafa;overflow:auto;padding:.5em}@media screen and (max-width:820px){#mb-content,#mb-menu{width:100%;margin:0;box-sizing:border-box}#mb-menu{padding:12px;padding:.75rem}#mb-content{height:auto;padding:0 12px;padding:0 .75rem}h1{margin-top:14.816px;margin-top:.926rem}a.mb-mh,a.mb-ml,a.mb-mt{display:inline-block}.mb-mhh{font-size:23.04px;font-size:1.44rem;font-weight:700;display:block}.u-icon-top-tag{top:.125em!important}.u-icon-top-calendar,.u-icon-top-folder{top:.1em!important}.u-icon-top-summary{top:.12em!important}.u-icon-top-chevron{top:.188em!important}.u-hide-s-vw{display:none!important}}@media screen and (min-width:420px) and (max-width:819px){#mb-content,#mb-menu{padding:4%}}@media screen and (min-width:820px){body{height:100%}#mb-menu{position:fixed;top:0;left:0;width:199.872px;width:12.492rem;height:100%;font-size:11.104px;font-size:.694rem;padding-top:16.672px;padding-bottom:16.672px;padding-left:24px;padding:1.042rem 1.5rem;padding-right:24px;overflow:auto}#mb-content{position:absolute;top:0;left:199.872px;left:12.492rem;right:0;bottom:0;padding-top:24px;padding-left:24px;padding:1.5rem 1.5rem 0;padding-right:24px}h1{margin-top:-9.184px;margin-top:-.574rem}.mb-mh,a.mb-mh,a.mb-ml,a.mb-mt{line-height:16.672px;line-height:1.042rem}.mb-mh,a.mb-mh,a.mb-ml{margin-left:0;margin-right:0}.u-menu-vmargin{margin-top:11.12px;margin-top:.695rem;margin-bottom:11.12px;margin-bottom:.695rem}.mb-mh,a.mb-mh{margin-top:16.672px;margin-top:1.042rem;margin-bottom:5.568px;margin-bottom:.348rem}a.mb-mt{display:inline-block}.u-block-l-vw{display:block;margin-top:16.672px;margin-top:1.042rem}.mb-mhh{font-size:16px;font-size:1rem;font-weight:700}.u-icon-top-tag{top:.1em!important}.u-icon-top-folder{top:.033em!important}.u-icon-top-summary{top:.1em!important}.u-icon-top-chevron{top:.183em!important}.u-hide-l-vw{display:none!important}}@media screen and (min-width:1280px){#mb-menu{width:calc((100vw - 1280px)/5 + 12.492rem)}#mb-content{left:calc((100vw - 1280px)/5 + 12.492rem);padding-top:24px;padding-bottom:24px;padding:1.5rem calc(1.5rem + (100vw - 1280px) / 3)}}
@@ -233,11 +233,11 @@
 
 	<div id="mb-content">
 
-<h1>Немного про CSS и вёрстку</h1>
+<h1>Meltdown, Spectre и... npm</h1>
 <p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2017-04-12 22:24&#43;03:00'>12.04.2017, 22:24</time>
+        <time datetime='2018-01-08 13:13&#43;03:00'>08.01.2018, 13:13</time>
     </small>
     
     
@@ -246,7 +246,7 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
+            <a href="https://yarfullstack.com/topics/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Безопасность</a>
             
         </small>
         
@@ -257,66 +257,141 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/tags/css">CSS</a>
+            <a href="https://yarfullstack.com/tags/security">Security</a>
             
         </small>
         
     
 </p>
-<p>Сегодня несколько интересных статей от css-tricks, csswizardry и uxdesign.cc.</p>
+<p>Всех с интересным новым годом!
+Возможно, вы еще не в курсе уязвимостей Meltdown и Spectre. Поэтому &mdash; короткое вступление.</p>
+
+<p>Прошлой осенью исследователи Google опубликовали исследования о нескольких уязвимостях процессоров. В этом году эти исследования стали общедоступными.
+Если совсем вкратце:</p>
 
 <ul>
-<li>background-repeat;</li>
-<li>Проблемы с производительностью base64 для картинок;</li>
-<li>Краткая запись CSS как антипаттерн;</li>
-<li>О стилях для печати.</li>
+<li>Обе уязвимости позволяют тырить данные.</li>
+<li><strong>Доступ к чужой памяти только на чтение.</strong> На случай если вы уже начитались про &ldquo;ученых и журналистов&rdquo; :)</li>
+<li>Meltdown, в отличие от Spectre, позволяет читать не только память других процессов, но и ядра.</li>
+<li>Уязвимости можно эксплуатировать в браузерах (где-то заплатки уже выпущены, но насколько они защищают, пока не знаю).</li>
+<li>Для AMD всё относительно хорошо (пока).</li>
 </ul>
 
-<p></p>
+<p>Да, это всё не значит, что у вас <strong>гарантированно</strong> украдут данные. Однако, <strong>повышается вероятность</strong> утечки информации, например, при заходе на нормальный сайт с вредоносным кодом в рекламном скрипте.</p>
 
-<h2 id="background-repeat">background-repeat</h2>
+<p>Далее чуть больше подробностей.</p>
 
-<p>Ничего сверхъестественного, просто <a href='https://css-tricks.com/almanac/properties/b/background-repeat/' rel="nofollow noopener noreferrer" target="_blank">качественная статья</a>
- о том, как можно использовать CSS-свойство &ldquo;background-repeat&rdquo;. Про &ldquo;round&rdquo; и &ldquo;space&rdquo; не слышал, а они поддерживаются аж с IE9 (и нормальными браузерами).</p>
+<p><strong>Disclaimer:</strong> я не гуру информационной безопасности, поэтому всё что я пишу дальше &mdash; мое личное мнение, а не претензия на абсолютную истину.</p>
 
-<h2 id="проблемы-с-производительностью-base64-для-картинок">Проблемы с производительностью base64 для картинок</h2>
+<p>Я начну с отличий, последствий и рекомендаций, чтобы не утомлять деталями Meltdown тех, кому это неинтересно.
+Для тех, кто заскучает после описания Meltdown, крайне рекомендую почитать следующий за ним раздел.
+А для тех, кому очень интересны детали &mdash; в конце будут дополнительные источники.</p>
 
-<p>Это две статьи:</p>
+<h2 id="высокоуровневые-отличия">Высокоуровневые отличия</h2>
 
 <ul>
-<li><a href='https://csswizardry.com/2017/02/base64-encoding-and-performance/' rel="nofollow noopener noreferrer" target="_blank">Base64 Encoding &amp; Performance, Part 1: What’s Up with Base64?</a><br /></li>
-<li><a href='https://csswizardry.com/2017/02/base64-encoding-and-performance-part-2/' rel="nofollow noopener noreferrer" target="_blank">Base64 Encoding &amp; Performance, Part 2: Gathering Data</a> &mdash; в этой части приводятся тесты и дополнительные выводы.</li>
+<li>Meltdown позволяет читать память ядра.</li>
+<li>Meltdown работает для всех процессоров Intel с 1995 года. Кроме Atom (и Itanium, но это не точно). С AMD непонятно, некоторые ARM тоже задеты (вроде только самые топовые).</li>
+<li>Spectre не позволяет тырить данные из ядра.</li>
+<li>Spectre работает везде, только для AMD проблем меньше (но это не точно).</li>
+<li>Spectre более сложный в реализации и, насколько я понимаю, у него хуже точность.</li>
 </ul>
 
-<p>Согласен с автором &mdash; <strong>использование base64 чаще всего не оправдано</strong> (если это не пара-другая мелких картинок).
-Запихнув картинки в стили, мы получаем: блокировку отрисовки, отсутствие кэширования отдельных картинок, более длительный парсинг стилей.</p>
+<h2 id="последствия-и-рекомендации">Последствия и рекомендации</h2>
 
-<p>Ещё узнал, что можно делать так (чтобы грузить картинки параллельно с загрузкой CSS):</p>
-
-<p><code>&lt;link rel=&quot;preload&quot; href=&quot;masthead.jpg&quot; as=&quot;image&quot; /&gt;</code></p>
-
-<h2 id="краткая-запись-css-как-антипаттерн">Краткая запись CSS как антипаттерн</h2>
-
-<p>Статья-предостережение о том, что не стоит увлекаться записями вида <code>background: red;</code>.
-Есть и оригинал и перевод:</p>
+<p>С одной стороны, уязвимости серьезные. С другой &mdash; надо понимать, что:</p>
 
 <ul>
-<li><a href='https://csswizardry.com/2016/12/css-shorthand-syntax-considered-an-anti-pattern/' rel="nofollow noopener noreferrer" target="_blank">CSS Shorthand Syntax Considered an Anti-Pattern</a>.</li>
-<li><a href='http://prgssr.ru/development/kratkaya-zapis-css-kak-antipattern.html' rel="nofollow noopener noreferrer" target="_blank">Краткая запись CSS как антипаттерн</a>.</li>
+<li>Для Meltdown сделали (или сделают) заплатки для ОС. Которые, правда, будут заметно ухудшать производительность в некоторых сценариях. Опасения вызывают только смартфоны&hellip;</li>
+<li>Производители браузеров сделают заплатки (чтобы сложнее было адекватно отслеживать время доступа).</li>
+<li>Код должен быть выполнен на устройстве. Браузера это тоже касается, но см. предыдущий пункт.</li>
 </ul>
 
-<h2 id="о-стилях-для-печати">О стилях для печати</h2>
+<p>Поэтому не торопимся выкидывать смартфоны с компами и уезжать в глушь.</p>
 
-<p>Напоминание о том, что они есть и несколько полезных техник. Аналогично, оригинал и перевод:</p>
+<h3 id="для-людей">Для людей</h3>
+
+<p>С точки зрения пользователей мои рекомендации практически независимы от последних уязвимостей:</p>
 
 <ul>
-<li><a href='https://uxdesign.cc/i-totally-forgot-about-print-style-sheets-f1e6604cfd6' rel="nofollow noopener noreferrer" target="_blank">I totally forgot about print style sheets</a>.</li>
-<li><a href='http://prgssr.ru/development/ya-sovsem-zabyl-o-stilyah-dlya-pechati.html' rel="nofollow noopener noreferrer" target="_blank">Я совсем забыл о стилях для печати</a>.</li>
+<li>Вовремя обновляйте ОС и браузеры.</li>
+<li>Лучше не использовать простые/браузерные менеджеры паролей. Keepass наше всё :) Может что-то ещё есть более защищённое. Ну а самые важные пароли можно и запомнить.</li>
+<li>Для интернет-банков и прочих критичных к безопасности сайтов лучше использовать отдельный браузер. Да, уязвимости могут читать память других процессов, но тырить куки проще из того же браузера&hellip;</li>
+</ul>
+
+<p>Скажу честно, мне самому лениво было заходить в интернет-банк в другом браузере, теперь постараюсь делать именно так.</p>
+
+<p>Что касается Meltdown, специфичен, пожалуй, одина момент.
+Если в вашем смартфоне процессор на основе &ldquo;ARM Cortex-A75&rdquo; &mdash; сочувствую. Хотя смартфоны на Android патчат неторопливо, но, может, вам повезет&hellip;</p>
+
+<h3 id="для-web-разработчиков">Для web-разработчиков</h3>
+
+<p>Здесь я пока сам еще не понял, есть у кого идеи? Возможно, это просто повод задуматься об использовании <a href='https://www.owasp.org/index.php/HttpOnly' rel="nofollow noopener noreferrer" target="_blank">HttpOnly</a>
+и <a href='https://www.owasp.org/index.php/SameSite' rel="nofollow noopener noreferrer" target="_blank">SameSite</a>, если они не используются&hellip;</p>
+
+<h3 id="для-админов">Для админов</h3>
+
+<p>Загадочно улыбаться, если ваши сервера на AMD :)
+Если серьезно &mdash; патчи, обновления и т.п. &mdash; это понятно.
+Печально то, что патчи могут значительно снизить производительность IO (на вычисления влияют мало).
+Поэтому, нужно разумно подойти к вопросу для тех серверов, которые вы полностью контролируете.</p>
+
+<p>Например, если на вашей Intel-овской железке крутится Linux+PostgreSQL и она не запускает какие-то левые приложения &mdash; имеет смысл потестить отключение патчей.
+Говорят, что это может позволить не протерять около 25% производительности.</p>
+
+<h2 id="meltdown-и-проблемы-спекулятивного-чтения-памяти">Meltdown и проблемы спекулятивного чтения памяти</h2>
+
+<p>Вспомним, что при обращении к недопустимому адресу возникает исключение (на уровне железа, не софта).
+Но для ускорения параллельной обработки чтение может произойти <strong>до</strong> этой проверки, а если проверка не пройдёт &mdash; процессор &ldquo;откатит&rdquo; выполнение и начнёт его производить &ldquo;по-честному&rdquo;.</p>
+
+<p>Такой подход обычно называют спекулятивным чтением. Этой проблемы нет у AMD, который сначала проверяет, потом читает данные.</p>
+
+<p>Далее я приведу упрощенные рассуждения. Подробности можно прочитать по первой ссылке в разделе &ldquo;Дополнительная информация&rdquo;.
+За кадром останется:</p>
+
+<ul>
+<li>&ldquo;Выкидывание из кэша&rdquo;.</li>
+<li>Кэш-линии (память читается по 64 или 128 байт).</li>
+<li>Prefetch (именно из-за него читаются блоки по 4КБ, чтобы точно только один был в кэше).
+<br /></li>
+</ul>
+
+<p>Идея Meltdown (смесь русского языка и псевдокода):</p>
+
+<ol>
+<li>У байта 256 значений, поэтому делаем мегабайтный массив из 256 блоков по 4КБ: <code>my[256*4096]</code>.</li>
+<li>Мы хотим написать код, который сначала пытается считать по чужому адресу, скажем, <code>other[i]</code>.</li>
+<li>Попасть в дальнейший код нам нужно спекулятивно, поэтому пишем его в блоке <code>if (i &lt; bounds)</code>, где <code>bounds</code> &mdash; переменная, &ldquo;выкинутая их кэша&rdquo;.</li>
+<li>Теперь, читаем <code>other[i]</code>, а потом считываем <code>my[other[i]]</code>.</li>
+<li>Из-за наших &ldquo;спекуляций&rdquo;, код выполняется целиком, а потом падает с ошибкой. Но страница по адресу <code>my[other[i]]</code> <strong>помещена в кэш,</strong> хотя значение <code>other[i]</code> нам недоступно.</li>
+<li>Теперь с шагом 4КБ бежим по массиву и замеряем время доступа. Номер итерации, где время доступа будет значительно меньше, и будет искомым <code>other[i]</code>.</li>
+</ol>
+
+<p>Понятно, что путём невероятных усилий мы прочитали только один байт чужой памяти, но процессоры сейчас производительные&hellip;
+А идея, безусловно, изящная.</p>
+
+<p>Что касается Spectre &mdash; там нет даже попыток чтения чужой памяти. Чтобы работало спекулятивное выполнение команд, есть Branch Prediction Unit, который и эксплуатируется.
+Но это уже отдельная статья. Кстати &mdash; <a href='https://geektimes.ru/post/297031/' rel="nofollow noopener noreferrer" target="_blank">вот неплохая отдельная статья на Хабре</a> :)</p>
+
+<h2 id="npm-и-кража-ваших-паролей-с-кредитками">NPM и кража ваших паролей с кредитками</h2>
+
+<p>А теперь, после всех этих страшилок давайте немного о более простом способе получить приватную информацию :)</p>
+
+<p>Крайне рекомендую почитать статью <a href='https://hackernoon.com/im-harvesting-credit-card-numbers-and-passwords-from-your-site-here-s-how-9a8cb347c5b5' rel="nofollow noopener noreferrer" target="_blank">I’m harvesting credit card numbers and passwords from your site. Here’s how.</a>
+Она и веселая, и заставляет задуматься&hellip;</p>
+
+<h2 id="дополнительная-информация">Дополнительная информация</h2>
+
+<ul>
+<li><a href='https://meltdownattack.com/' rel="nofollow noopener noreferrer" target="_blank">Сайт, посвященный Meltdown и Spectre</a></li>
+<li><a href='https://geektimes.ru/post/297029/' rel="nofollow noopener noreferrer" target="_blank">Новогодние подарки, часть первая: Meltdown</a> &mdash; неплохая серия из трех обзорных статей с объяснением принципов работы</li>
+<li><a href='https://habrahabr.ru/post/346078/' rel="nofollow noopener noreferrer" target="_blank">Как именно работает Meltdown</a> &mdash; статья на Хабре с картинками</li>
+<li><a href='https://www.postgresql.org/message-id/20180102222354.qikjmf7dvnjgbkxe@alap3.anarazel.de' rel="nofollow noopener noreferrer" target="_blank">PostgreSQL: Fix for intel hardware bug will lead to performance regressions</a></li>
 </ul>
 <p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2017-04-12 22:24&#43;03:00'>12.04.2017, 22:24</time>
+        <time datetime='2018-01-08 13:13&#43;03:00'>08.01.2018, 13:13</time>
     </small>
     
     
@@ -325,7 +400,7 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
+            <a href="https://yarfullstack.com/topics/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Безопасность</a>
             
         </small>
         
@@ -336,7 +411,7 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/tags/css">CSS</a>
+            <a href="https://yarfullstack.com/tags/security">Security</a>
             
         </small>
         
@@ -346,22 +421,13 @@
 	<div class="mb-content-nav">
 	
 	<nav class="mb-prev-next">
-		<a href="https://yarfullstack.com/post/2017-03/domain-name-registration-namesilo/">
+		<a href="https://yarfullstack.com/post/2017-12/teamcity-nunit-core/">
 			<svg class="mb-icon-content u-icon-meta u-icon-top-chevron" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
 				<use xlink:href="#chevron-left-icon"></use>
 			</svg>
-			NameSilo - оптимальный способ регистрации доменных имён</a>
+			Дружим TeamCity, NUnit и .NET Core</a>
 	</nav>
 	
-	
-	<nav class="mb-prev-next">
-		<a href="https://yarfullstack.com/post/2017-04/react-fiber-reactxp-relay-modern/">
-			Анонс ReactXP, React Fiber и Relay Modern
-			<svg class="mb-icon-content u-icon-meta u-icon-top-chevron" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-				<use xlink:href="#chevron-right-icon"></use>
-			</svg>
-		</a>
-	</nav>
 	
 	</div>
 

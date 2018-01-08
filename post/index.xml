@@ -7,10 +7,35 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 29 Dec 2017 13:28:32 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 08 Jan 2018 13:13:11 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Meltdown, Spectre и... npm</title>
+      <link>https://yarfullstack.com/post/2018-01/meltdown-spectre-npm/</link>
+      <pubDate>Mon, 08 Jan 2018 13:13:11 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-01/meltdown-spectre-npm/</guid>
+      <description>&lt;p&gt;Всех с интересным новым годом!
+Возможно, вы еще не в курсе уязвимостей Meltdown и Spectre. Поэтому &amp;mdash; короткое вступление.&lt;/p&gt;
+
+&lt;p&gt;Прошлой осенью исследователи Google опубликовали исследования о нескольких уязвимостях процессоров. В этом году эти исследования стали общедоступными.
+Если совсем вкратце:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Обе уязвимости позволяют тырить данные.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Доступ к чужой памяти только на чтение.&lt;/strong&gt; На случай если вы уже начитались про &amp;ldquo;ученых и журналистов&amp;rdquo; :)&lt;/li&gt;
+&lt;li&gt;Meltdown, в отличие от Spectre, позволяет читать не только память других процессов, но и ядра.&lt;/li&gt;
+&lt;li&gt;Уязвимости можно эксплуатировать в браузерах (где-то заплатки уже выпущены, но насколько они защищают, пока не знаю).&lt;/li&gt;
+&lt;li&gt;Для AMD всё относительно хорошо (пока).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Да, это всё не значит, что у вас &lt;strong&gt;гарантированно&lt;/strong&gt; украдут данные. Однако, &lt;strong&gt;повышается вероятность&lt;/strong&gt; утечки информации, например, при заходе на нормальный сайт с вредоносным кодом в рекламном скрипте.&lt;/p&gt;
+
+&lt;p&gt;Далее чуть больше подробностей.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Дружим TeamCity, NUnit и .NET Core</title>
