@@ -599,7 +599,7 @@ Disclaimer: некоторые статьи читал давно (возмож�
       <pubDate>Thu, 22 Sep 2016 23:12:42 +0300</pubDate>
       
       <guid>https://yarfullstack.com/post/2016-09/typescript-2-release/</guid>
-      <description>&lt;p&gt;Команда разработки TypeScript радует своими темпами &amp;mdash; в начале месяца я &lt;a href=&#34;https://yarfullstack.com/post/2016-09/typescript-2.0-rc/&#34;&gt;писал про TypeScript 2.0 RC&lt;/a&gt;,
+      <description>&lt;p&gt;Команда разработки TypeScript радует своими темпами &amp;mdash; в начале месяца я &lt;a href=&#34;&#34;&gt;писал про TypeScript 2.0 RC&lt;/a&gt;,
 а сегодня они &lt;a href=&#39;https://blogs.msdn.microsoft.com/typescript/2016/09/22/announcing-typescript-2-0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;сделали релиз 2.0&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;В общем-то, на этом можно и закончить, но кому интересно &amp;mdash; можете почитать краткий пересказ анонса про основные фичи:&lt;/p&gt;
