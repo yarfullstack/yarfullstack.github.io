@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Mon, 08 Jan 2018 16:13:11 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 25 Jan 2018 21:10:02 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Как сделать push-уведомления менее раздражающими</title>
+      <link>https://yarfullstack.com/post/2018-01/push-notifications-ux/</link>
+      <pubDate>Thu, 25 Jan 2018 21:10:02 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-01/push-notifications-ux/</guid>
+      <description>&lt;p&gt;Вас бесят запросы о подписке на сайтах? Меня бесят. Неважно &amp;mdash; это про пуш-уведомления или о добавлении в список рассылки.
+Сегодня про то, как самим такое не делать.&lt;/p&gt;
+
+&lt;p&gt;В чём основная проблема? На многих сайтах запрос на подписку открывается до того, как ты успеваешь хоть что-то сделать.
+Как исправить? Очевидно, предлагать подписку после совершения какого-то действия. Чтобы была понятна польза от неё.
+
+Вот пользователь оформил заказ. Почему бы не предложить ему подписаться на уведомление о доставке или смене статуса?&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Meltdown, Spectre и... npm</title>
