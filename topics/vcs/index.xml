@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Git on YarFullStack</title>
-    <link>https://yarfullstack.com/tags/git/</link>
-    <description>Recent content in Git on YarFullStack</description>
+    <title>VCS on YarFullStack</title>
+    <link>https://yarfullstack.com/topics/vcs/</link>
+    <description>Recent content in VCS on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Wed, 07 Feb 2018 08:34:40 +0300</lastBuildDate>
     
-	<atom:link href="https://yarfullstack.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://yarfullstack.com/topics/vcs/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

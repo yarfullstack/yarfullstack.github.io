@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 25 Jan 2018 21:10:02 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 07 Feb 2018 08:34:40 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Алиасы для комфортной работы с Git</title>
+      <link>https://yarfullstack.com/post/2018-02/git-aliases/</link>
+      <pubDate>Wed, 07 Feb 2018 08:34:40 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-02/git-aliases/</guid>
+      <description>&lt;p&gt;Думаю, я не типичный пользователь Git. Командную строку и GUI использую одинаково часто.
+В SourceTree мне удобнее смотреть изменения и ветки, в TortoiseGit &amp;mdash; смотреть историю и мёржить, а в консоли &amp;mdash; иногда коммитить и делать более сложные операции.&lt;/p&gt;
+
+&lt;p&gt;Почему я использую консоль? Есть две причины:&lt;/p&gt;
+
+&lt;ol&gt;
+&lt;li&gt;GUI умеет не всё.&lt;/li&gt;
+&lt;li&gt;В Git есть алиасы&amp;hellip;&lt;br /&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Алиас &amp;mdash; возможность написать в консоли после &lt;code&gt;git&lt;/code&gt; свою команду. Пишешь в Git Bash &lt;code&gt;git cp&lt;/code&gt;, а выполняется три команды:
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Как сделать push-уведомления менее раздражающими</title>

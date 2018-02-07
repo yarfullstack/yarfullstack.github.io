@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yarfullstack.com/post/2018-02/git-aliases/</loc>
+    <lastmod>2018-02-07T08:34:40+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yarfullstack.com/post/2018-01/push-notifications-ux/</loc>
     <lastmod>2018-01-25T21:10:02+03:00</lastmod>
   </url>
@@ -348,20 +353,20 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/topics/dotnet/</loc>
-    <lastmod>2017-12-29T13:28:32+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://yarfullstack.com/tags/dotnet/</loc>
     <lastmod>2017-12-29T13:28:32+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://yarfullstack.com/topics/dotnet/</loc>
+    <lastmod>2017-12-29T13:28:32+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://yarfullstack.com/tags/git/</loc>
-    <lastmod>2017-02-06T13:38:03+03:00</lastmod>
+    <lastmod>2018-02-07T08:34:40+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -481,7 +486,7 @@
   
   <url>
     <loc>https://yarfullstack.com/post/</loc>
-    <lastmod>2018-01-25T21:10:02+03:00</lastmod>
+    <lastmod>2018-02-07T08:34:40+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -528,13 +533,13 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/topics/ux/</loc>
+    <loc>https://yarfullstack.com/tags/ux/</loc>
     <lastmod>2018-01-25T21:10:02+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/tags/ux/</loc>
+    <loc>https://yarfullstack.com/topics/ux/</loc>
     <lastmod>2018-01-25T21:10:02+03:00</lastmod>
     <priority>0</priority>
   </url>
@@ -546,6 +551,12 @@
   </url>
   
   <url>
+    <loc>https://yarfullstack.com/topics/vcs/</loc>
+    <lastmod>2018-02-07T08:34:40+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://yarfullstack.com/tags/visual-studio/</loc>
     <lastmod>2017-03-10T12:31:19+03:00</lastmod>
     <priority>0</priority>
@@ -553,7 +564,7 @@
   
   <url>
     <loc>https://yarfullstack.com/</loc>
-    <lastmod>2018-01-25T21:10:02+03:00</lastmod>
+    <lastmod>2018-02-07T08:34:40+03:00</lastmod>
     <priority>0</priority>
   </url>
   
