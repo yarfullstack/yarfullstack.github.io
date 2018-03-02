@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 25 Jan 2018 21:10:02 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 02 Mar 2018 13:50:47 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/ux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Делаем модальные окна правильно</title>
+      <link>https://yarfullstack.com/post/2018-03/modals-frontend/</link>
+      <pubDate>Fri, 02 Mar 2018 13:50:47 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-03/modals-frontend/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yarfullstack.com/post/2018-01/push-notifications-ux/&#34;&gt;В январе писал о пуш-нотификациях&lt;/a&gt;. Сегодня, с подачи Жени Кирьянова &amp;mdash; о модальных окнах.
+Конечно, самый простой совет &amp;mdash; &amp;ldquo;не используйте их&amp;rdquo;. Но иногда всё-таки, приходится.&lt;/p&gt;
+
+&lt;p&gt;О том, как их применять в разных ситуациях &amp;mdash; далее. А тех, кто прочитает эту короткую статью до конца ждет нематериальный бонус :)
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Как сделать push-уведомления менее раздражающими</title>

@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta name="generator" content="Hugo 0.25.1" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-	      content="YarFullStack">
-	<title>YarFullStack Интересное для разработчиков. Из Ярославля. И не только.</title>
+	      content="Про модальные окна, диалоги, подтверждения и т.п.">
+	<title>Делаем модальные окна правильно</title>
 	
 	<style>
 	html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,select,textarea{font:inherit;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif;margin:0}#mb-container,body,html{min-height:100%;height:100%;width:100%}html{font-size:calc(16px + 6 * ((100vw - 800px) / 480))}@media screen and (min-width:1280px){html{font-size:22px}}@media screen and (max-width:800px){html{font-size:16px}}ul{vertical-align:baseline;list-style-position:outside}#mb-container{float:left;background-color:#fff}#mb-content{color:#282828}#mb-menu{box-sizing:border-box;background-color:#203040;color:#ababab}.mb-mh{font-weight:700}.mb-none{display:none}article,ol,p,ul{line-height:24px;line-height:1.5rem;margin-bottom:24px;margin-bottom:1.5rem}small{font-size:.694em;line-height:16.672px;line-height:1.042rem}h1{font-size:33.184px;font-size:2.074rem;line-height:33.184px;line-height:2.074rem}h1,h2{margin-bottom:24px;margin-bottom:1.5rem}h2{font-size:27.648px;font-size:1.728rem;line-height:27.648px;line-height:1.728rem;margin-top:44.352px;margin-top:2.772rem}h3{font-size:23.04px;font-size:1.44rem;line-height:23.04px;line-height:1.44rem;margin-top:48.96px;margin-top:3.06rem}h3,h4{margin-bottom:24px;margin-bottom:1.5rem}h4{font-size:19.2px;font-size:1.2rem;line-height:19.2px;line-height:1.2rem;margin-top:52.8px;margin-top:3.3rem}h5{font-size:16px;font-size:1rem;line-height:16px;line-height:1rem;margin-top:56px;margin-top:3.5rem;margin-bottom:24px;margin-bottom:1.5rem}a{text-decoration:none;color:#2098d1}.mb-ml-color,a.mb-mh,a.mb-ml,a.mb-mt{color:#ababab}a.mb-mh,a.mb-ml,a.mb-mt{margin-right:12px;margin-top:6px;margin:.375rem .75rem 0 0}.u-m-right{margin-right:.5em!important}.mb-icon-menu{height:.833em;width:.833em;vertical-align:baseline}.mb-icon-content{height:1em;width:1em;vertical-align:baseline}.u-icon-meta{position:relative;top:.033em;left:0}svg{fill:currentColor}.mb-content-nav,.mb-discuss{display:block;font-size:1em;margin-top:calc(1.5rem - 1em + 1.5rem);margin-bottom:calc(1.5rem - 1em + 1.5rem)}.mb-prev-next{display:block}.microlight{font-family:monospace;font-size:.75em;white-space:pre;background-color:#203040;color:#fafafa;overflow:auto;padding:.5em}@media screen and (max-width:820px){#mb-content,#mb-menu{width:100%;margin:0;box-sizing:border-box}#mb-menu{padding:12px;padding:.75rem}#mb-content{height:auto;padding:0 12px;padding:0 .75rem}h1{margin-top:14.816px;margin-top:.926rem}a.mb-mh,a.mb-ml,a.mb-mt{display:inline-block}.mb-mhh{font-size:23.04px;font-size:1.44rem;font-weight:700;display:block}.u-icon-top-tag{top:.125em!important}.u-icon-top-calendar,.u-icon-top-folder{top:.1em!important}.u-icon-top-summary{top:.12em!important}.u-icon-top-chevron{top:.188em!important}.u-hide-s-vw{display:none!important}}@media screen and (min-width:420px) and (max-width:819px){#mb-content,#mb-menu{padding:4%}}@media screen and (min-width:820px){body{height:100%}#mb-menu{position:fixed;top:0;left:0;width:199.872px;width:12.492rem;height:100%;font-size:11.104px;font-size:.694rem;padding-top:16.672px;padding-bottom:16.672px;padding-left:24px;padding:1.042rem 1.5rem;padding-right:24px;overflow:auto}#mb-content{position:absolute;top:0;left:199.872px;left:12.492rem;right:0;bottom:0;padding-top:24px;padding-left:24px;padding:1.5rem 1.5rem 0;padding-right:24px}h1{margin-top:-9.184px;margin-top:-.574rem}.mb-mh,a.mb-mh,a.mb-ml,a.mb-mt{line-height:16.672px;line-height:1.042rem}.mb-mh,a.mb-mh,a.mb-ml{margin-left:0;margin-right:0}.u-menu-vmargin{margin-top:11.12px;margin-top:.695rem;margin-bottom:11.12px;margin-bottom:.695rem}.mb-mh,a.mb-mh{margin-top:16.672px;margin-top:1.042rem;margin-bottom:5.568px;margin-bottom:.348rem}a.mb-mt{display:inline-block}.u-block-l-vw{display:block;margin-top:16.672px;margin-top:1.042rem}.mb-mhh{font-size:16px;font-size:1rem;font-weight:700}.u-icon-top-tag{top:.1em!important}.u-icon-top-folder{top:.033em!important}.u-icon-top-summary{top:.1em!important}.u-icon-top-chevron{top:.183em!important}.u-hide-l-vw{display:none!important}}@media screen and (min-width:1280px){#mb-menu{width:calc((100vw - 1280px)/5 + 12.492rem)}#mb-content{left:calc((100vw - 1280px)/5 + 12.492rem);padding-top:24px;padding-bottom:24px;padding:1.5rem calc(1.5rem + (100vw - 1280px) / 3)}}
@@ -37,9 +36,6 @@
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
-	
-	<link href="https://yarfullstack.com/index.xml" rel="alternate" type="application/rss+xml" title="YarFullStack" />
-	<link href="https://yarfullstack.com/index.xml" rel="feed" type="application/rss+xml" title="YarFullStack" />
 	
 </head>
 
@@ -119,12 +115,6 @@
 	</defs>
 </svg>
 
-<a href="https://yarfullstack.com/index.xml" class="mb-mt u-m-right" type="application/rss+xml" target="_blank">
-	<svg class="mb-icon-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
-		<use xlink:href="#rss-icon"></use>
-	</svg>
-	RSS
-</a>
 	<a class="mb-mh u-block-l-vw" href="https://yarfullstack.com/topics">
 		<svg class="mb-icon-menu u-icon-meta" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
 		Категории
@@ -245,15 +235,11 @@
 
 	<div id="mb-content">
 
-	<h1>Публикации</h1>
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-07/site-optimization-tools/">Инструменты оптимизация сайтов (в основном, скорости загрузки)</a></h2>
-		<p>
+<h1>Делаем модальные окна правильно</h1>
+<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-07-01 13:18&#43;03:00'>01.07.2016, 13:18</time>
+        <time datetime='2018-03-02 13:50&#43;03:00'>02.03.2018, 13:50</time>
     </small>
     
     
@@ -262,7 +248,7 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Производительность</a>
+            <a href="https://yarfullstack.com/topics/ux">UX</a>
             
         </small>
         
@@ -273,97 +259,46 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/tags/performance">Performance</a>&nbsp;&nbsp;&#47;&nbsp;
+            <a href="https://yarfullstack.com/tags/ux">UX</a>&nbsp;&nbsp;&#47;&nbsp;
             
-            <a href="https://yarfullstack.com/tags/seo">SEO</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/tools">Tools</a>
+            <a href="https://yarfullstack.com/tags/usability">Usability</a>
             
         </small>
         
     
 </p>
-	</header>
-	<p>Сегодня поделюсь набором инструментов для оптимизации сайтов. Это больше про скорость, чем про SEO, хотя и для SEO там тоже есть много полезного.
-К счастью, поисковики начали учитывать заодно и скорость загрузки сайтов при индексации.</p>
+<p><a href="/post/2018-01/push-notifications-ux/">В январе писал о пуш-нотификациях</a>. Сегодня, с подачи Жени Кирьянова &mdash; о модальных окнах.
+Конечно, самый простой совет &mdash; &ldquo;не используйте их&rdquo;. Но иногда всё-таки, приходится.</p>
 
-<p>Да, вероятно я перфекционист, однако я не могу спокойно смотреть на мегабайтные картинки и сайты, загружающиеся дольше секунды при нормальном соединении.
-Правда, этот сайт я пока не оптимизировал на все 100%, но в этом случае я рисковал начать писать сюда в следующем году :)
+<p>О том, как их применять в разных ситуациях &mdash; далее. А тех, кто прочитает эту короткую статью до конца ждет нематериальный бонус :)
 </p>
-	
-	<footer>
-		<a href="/post/2016-07/site-optimization-tools/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
 
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-06/d3/">Новости, связанные с D3</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-06-30 14:28&#43;03:00'>30.06.2016, 14:28</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F">Визуализация</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/d3">D3</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Сегодня расскажу немного о <a href='https://d3js.org/' rel="nofollow noopener noreferrer" target="_blank">D3</a>.
-Для тех, кто впервые слышит это странное слово &mdash; речь про библиотеку для визуализации в браузере.
-Строго говоря, это больше чем библиотека для визуализации &mdash; с помощью D3 можно манипулировать DOM (можно сказать, что в ней есть подмножество функциональности jQuery).
-Однако, в основном, её используют именно для визуализации.</p>
+<p>Про то, как делать и как не делать модалки в статье <a href='https://uxplanet.org/best-practices-for-modals-overlays-dialog-windows-c00c66cddd8c' rel="nofollow noopener noreferrer" target="_blank">Best Practices for Modals / Overlays / Dialog Windows</a>.
+С большей частью согласен. Конечно, эти советы не отменяют необходимости проектировать с включенной головой :)</p>
 
-<p>Итак, сегодня:</p>
+<p>Тезисы:</p>
 
 <ul>
-<li>Немного про NVD3;</li>
-<li>Кратко об изменениях в четвёртой версии D3;</li>
-<li>Интересная библиотека MetricsGraphics.js</li>
+<li>Основное назначение &mdash; привлечь внимание (чтобы пользователь не пропустил важную информацию или сначала принял важное решение).</li>
+<li>Иногда помогают ввести данные, не перегружая основную страницу.</li>
+<li>Несколько прерывают путь пользователя к его цели, поэтому применять их нужно в малых дозах.</li>
+<li>Пользователю необходимо дать возможность просто и понятно закрыть модальное окно.</li>
+<li>Размещать желательно в верхней половине экрана. Иначе на мобильных будет совсем плохо (о мобильных в статье отдельный разговор).</li>
+<li>Если занимает более половины экрана или появляется скроллбар &mdash; это повод задуматься об использовании отдельной страницы.</li>
+<li>Модальное окно появляется в ответ на действия пользователя, а не как чертик из табакерки.<br /></li>
 </ul>
 
-<p></p>
-	
-	<footer>
-		<a href="/post/2016-06/d3/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
+<h2 id="обещанный-бонус">Обещанный бонус</h2>
 
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-06/dotnet/">Новости из мира .NET</a></h2>
-		<p>
+<p>Понравилась статья &ldquo;<a href='https://bespoyasov.ru/front-not-pain/' rel="nofollow noopener noreferrer" target="_blank">фронтенд — это не больно!</a>&rdquo;.
+Главная ценность в рассказе о том, что делать фронтендеру чтобы работать с удовольствием.
+Есть полезные ссылки для саморазвития в конце статьи. Но полезность некоторых под вопросом.</p>
+
+<p>Большинство советов отлично подойдут не только фронтендерам.</p>
+<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-06-24 12:31&#43;03:00'>24.06.2016, 12:31</time>
+        <time datetime='2018-03-02 13:50&#43;03:00'>02.03.2018, 13:50</time>
     </small>
     
     
@@ -372,11 +307,7 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/topics/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8">Языки</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D0%BD%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8">Новости</a>
+            <a href="https://yarfullstack.com/topics/ux">UX</a>
             
         </small>
         
@@ -387,143 +318,39 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
+            <a href="https://yarfullstack.com/tags/ux">UX</a>&nbsp;&nbsp;&#47;&nbsp;
             
-            <a href="https://yarfullstack.com/tags/csharp">CSharp</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/microsoft">Microsoft</a>
+            <a href="https://yarfullstack.com/tags/usability">Usability</a>
             
         </small>
         
     
 </p>
-	</header>
-	<p>Сегодня в фокусе:</p>
 
-<ul>
-<li>Основные анонсы dotnetConf 2016;</li>
-<li>Статья с хорошим примером и описанием подхода к оптимизации производительности от Джона Скита;</li>
-<li>Немного про тёмную сторону async/await :)</li>
-</ul>
+	<div class="mb-content-nav">
+	
+	<nav class="mb-prev-next">
+		<a href="https://yarfullstack.com/post/2018-02/git-aliases/">
+			<svg class="mb-icon-content u-icon-meta u-icon-top-chevron" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+				<use xlink:href="#chevron-left-icon"></use>
+			</svg>
+			Алиасы для комфортной работы с Git</a>
+	</nav>
+	
+	
+	</div>
 
-<p></p>
-	
-	<footer>
-		<a href="/post/2016-06/dotnet/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
+<script src="/js/microlight.min.js"></script>
 
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2016-06/css/">Подборка интересного о CSS</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-06-20 22:28&#43;03:00'>20.06.2016, 22:28</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/css">CSS</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Сегодня немного интересностей про CSS. В фокусе !important, PostCSS и UnCss.</p>
-
-<ul>
-<li>Так ли страшен important, как его малюют?</li>
-<li>PostCSS.</li>
-<li>UnCSS.</li>
-</ul>
-
-<p></p>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/about/">О проекте YarFullStack</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2016-06-15 20:13&#43;03:00'>15.06.2016, 20:13</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5">Общее</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/yarfullstack">YarFullStack</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Проект YarFullStack прежде всего, про технологии, связанные с разработкой программного обеспечения.
-Темы могут быть совершенно разными &mdash; UX, CSS, JavaScript, Go, C#, SQL…</p>
-
-<p></p>
-	
-	<footer>
-		<a href="/post/about/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	
-<nav class="mb-content-nav" role="pagination">
-	
-	<a href="/page/6/"><svg class="mb-icon-content u-icon-meta u-icon-top-chevron" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-		<use xlink:href="#chevron-left-icon"></use>
-	</svg></a>
-	&nbsp;7 / 7&nbsp;
-	<svg class="mb-icon-content u-icon-meta u-icon-top-chevron" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-		<use xlink:href="#chevron-right-icon"></use>
-	</svg>
-	
-</nav>
-
-
+<div class="mb-discuss">
+	<a href="https://twitter.com/YarFS/"
+		class="u-m-right" target="_blank">
+		<svg class="mb-icon-menu" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+			<use xlink:href="#twitter-icon"></use>
+		</svg>
+		Обсудить в Twitter
+	</a>
+</div>
 </div> 
 </div> 
 
@@ -531,4 +358,3 @@
 
 </body>
 </html>
-
