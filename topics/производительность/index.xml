@@ -7,10 +7,38 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 27 Apr 2017 23:02:28 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 19 Apr 2018 21:33:30 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Оптимизация производительности в .NET Core 2.1</title>
+      <link>https://yarfullstack.com/post/2018-04/performance-improvements-in-dotnet-2-1/</link>
+      <pubDate>Thu, 19 Apr 2018 21:33:30 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-04/performance-improvements-in-dotnet-2-1/</guid>
+      <description>&lt;p&gt;Скоро в свет выйдет &lt;a href=&#39;https://github.com/dotnet/corefx/milestone/12&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core 2.1&lt;/a&gt;.
+Осталось сделать меньше 1% задач. Конечно, оставшиеся 5% проекта занимают 95% времени, но будем оптимистами :)&lt;/p&gt;
+
+&lt;p&gt;Далее будет краткое резюме статьи &lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2018/04/18/performance-improvements-in-net-core-2-1/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Performance Improvements in .NET Core 2.1&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если вы готовы прочитать эту интересную, но огромную статью &amp;mdash; прочитайте. Я всё-таки пристрастен и расскажу о том, что интересно лично мне.
+А если не хотите читать и короткую&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;TL&amp;DR; Значительно (в 1.5-2 раза) улучшена производительность многих вещей, в том числе:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Структуры (Value types). Это ключевые изменения, многие оптимизации сделаны за счет Span&lt;T&gt;.&lt;/li&gt;
+&lt;li&gt;Сравнения. Также оптимизированы сравнения внутри Dictionary.&lt;/li&gt;
+&lt;li&gt;Строки &amp;mdash; оптимизированы не только сравнения, но и такие штуки как ToLower, Format и Parse.&lt;/li&gt;
+&lt;li&gt;Потоки, блокировки и &lt;code&gt;async/await&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;Socket&lt;/code&gt;, &lt;code&gt;SslStream&lt;/code&gt; и &lt;code&gt;HttpClient&lt;/code&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Далее немного про некоторые оптимизации.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Про производительность .NET, React, Regex</title>

@@ -251,6 +251,73 @@
 	
 	<article>
 	<header>
+		<h2><a href="https://yarfullstack.com/post/2018-04/performance-improvements-in-dotnet-2-1/">Оптимизация производительности в .NET Core 2.1</a></h2>
+		<p>
+    <small class="u-m-right">
+        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
+        <time datetime='2018-04-19 21:33&#43;03:00'>19.04.2018, 21:33</time>
+    </small>
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/topics/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Производительность</a>
+            
+        </small>
+        
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/performance">Performance</a>
+            
+        </small>
+        
+    
+</p>
+	</header>
+	<p>Скоро в свет выйдет <a href='https://github.com/dotnet/corefx/milestone/12' rel="nofollow noopener noreferrer" target="_blank">.NET Core 2.1</a>.
+Осталось сделать меньше 1% задач. Конечно, оставшиеся 5% проекта занимают 95% времени, но будем оптимистами :)</p>
+
+<p>Далее будет краткое резюме статьи <a href='https://blogs.msdn.microsoft.com/dotnet/2018/04/18/performance-improvements-in-net-core-2-1/' rel="nofollow noopener noreferrer" target="_blank">Performance Improvements in .NET Core 2.1</a>.</p>
+
+<p>Если вы готовы прочитать эту интересную, но огромную статью &mdash; прочитайте. Я всё-таки пристрастен и расскажу о том, что интересно лично мне.
+А если не хотите читать и короткую&hellip;</p>
+
+<p>TL&DR; Значительно (в 1.5-2 раза) улучшена производительность многих вещей, в том числе:</p>
+
+<ul>
+<li>Структуры (Value types). Это ключевые изменения, многие оптимизации сделаны за счет Span<T>.</li>
+<li>Сравнения. Также оптимизированы сравнения внутри Dictionary.</li>
+<li>Строки &mdash; оптимизированы не только сравнения, но и такие штуки как ToLower, Format и Parse.</li>
+<li>Потоки, блокировки и <code>async/await</code>.</li>
+<li><code>Socket</code>, <code>SslStream</code> и <code>HttpClient</code>.</li>
+</ul>
+
+<p>Далее немного про некоторые оптимизации.
+</p>
+	
+	<footer>
+		<a href="/post/2018-04/performance-improvements-in-dotnet-2-1/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+			<use xlink:href="#angle-double-right-icon"></use>
+		</svg></a>
+	</footer>
+	
+</article>
+
+	
+	<article>
+	<header>
 		<h2><a href="https://yarfullstack.com/post/2017-04/performance-dotnet-react-regex/">Про производительность .NET, React, Regex</a></h2>
 		<p>
     <small class="u-m-right">
