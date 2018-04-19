@@ -29,8 +29,8 @@
 &lt;p&gt;TL&amp;DR; Значительно (в 1.5-2 раза) улучшена производительность многих вещей, в том числе:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Структуры (Value types). Это ключевые изменения, многие оптимизации сделаны за счет Span&lt;T&gt;.&lt;/li&gt;
-&lt;li&gt;Сравнения. Также оптимизированы сравнения внутри Dictionary.&lt;/li&gt;
+&lt;li&gt;Структуры (Value types). Это ключевые изменения, многие оптимизации сделаны за счет &lt;code&gt;Span&amp;lt;T&amp;gt;&lt;/code&gt; и &lt;code&gt;Memory&amp;lt;T&amp;gt;&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Сравнения. Также оптимизированы &lt;code&gt;сравнения внутри Dictionary&lt;/code&gt; .&lt;/li&gt;
 &lt;li&gt;Строки &amp;mdash; оптимизированы не только сравнения, но и такие штуки как ToLower, Format и Parse.&lt;/li&gt;
 &lt;li&gt;Потоки, блокировки и &lt;code&gt;async/await&lt;/code&gt;.&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;Socket&lt;/code&gt;, &lt;code&gt;SslStream&lt;/code&gt; и &lt;code&gt;HttpClient&lt;/code&gt;.&lt;/li&gt;

@@ -297,8 +297,8 @@
 <p>TL&DR; Значительно (в 1.5-2 раза) улучшена производительность многих вещей, в том числе:</p>
 
 <ul>
-<li>Структуры (Value types). Это ключевые изменения, многие оптимизации сделаны за счет Span<T>.</li>
-<li>Сравнения. Также оптимизированы сравнения внутри Dictionary.</li>
+<li>Структуры (Value types). Это ключевые изменения, многие оптимизации сделаны за счет <code>Span&lt;T&gt;</code> и <code>Memory&lt;T&gt;</code>.</li>
+<li>Сравнения. Также оптимизированы <code>сравнения внутри Dictionary</code> .</li>
 <li>Строки &mdash; оптимизированы не только сравнения, но и такие штуки как ToLower, Format и Parse.</li>
 <li>Потоки, блокировки и <code>async/await</code>.</li>
 <li><code>Socket</code>, <code>SslStream</code> и <code>HttpClient</code>.</li>

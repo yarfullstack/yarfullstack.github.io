@@ -282,8 +282,8 @@
 <p>TL&DR; Значительно (в 1.5-2 раза) улучшена производительность многих вещей, в том числе:</p>
 
 <ul>
-<li>Структуры (Value types). Это ключевые изменения, многие оптимизации сделаны за счет Span<T>.</li>
-<li>Сравнения. Также оптимизированы сравнения внутри Dictionary.</li>
+<li>Структуры (Value types). Это ключевые изменения, многие оптимизации сделаны за счет <code>Span&lt;T&gt;</code> и <code>Memory&lt;T&gt;</code>.</li>
+<li>Сравнения. Также оптимизированы <code>сравнения внутри Dictionary</code> .</li>
 <li>Строки &mdash; оптимизированы не только сравнения, но и такие штуки как ToLower, Format и Parse.</li>
 <li>Потоки, блокировки и <code>async/await</code>.</li>
 <li><code>Socket</code>, <code>SslStream</code> и <code>HttpClient</code>.</li>
@@ -301,7 +301,7 @@
 <li>Если не указано, на какой платформе (Windows/Unix), значит речь, скорее всего, про обе платформы (возможно, где-то я или автор был невнимателен и это про Windows).</li>
 </ol>
 
-<h2 id="span-t"><code>Span&lt;T&gt;</code></h2>
+<h2 id="span-t-и-memory-t"><code>Span&lt;T&gt;</code> и <code>Memory&lt;T&gt;</code></h2>
 
 <p>Если вы не в курсе, что такое <code>Span&lt;T&gt;</code> и <code>Memory&lt;T&gt;</code>, рекомендую прочитать статью
 <a href='https://msdn.microsoft.com/en-us/magazine/mt814808.aspx' rel="nofollow noopener noreferrer" target="_blank">C# - All About Span: Exploring a New .NET Mainstay</a>.</p>
