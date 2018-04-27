@@ -7,10 +7,42 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 08 Apr 2018 10:32:39 +0300</lastBuildDate>
+    <lastBuildDate>Fri, 27 Apr 2018 08:57:47 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/node.js/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Релизы Node.js, npm и nginx</title>
+      <link>https://yarfullstack.com/post/2018-04/node-npm-nginx/</link>
+      <pubDate>Fri, 27 Apr 2018 08:57:47 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-04/node-npm-nginx/</guid>
+      <description>&lt;p&gt;Недавно вышли новые версии: Node.js 10, npm 6 и Nginx 1.14.
+На всякий случай &amp;mdash; Node.js 10 &lt;strong&gt;будет&lt;/strong&gt; LTS в октябре.&lt;/p&gt;
+
+&lt;h2 id=&#34;node-js-10&#34;&gt;Node.js 10&lt;/h2&gt;
+
+&lt;p&gt;Вкратце, изменения следующие:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;N-API (для вызова C++)&lt;/li&gt;
+&lt;li&gt;OpenSSL 1.1.1&lt;/li&gt;
+&lt;li&gt;Асинхронные циклы&lt;/li&gt;
+&lt;li&gt;Коды ошибок&lt;/li&gt;
+&lt;li&gt;Обновление v8 до 6.6&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Чуть больше про асинхронные циклы. Это возможность проитерировать что-то, возвращающее промисы в цикле и дождаться их завершения.
+Как-то так:&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;for await (const chunk of fs.createReadStream(filepath)) {
+    // ...
+} 
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Быстрее, правильнее: npm ci</title>
