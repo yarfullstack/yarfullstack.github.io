@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 19 Apr 2018 21:33:30 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 03 May 2018 23:23:26 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Модификатор in, readonly struct и их производительность</title>
+      <link>https://yarfullstack.com/post/2018-05/dotnet-readonly-struct-in-modifier-performance/</link>
+      <pubDate>Thu, 03 May 2018 23:23:26 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-05/dotnet-readonly-struct-in-modifier-performance/</guid>
+      <description>&lt;p&gt;В прошлом месяце я писал об &lt;a href=&#34;https://yarfullstack.com/post/2018-04/performance-improvements-in-dotnet-2-1/&#34;&gt;улучшениях производительности в .NET Core 2.1&lt;/a&gt;,
+а сегодня расскажу о двух фичах C# 7.2 &amp;mdash; модификаторе &amp;ldquo;in&amp;rdquo; и readonly-структурах.&lt;/p&gt;
+
+&lt;p&gt;Рассказ, как обычно, будет коротким. Но со списком статей для дополнительного изучения :)
+Эта пара статей Сергея Теплякова и мотивировала меня написать этот краткий конспект на русском языке.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Оптимизация производительности в .NET Core 2.1</title>
