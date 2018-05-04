@@ -277,7 +277,7 @@
 а сегодня расскажу о двух фичах C# 7.2 &mdash; модификаторе &ldquo;in&rdquo; и readonly-структурах.</p>
 
 <p>Рассказ, как обычно, будет коротким. Но со списком статей для дополнительного изучения :)
-Эта пара статей Сергея Теплякова и мотивировала меня написать этот краткий конспект на русском языке.</p>
+Пара статей Сергея Теплякова и мотивировала меня написать этот краткий конспект на русском языке.</p>
 
 <p></p>
 
@@ -309,7 +309,7 @@ Test(in test);
 <p>А вот сценариев, когда передаётся структура, которую нельзя менять, дополнительный бонус &mdash; можно передать её по ссылке.
 В этом случае будет передаваться только ссылка на структуру, что должно и экономить память и повысить скорость.</p>
 
-<p>Должно, но это неточно :) Маленький нюанс &mdash; для обычной структуры будет создаваться &ldquo;defensive copy&rdquo;, чтобы обеспечить её неизменяемость :(
+<p>Должно, но это неточно :) Маленький нюанс &mdash; для обычной структуры будет создаваться &ldquo;defensive copy&rdquo;, чтобы обеспечить её неизменяемость.
 Поэтому&hellip;</p>
 
 <h2 id="readonly-struct">readonly struct</h2>
@@ -331,9 +331,9 @@ Test(in test);
 
 <p>Что касается производительности &mdash; понятно, что не всегда выигрыш от <code>readonly struct</code> критичен.
 Но если это активно используется, то производительность может улучшиться в разы.
-А, если вы заметили, для структур в C# придумали столько вкусного, что использоваться структуры будут всё чаще.</p>
+А для структур в C# придумали столько вкусного, что использоваться структуры будут всё чаще.</p>
 
-<p><strong>Главное:</strong> старайтесь использовать <code>readonly struct</code> если используете:</p>
+<p><strong>Главное:</strong> старайтесь использовать (где это логично) <code>readonly struct</code> если используете:</p>
 
 <ul>
 <li>модификатор <code>in</code>;</li>
@@ -348,6 +348,7 @@ Test(in test);
 <ul>
 <li><a href='https://blogs.msdn.microsoft.com/seteplia/2018/03/07/the-in-modifier-and-the-readonly-structs-in-c/' rel="nofollow noopener noreferrer" target="_blank">The ‘in’-modifier and the readonly structs in C#</a>.</li>
 <li><a href='https://blogs.msdn.microsoft.com/seteplia/2018/04/11/performance-traps-of-ref-locals-and-ref-returns-in-c/' rel="nofollow noopener noreferrer" target="_blank">Performance traps of ref locals and ref returns in C#</a>.</li>
+<li><a href='https://blogs.msdn.microsoft.com/seteplia/2018/05/03/avoiding-struct-and-readonly-reference-performance-pitfalls-with-errorprone-net/' rel="nofollow noopener noreferrer" target="_blank">Avoiding struct and readonly reference performance pitfalls with ErrorProne.NET</a>.</li>
 </ul>
 <p>
     <small class="u-m-right">
