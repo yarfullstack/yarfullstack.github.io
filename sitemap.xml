@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yarfullstack.com/post/2018-05/ux-forms-and-amazon/</loc>
+    <lastmod>2018-05-24T21:38:57+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yarfullstack.com/post/2018-05/dotnet-readonly-struct-in-modifier-performance/</loc>
     <lastmod>2018-05-03T23:23:26+03:00</lastmod>
   </url>
@@ -522,7 +527,7 @@
   
   <url>
     <loc>https://yarfullstack.com/post/</loc>
-    <lastmod>2018-05-03T23:23:26+03:00</lastmod>
+    <lastmod>2018-05-24T21:38:57+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -570,19 +575,19 @@
   
   <url>
     <loc>https://yarfullstack.com/tags/ux/</loc>
-    <lastmod>2018-03-02T13:50:47+03:00</lastmod>
+    <lastmod>2018-05-24T21:38:57+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yarfullstack.com/topics/ux/</loc>
-    <lastmod>2018-03-02T13:50:47+03:00</lastmod>
+    <lastmod>2018-05-24T21:38:57+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yarfullstack.com/tags/usability/</loc>
-    <lastmod>2018-03-02T13:50:47+03:00</lastmod>
+    <lastmod>2018-05-24T21:38:57+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -600,7 +605,7 @@
   
   <url>
     <loc>https://yarfullstack.com/</loc>
-    <lastmod>2018-05-03T23:23:26+03:00</lastmod>
+    <lastmod>2018-05-24T21:38:57+03:00</lastmod>
     <priority>0</priority>
   </url>
   

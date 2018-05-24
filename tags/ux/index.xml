@@ -7,10 +7,27 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 02 Mar 2018 13:50:47 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 May 2018 21:38:57 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/ux/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>UX для форм</title>
+      <link>https://yarfullstack.com/post/2018-05/ux-forms-and-amazon/</link>
+      <pubDate>Thu, 24 May 2018 21:38:57 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-05/ux-forms-and-amazon/</guid>
+      <description>&lt;p&gt;Сегодня немного про UX:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Размещение сообщений об ошибках.&lt;/li&gt;
+&lt;li&gt;Выбор между радио-кнопками и выпадающими списками&lt;/li&gt;
+&lt;li&gt;Покупка в 1 клик&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Делаем модальные окна правильно</title>
