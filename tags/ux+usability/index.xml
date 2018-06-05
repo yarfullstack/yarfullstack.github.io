@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>UX&#43;Usability on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/ux&#43;usability/</link>
+    <description>Recent content in UX&#43;Usability on YarFullStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 05 Jun 2018 23:11:56 +0300</lastBuildDate>
+    
+	<atom:link href="https://yarfullstack.com/tags/ux+usability/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Удобные таблицы с данными</title>
+      <link>https://yarfullstack.com/post/2018-06/design-better-data-tables/</link>
+      <pubDate>Tue, 05 Jun 2018 23:11:56 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-06/design-better-data-tables/</guid>
+      <description>&lt;p&gt;Полтора года назад писал о &lt;a href=&#34;https://yarfullstack.com/post/2016-10/tables-and-charts-ux/&#34;&gt;представлении таблиц и диаграмм&lt;/a&gt;.
+По-прежнему считаю, что ту гифку сложно превзойти (по соотношению объём/полезность).&lt;/p&gt;
+
+&lt;p&gt;Прочитал ещё одну статью по теме &amp;mdash; более длинную, зато с парой свежих советов.&lt;br /&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>UX для форм</title>
+      <link>https://yarfullstack.com/post/2018-05/ux-forms-and-amazon/</link>
+      <pubDate>Thu, 24 May 2018 21:38:57 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-05/ux-forms-and-amazon/</guid>
+      <description>&lt;p&gt;Сегодня немного про UX:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Размещение сообщений об ошибках.&lt;/li&gt;
+&lt;li&gt;Выбор между радио-кнопками и выпадающими списками&lt;/li&gt;
+&lt;li&gt;Покупка в 1 клик&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Делаем модальные окна правильно</title>
+      <link>https://yarfullstack.com/post/2018-03/modals-frontend/</link>
+      <pubDate>Fri, 02 Mar 2018 13:50:47 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-03/modals-frontend/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yarfullstack.com/post/2018-01/push-notifications-ux/&#34;&gt;В январе писал о пуш-нотификациях&lt;/a&gt;. Сегодня, с подачи Жени Кирьянова &amp;mdash; о модальных окнах.
+Конечно, самый простой совет &amp;mdash; &amp;ldquo;не используйте их&amp;rdquo;. Но иногда всё-таки, приходится.&lt;/p&gt;
+
+&lt;p&gt;О том, как их применять в разных ситуациях &amp;mdash; далее. А тех, кто прочитает эту короткую статью до конца ждет нематериальный бонус :)
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Как сделать push-уведомления менее раздражающими</title>
+      <link>https://yarfullstack.com/post/2018-01/push-notifications-ux/</link>
+      <pubDate>Thu, 25 Jan 2018 21:10:02 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-01/push-notifications-ux/</guid>
+      <description>&lt;p&gt;Вас бесят запросы о подписке на сайтах? Меня бесят. Неважно &amp;mdash; это про пуш-уведомления или о добавлении в список рассылки.
+Сегодня про то, как самим такое не делать.&lt;/p&gt;
+
+&lt;p&gt;В чём основная проблема? На многих сайтах запрос на подписку открывается до того, как ты успеваешь хоть что-то сделать.
+Как исправить? Очевидно, предлагать подписку после совершения какого-то действия. Чтобы была понятна польза от неё.
+
+Вот пользователь оформил заказ. Почему бы не предложить ему подписаться на уведомление о доставке или смене статуса?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Делаем метки и формы лучше</title>
+      <link>https://yarfullstack.com/post/2017-09/a-better-forms-and-labels/</link>
+      <pubDate>Thu, 07 Sep 2017 21:51:50 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-09/a-better-forms-and-labels/</guid>
+      <description>&lt;p&gt;&lt;a href=&#34;https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/&#34;&gt;Больше года назад&lt;/a&gt;, я рекомендовал почитать статью &lt;a href=&#39;https://uxdesign.cc/design-better-forms-96fadca0f49c&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Design Better Forms (Common mistakes designers make and how to fix them)&lt;/a&gt;.
+От своих слов я не отказываюсь и по-прежнему рекомендую :)
+Заодно, добавлю ещё пару статей, которые особенно полезны для тех, кого заботит вопрос правильного использования меток.&lt;/p&gt;
+
+&lt;p&gt;Почему я выделяю метки? Знаете, у меня есть мечта&amp;hellip; что в приложениях, в разработке которых я буду участвовать, инпуты будут расположены одним столбцом а метки &amp;mdash; сверху.
+Максимум &amp;mdash; внутри и всплывают наверх. За исключением, может быть, &amp;ldquo;сурового ынтырпрайза&amp;rdquo;, хотя и в этом случае что-нибудь можно придумать&amp;hellip;&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Одна задача на страницу</title>
+      <link>https://yarfullstack.com/post/2017-08/one-task-per-page/</link>
+      <pubDate>Sun, 27 Aug 2017 21:21:13 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-08/one-task-per-page/</guid>
+      <description>&lt;p&gt;В прошлом месяце я писал про &lt;a href=&#34;https://yarfullstack.com/post/2017-07/too-minimalistic-ui/&#34;&gt;слишком минималистичный интерфейс&lt;/a&gt;, а недавно увидел статью
+&lt;a href=&#39;https://www.smashingmagazine.com/2017/05/better-form-design-one-thing-per-page/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Better Form Design: One Thing Per Page (Case Study)&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Cтатья про упрощение интерфейса. Причём для всех &amp;mdash; и для пользователей и для разработчиков. Идея не новая, но рассказана очень грамотно.
+Вот что мне понравилось:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Всё хорошо структурировано и иллюстрировано удачными примерами.&lt;/li&gt;
+&lt;li&gt;Там нет призывов &amp;ldquo;измельчить формы до предела&amp;rdquo; :)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Хороший и плохой минимализм</title>
+      <link>https://yarfullstack.com/post/2017-07/too-minimalistic-ui/</link>
+      <pubDate>Thu, 27 Jul 2017 21:30:14 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-07/too-minimalistic-ui/</guid>
+      <description>&lt;p&gt;Последнее время замечаю, что стал настороженно относиться к фразе &amp;ldquo;минималистичный дизайн&amp;rdquo;. Идея-то, чаще всего, хорошая.
+Особенно, когда не пытаются её применить к интерфейсу, который действительно должен содержать много элементов.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Манифест UX in Motion</title>
+      <link>https://yarfullstack.com/post/2017-06/the-ux-in-motion-manifesto/</link>
+      <pubDate>Thu, 22 Jun 2017 23:39:52 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-06/the-ux-in-motion-manifesto/</guid>
+      <description>&lt;p&gt;Сегодня хочу рассказать про впечатления о статье &lt;a href=&#39;https://medium.com/ux-in-motion/creating-usability-with-motion-the-ux-in-motion-manifesto-a87a4584ddc&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Creating Usability with Motion: The UX in Motion Manifesto&lt;/a&gt;.
+Ссылку прислал мне Женя Кирьянов, за что ему отдельное спасибо.
+Есть перевод первой половины этой статьи, но ссылку не дам :) Просто тот случай, когда лучше прочитать оригинал, подглядывая в словарь.&lt;/p&gt;
+
+&lt;p&gt;Если вкратце, статья отличная. К сожалению, идеальный вариант &amp;mdash; сразу всё это попробовать реализовать в реальных приложениях, а у меня такой возможности нет.
+
+Сразу предупреждаю:&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Подборка статей по UX, дизайну, CSS</title>
+      <link>https://yarfullstack.com/post/2017-01/ux-articles/</link>
+      <pubDate>Fri, 27 Jan 2017 11:22:58 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-01/ux-articles/</guid>
+      <description>&lt;p&gt;У меня накопилось много интересных ссылок, подробно описывать каждую утомительно.
+Поэтому, я просто оставлю это здесь.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Два простых способа сделать пользователей счастливее</title>
+      <link>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</link>
+      <pubDate>Sun, 13 Nov 2016 18:32:37 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</guid>
+      <description>&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
+
+&lt;p&gt;Как вы уже знаете, мне нравятся быстрые сайты. Летом я уже делился &lt;a href=&#34;https://yarfullstack.com/post/2016-07/site-optimization-tools/&#34;&gt;набором инструментов для оптимизации сайтов&lt;/a&gt;.
+Однако, есть пара несложных приёмов, первый из которых эти инструменты вряд ли когда-нибудь догадаются посоветовать.&lt;/p&gt;
+
+&lt;p&gt;Начнём с самого простого в &lt;em&gt;реализации&lt;/em&gt; способа.
+Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Удобное представление таблиц и диаграмм</title>
+      <link>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</link>
+      <pubDate>Thu, 20 Oct 2016 21:46:43 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-10/tables-and-charts-ux/</guid>
+      <description>&lt;p&gt;Прошлые две недели прошли для меня под знаком статьи &lt;a href=&#39;http://blog.darkhorseanalytics.com/clear-off-the-table&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Clear off the table&lt;/a&gt;.
+Сначала увидел ссылку в комментарии к другой статье на хабре, потом ещё пара человек мне ссылку на перевод прислали.&lt;/p&gt;
+
+&lt;p&gt;Что характерно, поскольку сама статья и анимация достаточно грамотная, у многих возникает ощущение &amp;ldquo;круто! давайте &lt;strong&gt;всё&lt;/strong&gt; так сделаем&amp;rdquo;.
+Не надо так :)&lt;/p&gt;
+
+&lt;p&gt;Собственно, о чём речь? Речь о том, что в идеале, пользователь должен быть избавлен от лишней информации и &amp;ldquo;визуального шума&amp;rdquo;.
+С этим я согласен более чем абсолютно. Только всё хорошо в меру. Что предлагают авторы?&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Руководство по использованию иконок</title>
+      <link>https://yarfullstack.com/post/2016-10/ux-icons/</link>
+      <pubDate>Thu, 13 Oct 2016 21:30:39 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-10/ux-icons/</guid>
+      <description>&lt;p&gt;Недавно прочитал статью &lt;a href=&#39;https://uxplanet.org/tips-for-using-icons-in-your-app-541a6728e7d4&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Tips for Using Icons in Your App&lt;/a&gt;.
+Понравилась. Вроде всё по делу. Делюсь кратким содержанием. &lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Хорошие статьи про дизайн кнопок</title>
+      <link>https://yarfullstack.com/post/2016-09/ux-buttons/</link>
+      <pubDate>Fri, 23 Sep 2016 14:28:45 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-09/ux-buttons/</guid>
+      <description>&lt;p&gt;Хочу поделиться подборкой хороших статей про особенности дизайна кнопок.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>UX с точки зрения психологии</title>
+      <link>https://yarfullstack.com/post/2016-09/ux-psychology/</link>
+      <pubDate>Sun, 04 Sep 2016 12:42:32 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-09/ux-psychology/</guid>
+      <description>&lt;p&gt;Сначала хотел сделать подборку статей по UX, но одна статья достойна отдельного поста.
+Это &lt;a href=&#39;https://uxmag.com/articles/the-psychologists-view-of-ux-design&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;отличная статья Susan Weinschenk&lt;/a&gt;
+о том, как можно применить знания психолога к UX-проектированию.&lt;/p&gt;
+
+&lt;p&gt;Статья короткая и не даёт подробных рецептов. Зато она затрагивает многие моменты, которые не всегда очевидны для разработчиков.
+Разумеется, большинство из них очевидны для UX-проектировщиков и тех, кто вечерами перечитывает книги Алана Купера :)&lt;/p&gt;
+
+&lt;p&gt;Я попробую сжать информацию из этой статьи ещё больше, сократив или убрав некоторые пункты.
+А вы уже сами решайте насколько вам полезно будет прочитать оригинал.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Подборка из 3 интереснейших твитов по UX и Usability</title>
+      <link>https://yarfullstack.com/post/2016-08/ux-best-tweets/</link>
+      <pubDate>Fri, 26 Aug 2016 14:12:37 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-08/ux-best-tweets/</guid>
+      <description>&lt;p&gt;Сегодня предлагаю вашему вниманию несколько наиболее полезных, на мой взгляд, недавних твитов
+ &lt;a href=&#39;https://twitter.com/lukew&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Luke Wroblewski&lt;/a&gt; на тему Usability и UX.
+Если вы не в курсе о том, кто это, &lt;del&gt;вы серьёзно?&lt;/del&gt; крайне рекомендую посмотреть, как минимум, эти твиты&lt;/p&gt;
+
+&lt;p&gt;Скажу сразу, спорить на тему границ UX и Usability считаю неблагодарным занятием,
+ поэтому просто оставлю эти два термина вместе :)
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Рекомендации по дизайну и про Bootstrap 4</title>
+      <link>https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/</link>
+      <pubDate>Fri, 08 Jul 2016 00:27:37 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-07/design-recommendations-and-bootstrap4/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

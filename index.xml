@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 24 May 2018 21:38:57 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 05 Jun 2018 23:11:56 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Удобные таблицы с данными</title>
+      <link>https://yarfullstack.com/post/2018-06/design-better-data-tables/</link>
+      <pubDate>Tue, 05 Jun 2018 23:11:56 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-06/design-better-data-tables/</guid>
+      <description>&lt;p&gt;Полтора года назад писал о &lt;a href=&#34;https://yarfullstack.com/post/2016-10/tables-and-charts-ux/&#34;&gt;представлении таблиц и диаграмм&lt;/a&gt;.
+По-прежнему считаю, что ту гифку сложно превзойти (по соотношению объём/полезность).&lt;/p&gt;
+
+&lt;p&gt;Прочитал ещё одну статью по теме &amp;mdash; более длинную, зато с парой свежих советов.&lt;br /&gt;
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>UX для форм</title>

@@ -42,6 +42,19 @@
     </item>
     
     <item>
+      <title>Проблемы с connection pool и уровнями изоляции транзакций</title>
+      <link>https://yarfullstack.com/post/2017-03/isolation-level-and-connection-pool/</link>
+      <pubDate>Tue, 28 Mar 2017 13:47:09 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-03/isolation-level-and-connection-pool/</guid>
+      <description>&lt;p&gt;Продолжаю тему, начатую ранее &lt;a href=&#34;https://yarfullstack.com/post/2016-08/transaction-scope-serializable/&#34;&gt;про дырявые абстракции и TransactionScope&lt;/a&gt;.
+Сегодня ещё одна короткая заметка из категории &amp;ldquo;Внезапно&amp;rdquo; и снова про &lt;a href=&#39;https://en.wikipedia.org/wiki/Isolation_%28database_systems%29&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;уровни изоляции&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Знаете ли вы, какой будет уровень изоляции, когда вы откроете соединение (для определённости &amp;mdash; SqlConnection)? Вопрос с подвохом.
+Правильный ответ, как обычно &amp;mdash; It depends.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>Релизы Visual Studio 2017 и .NET Core</title>
       <link>https://yarfullstack.com/post/2017-03/visual-studio-2017-and-dotnetcore/</link>
       <pubDate>Fri, 10 Mar 2017 12:31:19 +0300</pubDate>

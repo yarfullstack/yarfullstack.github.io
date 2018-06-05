@@ -23,5 +23,17 @@
 &lt;/p&gt;</description>
     </item>
     
+    <item>
+      <title>Дружим TeamCity, NUnit и .NET Core</title>
+      <link>https://yarfullstack.com/post/2017-12/teamcity-nunit-core/</link>
+      <pubDate>Fri, 29 Dec 2017 13:28:32 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-12/teamcity-nunit-core/</guid>
+      <description>&lt;p&gt;Недавно я долго и мучительно переходил с .NET Core 1.x на 2.0. Возможно, расскажу об этом позже. Признаться, об этом лучше рассказывать в удобном кресле психоаналитика :)&lt;/p&gt;
+
+&lt;p&gt;Сегодня о более прозаичном. В нашей компании мы привыкли использовать TeamCity и NUnit. Для предыдущей версии .NET Core работал пакет &amp;ldquo;dotnet-test-nunit-teamcity&amp;rdquo;, для новой аналога не нашлось&amp;hellip;
+&lt;/p&gt;</description>
+    </item>
+    
   </channel>
 </rss>

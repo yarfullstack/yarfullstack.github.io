@@ -40,6 +40,15 @@
     </item>
     
     <item>
+      <title>Databases</title>
+      <link>https://yarfullstack.com/tags/databases/</link>
+      <pubDate>Tue, 28 Mar 2017 13:47:09 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/databases/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Deploy</title>
       <link>https://yarfullstack.com/tags/deploy/</link>
       <pubDate>Sun, 08 Apr 2018 10:32:39 +0300</pubDate>
@@ -51,7 +60,7 @@
     <item>
       <title>Design</title>
       <link>https://yarfullstack.com/tags/design/</link>
-      <pubDate>Thu, 17 Aug 2017 22:05:13 +0300</pubDate>
+      <pubDate>Tue, 05 Jun 2018 23:11:56 +0300</pubDate>
       
       <guid>https://yarfullstack.com/tags/design/</guid>
       <description></description>
@@ -139,24 +148,6 @@
     </item>
     
     <item>
-      <title>MQ</title>
-      <link>https://yarfullstack.com/tags/mq/</link>
-      <pubDate>Thu, 18 May 2017 22:39:11 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/tags/mq/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MSSQL</title>
-      <link>https://yarfullstack.com/tags/mssql/</link>
-      <pubDate>Tue, 28 Mar 2017 13:47:09 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/tags/mssql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Microservices</title>
       <link>https://yarfullstack.com/tags/microservices/</link>
       <pubDate>Thu, 18 May 2017 22:39:11 +0300</pubDate>
@@ -171,15 +162,6 @@
       <pubDate>Fri, 24 Nov 2017 14:19:15 +0300</pubDate>
       
       <guid>https://yarfullstack.com/tags/microsoft/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>MySQL</title>
-      <link>https://yarfullstack.com/tags/mysql/</link>
-      <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/tags/mysql/</guid>
       <description></description>
     </item>
     
@@ -202,15 +184,6 @@
     </item>
     
     <item>
-      <title>NoSQL</title>
-      <link>https://yarfullstack.com/tags/nosql/</link>
-      <pubDate>Wed, 08 Feb 2017 12:50:11 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/tags/nosql/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>Node.js</title>
       <link>https://yarfullstack.com/tags/node.js/</link>
       <pubDate>Fri, 27 Apr 2018 08:57:47 +0300</pubDate>
@@ -225,15 +198,6 @@
       <pubDate>Thu, 03 May 2018 23:23:26 +0300</pubDate>
       
       <guid>https://yarfullstack.com/tags/performance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Postgres</title>
-      <link>https://yarfullstack.com/tags/postgres/</link>
-      <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/tags/postgres/</guid>
       <description></description>
     </item>
     
@@ -283,20 +247,11 @@
     </item>
     
     <item>
-      <title>UX</title>
-      <link>https://yarfullstack.com/tags/ux/</link>
-      <pubDate>Thu, 24 May 2018 21:38:57 +0300</pubDate>
+      <title>UX&#43;Usability</title>
+      <link>https://yarfullstack.com/tags/ux&#43;usability/</link>
+      <pubDate>Tue, 05 Jun 2018 23:11:56 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/tags/ux/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Usability</title>
-      <link>https://yarfullstack.com/tags/usability/</link>
-      <pubDate>Thu, 24 May 2018 21:38:57 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/tags/usability/</guid>
+      <guid>https://yarfullstack.com/tags/ux&#43;usability/</guid>
       <description></description>
     </item>
     

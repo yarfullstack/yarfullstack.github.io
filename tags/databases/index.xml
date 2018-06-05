@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Databases on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/databases/</link>
+    <description>Recent content in Databases on YarFullStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 28 Mar 2017 13:47:09 +0300</lastBuildDate>
+    
+	<atom:link href="https://yarfullstack.com/tags/databases/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Проблемы с connection pool и уровнями изоляции транзакций</title>
+      <link>https://yarfullstack.com/post/2017-03/isolation-level-and-connection-pool/</link>
+      <pubDate>Tue, 28 Mar 2017 13:47:09 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-03/isolation-level-and-connection-pool/</guid>
+      <description>&lt;p&gt;Продолжаю тему, начатую ранее &lt;a href=&#34;https://yarfullstack.com/post/2016-08/transaction-scope-serializable/&#34;&gt;про дырявые абстракции и TransactionScope&lt;/a&gt;.
+Сегодня ещё одна короткая заметка из категории &amp;ldquo;Внезапно&amp;rdquo; и снова про &lt;a href=&#39;https://en.wikipedia.org/wiki/Isolation_%28database_systems%29&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;уровни изоляции&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Знаете ли вы, какой будет уровень изоляции, когда вы откроете соединение (для определённости &amp;mdash; SqlConnection)? Вопрос с подвохом.
+Правильный ответ, как обычно &amp;mdash; It depends.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>RethinkDB жив</title>
+      <link>https://yarfullstack.com/post/2017-02/rethinkdb-alive/</link>
+      <pubDate>Wed, 08 Feb 2017 12:50:11 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2017-02/rethinkdb-alive/</guid>
+      <description>&lt;p&gt;Хорошая новость &amp;mdash; &lt;a href=&#39;https://rethinkdb.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;RethinkDB&lt;/a&gt; теперь под крылом Linux Foundation, разработка продолжается.
+Подробнее можно прочитать &lt;a href=&#39;https://rethinkdb.com/blog/rethinkdb-joins-linux-foundation/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;в их блоге&lt;/a&gt;.
+Есть также &lt;a href=&#39;https://habrahabr.ru/post/321380/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;перевод на Хабре&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;От себя могу добавить немного.&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>MSSQL 2016 SP1 - теперь enterprise-фичи и в стандартных редакциях!</title>
+      <link>https://yarfullstack.com/post/2016-11/sql-2016-sp1-enterprise-features/</link>
+      <pubDate>Thu, 17 Nov 2016 13:10:32 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-11/sql-2016-sp1-enterprise-features/</guid>
+      <description>&lt;p&gt;Давно меня так не радовал Microsoft. И я не про новую студию и прочие плюшечки, и даже не про &lt;a href=&#39;https://www.microsoft.com/en-us/sql-server/sql-server-vnext-including-Linux&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;MSSQL on Linux&lt;/a&gt; , а про
+&lt;a href=&#39;https://blogs.msdn.microsoft.com/sqlreleaseservices/sql-server-2016-service-pack-1-sp1-released/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;выход Microsoft SQL Server 2016 SP1&lt;/a&gt;.
+Они просто взяли и включили большинство enterprise-фич во &lt;strong&gt;все&lt;/strong&gt; редакции MSSQL! Можете просто прочитать статью по ссылке,
+ниже табличка с фичами и ещё несколько слов о паре других интересных нововведений.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Uber-Postgres&#43;MySQL</title>
+      <link>https://yarfullstack.com/post/2016-07/uber-postgres&#43;mysql/</link>
+      <pubDate>Fri, 29 Jul 2016 12:26:04 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-07/uber-postgres&#43;mysql/</guid>
+      <description>&lt;p&gt;На этой неделе прочитал интереснейшую статью от инженеров Uber: &lt;a href=&#39;https://eng.uber.com/mysql-migration/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Why Uber Engineering Switched from Postgres to MySQL&lt;/a&gt;.
+Ayende, чуть позже, написал &lt;a href=&#39;https://ayende.com/blog/175137/re-why-uber-engineering-switched-from-postgres-to-mysql&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;неплохие комментарии по этой теме&lt;/a&gt;.&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
