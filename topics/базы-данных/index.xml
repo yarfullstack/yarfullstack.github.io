@@ -7,10 +7,29 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Fri, 24 Nov 2017 14:19:15 +0300</lastBuildDate>
+    <lastBuildDate>Wed, 06 Jun 2018 22:06:56 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Про баг в MSSQL 2000 и обратную совместимость</title>
+      <link>https://yarfullstack.com/post/2018-06/mssql-2000-and-backward-compatibility/</link>
+      <pubDate>Wed, 06 Jun 2018 22:06:56 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-06/mssql-2000-and-backward-compatibility/</guid>
+      <description>&lt;p&gt;Приходит как-то ко мне мой коллега Дима Писаренко и говорит &amp;mdash; &amp;ldquo;есть вопрос по SQL, но это надо видеть&amp;rdquo;.
+И таки-да, это стоило увидеть :)&lt;/p&gt;
+
+&lt;p&gt;Как думаете, что возвращал подобный запрос (любое сходство с реальными данными случайно)?&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;SELECT name, B as A
+FROM (SELECT &#39;first&#39; as name, 1 as A, 2 as B UNION SELECT &#39;second&#39;, 2, 1) T1
+ORDER BY T1.A;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Новости от Microsoft</title>
