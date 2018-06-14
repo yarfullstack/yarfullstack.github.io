@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 03 May 2018 23:23:26 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 14 Jun 2018 21:28:14 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>CoreRT</title>
+      <link>https://yarfullstack.com/post/2018-06/core-rt/</link>
+      <pubDate>Thu, 14 Jun 2018 21:28:14 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-06/core-rt/</guid>
+      <description>&lt;p&gt;TL&amp;DR;&lt;/p&gt;
+
+&lt;p&gt;CoreRT &amp;mdash; поддержка native code для .NET Core.
+Слишком коротко. Ладно, это проект, который делает из сборок для .NET Core машинный код.
+И собирает в один файл вместе с рантаймом. Пока альфа.&lt;/p&gt;
+
+&lt;p&gt;Если хотите чуть больше подробностей &amp;mdash; читайте дальше.&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Модификатор in, readonly struct и их производительность</title>

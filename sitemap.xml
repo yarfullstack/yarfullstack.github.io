@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yarfullstack.com/post/2018-06/core-rt/</loc>
+    <lastmod>2018-06-14T21:28:14+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yarfullstack.com/post/2018-06/mssql-2000-and-backward-compatibility/</loc>
     <lastmod>2018-06-06T22:06:56+03:00</lastmod>
   </url>
@@ -405,7 +410,7 @@
   
   <url>
     <loc>https://yarfullstack.com/tags/deploy/</loc>
-    <lastmod>2018-04-08T10:32:39+03:00</lastmod>
+    <lastmod>2018-06-14T21:28:14+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -417,13 +422,13 @@
   
   <url>
     <loc>https://yarfullstack.com/tags/dotnet/</loc>
-    <lastmod>2018-05-03T23:23:26+03:00</lastmod>
+    <lastmod>2018-06-14T21:28:14+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yarfullstack.com/topics/dotnet/</loc>
-    <lastmod>2018-05-03T23:23:26+03:00</lastmod>
+    <lastmod>2018-06-14T21:28:14+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -513,13 +518,13 @@
   
   <url>
     <loc>https://yarfullstack.com/tags/performance/</loc>
-    <lastmod>2018-05-03T23:23:26+03:00</lastmod>
+    <lastmod>2018-06-14T21:28:14+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://yarfullstack.com/post/</loc>
-    <lastmod>2018-06-06T22:06:56+03:00</lastmod>
+    <lastmod>2018-06-14T21:28:14+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -591,7 +596,7 @@
   
   <url>
     <loc>https://yarfullstack.com/</loc>
-    <lastmod>2018-06-06T22:06:56+03:00</lastmod>
+    <lastmod>2018-06-14T21:28:14+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -657,7 +662,7 @@
   
   <url>
     <loc>https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/</loc>
-    <lastmod>2018-05-03T23:23:26+03:00</lastmod>
+    <lastmod>2018-06-14T21:28:14+03:00</lastmod>
     <priority>0</priority>
   </url>
   
