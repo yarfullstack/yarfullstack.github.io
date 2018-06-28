@@ -7,10 +7,23 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 05 Jun 2018 23:11:56 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 28 Jun 2018 22:28:39 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/ux+usability/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Золотые правила типографики в Web</title>
+      <link>https://yarfullstack.com/post/2018-06/golden-rules-of-typography-on-the-web/</link>
+      <pubDate>Thu, 28 Jun 2018 22:28:39 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-06/golden-rules-of-typography-on-the-web/</guid>
+      <description>&lt;p&gt;Отличная презентация Richard Rutter &amp;mdash; &lt;a href=&#39;https://noti.st/rar/mz1rIY/golden-rules-of-typography-on-the-web&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Golden Rules of Typography on the Web&lt;/a&gt;.
+Рекомендую ознакомиться. Если кто-то найдёт текст или видео &amp;mdash; поделитесь, плиз, в комментариях.&lt;/p&gt;
+
+&lt;p&gt;Краткое содержание:
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Удобные таблицы с данными</title>
