@@ -7,10 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 28 Jun 2018 22:28:39 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 05 Jul 2018 23:03:32 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>BindingFlags.DoNotWrapExceptions</title>
+      <link>https://yarfullstack.com/post/2018-07/bindingflags-donotwrapexceptions/</link>
+      <pubDate>Thu, 05 Jul 2018 23:03:32 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-07/bindingflags-donotwrapexceptions/</guid>
+      <description>&lt;p&gt;В .NET Core 2.1 добавили новый флаг BindingFlags.DoNotWrapExceptions.
+Странно, что &lt;a href=&#39;https://docs.microsoft.com/en-us/dotnet/api/system.reflection.bindingflags?view=netcore-2.1&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;в документации&lt;/a&gt; этот флаг не описан.
+Хотя, чему я удивляюсь, &lt;a href=&#34;https://yarfullstack.com/post/2018-06/mssql-2000-and-backward-compatibility/&#34;&gt;пора бы привыкнуть&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Если вкратце, с этим флагом Reflection не заворачивает исключения в &lt;code&gt;TargetInvocationException&lt;/code&gt;.
+Подробности можно &lt;a href=&#39;https://github.com/dotnet/corefx/issues/22866&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;прочитать на GitHub&lt;/a&gt;.&lt;br /&gt;
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Золотые правила типографики в Web</title>

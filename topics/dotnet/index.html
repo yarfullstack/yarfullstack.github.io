@@ -241,6 +241,50 @@
 	
 	<article>
 	<header>
+		<h2><a href="https://yarfullstack.com/post/2018-07/bindingflags-donotwrapexceptions/">BindingFlags.DoNotWrapExceptions</a></h2>
+		<p>
+    <small class="u-m-right">
+        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
+        <time datetime='2018-07-05 23:03&#43;03:00'>05.07.2018, 23:03</time>
+    </small>
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/topics/dotnet">dotNET</a>
+            
+        </small>
+        
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>
+            
+        </small>
+        
+    
+</p>
+	</header>
+	<p>В .NET Core 2.1 добавили новый флаг BindingFlags.DoNotWrapExceptions.
+Странно, что <a href='https://docs.microsoft.com/en-us/dotnet/api/system.reflection.bindingflags?view=netcore-2.1' rel="nofollow noopener noreferrer" target="_blank">в документации</a> этот флаг не описан.
+Хотя, чему я удивляюсь, <a href="/post/2018-06/mssql-2000-and-backward-compatibility/">пора бы привыкнуть</a>.</p>
+
+<p>Если вкратце, с этим флагом Reflection не заворачивает исключения в <code>TargetInvocationException</code>.
+Подробности можно <a href='https://github.com/dotnet/corefx/issues/22866' rel="nofollow noopener noreferrer" target="_blank">прочитать на GitHub</a>.<br />
+</p>
+	
+</article>
+
+	
+	<article>
+	<header>
 		<h2><a href="https://yarfullstack.com/post/2018-06/core-rt/">CoreRT</a></h2>
 		<p>
     <small class="u-m-right">
