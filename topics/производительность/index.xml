@@ -6,11 +6,24 @@
     <description>Recent content in Производительность on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <copyright>© 2017 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 14 Jun 2018 21:28:14 +0300</lastBuildDate>
+    <copyright>© 2018 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Thu, 12 Jul 2018 23:59:29 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Pipeline и Channel&lt;T&gt;</title>
+      <link>https://yarfullstack.com/post/2018-07/net-core-pipelines-and-channel/</link>
+      <pubDate>Thu, 12 Jul 2018 23:59:29 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-07/net-core-pipelines-and-channel/</guid>
+      <description>&lt;p&gt;Недавно вышла статья &lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2018/07/09/system-io-pipelines-high-performance-io-in-net/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;System.IO.Pipelines: High performance IO in .NET&lt;/a&gt;.
+Она про то, как реализовать более наглядную и быструю работу со стримами в .NET Core 2.1.&lt;br /&gt;
+От слишком краткого пересказа статья многое потеряет &amp;mdash; читайте оригинал. Ладно, будем честными &amp;mdash; я сегодня подустал, поэтому бегло её прочитал и не очень разбирался :)&lt;/p&gt;
+
+&lt;p&gt;Часть кода из статьи:&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>CoreRT</title>
