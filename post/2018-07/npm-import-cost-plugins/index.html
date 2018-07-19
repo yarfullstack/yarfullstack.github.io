@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="ru">
 <head>
-	<meta name="generator" content="Hugo 0.25.1" />
 	<meta http-equiv="content-type" content="text/html; charset=utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta name="description"
-	      content="YarFullStack">
-	<title>YarFullStack Интересное для разработчиков. Из Ярославля. И не только.</title>
+	      content="Плагины для отображения размера пакетов в npm (VS Code и InelliJ)">
+	<title>Плагины для отображения размера пакетов</title>
 	
 	<style>
 	html{-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent;-webkit-text-decoration-skip:objects}a:active,a:hover{outline-width:0}b,strong{font-weight:inherit;font-weight:bolder}dfn{font-style:italic}mark{background-color:#ff0;color:#000}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}img{border-style:none}svg:not(:root){overflow:hidden}code,kbd,pre,samp{font-family:monospace;font-size:1em}figure{margin:1em 40px}hr{box-sizing:content-box;height:0;overflow:visible}button,input,select,textarea{font:inherit;margin:0}button,input{overflow:visible}button,select{text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}textarea{overflow:auto}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-input-placeholder{color:inherit;opacity:.54}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}body{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;margin:0}#mb-container,body,html{min-height:100%;height:100%;width:100%}html{font-size:calc(16px + 6 * ((100vw - 800px) / 480))}@media screen and (min-width:1280px){html{font-size:22px}}@media screen and (max-width:800px){html{font-size:16px}}ul{vertical-align:baseline;list-style-position:outside}#mb-container{float:left;background-color:#fff}#mb-content{color:#282828}#mb-menu{box-sizing:border-box;background-color:#203040;color:#ababab}.mb-mh{font-weight:700}.mb-none{display:none}article,ol,p,ul{line-height:24px;line-height:1.5rem;margin-bottom:24px;margin-bottom:1.5rem}small{font-size:.694em;line-height:16.672px;line-height:1.042rem}h1{font-size:33.184px;font-size:2.074rem;line-height:33.184px;line-height:2.074rem}h1,h2{margin-bottom:24px;margin-bottom:1.5rem}h2{font-size:27.648px;font-size:1.728rem;line-height:27.648px;line-height:1.728rem;margin-top:44.352px;margin-top:2.772rem}h3{font-size:23.04px;font-size:1.44rem;line-height:23.04px;line-height:1.44rem;margin-top:48.96px;margin-top:3.06rem}h3,h4{margin-bottom:24px;margin-bottom:1.5rem}h4{font-size:19.2px;font-size:1.2rem;line-height:19.2px;line-height:1.2rem;margin-top:52.8px;margin-top:3.3rem}h5{font-size:16px;font-size:1rem;line-height:16px;line-height:1rem;margin-top:56px;margin-top:3.5rem;margin-bottom:24px;margin-bottom:1.5rem}a{text-decoration:none;color:#2098d1}.mb-ml-color,a.mb-mh,a.mb-ml,a.mb-mt{color:#ababab}a.mb-mh,a.mb-ml,a.mb-mt{margin-right:12px;margin-top:6px;margin:.375rem .75rem 0 0}.u-m-right{margin-right:.5em!important}.mb-icon-menu{height:.833em;width:.833em;vertical-align:baseline}.mb-icon-content{height:1em;width:1em;vertical-align:baseline}.u-icon-meta{position:relative;top:.033em;left:0}svg{fill:currentColor}.mb-content-nav,.mb-discuss{display:block;font-size:1em;margin-top:calc(1.5rem - 1em + 1.5rem);margin-bottom:calc(1.5rem - 1em + 1.5rem)}.mb-prev-next{display:block}.microlight{font-family:monospace;font-size:.75em;white-space:pre;background-color:#203040;color:#fafafa;overflow:auto;padding:.5em}@media screen and (max-width:820px){#mb-content,#mb-menu{width:100%;margin:0;box-sizing:border-box}#mb-menu{padding:12px;padding:.75rem}#mb-content{height:auto;padding:0 12px;padding:0 .75rem}h1{margin-top:14.816px;margin-top:.926rem}a.mb-mh,a.mb-ml,a.mb-mt{display:inline-block}.mb-mhh{font-size:23.04px;font-size:1.44rem;font-weight:700;display:block}.u-icon-top-tag{top:.125em!important}.u-icon-top-calendar,.u-icon-top-folder{top:.1em!important}.u-icon-top-summary{top:.12em!important}.u-icon-top-chevron{top:.188em!important}.u-hide-s-vw{display:none!important}}@media screen and (min-width:420px) and (max-width:819px){#mb-content,#mb-menu{padding:4%}}@media screen and (min-width:820px){body{height:100%}#mb-menu{position:fixed;top:0;left:0;width:199.872px;width:12.492rem;height:100%;font-size:11.104px;font-size:.694rem;padding-top:16.672px;padding-bottom:16.672px;padding-left:24px;padding:1.042rem 1.5rem;padding-right:24px;overflow:auto}#mb-content{position:absolute;top:0;left:199.872px;left:12.492rem;right:0;bottom:0;padding-top:24px;padding-left:24px;padding:1.5rem 1.5rem 0;padding-right:24px}h1{margin-top:-9.184px;margin-top:-.574rem}.mb-mh,a.mb-mh,a.mb-ml,a.mb-mt{line-height:16.672px;line-height:1.042rem}.mb-mh,a.mb-mh,a.mb-ml{margin-left:0;margin-right:0}.u-menu-vmargin{margin-top:11.12px;margin-top:.695rem;margin-bottom:11.12px;margin-bottom:.695rem}.mb-mh,a.mb-mh{margin-top:16.672px;margin-top:1.042rem;margin-bottom:5.568px;margin-bottom:.348rem}a.mb-mt{display:inline-block}.u-block-l-vw{display:block;margin-top:16.672px;margin-top:1.042rem}.mb-mhh{font-size:16px;font-size:1rem;font-weight:700}.u-icon-top-tag{top:.1em!important}.u-icon-top-folder{top:.033em!important}.u-icon-top-summary{top:.1em!important}.u-icon-top-chevron{top:.183em!important}.u-hide-l-vw{display:none!important}}@media screen and (min-width:1280px){#mb-menu{width:calc((100vw - 1280px)/5 + 12.492rem)}#mb-content{left:calc((100vw - 1280px)/5 + 12.492rem);padding-top:24px;padding-bottom:24px;padding:1.5rem calc(1.5rem + (100vw - 1280px) / 3)}}
@@ -37,9 +36,6 @@
 <meta name="msapplication-TileColor" content="#2d89ef">
 <meta name="msapplication-TileImage" content="/mstile-144x144.png">
 <meta name="theme-color" content="#ffffff">
-	
-	<link href="https://yarfullstack.com/index.xml" rel="alternate" type="application/rss+xml" title="YarFullStack" />
-	<link href="https://yarfullstack.com/index.xml" rel="feed" type="application/rss+xml" title="YarFullStack" />
 	
 </head>
 
@@ -119,12 +115,6 @@
 	</defs>
 </svg>
 
-<a href="https://yarfullstack.com/index.xml" class="mb-mt u-m-right" type="application/rss+xml" target="_blank">
-	<svg class="mb-icon-menu" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
-		<use xlink:href="#rss-icon"></use>
-	</svg>
-	RSS
-</a>
 	<a class="mb-mh u-block-l-vw" href="https://yarfullstack.com/topics">
 		<svg class="mb-icon-menu u-icon-meta" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
 		Категории
@@ -237,12 +227,8 @@
 
 	<div id="mb-content">
 
-	<h1>Публикации</h1>
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2018-07/npm-import-cost-plugins/">Плагины для отображения размера пакетов</a></h2>
-		<p>
+<h1>Плагины для отображения размера пакетов</h1>
+<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
         <time datetime='2018-07-19 23:05&#43;03:00'>19.07.2018, 23:05</time>
@@ -277,30 +263,23 @@
         
     
 </p>
-	</header>
-	<p>Недавно узнал, что есть плагин import-cost, показывающий размер импортируемого пакета непосредственно в редакторе.
+<p>Недавно узнал, что есть плагин import-cost, показывающий размер импортируемого пакета непосредственно в редакторе.
 Есть <a href='https://github.com/wix/import-cost' rel="nofollow noopener noreferrer" target="_blank">вариант для Visual Studio Code</a>,
 есть <a href='https://github.com/denofevil/import-cost' rel="nofollow noopener noreferrer" target="_blank">для IDE семейства InelliJ</a>.</p>
 
 <p>Авторы &mdash; разные люди. Но делают одно полезное дело. Может, кто-то задумается и не будет тянуть модуль из-за одной простецкой функции :)
 </p>
-	
-	<footer>
-		<a href="/post/2018-07/npm-import-cost-plugins/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
 
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2018-07/div-different-browsers-css-is-awesome/">Один DIV &#43; разные браузеры = ?</a></h2>
-		<p>
+<p>Да, я в курсе что всё хорошо, что это такая идеология &mdash; плодить мелкие пакеты&hellip;</p>
+
+<p>Помню, на работе обсуждали, насколько далеко в этом можно зайти, глядя на такие мощные пакеты,
+ как <a href='https://github.com/sindresorhus/round-to' rel="nofollow noopener noreferrer" target="_blank">round-to</a>,
+ <a href='https://github.com/jonschlinkert/is-odd' rel="nofollow noopener noreferrer" target="_blank">is-odd</a> и <a href='https://github.com/roman01la/js-inc' rel="nofollow noopener noreferrer" target="_blank">js-inc</a>.
+Одним из моих вариантов, решающих довольно сложные проблемы, был &ldquo;добавить 2 к числу&rdquo;. Хотя, не удивлюсь, если и такой уже есть :)</p>
+<p>
     <small class="u-m-right">
         <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2018-07-19 22:17&#43;03:00'>19.07.2018, 22:17</time>
+        <time datetime='2018-07-19 23:05&#43;03:00'>19.07.2018, 23:05</time>
     </small>
     
     
@@ -309,56 +288,7 @@
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/topics/%D0%B2%D1%91%D1%80%D1%81%D1%82%D0%BA%D0%B0">Вёрстка</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/css">CSS</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Martijn Cuppens <a href='https://codepen.io/MartijnCuppens/pen/MXojmw' rel="nofollow noopener noreferrer" target="_blank">опубликовал простой CSS</a>, который заставляет
-div выглядеть ну очень по-разному в разных браузерах.
-Что могу сказать &mdash; ещё одна хорошая иллюстрация для принципа &ldquo;CSS IS AWESOME&rdquo; :)</p>
-
-<p>Оригинальный твит:
-</p>
-	
-	<footer>
-		<a href="/post/2018-07/div-different-browsers-css-is-awesome/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2018-07/net-core-pipelines-and-channel/">Pipelines и Channel&lt;T&gt;</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2018-07-12 23:59&#43;03:00'>12.07.2018, 23:59</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
+            <a href="https://yarfullstack.com/topics/ide">IDE</a>&nbsp;&nbsp;&#47;&nbsp;
             
             <a href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Производительность</a>
             
@@ -371,416 +301,41 @@ div выглядеть ну очень по-разному в разных бр�
         <small class="u-m-right">
             <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
             
-            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/performance">Performance</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Недавно вышла статья <a href='https://blogs.msdn.microsoft.com/dotnet/2018/07/09/system-io-pipelines-high-performance-io-in-net/' rel="nofollow noopener noreferrer" target="_blank">System.IO.Pipelines: High performance IO in .NET</a>.
-Она про то, как реализовать более наглядную и быструю работу со стримами в .NET Core 2.1.<br />
-От слишком краткого пересказа статья многое потеряет &mdash; читайте оригинал. Ладно, будем честными &mdash; я сегодня подустал, поэтому бегло её прочитал и не очень разбирался :)</p>
-
-<p>Часть кода из статьи:</p>
-	
-	<footer>
-		<a href="/post/2018-07/net-core-pipelines-and-channel/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2018-07/bindingflags-donotwrapexceptions/">BindingFlags.DoNotWrapExceptions</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2018-07-05 23:03&#43;03:00'>05.07.2018, 23:03</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/dotnet">dotNET</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>В .NET Core 2.1 добавили новый флаг BindingFlags.DoNotWrapExceptions.
-Странно, что <a href='https://docs.microsoft.com/en-us/dotnet/api/system.reflection.bindingflags?view=netcore-2.1' rel="nofollow noopener noreferrer" target="_blank">в документации</a> этот флаг не описан.
-Хотя, чему я удивляюсь, <a href="/post/2018-06/mssql-2000-and-backward-compatibility/">пора бы привыкнуть</a>.</p>
-
-<p>Если вкратце, с этим флагом Reflection не заворачивает исключения в <code>TargetInvocationException</code>.
-Подробности можно <a href='https://github.com/dotnet/corefx/issues/22866' rel="nofollow noopener noreferrer" target="_blank">прочитать на GitHub</a>.<br />
-</p>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2018-06/golden-rules-of-typography-on-the-web/">Золотые правила типографики в Web</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2018-06-28 22:28&#43;03:00'>28.06.2018, 22:28</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/ux">UX</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8">Дизайн и юзабилити</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/design">Design</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/ux&#43;usability">UX&#43;Usability</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Отличная презентация Richard Rutter &mdash; <a href='https://noti.st/rar/mz1rIY/golden-rules-of-typography-on-the-web' rel="nofollow noopener noreferrer" target="_blank">Golden Rules of Typography on the Web</a>.
-Рекомендую ознакомиться. Если кто-то найдёт текст или видео &mdash; поделитесь, плиз, в комментариях.</p>
-
-<p>Краткое содержание:
-</p>
-	
-	<footer>
-		<a href="/post/2018-06/golden-rules-of-typography-on-the-web/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2018-06/core-rt/">CoreRT</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2018-06-14 21:28&#43;03:00'>14.06.2018, 21:28</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Производительность</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
+            <a href="https://yarfullstack.com/tags/node.js">Node.js</a>&nbsp;&nbsp;&#47;&nbsp;
             
             <a href="https://yarfullstack.com/tags/performance">Performance</a>&nbsp;&nbsp;&#47;&nbsp;
             
-            <a href="https://yarfullstack.com/tags/deploy">Deploy</a>
+            <a href="https://yarfullstack.com/tags/tools">Tools</a>
             
         </small>
         
     
 </p>
-	</header>
-	<p>TL&DR;</p>
 
-<p>CoreRT &mdash; поддержка native code для .NET Core.
-Слишком коротко. Ладно, это проект, который делает из сборок для .NET Core машинный код.
-И собирает в один файл вместе с рантаймом. Пока альфа.</p>
-
-<p>Если хотите чуть больше подробностей &mdash; читайте дальше.</p>
+	<div class="mb-content-nav">
 	
-	<footer>
-		<a href="/post/2018-06/core-rt/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
+	<nav class="mb-prev-next">
+		<a href="https://yarfullstack.com/post/2018-07/div-different-browsers-css-is-awesome/">
+			<svg class="mb-icon-content u-icon-meta u-icon-top-chevron" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+				<use xlink:href="#chevron-left-icon"></use>
+			</svg>
+			Один DIV &#43; разные браузеры = ?</a>
+	</nav>
 	
-</article>
-
 	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2018-06/mssql-2000-and-backward-compatibility/">Про баг в MSSQL 2000 и обратную совместимость</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2018-06-06 22:06&#43;03:00'>06.06.2018, 22:06</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85">Базы данных</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D0%B2%D0%BD%D0%B5%D0%B7%D0%B0%D0%BF%D0%BD%D0%BE">Внезапно</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/database">Database</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/microsoft">Microsoft</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Приходит как-то ко мне мой коллега Дима Писаренко и говорит &mdash; &ldquo;есть вопрос по SQL, но это надо видеть&rdquo;.
-И таки-да, это стоило увидеть :)</p>
+	</div>
 
-<p>Как думаете, что возвращал подобный запрос (любое сходство с реальными данными случайно)?</p>
+<script src="/js/microlight.min.js"></script>
 
-<div class="microlight">SELECT name, B as A
-FROM (SELECT 'first' as name, 1 as A, 2 as B UNION SELECT 'second', 2, 1) T1
-ORDER BY T1.A;
+<div class="mb-discuss">
+	<a href="https://twitter.com/YarFS/"
+		class="u-m-right" target="_blank">
+		<svg class="mb-icon-menu" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414">
+			<use xlink:href="#twitter-icon"></use>
+		</svg>
+		Обсудить в Twitter
+	</a>
 </div>
-
-<p></p>
-	
-	<footer>
-		<a href="/post/2018-06/mssql-2000-and-backward-compatibility/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2018-06/design-better-data-tables/">Удобные таблицы с данными</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2018-06-05 23:11&#43;03:00'>05.06.2018, 23:11</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/ux">UX</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D0%B4%D0%B8%D0%B7%D0%B0%D0%B9%D0%BD-%D0%B8-%D1%8E%D0%B7%D0%B0%D0%B1%D0%B8%D0%BB%D0%B8%D1%82%D0%B8">Дизайн и юзабилити</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D0%B2%D0%B8%D0%B7%D1%83%D0%B0%D0%BB%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%8F">Визуализация</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/ux&#43;usability">UX&#43;Usability</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/design">Design</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Полтора года назад писал о <a href="/post/2016-10/tables-and-charts-ux/">представлении таблиц и диаграмм</a>.
-По-прежнему считаю, что ту гифку сложно превзойти (по соотношению объём/полезность).</p>
-
-<p>Прочитал ещё одну статью по теме &mdash; более длинную, зато с парой свежих советов.<br />
-</p>
-	
-	<footer>
-		<a href="/post/2018-06/design-better-data-tables/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2018-05/ux-forms-and-amazon/">UX для форм</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2018-05-24 21:38&#43;03:00'>24.05.2018, 21:38</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/ux">UX</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/ux&#43;usability">UX&#43;Usability</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>Сегодня немного про UX:</p>
-
-<ul>
-<li>Размещение сообщений об ошибках.</li>
-<li>Выбор между радио-кнопками и выпадающими списками</li>
-<li>Покупка в 1 клик</li>
-</ul>
-
-<p></p>
-	
-	<footer>
-		<a href="/post/2018-05/ux-forms-and-amazon/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	<article>
-	<header>
-		<h2><a href="https://yarfullstack.com/post/2018-05/dotnet-readonly-struct-in-modifier-performance/">Модификатор in, readonly struct и их производительность</a></h2>
-		<p>
-    <small class="u-m-right">
-        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
-        <time datetime='2018-05-03 23:23&#43;03:00'>03.05.2018, 23:23</time>
-    </small>
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/topics/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Производительность</a>
-            
-        </small>
-        
-    
-    
-    
-        
-        <small class="u-m-right">
-            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
-            
-            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/csharp">CSharp</a>&nbsp;&nbsp;&#47;&nbsp;
-            
-            <a href="https://yarfullstack.com/tags/performance">Performance</a>
-            
-        </small>
-        
-    
-</p>
-	</header>
-	<p>В прошлом месяце я писал об <a href="/post/2018-04/performance-improvements-in-dotnet-2-1/">улучшениях производительности в .NET Core 2.1</a>,
-а сегодня расскажу о двух фичах C# 7.2 &mdash; модификаторе &ldquo;in&rdquo; и readonly-структурах.</p>
-
-<p>Рассказ, как обычно, будет коротким. Но со списком статей для дополнительного изучения :)
-Пара статей Сергея Теплякова и мотивировала меня написать этот краткий конспект на русском языке.</p>
-
-<p></p>
-	
-	<footer>
-		<a href="/post/2018-05/dotnet-readonly-struct-in-modifier-performance/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-			<use xlink:href="#angle-double-right-icon"></use>
-		</svg></a>
-	</footer>
-	
-</article>
-
-	
-	
-<nav class="mb-content-nav" role="pagination">
-	
-	<svg class="mb-icon-content u-icon-meta u-icon-top-chevron" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-		<use xlink:href="#chevron-left-icon"></use>
-	</svg>
-	&nbsp;1 / 8&nbsp;
-	<a href="/page/2/"><svg class="mb-icon-content u-icon-meta u-icon-top-chevron" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
-		<use xlink:href="#chevron-right-icon"></use>
-	</svg></a>
-	
-</nav>
-
-
 </div> 
 </div> 
 
@@ -788,4 +343,3 @@ ORDER BY T1.A;
 
 </body>
 </html>
-
