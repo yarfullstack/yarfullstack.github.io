@@ -7,10 +7,20 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2018 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 19 Jul 2018 23:05:00 +0300</lastBuildDate>
+    <lastBuildDate>Tue, 21 Aug 2018 22:44:01 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Об исключениях в .NET</title>
+      <link>https://yarfullstack.com/post/2018-08/net-exceptions/</link>
+      <pubDate>Tue, 21 Aug 2018 22:44:01 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-08/net-exceptions/</guid>
+      <description>&lt;p&gt;Рекомендую к прочтению статьи об исключениях в .NET. Точно стоит прочитать первую статью &amp;mdash; &lt;a href=&#39;https://habr.com/post/419927/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Исключения: архитектура системы типов&lt;/a&gt;.
+В ней много полезного, особенно &amp;mdash; для новичков. Остальные тоже можно, если эта тема интересует:&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Плагины для отображения размера пакетов</title>
