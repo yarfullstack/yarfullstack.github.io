@@ -7,10 +7,30 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2018 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 06 Jun 2018 22:06:56 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 20 Sep 2018 22:21:17 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/database/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Малоизвестные фичи MS SQL 2012</title>
+      <link>https://yarfullstack.com/post/2018-09/sql-server-2012-unfamiliar-features/</link>
+      <pubDate>Thu, 20 Sep 2018 22:21:17 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-09/sql-server-2012-unfamiliar-features/</guid>
+      <description>&lt;p&gt;Давно не смотрел на новые фичи MS SQL, а за последний месяц узнал несколько. Они далеко не ключевые, но их знание может пригодиться.&lt;/p&gt;
+
+&lt;p&gt;Если вы считаете, что:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;для форматирования дат внутри SQL надо использовать CONVERT и DATEPART или подключать внешние функции;&lt;/li&gt;
+&lt;li&gt;можно воткнуть в таблицу множество столбцов [N]VARCHAR(MAX), всё равно они хранятся отдельно;&lt;/li&gt;
+&lt;li&gt;нельзя сделать в одной таблице два поля VARCHAR(5000) или можно, но нельзя в оба записать максимально длинные строки;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;hellip; читайте дальше.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Про баг в MSSQL 2000 и обратную совместимость</title>
