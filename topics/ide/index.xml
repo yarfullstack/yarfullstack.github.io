@@ -6,11 +6,24 @@
     <description>Recent content in IDE on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <copyright>© 2018 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 19 Jul 2018 23:05:00 +0300</lastBuildDate>
+    <copyright>© 2018 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Sun, 30 Sep 2018 20:44:20 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/topics/ide/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Visual Studio Code и webhint</title>
+      <link>https://yarfullstack.com/post/2018-09/visual-studio-code-webhint/</link>
+      <pubDate>Sun, 30 Sep 2018 20:44:20 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-09/visual-studio-code-webhint/</guid>
+      <description>&lt;p&gt;Для тех, кто пользуется Visual Studio Code, может быть полезным попробовать webhint.
+Можете прочитать о нём в статье &lt;a href=&#39;https://medium.com/webhint/getting-hints-from-visual-studio-code-69118e48de1b&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Getting hints from Visual Studio Code&lt;/a&gt;.
+А установить &lt;a href=&#39;https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;из маркетплейса&lt;/a&gt;.
+Краткое описание далее.
+&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Плагины для отображения размера пакетов</title>
