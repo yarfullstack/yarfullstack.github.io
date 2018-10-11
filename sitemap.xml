@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://yarfullstack.com/post/2018-10/javascript-can-do-everything/</loc>
+    <lastmod>2018-10-11T21:46:09+03:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yarfullstack.com/post/2018-09/visual-studio-code-webhint/</loc>
     <lastmod>2018-09-30T20:44:20+03:00</lastmod>
   </url>
@@ -425,14 +430,14 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/topics/csharp/</loc>
-    <lastmod>2018-08-21T22:44:01+03:00</lastmod>
+    <loc>https://yarfullstack.com/tags/csharp/</loc>
+    <lastmod>2018-05-03T23:23:26+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/tags/csharp/</loc>
-    <lastmod>2018-05-03T23:23:26+03:00</lastmod>
+    <loc>https://yarfullstack.com/topics/csharp/</loc>
+    <lastmod>2018-08-21T22:44:01+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -467,20 +472,20 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/topics/dotnet/</loc>
-    <lastmod>2018-08-21T22:44:01+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://yarfullstack.com/tags/dotnet/</loc>
     <lastmod>2018-08-21T22:44:01+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
+    <loc>https://yarfullstack.com/topics/dotnet/</loc>
+    <lastmod>2018-08-21T22:44:01+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>https://yarfullstack.com/tags/git/</loc>
-    <lastmod>2018-02-07T08:34:40+03:00</lastmod>
+    <lastmod>2018-10-11T21:46:09+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -510,7 +515,7 @@
   
   <url>
     <loc>https://yarfullstack.com/tags/javascript/</loc>
-    <lastmod>2018-03-15T22:26:59+03:00</lastmod>
+    <lastmod>2018-10-11T21:46:09+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -570,7 +575,7 @@
   
   <url>
     <loc>https://yarfullstack.com/post/</loc>
-    <lastmod>2018-09-30T20:44:20+03:00</lastmod>
+    <lastmod>2018-10-11T21:46:09+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -642,7 +647,7 @@
   
   <url>
     <loc>https://yarfullstack.com/</loc>
-    <lastmod>2018-09-30T20:44:20+03:00</lastmod>
+    <lastmod>2018-10-11T21:46:09+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -702,7 +707,7 @@
   
   <url>
     <loc>https://yarfullstack.com/topics/%D0%BE%D0%B1%D1%89%D0%B5%D0%B5/</loc>
-    <lastmod>2017-12-29T13:28:32+03:00</lastmod>
+    <lastmod>2018-10-11T21:46:09+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -726,7 +731,7 @@
   
   <url>
     <loc>https://yarfullstack.com/topics/%D1%8F%D0%B7%D1%8B%D0%BA%D0%B8/</loc>
-    <lastmod>2016-09-22T23:12:42+03:00</lastmod>
+    <lastmod>2018-10-11T21:46:09+03:00</lastmod>
     <priority>0</priority>
   </url>
   

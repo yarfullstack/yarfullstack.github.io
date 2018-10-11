@@ -7,10 +7,26 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2018 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Wed, 07 Feb 2018 08:34:40 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 11 Oct 2018 21:46:09 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/git/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Всё может JavaScript, и в браузере тоже</title>
+      <link>https://yarfullstack.com/post/2018-10/javascript-can-do-everything/</link>
+      <pubDate>Thu, 11 Oct 2018 21:46:09 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-10/javascript-can-do-everything/</guid>
+      <description>&lt;p&gt;Я мог бы рассказать про &lt;a href=&#39;https://nodejs.org/en/blog/release/v10.12.0/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Node.js v10.12.0&lt;/a&gt;, но это не особо интересно.&lt;/p&gt;
+
+&lt;p&gt;Скорее всего, вы слышали про &lt;a href=&#39;https://js-dos.com/games/doom.exe.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;возможность поиграть в Doom в браузере&lt;/a&gt;, но сегодня не об этом :)
+Если интересно, проект &lt;a href=&#39;https://js-dos.com/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;js-dos&lt;/a&gt; использует &lt;a href=&#39;https://github.com/dreamlayers/em-dosbox&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;em-dosbox&lt;/a&gt; для запуска DOS-овских программ в браузере.&lt;/p&gt;
+
+&lt;p&gt;Я вкратце расскажу о нескольких проектах, про которые я узнал сегодня, посмотрев на один из них.&lt;/p&gt;
+
+&lt;p&gt;Давным-давно в ленте твиттера&amp;hellip;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Алиасы для комфортной работы с Git</title>
