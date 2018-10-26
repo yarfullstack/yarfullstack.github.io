@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>API on YarFullStack</title>
+    <link>https://yarfullstack.com/tags/api/</link>
+    <description>Recent content in API on YarFullStack</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ru-ru</language>
+    <copyright>© 2018 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Fri, 26 Oct 2018 11:07:46 +0300</lastBuildDate>
+    
+	<atom:link href="https://yarfullstack.com/tags/api/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>UX для API</title>
+      <link>https://yarfullstack.com/post/2018-10/api-ux/</link>
+      <pubDate>Fri, 26 Oct 2018 11:07:46 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-10/api-ux/</guid>
+      <description>&lt;p&gt;Недавно прочитал замечательную статью &lt;a href=&#39;https://blog.keras.io/user-experience-design-for-apis.html&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;User experience design for APIs&lt;/a&gt;.
+Крайне рекомендую прочитать. И не смотрите, что это блог Keras &amp;mdash; советы применимы к любому коду.&lt;/p&gt;
+
+&lt;p&gt;Мои рассуждения на эту тему:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Большинство советов логичны и понятны. Скажу больше &amp;mdash; многие очевидны. Однако почему, блин, мы так не делаем?&lt;/li&gt;
+&lt;li&gt;Ответ на вопрос из предыдущего пункта: чаще всего, проблема в нехватке времени.&lt;/li&gt;
+&lt;li&gt;Способ решения: когда несколько раз сталкиваешься с одной и той же проблемой UX в API  &amp;mdash; решить её.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>
