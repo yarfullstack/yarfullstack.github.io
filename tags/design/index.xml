@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2018 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Thu, 28 Jun 2018 22:28:39 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 07 Feb 2019 22:57:46 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/design/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Атрибуты srcset и sizes у картинок</title>
+      <link>https://yarfullstack.com/post/2019-02/img-srcset-and-sizes/</link>
+      <pubDate>Thu, 07 Feb 2019 22:57:46 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2019-02/img-srcset-and-sizes/</guid>
+      <description>&lt;p&gt;Если вы помните, давным давно я &lt;a href=&#34;https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/&#34;&gt;писал про srcset и sizes для картинок&lt;/a&gt;.
+Эти атрибуты позволяют подсказать браузеру, какие картинки лучше грузить (работают для тэгов &lt;code&gt;img&lt;/code&gt; и &lt;code&gt;picture&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;А сегодня увидел твит, который одной картинкой поясняет принципы работы. И решил напомнить вам эту тему.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Золотые правила типографики в Web</title>

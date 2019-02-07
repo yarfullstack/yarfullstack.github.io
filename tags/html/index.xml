@@ -7,10 +7,24 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2018 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Sun, 30 Sep 2018 20:44:20 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 07 Feb 2019 22:57:46 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/html/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Атрибуты srcset и sizes у картинок</title>
+      <link>https://yarfullstack.com/post/2019-02/img-srcset-and-sizes/</link>
+      <pubDate>Thu, 07 Feb 2019 22:57:46 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2019-02/img-srcset-and-sizes/</guid>
+      <description>&lt;p&gt;Если вы помните, давным давно я &lt;a href=&#34;https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/&#34;&gt;писал про srcset и sizes для картинок&lt;/a&gt;.
+Эти атрибуты позволяют подсказать браузеру, какие картинки лучше грузить (работают для тэгов &lt;code&gt;img&lt;/code&gt; и &lt;code&gt;picture&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;А сегодня увидел твит, который одной картинкой поясняет принципы работы. И решил напомнить вам эту тему.&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Visual Studio Code и webhint</title>
@@ -22,6 +36,22 @@
 Можете прочитать о нём в статье &lt;a href=&#39;https://medium.com/webhint/getting-hints-from-visual-studio-code-69118e48de1b&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Getting hints from Visual Studio Code&lt;/a&gt;.
 А установить &lt;a href=&#39;https://marketplace.visualstudio.com/items?itemName=webhint.vscode-webhint&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;из маркетплейса&lt;/a&gt;.
 Краткое описание далее.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Два простых способа сделать пользователей счастливее</title>
+      <link>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</link>
+      <pubDate>Sun, 13 Nov 2016 18:32:37 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2016-11/two-simple-tips-to-make-users-happier/</guid>
+      <description>&lt;p&gt;Сегодня расскажу про два сравнительно простых способа как сделать ваших пользователей ещё счастливее.&lt;/p&gt;
+
+&lt;p&gt;Как вы уже знаете, мне нравятся быстрые сайты. Летом я уже делился &lt;a href=&#34;https://yarfullstack.com/post/2016-07/site-optimization-tools/&#34;&gt;набором инструментов для оптимизации сайтов&lt;/a&gt;.
+Однако, есть пара несложных приёмов, первый из которых эти инструменты вряд ли когда-нибудь догадаются посоветовать.&lt;/p&gt;
+
+&lt;p&gt;Начнём с самого простого в &lt;em&gt;реализации&lt;/em&gt; способа.
+Его &lt;em&gt;внедрение,&lt;/em&gt; правда, может отнять у вас много времени на этапе согласования в компании или с участниками вашей команды.
 &lt;/p&gt;</description>
     </item>
     

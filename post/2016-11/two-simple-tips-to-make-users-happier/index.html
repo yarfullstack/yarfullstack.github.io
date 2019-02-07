@@ -265,6 +265,10 @@
             
             <a href="https://yarfullstack.com/tags/performance">Performance</a>&nbsp;&nbsp;&#47;&nbsp;
             
+            <a href="https://yarfullstack.com/tags/css">CSS</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/html">HTML</a>&nbsp;&nbsp;&#47;&nbsp;
+            
             <a href="https://yarfullstack.com/tags/yarfullstack">YarFullStack</a>
             
         </small>
@@ -321,7 +325,12 @@
 &mdash; с учётом частоты смены системных шрифтов и критичности этой задачи.</li>
 </ol>
 
-<p><strong>UPD:</strong> недавно прочитал, что GitHub использует такой же подход. Немного про это в заметке <a href="/post/2018-03/frontend-news/">Новости для разработчиков сайтов</a>.</p>
+<p><strong>UPD</strong>
+Недавно прочитал, что GitHub использует такой же подход. Немного про это в заметке <a href="/post/2018-03/frontend-news/">Новости для разработчиков сайтов</a>.
+Теперь шрифты на YarFullStack определены так:</p>
+
+<div class="microlight">font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif;
+</div>
 
 <h2 id="загрузка-картинок-в-зависимости-от-разрешения-с-помощью-srcset">Загрузка картинок в зависимости от разрешения с помощью srcset</h2>
 
@@ -336,13 +345,13 @@
 
 <p>Сделал:
 <div class="microlight">
-&lt;img src="/img/clear-off-the-table-small.gif" alt="clear-off-the-table.gif" 
-    style="overflow-x:hidden" 
+&lt;img src="/img/clear-off-the-table-small.gif" alt="clear-off-the-table.gif"
+    style="overflow-x:hidden"
     srcset="/img/clear-off-the-table.gif 800w,
     /img/clear-off-the-table-small.gif 400w"
     sizes="(min-width: 1280px) 800px,
     (max-width: 1280px) and (min-width: 1024px) 600px,
-    (max-width: 1024px) and (min-width: 800px) 520px, 
+    (max-width: 1024px) and (min-width: 800px) 520px,
     (max-width:800px) 90vw, 90vw">
 </div></p>
 
@@ -351,7 +360,7 @@
 Мне пригодилось, потому что на малых разрешениях дефолтные 100vw выглядели не очень хорошо.</p>
 
 <p>В упрощённом варианте без sizes выглядит так:
-<div class="microlight">&lt;img src="one.png"  
+<div class="microlight">&lt;img src="one.png"
 srcset="two.png 2x, three.png 3x, four.png 4x">
 </div></p>
 
@@ -359,6 +368,10 @@ srcset="two.png 2x, three.png 3x, four.png 4x">
 Открытой остаётся более сложная тема &mdash; как, помимо ширины окна, определить, действительно ли нужна маленькая картинка.</p>
 
 <p>Да, чуть не забыл, вроде в HTML 5.1 для &lt;picture&gt; тоже будет нормально работать srscset. Just FYI.</p>
+
+<p><strong>UPD</strong></p>
+
+<p><a href="/post/2019-02/img-srcset-and-sizes/">Наглядное пояснение принципов работы srcset и sizes</a>.</p>
 
 <h2 id="резюме">Резюме</h2>
 
@@ -411,6 +424,10 @@ srcset="two.png 2x, three.png 3x, four.png 4x">
             <a href="https://yarfullstack.com/tags/ux&#43;usability">UX&#43;Usability</a>&nbsp;&nbsp;&#47;&nbsp;
             
             <a href="https://yarfullstack.com/tags/performance">Performance</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/css">CSS</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/html">HTML</a>&nbsp;&nbsp;&#47;&nbsp;
             
             <a href="https://yarfullstack.com/tags/yarfullstack">YarFullStack</a>
             
