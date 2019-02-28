@@ -7,10 +7,49 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2019 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 28 Mar 2017 13:47:09 +0300</lastBuildDate>
+    <lastBuildDate>Thu, 20 Sep 2018 22:21:17 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/databases/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Малоизвестные фичи MS SQL 2012</title>
+      <link>https://yarfullstack.com/post/2018-09/sql-server-2012-unfamiliar-features/</link>
+      <pubDate>Thu, 20 Sep 2018 22:21:17 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-09/sql-server-2012-unfamiliar-features/</guid>
+      <description>&lt;p&gt;Давно не смотрел на новые фичи MS SQL, а за последний месяц узнал несколько. Они далеко не ключевые, но их знание может пригодиться.&lt;/p&gt;
+
+&lt;p&gt;Если вы считаете, что:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;для форматирования дат внутри SQL надо использовать CONVERT и DATEPART или подключать внешние функции;&lt;/li&gt;
+&lt;li&gt;можно воткнуть в таблицу множество столбцов [N]VARCHAR(MAX), всё равно они хранятся отдельно;&lt;/li&gt;
+&lt;li&gt;нельзя сделать в одной таблице два поля VARCHAR(5000) или можно, но нельзя в оба записать максимально длинные строки;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&amp;hellip; читайте дальше.
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Про баг в MSSQL 2000 и обратную совместимость</title>
+      <link>https://yarfullstack.com/post/2018-06/mssql-2000-and-backward-compatibility/</link>
+      <pubDate>Wed, 06 Jun 2018 22:06:56 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2018-06/mssql-2000-and-backward-compatibility/</guid>
+      <description>&lt;p&gt;Приходит как-то ко мне мой коллега Дима Писаренко и говорит &amp;mdash; &amp;ldquo;есть вопрос по SQL, но это надо видеть&amp;rdquo;.
+И таки-да, это стоило увидеть :)&lt;/p&gt;
+
+&lt;p&gt;Как думаете, что возвращал подобный запрос (любое сходство с реальными данными случайно)?&lt;/p&gt;
+
+&lt;div class=&#34;microlight&#34;&gt;SELECT name, B as A
+FROM (SELECT &#39;first&#39; as name, 1 as A, 2 as B UNION SELECT &#39;second&#39;, 2, 1) T1
+ORDER BY T1.A;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Проблемы с connection pool и уровнями изоляции транзакций</title>
