@@ -1,236 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>DotNET on YarFullStack</title>
+    <title>DotNet on YarFullStack</title>
     <link>https://yarfullstack.com/tags/dotnet/</link>
-    <description>Recent content in DotNET on YarFullStack</description>
+    <description>Recent content in DotNet on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <copyright>© 2019 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 21 Aug 2018 22:44:01 +0300</lastBuildDate>
+    <copyright>© 2020 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <lastBuildDate>Mon, 03 Aug 2020 18:27:27 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Об исключениях в .NET</title>
-      <link>https://yarfullstack.com/post/2018-08/net-exceptions/</link>
-      <pubDate>Tue, 21 Aug 2018 22:44:01 +0300</pubDate>
+      <title>Небольшое исследование BitOperations и последовательностей де Брёйна</title>
+      <link>https://yarfullstack.com/post/2020-08/dotnet-core-bitoperations-and-de-bruijn/</link>
+      <pubDate>Mon, 03 Aug 2020 18:27:27 +0300</pubDate>
       
-      <guid>https://yarfullstack.com/post/2018-08/net-exceptions/</guid>
-      <description>&lt;p&gt;Рекомендую к прочтению статьи об исключениях в .NET. Точно стоит прочитать первую статью &amp;mdash; &lt;a href=&#39;https://habr.com/post/419927/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Исключения: архитектура системы типов&lt;/a&gt;.
-В ней много полезного, особенно &amp;mdash; для новичков. Остальные тоже можно, если эта тема интересует:&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Pipelines и Channel&lt;T&gt;</title>
-      <link>https://yarfullstack.com/post/2018-07/net-core-pipelines-and-channel/</link>
-      <pubDate>Thu, 12 Jul 2018 23:59:29 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2018-07/net-core-pipelines-and-channel/</guid>
-      <description>&lt;p&gt;Недавно вышла статья &lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2018/07/09/system-io-pipelines-high-performance-io-in-net/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;System.IO.Pipelines: High performance IO in .NET&lt;/a&gt;.
-Она про то, как реализовать более наглядную и быструю работу со стримами в .NET Core 2.1.&lt;br /&gt;
-От слишком краткого пересказа статья многое потеряет &amp;mdash; читайте оригинал. Ладно, будем честными &amp;mdash; я сегодня подустал, поэтому бегло её прочитал и не очень разбирался :)&lt;/p&gt;
+      <guid>https://yarfullstack.com/post/2020-08/dotnet-core-bitoperations-and-de-bruijn/</guid>
+      <description>&lt;p&gt;Давно я сюда не писал, обходился Telegram и Twitter, но поля их слишком малы, чтобы вместить эту статью :)&lt;/p&gt;
 
-&lt;p&gt;Часть кода из статьи:&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>BindingFlags.DoNotWrapExceptions</title>
-      <link>https://yarfullstack.com/post/2018-07/bindingflags-donotwrapexceptions/</link>
-      <pubDate>Thu, 05 Jul 2018 23:03:32 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2018-07/bindingflags-donotwrapexceptions/</guid>
-      <description>&lt;p&gt;В .NET Core 2.1 добавили новый флаг BindingFlags.DoNotWrapExceptions.
-Странно, что &lt;a href=&#39;https://docs.microsoft.com/en-us/dotnet/api/system.reflection.bindingflags?view=netcore-2.1&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;в документации&lt;/a&gt; этот флаг не описан.
-Хотя, чему я удивляюсь, &lt;a href=&#34;https://yarfullstack.com/post/2018-06/mssql-2000-and-backward-compatibility/&#34;&gt;пора бы привыкнуть&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Если вкратце, с этим флагом Reflection не заворачивает исключения в &lt;code&gt;TargetInvocationException&lt;/code&gt;.
-Подробности можно &lt;a href=&#39;https://github.com/dotnet/corefx/issues/22866&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;прочитать на GitHub&lt;/a&gt;.&lt;br /&gt;
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>CoreRT</title>
-      <link>https://yarfullstack.com/post/2018-06/core-rt/</link>
-      <pubDate>Thu, 14 Jun 2018 21:28:14 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2018-06/core-rt/</guid>
-      <description>&lt;p&gt;TL&amp;DR;&lt;/p&gt;
-
-&lt;p&gt;CoreRT &amp;mdash; поддержка native code для .NET Core.
-Слишком коротко. Ладно, это проект, который делает из сборок для .NET Core машинный код.
-И собирает в один файл вместе с рантаймом. Пока альфа.&lt;/p&gt;
-
-&lt;p&gt;Если хотите чуть больше подробностей &amp;mdash; читайте дальше.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Модификатор in, readonly struct и их производительность</title>
-      <link>https://yarfullstack.com/post/2018-05/dotnet-readonly-struct-in-modifier-performance/</link>
-      <pubDate>Thu, 03 May 2018 23:23:26 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2018-05/dotnet-readonly-struct-in-modifier-performance/</guid>
-      <description>&lt;p&gt;В прошлом месяце я писал об &lt;a href=&#34;https://yarfullstack.com/post/2018-04/performance-improvements-in-dotnet-2-1/&#34;&gt;улучшениях производительности в .NET Core 2.1&lt;/a&gt;,
-а сегодня расскажу о двух фичах C# 7.2 &amp;mdash; модификаторе &amp;ldquo;in&amp;rdquo; и readonly-структурах.&lt;/p&gt;
-
-&lt;p&gt;Рассказ, как обычно, будет коротким. Но со списком статей для дополнительного изучения :)
-Пара статей Сергея Теплякова и мотивировала меня написать этот краткий конспект на русском языке.&lt;/p&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Оптимизация производительности в .NET Core 2.1</title>
-      <link>https://yarfullstack.com/post/2018-04/performance-improvements-in-dotnet-2-1/</link>
-      <pubDate>Thu, 19 Apr 2018 21:33:30 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2018-04/performance-improvements-in-dotnet-2-1/</guid>
-      <description>&lt;p&gt;Скоро в свет выйдет &lt;a href=&#39;https://github.com/dotnet/corefx/milestone/12&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;.NET Core 2.1&lt;/a&gt;.
-Осталось сделать меньше 1% задач. Конечно, оставшиеся 5% проекта занимают 95% времени, но будем оптимистами :)&lt;/p&gt;
-
-&lt;p&gt;Далее будет краткое резюме статьи &lt;a href=&#39;https://blogs.msdn.microsoft.com/dotnet/2018/04/18/performance-improvements-in-net-core-2-1/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Performance Improvements in .NET Core 2.1&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Если вы готовы прочитать эту интересную, но огромную статью &amp;mdash; прочитайте. Я всё-таки пристрастен и расскажу о том, что интересно лично мне.
-А если не хотите читать и короткую&amp;hellip;&lt;/p&gt;
-
-&lt;p&gt;TL&amp;DR; Значительно (в 1.5-2 раза) улучшена производительность многих вещей, в том числе:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Структуры (Value types). Это ключевые изменения, многие оптимизации сделаны за счет &lt;code&gt;Span&amp;lt;T&amp;gt;&lt;/code&gt; и &lt;code&gt;Memory&amp;lt;T&amp;gt;&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;Сравнения. Также оптимизированы &lt;code&gt;сравнения внутри Dictionary&lt;/code&gt; .&lt;/li&gt;
-&lt;li&gt;Строки &amp;mdash; оптимизированы не только сравнения, но и такие штуки как ToLower, Format и Parse.&lt;/li&gt;
-&lt;li&gt;Потоки, блокировки и &lt;code&gt;async/await&lt;/code&gt;.&lt;/li&gt;
-&lt;li&gt;&lt;code&gt;Socket&lt;/code&gt;, &lt;code&gt;SslStream&lt;/code&gt; и &lt;code&gt;HttpClient&lt;/code&gt;.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Далее немного про некоторые оптимизации.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Дружим TeamCity, NUnit и .NET Core</title>
-      <link>https://yarfullstack.com/post/2017-12/teamcity-nunit-core/</link>
-      <pubDate>Fri, 29 Dec 2017 13:28:32 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2017-12/teamcity-nunit-core/</guid>
-      <description>&lt;p&gt;Недавно я долго и мучительно переходил с .NET Core 1.x на 2.0. Возможно, расскажу об этом позже. Признаться, об этом лучше рассказывать в удобном кресле психоаналитика :)&lt;/p&gt;
-
-&lt;p&gt;Сегодня о более прозаичном. В нашей компании мы привыкли использовать TeamCity и NUnit. Для предыдущей версии .NET Core работал пакет &amp;ldquo;dotnet-test-nunit-teamcity&amp;rdquo;, для новой аналога не нашлось&amp;hellip;
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Про производительность .NET, React, Regex</title>
-      <link>https://yarfullstack.com/post/2017-04/performance-dotnet-react-regex/</link>
-      <pubDate>Thu, 27 Apr 2017 23:02:28 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2017-04/performance-dotnet-react-regex/</guid>
-      <description>&lt;p&gt;С удовольствием прочитал статью &lt;a href=&#39;https://alexandrnikitin.github.io/blog/high-performance-dotnet-by-example/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;High-performance .NET by example: Filtering bot traffic&lt;/a&gt;.
-Кстати, к ботам статья почти не имеет отношения, а вот к улучшению производительности &amp;mdash; очень даже. В частности,
-есть примеры использования BenchmarkDotNet, PerfView, Intel VTune Amplifier, ILSpy, WinDbg и unsafe-кода.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Проблемы с connection pool и уровнями изоляции транзакций</title>
-      <link>https://yarfullstack.com/post/2017-03/isolation-level-and-connection-pool/</link>
-      <pubDate>Tue, 28 Mar 2017 13:47:09 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2017-03/isolation-level-and-connection-pool/</guid>
-      <description>&lt;p&gt;Продолжаю тему, начатую ранее &lt;a href=&#34;https://yarfullstack.com/post/2016-08/transaction-scope-serializable/&#34;&gt;про дырявые абстракции и TransactionScope&lt;/a&gt;.
-Сегодня ещё одна короткая заметка из категории &amp;ldquo;Внезапно&amp;rdquo; и снова про &lt;a href=&#39;https://en.wikipedia.org/wiki/Isolation_%28database_systems%29&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;уровни изоляции&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Знаете ли вы, какой будет уровень изоляции, когда вы откроете соединение (для определённости &amp;mdash; SqlConnection)? Вопрос с подвохом.
-Правильный ответ, как обычно &amp;mdash; It depends.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Релизы Visual Studio 2017 и .NET Core</title>
-      <link>https://yarfullstack.com/post/2017-03/visual-studio-2017-and-dotnetcore/</link>
-      <pubDate>Fri, 10 Mar 2017 12:31:19 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2017-03/visual-studio-2017-and-dotnetcore/</guid>
-      <description>&lt;p&gt;Вы наверняка в курсе про &lt;a href=&#39;https://www.visualstudio.com/en-us/news/releasenotes/vs2017-relnotes&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;релиз Visual Studio 2017&lt;/a&gt;.
-Если хочется читать на русском &amp;mdash; на Хабре есть более короткая статья &lt;a href=&#39;https://habrahabr.ru/company/microsoft/blog/323452/&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;Visual Studio 2017 и новые возможности инструментов от Microsoft&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Давайте сначала расскажу про позитивные вещи, про негатив потом.&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Новости февраля (и января)</title>
-      <link>https://yarfullstack.com/post/2017-02/news/</link>
-      <pubDate>Fri, 03 Feb 2017 12:31:41 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2017-02/news/</guid>
-      <description>&lt;p&gt;Немного новостей про Visual Studio Code, .NET, Go и прочее.
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>.NET Core и Visual Studio</title>
-      <link>https://yarfullstack.com/post/2017-01/dotnet-core-and-visual-studio/</link>
-      <pubDate>Thu, 19 Jan 2017 22:09:44 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2017-01/dotnet-core-and-visual-studio/</guid>
-      <description>&lt;p&gt;Сегодня про опыт (мой и моих коллег) и впечатления о .NET Core.&lt;/p&gt;
-
-&lt;p&gt;На всякий (почти невероятный) случай кратко о том, что это такое.
-Microsoft сделал фреймворк для кросcплатформенной разработки. Построил его на немного других принципах &amp;mdash; сделал более
-гранулированным (говоря попросту &amp;mdash; нарезали большие DLL-ки помельче), кое-что ещё поменяли.&lt;/p&gt;
-
-&lt;p&gt;В итоге имеем возможность писать более быстрые (в том числе, потому что не тянем лишнего) и компактные кроссплатформенные приложения.
-Проверяли под Windows и Linux &amp;mdash; вполне работает. Маководов не было рядом :)&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Интересное в ноябре</title>
-      <link>https://yarfullstack.com/post/2016-12/interesting/</link>
-      <pubDate>Thu, 01 Dec 2016 22:05:35 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-12/interesting/</guid>
-      <description>&lt;p&gt;Немного странное название для декабрьской статьи, однако, ссылки я собирал давно :)
-Сегодня ссылки и краткое описание следующих статей:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;.NET Portability Analyzer&lt;/li&gt;
-&lt;li&gt;Как дизайнить слова&lt;/li&gt;
-&lt;li&gt;AWS Snowmobile&lt;/li&gt;
-&lt;li&gt;TANK &amp;mdash; быстрый распределённый лог&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Внимание! TransactionScope по умолчанию включает Serializable.</title>
-      <link>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</link>
-      <pubDate>Thu, 18 Aug 2016 22:36:28 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-08/transaction-scope-serializable/</guid>
-      <description>&lt;p&gt;Сегодня о TransactionScope, уровне изоляции транзакций Serializable и дырявых абстракциях.&lt;/p&gt;
-
-&lt;p&gt;Вообще говоря, я раньше много раз сталкивался с распределёнными транзакциями.
-В какой-то момент я окончательно сформировал своё мнение по этой теме. Получилось что-то вроде: &amp;ldquo;хватит, я не буду их использовать вообще, разве что в ход со стороны оппонента пойдут огнестрельное оружие и прочие нечестные аргументы&amp;rdquo;.&lt;/p&gt;
-
-&lt;p&gt;По этой причине моё знакомство с &lt;a href=&#39;https://msdn.microsoft.com/en-us/library/system.transactions.transactionscope%28v=vs.110%29.aspx&#39; rel=&#34;nofollow noopener noreferrer&#34; target=&#34;_blank&#34;&gt;TransactionScope&lt;/a&gt;
-свелось к его использованию в интеграционных тестах (без распределённой составляющей, просто для удобного отката транзакций)
- и редким спорам с коллегами. Но сегодня, внезапно&amp;hellip;
-&lt;/p&gt;</description>
-    </item>
-    
-    <item>
-      <title>Новости из мира .NET</title>
-      <link>https://yarfullstack.com/post/2016-06/dotnet/</link>
-      <pubDate>Fri, 24 Jun 2016 12:31:11 +0300</pubDate>
-      
-      <guid>https://yarfullstack.com/post/2016-06/dotnet/</guid>
-      <description>&lt;p&gt;Сегодня в фокусе:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;Основные анонсы dotnetConf 2016;&lt;/li&gt;
-&lt;li&gt;Статья с хорошим примером и описанием подхода к оптимизации производительности от Джона Скита;&lt;/li&gt;
-&lt;li&gt;Немного про тёмную сторону async/await :)&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Для небольшого исследования в области упаковки чисел мне понадобилось получить минимальное количество бит, требуемое для записи числа.
+Его, конечно, математически можно получить с помощью двоичного логарифма &amp;ldquo;округлённого к большему целому&amp;rdquo; (буду использовать обозначение &lt;code&gt;lg n&lt;/code&gt;).
+Как вы, вероятно, знаете, в .NET Core 3.0 появились intrinsic’и&lt;sup&gt;[1]&lt;/sup&gt;, в частности, &lt;code&gt;LZCNT&lt;/code&gt; (которая возращает leading zeroes, но перевернуть-то недолго).
+Однако, мне было интересно узнать и универсальное решение. В .NET Core 3.0, к счастью, добавили для этого класс &lt;code&gt;BitOperations&lt;/code&gt;&lt;sup&gt;[2]&lt;/sup&gt;.
+А мне, конечно же, захотелось посмотреть его исходники…&lt;/p&gt;
 
 &lt;p&gt;&lt;/p&gt;</description>
     </item>

@@ -6,7 +6,7 @@
     <description>Recent content in Tags on YarFullStack</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
-    <copyright>© 2019 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
+    <copyright>© 2020 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
     <lastBuildDate>Fri, 26 Oct 2018 11:07:46 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/index.xml" rel="self" type="application/rss+xml" />
@@ -79,6 +79,15 @@
       <title>DotNET</title>
       <link>https://yarfullstack.com/tags/dotnet/</link>
       <pubDate>Tue, 21 Aug 2018 22:44:01 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/tags/dotnet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>DotNet</title>
+      <link>https://yarfullstack.com/tags/dotnet/</link>
+      <pubDate>Mon, 03 Aug 2020 18:27:27 +0300</pubDate>
       
       <guid>https://yarfullstack.com/tags/dotnet/</guid>
       <description></description>
@@ -204,7 +213,7 @@
     <item>
       <title>Performance</title>
       <link>https://yarfullstack.com/tags/performance/</link>
-      <pubDate>Thu, 07 Feb 2019 22:57:46 +0300</pubDate>
+      <pubDate>Mon, 03 Aug 2020 18:27:27 +0300</pubDate>
       
       <guid>https://yarfullstack.com/tags/performance/</guid>
       <description></description>
