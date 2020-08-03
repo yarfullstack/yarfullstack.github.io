@@ -451,14 +451,14 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/topics/csharp/</loc>
-    <lastmod>2018-08-21T22:44:01+03:00</lastmod>
+    <loc>https://yarfullstack.com/tags/csharp/</loc>
+    <lastmod>2018-05-03T23:23:26+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/tags/csharp/</loc>
-    <lastmod>2018-05-03T23:23:26+03:00</lastmod>
+    <loc>https://yarfullstack.com/topics/csharp/</loc>
+    <lastmod>2018-08-21T22:44:01+03:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -487,12 +487,6 @@
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/topics/dotnet/</loc>
-    <lastmod>2018-08-21T22:44:01+03:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>https://yarfullstack.com/tags/dotnet/</loc>
     <lastmod>2018-08-21T22:44:01+03:00</lastmod>
     <priority>0</priority>
@@ -500,12 +494,18 @@
   
   <url>
     <loc>https://yarfullstack.com/topics/dotnet/</loc>
+    <lastmod>2018-08-21T22:44:01+03:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://yarfullstack.com/tags/dotnet/</loc>
     <lastmod>2020-08-03T18:27:27+03:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://yarfullstack.com/tags/dotnet/</loc>
+    <loc>https://yarfullstack.com/topics/dotnet/</loc>
     <lastmod>2020-08-03T18:27:27+03:00</lastmod>
     <priority>0</priority>
   </url>
