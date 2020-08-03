@@ -141,8 +141,6 @@
 	
 	<a href="/topics/dotnet" class="mb-mt u-hide-s-vw">dotNET</a>
 	
-	<a href="/topics/dotnet" class="mb-mt u-hide-s-vw">dotNet</a>
-	
 	<a href="/topics/%D0%B1%D0%B0%D0%B7%D1%8B-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85" class="mb-mt u-hide-s-vw">Базы данных</a>
 	
 	<a href="/topics/%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D1%8C" class="mb-mt u-hide-s-vw">Безопасность</a>
@@ -234,8 +232,6 @@
 	
 	<a href="/tags/dotnet" class="mb-mt u-hide-s-vw">dotNET</a>
 	
-	<a href="/tags/dotnet" class="mb-mt u-hide-s-vw">dotNet</a>
-	
 	<p class="u-hide-s-vw u-block-l-vw"><small>© 2020 OlegAxenow. <a href="http://creativecommons.org/licenses/by-sa/4.0/" rel="nofollow noopener noreferrer" class="mb-ml" target="_blank">Some rights reserved.</a></small></p>
 
 </nav>
@@ -244,6 +240,65 @@
 
 	<h1><svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
 		DotNET</h1>
+	
+	<article>
+	<header>
+		<h2><a href="https://yarfullstack.com/post/2020-08/dotnet-core-bitoperations-and-de-bruijn/">Небольшое исследование BitOperations и последовательностей де Брёйна</a></h2>
+		<p>
+    <small class="u-m-right">
+        <svg class="mb-icon-content u-icon-meta u-icon-top-calendar" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#calendar-icon"></use></svg>
+        <time datetime='2020-08-03 18:27&#43;03:00'>03.08.2020, 18:27</time>
+    </small>
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-folder" viewBox="0 0 1792 1600" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#folder-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/topics/%D1%81%D1%82%D0%B0%D1%82%D1%8C%D0%B8">Статьи</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/topics/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/topics/%D0%BF%D1%80%D0%BE%D0%B8%D0%B7%D0%B2%D0%BE%D0%B4%D0%B8%D1%82%D0%B5%D0%BB%D1%8C%D0%BD%D0%BE%D1%81%D1%82%D1%8C">Производительность</a>
+            
+        </small>
+        
+    
+    
+    
+        
+        <small class="u-m-right">
+            <svg class="mb-icon-content u-icon-meta u-icon-top-tag" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><use xlink:href="#tags-icon"></use></svg>
+            
+            <a href="https://yarfullstack.com/tags/dotnet">dotNET</a>&nbsp;&nbsp;&#47;&nbsp;
+            
+            <a href="https://yarfullstack.com/tags/performance">Performance</a>
+            
+        </small>
+        
+    
+</p>
+	</header>
+	<p>Давно я сюда не писал, обходился Telegram и Twitter, но поля их слишком малы, чтобы вместить эту статью :)</p>
+
+<p>Для небольшого исследования в области упаковки чисел мне понадобилось получить минимальное количество бит, требуемое для записи числа.
+Его, конечно, математически можно получить с помощью двоичного логарифма &ldquo;округлённого к большему целому&rdquo; (буду использовать обозначение <code>lg n</code>).
+Как вы, вероятно, знаете, в .NET Core 3.0 появились intrinsic’и<sup>[1]</sup>, в частности, <code>LZCNT</code>. Она, конечно, возвращает leading zeroes,
+но вычесть-то из 31 (для индекса в каком-нибудь массиве) или из 32 (для количества бит на число) недолго.
+Однако, мне было интересно узнать и универсальное решение. В .NET Core 3.0, к счастью, добавили для этого класс <code>BitOperations</code><sup>[2]</sup>.
+А мне, конечно же, захотелось посмотреть его исходники…</p>
+
+<p></p>
+	
+	<footer>
+		<a href="/post/2020-08/dotnet-core-bitoperations-and-de-bruijn/">Подробнее<svg class="mb-icon-menu u-icon-meta u-icon-top-summary" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg">
+			<use xlink:href="#angle-double-right-icon"></use>
+		</svg></a>
+	</footer>
+	
+</article>
+
 	
 	<article>
 	<header>

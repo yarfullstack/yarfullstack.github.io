@@ -7,10 +7,28 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>ru-ru</language>
     <copyright>© 2020 OlegAxenow. &lt;a href=&#34;http://creativecommons.org/licenses/by-sa/4.0/&#34; rel=&#34;nofollow noopener noreferrer&#34; class=&#34;mb-ml&#34; target=&#34;_blank&#34;&gt;Some rights reserved.&lt;/a&gt;</copyright>
-    <lastBuildDate>Tue, 21 Aug 2018 22:44:01 +0300</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2020 18:27:27 +0300</lastBuildDate>
     
 	<atom:link href="https://yarfullstack.com/tags/dotnet/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Небольшое исследование BitOperations и последовательностей де Брёйна</title>
+      <link>https://yarfullstack.com/post/2020-08/dotnet-core-bitoperations-and-de-bruijn/</link>
+      <pubDate>Mon, 03 Aug 2020 18:27:27 +0300</pubDate>
+      
+      <guid>https://yarfullstack.com/post/2020-08/dotnet-core-bitoperations-and-de-bruijn/</guid>
+      <description>&lt;p&gt;Давно я сюда не писал, обходился Telegram и Twitter, но поля их слишком малы, чтобы вместить эту статью :)&lt;/p&gt;
+
+&lt;p&gt;Для небольшого исследования в области упаковки чисел мне понадобилось получить минимальное количество бит, требуемое для записи числа.
+Его, конечно, математически можно получить с помощью двоичного логарифма &amp;ldquo;округлённого к большему целому&amp;rdquo; (буду использовать обозначение &lt;code&gt;lg n&lt;/code&gt;).
+Как вы, вероятно, знаете, в .NET Core 3.0 появились intrinsic’и&lt;sup&gt;[1]&lt;/sup&gt;, в частности, &lt;code&gt;LZCNT&lt;/code&gt;. Она, конечно, возвращает leading zeroes,
+но вычесть-то из 31 (для индекса в каком-нибудь массиве) или из 32 (для количества бит на число) недолго.
+Однако, мне было интересно узнать и универсальное решение. В .NET Core 3.0, к счастью, добавили для этого класс &lt;code&gt;BitOperations&lt;/code&gt;&lt;sup&gt;[2]&lt;/sup&gt;.
+А мне, конечно же, захотелось посмотреть его исходники…&lt;/p&gt;
+
+&lt;p&gt;&lt;/p&gt;</description>
+    </item>
     
     <item>
       <title>Об исключениях в .NET</title>
