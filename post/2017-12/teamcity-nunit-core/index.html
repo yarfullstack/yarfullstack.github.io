@@ -298,10 +298,10 @@ Project2/TestResults/*.trx
 <p>Чуть не забыл. Если у вас проблемы с определением тестов для .NET Core через NUnit3TestAdapter, вам может помочь такая настройка в csproj:</p>
 
 <div class="microlight">
-<PropertyGroup>
-    <DebugType Condition="'$(TargetFramework)' != '' 
-        AND '$(TargetFramework)' != 'netcoreapp2.0'">Full</DebugType>
-</PropertyGroup>
+&lt;PropertyGroup&gt;
+    &lt;DebugType Condition="'$(TargetFramework)' != '' 
+        AND '$(TargetFramework)' != 'netcoreapp2.0'">Full&lt;/DebugType&gt;
+&lt;/PropertyGroup&gt;
 
 </div>
 
